@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-07-28T03:14:16.802Z",
+  "latestTradingDate": "2026-07-26",
+  "latestWindSolarDate": "2026-07-26",
+  "qualityGate": "pass_with_recorded_source_gaps",
+  "rowCounts": {
+    "official": 572,
+    "windSolar": 476
+  },
+  "recordedSourceGapCount": 8,
+  "overThresholdDifferenceDays": 465,
+  "ocrReviewDates": [],
+  "minOcrConfidence": 0.8989459276199341,
+  "noAutoZeroFill": true
+}

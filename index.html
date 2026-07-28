@@ -1,0 +1,1728 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>陕电现货观察 · 陕西电力现货市场数据看板</title>
+<meta name="description" content="陕西电力现货市场日前、实时出清价格与风电、光伏分项数据看板。" />
+<style>
+/* ============================================================
+   陕电现货观察 — Apple 风格视觉系统
+   设计语言：SF Pro 字体 / 大留白 / 圆角卡片 / 毛玻璃 / 系统蓝
+   ============================================================ */
+
+:root {
+  --bg: #fbfbfd;
+  --surface: #ffffff;
+  --ink: #1d1d1f;
+  --muted: #6e6e73;
+  --subtle: #86868b;
+  --accent: #0071e3;
+  --accent-hover: #0077ed;
+  --accent-soft: #e8f1fd;
+  --line: #d2d2d7;
+  --soft: #f5f5f7;
+  --up: #e34c3e;
+  --down: #34c759;
+  --radius-sm: 10px;
+  --radius: 18px;
+  --radius-lg: 24px;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04), 0 1px 3px rgba(0, 0, 0, 0.05);
+  --shadow: 0 4px 16px rgba(0, 0, 0, 0.04), 0 1px 4px rgba(0, 0, 0, 0.04);
+  --shadow-lg: 0 18px 44px rgba(0, 0, 0, 0.06), 0 4px 12px rgba(0, 0, 0, 0.04);
+  --maxw: 1120px;
+  --font: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+    "PingFang SC", "Helvetica Neue", "Microsoft YaHei", sans-serif;
+  --serif: "New York", "SF Pro Display", "PingFang SC", Georgia, serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font);
+  font-size: 17px;
+  line-height: 1.47;
+  letter-spacing: -0.01em;
+}
+
+button,
+a {
+  font: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  background: none;
+  border: 0;
+  cursor: pointer;
+  color: inherit;
+}
+
+/* ============ 顶部导航（毛玻璃） ============ */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: min(var(--maxw), calc(100% - 48px));
+  margin: 0 auto;
+  padding: 14px 0;
+  background: rgba(251, 251, 253, 0.72);
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand-mark {
+  display: grid;
+  width: 36px;
+  height: 36px;
+  place-items: center;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #1d1d1f 0%, #3a3a3c 100%);
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+}
+
+.brand b,
+.brand small {
+  display: block;
+}
+
+.brand b {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.brand small {
+  margin-top: 1px;
+  color: var(--subtle);
+  font-size: 10px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+nav {
+  display: flex;
+  gap: 36px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+nav a {
+  position: relative;
+  transition: color 160ms ease;
+}
+
+nav a:hover {
+  color: var(--ink);
+}
+
+nav a::after {
+  position: absolute;
+  right: 0;
+  bottom: -7px;
+  left: 0;
+  height: 2px;
+  background: var(--ink);
+  border-radius: 2px;
+  content: "";
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 200ms ease;
+}
+
+nav a:hover::after {
+  transform: scaleX(1);
+}
+
+/* ============ 按钮 ============ */
+.download-button,
+.outline-button,
+.text-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0 22px;
+  border: 0;
+  border-radius: 980px;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: -0.01em;
+  transition:
+    transform 180ms ease,
+    background 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.download-button {
+  background: var(--accent);
+  color: white;
+}
+
+.download-button:hover {
+  background: var(--accent-hover);
+  transform: scale(1.02);
+}
+
+.download-button:active {
+  transform: scale(0.99);
+}
+
+.download-button.compact {
+  min-height: 34px;
+  padding: 0 16px;
+  border-radius: 980px;
+  font-size: 13px;
+}
+
+.outline-button {
+  min-height: 40px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--ink);
+}
+
+.outline-button:hover {
+  background: var(--soft);
+}
+
+.text-button {
+  background: transparent;
+  color: var(--accent);
+}
+
+.text-button:hover {
+  text-decoration: underline;
+}
+
+.text-button span {
+  margin-left: 6px;
+  font-size: 16px;
+}
+
+/* ============ Hero ============ */
+.hero {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: clamp(40px, 7vw, 96px);
+  align-items: center;
+  width: min(var(--maxw), calc(100% - 48px));
+  min-height: 560px;
+  margin: 0 auto;
+  padding: 70px 0 80px;
+}
+
+.eyebrow,
+.section-kicker {
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: var(--muted);
+}
+
+.live-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--down);
+  box-shadow: 0 0 0 4px rgba(52, 199, 89, 0.18);
+  animation: pulse 2.2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 0 0 4px rgba(52, 199, 89, 0.18); }
+  50% { box-shadow: 0 0 0 7px rgba(52, 199, 89, 0.08); }
+}
+
+h1, h2, h3, p {
+  margin-top: 0;
+}
+
+h1 {
+  margin: 22px 0 22px;
+  font-family: var(--font);
+  font-size: clamp(48px, 5.8vw, 80px);
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1.05;
+}
+
+h1 em {
+  background: linear-gradient(135deg, #0071e3 0%, #42a5f5 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: normal;
+}
+
+.hero-copy > p {
+  max-width: 560px;
+  margin-bottom: 32px;
+  color: var(--muted);
+  font-size: 19px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+/* ============ Hero 状态卡（深色玻璃） ============ */
+.hero-status {
+  position: relative;
+  overflow: hidden;
+  padding: 32px;
+  border-radius: var(--radius-lg);
+  background:
+    radial-gradient(circle at 92% 8%, rgba(0, 113, 227, 0.45), transparent 40%),
+    linear-gradient(160deg, #1d1d1f 0%, #2c2c2e 100%);
+  box-shadow: var(--shadow-lg);
+  color: white;
+}
+
+.hero-status::after {
+  position: absolute;
+  right: -90px;
+  bottom: -110px;
+  width: 280px;
+  height: 280px;
+  border: 50px solid rgba(255, 255, 255, 0.04);
+  border-radius: 50%;
+  content: "";
+}
+
+.status-topline,
+.status-foot {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 13px;
+}
+
+.source-chip {
+  padding: 5px 12px;
+  border: 1px solid rgba(52, 199, 89, 0.3);
+  border-radius: 980px;
+  background: rgba(52, 199, 89, 0.12);
+  color: #7ee29a;
+  font-size: 12px;
+}
+
+.latest-date {
+  position: relative;
+  z-index: 1;
+  margin: 18px 0 30px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.latest-prices {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.latest-prices > div + div {
+  padding-left: 24px;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.latest-prices span,
+.latest-prices strong,
+.latest-prices small {
+  display: block;
+}
+
+.latest-prices span {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 13px;
+}
+
+.latest-prices strong {
+  margin: 10px 0 2px;
+  font-size: clamp(30px, 3.6vw, 42px);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.latest-prices small {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+}
+
+/* ============ 指标卡 ============ */
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  width: min(var(--maxw), calc(100% - 48px));
+  margin: 0 auto 96px;
+}
+
+.metric-card {
+  padding: 28px;
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  min-width: 0;
+}
+
+.metric-card.primary {
+  background: linear-gradient(155deg, #0071e3 0%, #42a5f5 100%);
+  color: white;
+  box-shadow: 0 12px 32px rgba(0, 113, 227, 0.22);
+}
+
+.metric-card > span,
+.metric-card > strong,
+.metric-card > small {
+  display: block;
+}
+
+.metric-card > span {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.metric-card.primary > span {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.metric-card > strong {
+  overflow: hidden;
+  margin-top: 12px;
+  font-size: clamp(28px, 3.2vw, 40px);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  text-overflow: ellipsis;
+}
+
+.metric-card > small {
+  margin-top: 2px;
+  color: var(--subtle);
+  font-size: 12px;
+}
+
+.metric-card.primary > small {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.metric-card > div {
+  margin-top: 18px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.metric-card.primary > div {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.metric-card .up,
+.positive {
+  color: var(--up);
+}
+
+.metric-card.primary .up {
+  color: #ffd67a;
+}
+
+.metric-card .down,
+.negative {
+  color: var(--down);
+}
+
+.metric-card.primary .down {
+  color: #7ee29a;
+}
+
+/* ============ 区块通用 ============ */
+.data-section,
+.records-section,
+.source-section {
+  width: min(var(--maxw), calc(100% - 48px));
+  margin: 0 auto;
+  padding: 18px 0 96px;
+}
+
+.section-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 32px;
+}
+
+.section-heading h2,
+.source-section h2,
+.download-banner h2 {
+  margin: 8px 0 8px;
+  font-size: clamp(30px, 3.8vw, 44px);
+  font-weight: 700;
+  letter-spacing: -0.035em;
+}
+
+.section-heading p,
+.download-banner p {
+  margin-bottom: 0;
+  color: var(--muted);
+  font-size: 17px;
+}
+
+/* ============ 视图切换 / 范围切换 ============ */
+.view-tabs,
+.range-switcher {
+  display: inline-flex;
+  padding: 3px;
+  border: 1px solid var(--line);
+  border-radius: 980px;
+  background: var(--soft);
+}
+
+.view-tabs button,
+.range-switcher button {
+  padding: 8px 16px;
+  border-radius: 980px;
+  background: transparent;
+  cursor: pointer;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 500;
+  transition: all 180ms ease;
+}
+
+.view-tabs button.active,
+.range-switcher button.active {
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.view-tabs button:hover:not(.active),
+.range-switcher button:hover:not(.active) {
+  color: var(--ink);
+}
+
+/* ============ 图表卡 ============ */
+.chart-card {
+  overflow: hidden;
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.chart-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px 24px;
+  border-bottom: 1px solid var(--soft);
+}
+
+.legend {
+  display: flex;
+  gap: 18px;
+}
+
+.legend button {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 13px;
+  color: var(--muted);
+  transition: color 160ms ease;
+}
+
+.legend button:hover {
+  color: var(--ink);
+}
+
+.legend button.muted {
+  opacity: 0.4;
+}
+
+.dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.day-ahead-dot {
+  background: var(--accent);
+}
+
+.real-time-dot {
+  background: var(--down);
+}
+
+.chart-wrap {
+  position: relative;
+  padding: 20px 18px 10px;
+}
+
+.price-chart {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-height: 320px;
+  overflow: visible;
+}
+
+.chart-grid {
+  stroke: #ececf0;
+  stroke-width: 1;
+}
+
+.axis-label,
+.date-label,
+.axis-unit {
+  fill: var(--subtle);
+  font-size: 11px;
+  font-family: var(--font);
+}
+
+.axis-label {
+  text-anchor: end;
+}
+
+.date-label {
+  text-anchor: middle;
+}
+
+.axis-unit {
+  font-size: 10px;
+}
+
+.line {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2.2;
+  vector-effect: non-scaling-stroke;
+}
+
+.line.day-ahead {
+  stroke: var(--accent);
+}
+
+.line.real-time {
+  stroke: var(--down);
+}
+
+.hover-line {
+  stroke: var(--subtle);
+  stroke-dasharray: 4 4;
+  stroke-width: 1;
+}
+
+.chart-tooltip {
+  position: absolute;
+  top: 32px;
+  z-index: 5;
+  display: grid;
+  gap: 7px;
+  width: max-content;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: var(--shadow-lg);
+  color: var(--muted);
+  font-size: 12px;
+  pointer-events: none;
+  transform: translateX(10px);
+}
+
+.chart-tooltip.align-right {
+  transform: translateX(calc(-100% - 10px));
+}
+
+.chart-tooltip strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.chart-tooltip span {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.loading-chart,
+.empty-chart {
+  display: grid;
+  min-height: 350px;
+  place-items: center;
+  color: var(--subtle);
+  font-size: 15px;
+}
+
+.records-section {
+  padding-top: 0;
+}
+
+/* ============ 表格 ============ */
+.table-wrap {
+  overflow-x: auto;
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+th,
+td {
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--soft);
+  text-align: right;
+}
+
+th {
+  background: var(--soft);
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+th:first-child,
+td:first-child,
+th:last-child,
+td:last-child {
+  text-align: left;
+}
+
+tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+tbody tr {
+  transition: background 120ms ease;
+}
+
+tbody tr:hover {
+  background: var(--soft);
+}
+
+td a {
+  color: var(--accent);
+  font-weight: 500;
+}
+
+td a:hover {
+  text-decoration: underline;
+}
+
+td span {
+  color: var(--subtle);
+}
+
+/* ============ 数据说明 ============ */
+.source-section {
+  padding-top: 20px;
+}
+
+.source-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.source-grid article {
+  padding: 28px;
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.source-number {
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.source-grid h3 {
+  margin: 20px 0 10px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.source-grid p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.source-access-link {
+  display: inline-flex;
+  margin-top: 16px;
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.source-access-link:hover,
+.source-links a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.source-links {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 5px 12px;
+}
+
+.source-links a {
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+.source-note {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 32px;
+  margin-top: 20px;
+  padding: 18px 24px;
+  border-radius: var(--radius-sm);
+  background: var(--soft);
+  color: var(--subtle);
+  font-size: 13px;
+}
+
+/* ============ 下载横幅 ============ */
+.download-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  width: min(var(--maxw), calc(100% - 48px));
+  margin: 10px auto 72px;
+  padding: 48px 52px;
+  border-radius: var(--radius-lg);
+  background:
+    radial-gradient(circle at 88% 18%, rgba(0, 113, 227, 0.5), transparent 38%),
+    linear-gradient(155deg, #1d1d1f 0%, #2c2c2e 100%);
+  box-shadow: var(--shadow-lg);
+  color: white;
+}
+
+.download-banner .section-kicker {
+  color: #6cb6ff;
+}
+
+.download-banner h2 {
+  margin-bottom: 12px;
+}
+
+.download-banner p {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.download-button.light {
+  flex: none;
+  background: white;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  color: var(--ink);
+}
+
+.download-button.light:hover {
+  background: #f5f5f7;
+}
+
+.download-button.light span {
+  margin-left: 10px;
+  color: var(--accent);
+}
+
+/* ============ 页脚 ============ */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: min(var(--maxw), calc(100% - 48px));
+  margin: 0 auto;
+  padding: 28px 0 40px;
+  border-top: 1px solid var(--soft);
+}
+
+footer p {
+  margin: 0;
+  color: var(--subtle);
+  font-size: 13px;
+}
+
+/* ============ 响应式 ============ */
+@media (max-width: 900px) {
+  nav {
+    display: none;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    min-height: auto;
+    padding-top: 48px;
+  }
+
+  .hero-copy {
+    max-width: 700px;
+  }
+
+  .hero-status {
+    max-width: 640px;
+  }
+
+  .summary-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .source-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .site-header,
+  .hero,
+  .summary-grid,
+  .data-section,
+  .records-section,
+  .source-section,
+  .download-banner,
+  footer {
+    width: min(100% - 32px, var(--maxw));
+  }
+
+  .site-header .download-button {
+    display: none;
+  }
+
+  .hero {
+    gap: 32px;
+    padding: 36px 0 54px;
+  }
+
+  h1 {
+    font-size: 44px;
+  }
+
+  .hero-copy > p {
+    font-size: 17px;
+  }
+
+  .hero-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .hero-status {
+    padding: 24px;
+    border-radius: 20px;
+  }
+
+  .latest-prices {
+    gap: 14px;
+  }
+
+  .latest-prices > div + div {
+    padding-left: 14px;
+  }
+
+  .latest-prices strong {
+    font-size: 28px;
+  }
+
+  .status-foot {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .summary-grid {
+    grid-template-columns: 1fr;
+    margin-bottom: 72px;
+  }
+
+  .section-heading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .view-tabs,
+  .outline-button {
+    width: 100%;
+  }
+
+  .view-tabs button {
+    flex: 1;
+  }
+
+  .chart-toolbar {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .range-switcher {
+    width: 100%;
+  }
+
+  .range-switcher button {
+    flex: 1;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+
+  .price-chart {
+    min-height: 260px;
+  }
+
+  .data-section,
+  .records-section,
+  .source-section {
+    padding-bottom: 72px;
+  }
+
+  .download-banner {
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 48px;
+    padding: 32px 28px;
+  }
+
+  .download-button.light {
+    width: 100%;
+  }
+
+  footer {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+.chart-tooltip { white-space: nowrap; }
+table { table-layout: auto; }
+th, td { vertical-align: middle; }
+.brand-mark { user-select: none; }
+.source-chip.error {
+  border-color: rgba(255, 173, 164, 0.35);
+  background: rgba(194, 79, 69, 0.15);
+  color: #ffb7af;
+}
+</style>
+</head>
+<body>
+<main id="app"></main>
+<script>
+
+// ---- Types & helpers (ported from Dashboard.tsx) ----
+const rangeOptions = [
+  { key: "30d", label: "近30日", days: 30 },
+  { key: "90d", label: "近90日", days: 90 },
+  { key: "1y", label: "近一年", days: 365 },
+  { key: "all", label: "全部", days: Infinity },
+];
+
+const fmtPrice = (v) =>
+  v == null || Number.isNaN(v)
+    ? "—"
+    : v.toLocaleString("zh-CN", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+
+const fmtPower = (v) =>
+  v == null || Number.isNaN(v)
+    ? "—"
+    : `${(v / 10000).toLocaleString("zh-CN", { maximumFractionDigits: 1 })} 万`;
+
+const fmtDate = (s) => {
+  const [y, m, d] = s.split("-");
+  return `${y}年${Number(m)}月${Number(d)}日`;
+};
+
+const el = (tag, props = {}, ...children) => {
+  const node = document.createElement(tag);
+  for (const [k, v] of Object.entries(props || {})) {
+    if (k === "className") node.className = v;
+    else if (k === "text") node.textContent = v;
+    else if (k === "html") node.innerHTML = v;
+    else if (k === "onClick") node.addEventListener("click", v);
+    else if (k === "href") node.setAttribute("href", v);
+    else if (k === "download") node.setAttribute("download", v);
+    else if (k === "target") node.setAttribute("target", v);
+    else if (k === "rel") node.setAttribute("rel", v);
+    else if (k === "ariaLabel") node.setAttribute("aria-label", v);
+    else if (k === "role") node.setAttribute("role", v);
+    else if (k === "id") node.id = v;
+    else if (v !== undefined && v !== null && v !== false) node.setAttribute(k, v);
+  }
+  for (const child of children.flat()) {
+    if (child == null || child === false) continue;
+    if (typeof child === "string" || typeof child === "number") {
+      node.appendChild(document.createTextNode(String(child)));
+    } else {
+      node.appendChild(child);
+    }
+  }
+  return node;
+};
+
+// ---- State ----
+let rows = [];
+let range = "90d";
+let visible = { dayAhead: true, realTime: true };
+let activeView = "overview";
+let loading = true;
+let loadError = null;
+let snapshot = null;
+let OFFICIAL_DATA = { rows: [] };
+let RENEWABLES_DATA = { rows: [] };
+
+// ---- Data merging (same logic as Dashboard.tsx) ----
+function mergeData() {
+  const merged = new Map();
+  for (const item of OFFICIAL_DATA.rows) {
+    merged.set(item.time, {
+      date: item.time,
+      dayAhead: item.firstPrice == null ? null : Number(item.firstPrice),
+      realTime: item.secondPrice == null ? null : Number(item.secondPrice),
+      dayAheadPower: item.firstPower == null ? null : Number(item.firstPower),
+      realTimePower: item.secondPower == null ? null : Number(item.secondPower),
+      windDayAhead: null,
+      solarDayAhead: null,
+      windRealTime: null,
+      solarRealTime: null,
+      officialSourceUrl: OFFICIAL_DATA.sourcePage,
+      wechatSourceUrl: undefined,
+      hasOfficialData: true,
+    });
+  }
+  for (const item of RENEWABLES_DATA.rows) {
+    const cur = merged.get(item.date) ?? {
+      date: item.date,
+      dayAhead: null,
+      realTime: null,
+      dayAheadPower: null,
+      realTimePower: null,
+      windDayAhead: null,
+      solarDayAhead: null,
+      windRealTime: null,
+      solarRealTime: null,
+      officialSourceUrl: undefined,
+      wechatSourceUrl: undefined,
+      hasOfficialData: false,
+    };
+    cur.windDayAhead = item.dayAhead.wind.weighted;
+    cur.solarDayAhead = item.dayAhead.solar.weighted;
+    cur.windRealTime = item.realTime.wind.weighted;
+    cur.solarRealTime = item.realTime.solar.weighted;
+    cur.wechatSourceUrl = item.source_url;
+    merged.set(item.date, cur);
+  }
+  rows = Array.from(merged.values()).sort((a, b) => a.date.localeCompare(b.date));
+}
+
+function getFilteredRows() {
+  const opt = rangeOptions.find((o) => o.key === range);
+  if (!Number.isFinite(opt.days) || !rows.length) return rows;
+  const maxDate = new Date(`${rows[rows.length - 1].date}T00:00:00`);
+  const cutoff = new Date(maxDate);
+  cutoff.setDate(cutoff.getDate() - opt.days + 1);
+  const cutoffStr = cutoff.toISOString().slice(0, 10);
+  return rows.filter((r) => r.date >= cutoffStr);
+}
+
+function getChartRows(filtered) {
+  if (activeView === "overview") return filtered;
+  return filtered.map((r) => ({
+    ...r,
+    dayAhead: r.windDayAhead,
+    realTime: r.solarDayAhead,
+  }));
+}
+
+// ---- Line chart (SVG) ----
+function renderChart(chartRows) {
+  const width = 920, height = 340;
+  const pad = { left: 58, right: 22, top: 24, bottom: 42 };
+  const values = chartRows.flatMap((r) =>
+    ["dayAhead", "realTime"]
+      .filter((k) => visible[k])
+      .map((k) => r[k])
+      .filter((v) => v != null)
+  );
+  if (!chartRows.length || !values.length) {
+    return el("div", { className: "empty-chart", text: "当前范围没有可显示的数据" });
+  }
+  const rawMin = Math.min(...values);
+  const rawMax = Math.max(...values);
+  const padding = Math.max((rawMax - rawMin) * 0.12, 10);
+  const min = Math.floor((rawMin - padding) / 50) * 50;
+  const max = Math.ceil((rawMax + padding) / 50) * 50;
+  const x = (i) => pad.left + (i / Math.max(chartRows.length - 1, 1)) * (width - pad.left - pad.right);
+  const y = (v) => pad.top + ((max - v) / Math.max(max - min, 1)) * (height - pad.top - pad.bottom);
+
+  const pathFor = (key) => {
+    let started = false;
+    return chartRows
+      .map((r, i) => {
+        const v = r[key];
+        if (v == null) { started = false; return ""; }
+        const cmd = started ? "L" : "M";
+        started = true;
+        return `${cmd}${x(i).toFixed(2)},${y(v).toFixed(2)}`;
+      })
+      .filter(Boolean)
+      .join(" ");
+  };
+  const gridValues = Array.from({ length: 5 }, (_, i) => Math.round(max - ((max - min) / 4) * i));
+
+  const wrap = el("div", { className: "chart-wrap" });
+  const svgNS = "http://www.w3.org/2000/svg";
+  const svg = document.createElementNS(svgNS, "svg");
+  svg.setAttribute("class", "price-chart");
+  svg.setAttribute("viewBox", `0 0 ${width} ${height}`);
+  svg.setAttribute("role", "img");
+  svg.setAttribute("aria-label", "陕西日前与实时出清加权均价趋势图");
+
+  for (const v of gridValues) {
+    const g = document.createElementNS(svgNS, "g");
+    const line = document.createElementNS(svgNS, "line");
+    line.setAttribute("class", "chart-grid");
+    line.setAttribute("x1", pad.left);
+    line.setAttribute("x2", width - pad.right);
+    line.setAttribute("y1", y(v));
+    line.setAttribute("y2", y(v));
+    g.appendChild(line);
+    const txt = document.createElementNS(svgNS, "text");
+    txt.setAttribute("class", "axis-label");
+    txt.setAttribute("x", pad.left - 12);
+    txt.setAttribute("y", y(v) + 4);
+    txt.textContent = v;
+    g.appendChild(txt);
+    svg.appendChild(g);
+  }
+  const unit = document.createElementNS(svgNS, "text");
+  unit.setAttribute("class", "axis-unit");
+  unit.setAttribute("x", pad.left);
+  unit.setAttribute("y", 14);
+  unit.textContent = "元 / MWh";
+  svg.appendChild(unit);
+
+  if (visible.dayAhead) {
+    const p = document.createElementNS(svgNS, "path");
+    p.setAttribute("class", "line day-ahead");
+    p.setAttribute("d", pathFor("dayAhead"));
+    svg.appendChild(p);
+  }
+  if (visible.realTime) {
+    const p = document.createElementNS(svgNS, "path");
+    p.setAttribute("class", "line real-time");
+    p.setAttribute("d", pathFor("realTime"));
+    svg.appendChild(p);
+  }
+
+  const hoverLine = document.createElementNS(svgNS, "line");
+  hoverLine.setAttribute("class", "hover-line");
+  hoverLine.setAttribute("x1", 0);
+  hoverLine.setAttribute("x2", 0);
+  hoverLine.setAttribute("y1", pad.top);
+  hoverLine.setAttribute("y2", height - pad.bottom);
+  hoverLine.style.display = "none";
+  svg.appendChild(hoverLine);
+
+  for (const i of [0, Math.floor((chartRows.length - 1) / 2), chartRows.length - 1]) {
+    const t = document.createElementNS(svgNS, "text");
+    t.setAttribute("class", "date-label");
+    t.setAttribute("x", x(i));
+    t.setAttribute("y", height - 14);
+    t.textContent = chartRows[i].date.slice(5).replace("-", "/");
+    svg.appendChild(t);
+  }
+
+  const tooltip = el("div", { className: "chart-tooltip" });
+  tooltip.style.display = "none";
+  wrap.appendChild(svg);
+  wrap.appendChild(tooltip);
+
+  svg.addEventListener("mousemove", (event) => {
+    const rect = svg.getBoundingClientRect();
+    const relX = ((event.clientX - rect.left) / rect.width) * width;
+    const idx = Math.max(0, Math.min(chartRows.length - 1, Math.round(((relX - pad.left) / (width - pad.left - pad.right)) * (chartRows.length - 1))));
+    const hx = x(idx);
+    hoverLine.setAttribute("x1", hx);
+    hoverLine.setAttribute("x2", hx);
+    hoverLine.style.display = "";
+    const row = chartRows[idx];
+    tooltip.style.display = "grid";
+    tooltip.classList.toggle("align-right", hx > width * 0.72);
+    tooltip.style.left = `${(hx / width) * 100}%`;
+    tooltip.innerHTML = "";
+    const strong = el("strong", { text: fmtDate(row.date) });
+    tooltip.appendChild(strong);
+    if (visible.dayAhead) {
+      const span = el("span");
+      span.appendChild(el("i", { className: "dot day-ahead-dot" }));
+      span.appendChild(document.createTextNode(` ${activeView === "overview" ? "日前" : "风电"} ${fmtPrice(row.dayAhead)}`));
+      tooltip.appendChild(span);
+    }
+    if (visible.realTime) {
+      const span = el("span");
+      span.appendChild(el("i", { className: "dot real-time-dot" }));
+      span.appendChild(document.createTextNode(` ${activeView === "overview" ? "实时" : "光伏"} ${fmtPrice(row.realTime)}`));
+      tooltip.appendChild(span);
+    }
+  });
+  svg.addEventListener("mouseleave", () => {
+    hoverLine.style.display = "none";
+    tooltip.style.display = "none";
+  });
+
+  return wrap;
+}
+
+// ---- CSV export ----
+function exportFilteredCsv(filtered) {
+  const header = [
+    "日期", "日前加权均价(元/MWh)", "实时加权均价(元/MWh)",
+    "日前出清电量(MWh)", "实时出清电量(MWh)",
+    "风电日前加权均价", "光伏日前加权均价",
+    "风电实时加权均价", "光伏实时加权均价",
+  ];
+  const csvRows = filtered.map((r) =>
+    [r.date, r.dayAhead ?? "", r.realTime ?? "", r.dayAheadPower ?? "", r.realTimePower ?? "", r.windDayAhead ?? "", r.solarDayAhead ?? "", r.windRealTime ?? "", r.solarRealTime ?? ""]
+      .map((c) => `"${String(c).replaceAll('"', '""')}"`)
+      .join(",")
+  );
+  const blob = new Blob(["\ufeff", [header.join(","), ...csvRows].join("\n")], { type: "text/csv;charset=utf-8" });
+  const href = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = href;
+  a.download = `陕西现货市场数据_${range}.csv`;
+  a.click();
+  URL.revokeObjectURL(href);
+}
+
+// ---- Render ----
+function render() {
+  const app = document.getElementById("app");
+  app.innerHTML = "";
+
+  const filtered = getFilteredRows();
+  const chartRows = getChartRows(filtered);
+  const officialRows = rows.filter((r) => r.hasOfficialData);
+  const latest = officialRows.at(-1);
+  const prior = officialRows.at(-2);
+  const latestWindSolar = [...rows].reverse().find((r) =>
+    r.windDayAhead != null || r.solarDayAhead != null ||
+    r.windRealTime != null || r.solarRealTime != null
+  );
+  const officialLatest = [...rows].reverse().find((r) =>
+    r.hasOfficialData && (r.dayAheadPower != null || r.realTimePower != null)
+  );
+  const latestGap = latest?.dayAhead != null && latest.realTime != null ? latest.realTime - latest.dayAhead : null;
+  const latestChange = latest?.dayAhead != null && prior?.dayAhead != null ? latest.dayAhead - prior.dayAhead : null;
+  const recentTable = [...filtered].reverse().slice(0, 12);
+
+  const xlsxHref = "./downloads/陕西现货市场每日出清价格跟踪_2025至今_含风光分项.xlsx";
+
+  // Header
+  const header = el("header", { className: "site-header" },
+    el("a", { className: "brand", href: "#top", ariaLabel: "返回首页" },
+      el("span", { className: "brand-mark", text: "陕" }),
+      el("span", null,
+        el("b", { text: "陕电现货观察" }),
+        el("small", { text: "Shaanxi Power Market Monitor" })
+      )
+    ),
+    el("nav", { ariaLabel: "页面导航" },
+      el("a", { href: "#trend", text: "价格趋势" }),
+      el("a", { href: "#records", text: "数据明细" }),
+      el("a", { href: "#source", text: "数据说明" })
+    ),
+    el("a", { className: "download-button compact", href: xlsxHref, download: "", text: "下载 Excel" })
+  );
+  app.appendChild(header);
+
+  // Hero
+  const hero = el("section", { className: "hero", id: "top" });
+  const heroCopy = el("div", { className: "hero-copy" },
+    el("div", { className: "eyebrow" },
+      el("span", { className: "live-dot" }),
+      el("span", { text: "陕西电力现货市场 · 历史数据持续跟踪" })
+    ),
+    el("h1", null, "看清每一天的", el("br"), el("em", { text: "陕西现货电价" })),
+    el("p", { text: "汇总陕西日前、实时出清加权均价与电量，并补充风电、光伏分项价格。数据可视、可追溯、可下载。" }),
+    el("div", { className: "hero-actions" },
+      el("a", { className: "download-button", href: "#trend", text: "查看价格趋势" }),
+      el("a", { className: "text-button", href: xlsxHref, download: "" },
+        document.createTextNode("获取完整底表 "), el("span", { text: "↓" })
+      )
+    )
+  );
+  const heroStatus = el("div", { className: "hero-status" },
+    el("div", { className: "status-topline" },
+      el("span", { text: "最新观测" }),
+      el("span", {
+        className: `source-chip ${loadError ? "error" : ""}`,
+        text: loadError
+          ? "数据加载异常"
+          : loading
+            ? "正在加载"
+            : snapshot?.qualityGate?.startsWith("pass")
+              ? "质量检查已通过"
+              : "质量状态待确认"
+      })
+    ),
+    el("div", { className: "latest-date", text: latest ? fmtDate(latest.date) : "载入中" }),
+    el("div", { className: "latest-prices" },
+      el("div", null,
+        el("span", { text: "日前加权均价" }),
+        el("strong", { text: fmtPrice(latest?.dayAhead) }),
+        el("small", { text: "元 / MWh" })
+      ),
+      el("div", null,
+        el("span", { text: "实时加权均价" }),
+        el("strong", { text: fmtPrice(latest?.realTime) }),
+        el("small", { text: "元 / MWh" })
+      )
+    ),
+    el("div", { className: "status-foot" },
+      el("span", { text: `覆盖 ${rows.length || "—"} 个自然日` }),
+      el("span", { text: `起始于 ${rows[0]?.date ?? "—"}` })
+    )
+  );
+  hero.appendChild(heroCopy);
+  hero.appendChild(heroStatus);
+  app.appendChild(hero);
+
+  // Summary grid
+  const summaryGrid = el("section", { className: "summary-grid", ariaLabel: "核心指标" },
+    el("article", { className: "metric-card primary" },
+      el("span", { text: "最新日前价格" }),
+      el("strong", { text: fmtPrice(latest?.dayAhead) }),
+      el("small", { text: "元 / MWh" }),
+      el("div", { className: latestChange != null && latestChange > 0 ? "up" : "down" },
+        document.createTextNode(`较前一日 ${latestChange != null && latestChange > 0 ? "+" : ""}${fmtPrice(latestChange)}`)
+      )
+    ),
+    el("article", { className: "metric-card" },
+      el("span", { text: "日前—实时价差" }),
+      el("strong", { text: fmtPrice(latestGap) }),
+      el("small", { text: "元 / MWh" }),
+      el("div", { text: "实时价减日前价" })
+    ),
+    el("article", { className: "metric-card" },
+      el("span", { text: "最新日前出清电量" }),
+      el("strong", { text: fmtPower(officialLatest?.dayAheadPower) }),
+      el("small", { text: "MWh" }),
+      el("div", { text: `截至 ${officialLatest?.date ?? "—"}` })
+    ),
+    el("article", { className: "metric-card" },
+      el("span", { text: "最新实时出清电量" }),
+      el("strong", { text: fmtPower(officialLatest?.realTimePower) }),
+      el("small", { text: "MWh" }),
+      el("div", { text: `截至 ${officialLatest?.date ?? "—"}` })
+    )
+  );
+  app.appendChild(summaryGrid);
+
+  // Trend section
+  const viewTabs = el("div", { className: "view-tabs", role: "tablist", ariaLabel: "数据视图" });
+  const ovBtn = el("button", { className: activeView === "overview" ? "active" : "", onClick: () => { activeView = "overview"; render(); }, text: "市场整体" });
+  const rnBtn = el("button", { className: activeView === "renewables" ? "active" : "", onClick: () => { activeView = "renewables"; render(); }, text: "风光分项" });
+  viewTabs.appendChild(ovBtn);
+  viewTabs.appendChild(rnBtn);
+
+  const trendHeading = el("div", { className: "section-heading" },
+    el("div", null,
+      el("span", { className: "section-kicker", text: "PRICE TREND" }),
+      el("h2", { text: "出清价格趋势" }),
+      el("p", { text: activeView === "overview" ? "陕西市场日前与实时出清加权均价" : "陕西风电与光伏日前出清加权均价" })
+    ),
+    viewTabs
+  );
+
+  const rangeSwitcher = el("div", { className: "range-switcher", ariaLabel: "选择日期范围" });
+  for (const opt of rangeOptions) {
+    const b = el("button", { className: range === opt.key ? "active" : "", onClick: () => { range = opt.key; render(); }, text: opt.label });
+    rangeSwitcher.appendChild(b);
+  }
+
+  const legend = el("div", { className: "legend" });
+  const legendBtn1 = el("button", { className: !visible.dayAhead ? "muted" : "", onClick: () => { visible.dayAhead = !visible.dayAhead; render(); } },
+    el("i", { className: "dot day-ahead-dot" }),
+    document.createTextNode(` ${activeView === "overview" ? "日前" : "风电"}`)
+  );
+  const legendBtn2 = el("button", { className: !visible.realTime ? "muted" : "", onClick: () => { visible.realTime = !visible.realTime; render(); } },
+    el("i", { className: "dot real-time-dot" }),
+    document.createTextNode(` ${activeView === "overview" ? "实时" : "光伏"}`)
+  );
+  legend.appendChild(legendBtn1);
+  legend.appendChild(legendBtn2);
+
+  const chartCard = el("div", { className: "chart-card" },
+    el("div", { className: "chart-toolbar" }, rangeSwitcher, legend),
+    loading ? el("div", { className: "loading-chart", text: "正在载入陕西历史数据…" }) : renderChart(chartRows)
+  );
+
+  const trendSection = el("section", { className: "data-section", id: "trend" }, trendHeading, chartCard);
+  app.appendChild(trendSection);
+
+  // Records section
+  const tableWrap = el("div", { className: "table-wrap" });
+  const table = el("table");
+  const thead = el("thead", null,
+    el("tr", null,
+      el("th", { text: "日期" }),
+      el("th", { text: "日前均价" }),
+      el("th", { text: "实时均价" }),
+      el("th", { text: "价差" }),
+      el("th", { text: "风电日前" }),
+      el("th", { text: "光伏日前" }),
+      el("th", { text: "来源" })
+    )
+  );
+  const tbody = el("tbody");
+  for (const r of recentTable) {
+    const gap = r.dayAhead != null && r.realTime != null ? r.realTime - r.dayAhead : null;
+    const tr = el("tr", null,
+      el("td", null, el("strong", { text: r.date })),
+      el("td", { text: fmtPrice(r.dayAhead) }),
+      el("td", { text: fmtPrice(r.realTime) }),
+      el("td", { className: gap != null && gap > 0 ? "positive" : "negative" },
+        document.createTextNode(`${gap != null && gap > 0 ? "+" : ""}${fmtPrice(gap)}`)
+      ),
+      el("td", { text: fmtPrice(r.windDayAhead) }),
+      el("td", { text: fmtPrice(r.solarDayAhead) }),
+      el("td", null,
+        el("span", { className: "source-links" },
+          r.officialSourceUrl
+            ? el("a", {
+                href: r.officialSourceUrl,
+                target: "_blank",
+                rel: "noreferrer",
+                ariaLabel: `${r.date} 交易中心公开数据源`,
+                text: "交易中心 ↗"
+              })
+            : null,
+          r.wechatSourceUrl
+            ? el("a", {
+                href: r.wechatSourceUrl,
+                target: "_blank",
+                rel: "noreferrer",
+                ariaLabel: `${r.date} 公众号日报原文`,
+                text: "公众号日报 ↗"
+              })
+            : null
+        )
+      )
+    );
+    tbody.appendChild(tr);
+  }
+  table.appendChild(thead);
+  table.appendChild(tbody);
+  tableWrap.appendChild(table);
+
+  const recordsHeading = el("div", { className: "section-heading" },
+    el("div", null,
+      el("span", { className: "section-kicker", text: "DATA RECORDS" }),
+      el("h2", { text: "近期数据明细" }),
+      el("p", { text: "显示当前时间范围内最近 12 条记录" })
+    ),
+    el("button", { className: "outline-button", onClick: () => exportFilteredCsv(filtered), text: "导出当前范围 CSV" })
+  );
+  const recordsSection = el("section", { className: "records-section", id: "records" }, recordsHeading, tableWrap);
+  app.appendChild(recordsSection);
+
+  // Source section
+  const sourceSection = el("section", { className: "source-section", id: "source" },
+    el("div", null,
+      el("span", { className: "section-kicker", text: "ABOUT THE DATA" }),
+      el("h2", { text: "数据口径与来源" })
+    ),
+    el("div", { className: "source-grid" },
+      el("article", null,
+        el("span", { className: "source-number", text: "01" }),
+        el("h3", { text: "市场整体数据" }),
+        el("p", { text: "来源于陕西电力交易中心市场数据页面，覆盖日前、实时出清加权均价及出清电量。" }),
+        latest?.officialSourceUrl
+          ? el("a", {
+              className: "source-access-link",
+              href: latest.officialSourceUrl,
+              target: "_blank",
+              rel: "noreferrer",
+              text: "访问交易中心公开数据源 ↗"
+            })
+          : null
+      ),
+      el("article", null,
+        el("span", { className: "source-number", text: "02" }),
+        el("h3", { text: "风光分项数据" }),
+        el("p", { text: "来自公开发布的陕西现货市场日报，经图表识别、字段校验后补充风电与光伏分项。" }),
+        latestWindSolar?.wechatSourceUrl
+          ? el("a", {
+              className: "source-access-link",
+              href: latestWindSolar.wechatSourceUrl,
+              target: "_blank",
+              rel: "noreferrer",
+              text: "访问最新公众号日报原文 ↗"
+            })
+          : null
+      ),
+      el("article", null,
+        el("span", { className: "source-number", text: "03" }),
+        el("h3", { text: "更新与追溯" }),
+        el("p", { text: "双源差异单独记录，不覆盖交易中心主序列；未披露字段保持为空。完整历史底表可下载复核。" })
+      )
+    ),
+    el("div", { className: "source-note" },
+      el("span", {
+        text: `总体数据更新至 ${
+          snapshot?.latestTradingDate
+            ? fmtDate(snapshot.latestTradingDate)
+            : latest
+              ? fmtDate(latest.date)
+              : "载入中"
+        }`
+      }),
+      el("span", {
+        text: `风光分项更新至 ${
+          snapshot?.latestWindSolarDate
+            ? fmtDate(snapshot.latestWindSolarDate)
+            : latestWindSolar
+              ? fmtDate(latestWindSolar.date)
+              : "载入中"
+        }`
+      }),
+      el("span", { text: "价格单位：元 / MWh" }),
+      el("span", { text: "双源差异只记录，不覆盖主序列" })
+    )
+  );
+  app.appendChild(sourceSection);
+
+  // Download banner
+  const downloadBanner = el("section", { className: "download-banner" },
+    el("div", null,
+      el("span", { className: "section-kicker", text: "DOWNLOAD" }),
+      el("h2", { text: "需要完整的基础数据？" }),
+      el("p", { text: "下载包含市场整体、风电、光伏分项和字段说明的 Excel 工作簿。" })
+    ),
+    el("a", { className: "download-button light", href: xlsxHref, download: "" },
+      document.createTextNode("下载完整 Excel "), el("span", { text: "↓" })
+    )
+  );
+  app.appendChild(downloadBanner);
+
+  // Footer
+  const footer = el("footer", null,
+    el("div", { className: "brand footer-brand" },
+      el("span", { className: "brand-mark", text: "陕" }),
+      el("span", null,
+        el("b", { text: "陕电现货观察" }),
+        el("small", { text: "陕西现货市场数据持续跟踪" })
+      )
+    ),
+    el("p", { text: "数据仅供市场研究与分析参考。" })
+  );
+  app.appendChild(footer);
+}
+
+// ---- Boot ----
+async function loadJson(url) {
+  const response = await fetch(url, { cache: "no-store" });
+  if (!response.ok) throw new Error(`${url} 返回 ${response.status}`);
+  return response.json();
+}
+
+async function boot() {
+  render();
+  try {
+    [OFFICIAL_DATA, RENEWABLES_DATA, snapshot] = await Promise.all([
+      loadJson("./data/snpx_spot_history.json"),
+      loadJson("./data/wechat_wind_solar_prices.json"),
+      loadJson("./data/data_snapshot.json"),
+    ]);
+    mergeData();
+  } catch (error) {
+    loadError = error instanceof Error ? error.message : "数据文件加载失败";
+  } finally {
+    loading = false;
+    render();
+  }
+}
+
+boot();
+
+</script>
+</body>
+</html>

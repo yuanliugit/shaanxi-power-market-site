@@ -1,0 +1,4893 @@
+{
+  "extractedAt": "2026-07-27T23:05:45.596Z",
+  "sourcePage": "https://snpx.com.cn/#/home/marketData/transactionData/spotmarketsection",
+  "endpoint": "/sso-portal/large/screen/statistic/v2/greenSpotTradingOverview",
+  "mapping": {
+    "firstPower": "日前出清电量",
+    "firstPrice": "日前出清加权均价",
+    "secondPower": "实时出清电量",
+    "secondPrice": "实时出清加权均价"
+  },
+  "calls": [
+    {
+      "bizDay": "2025-01-14",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-01-29",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-02-13",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-02-28",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-03-15",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-03-30",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-04-14",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-04-29",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-05-14",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-05-29",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-06-13",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-06-28",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-07-13",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-07-28",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-08-12",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-08-27",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-09-11",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-09-26",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-10-11",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-10-26",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-11-10",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-11-25",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-12-10",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-12-25",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2026-01-09",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2026-01-24",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2026-02-08",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2026-02-23",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2026-03-10",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2026-03-25",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2026-04-09",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2026-04-24",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2026-05-09",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2026-05-24",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2026-06-08",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2026-06-23",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2026-07-08",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2026-07-11",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2026-07-11",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-18",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-13",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-18",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-13",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-19",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-13",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-26",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-14",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-26",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-14",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-26",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-06-27",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-12",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-26",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-27",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    }
+  ],
+  "rows": [
+    {
+      "time": "2025-01-01",
+      "areaCode": null,
+      "firstPower": "623979.83",
+      "secondPower": "612120.53",
+      "firstPrice": "297.08",
+      "secondPrice": "275.25"
+    },
+    {
+      "time": "2025-01-02",
+      "areaCode": null,
+      "firstPower": "623690.85",
+      "secondPower": "636681.82",
+      "firstPrice": "340.28",
+      "secondPrice": "427.88"
+    },
+    {
+      "time": "2025-01-03",
+      "areaCode": null,
+      "firstPower": "658440.73",
+      "secondPower": "694835.76",
+      "firstPrice": "383.92",
+      "secondPrice": "444.07"
+    },
+    {
+      "time": "2025-01-04",
+      "areaCode": null,
+      "firstPower": "585840.37",
+      "secondPower": "612766.9",
+      "firstPrice": "299.56",
+      "secondPrice": "354.72"
+    },
+    {
+      "time": "2025-01-05",
+      "areaCode": null,
+      "firstPower": "587113.92",
+      "secondPower": "565523.89",
+      "firstPrice": "297.98",
+      "secondPrice": "212.91"
+    },
+    {
+      "time": "2025-01-06",
+      "areaCode": null,
+      "firstPower": "601349.48",
+      "secondPower": "577652.95",
+      "firstPrice": "388.7",
+      "secondPrice": "351.58"
+    },
+    {
+      "time": "2025-01-07",
+      "areaCode": null,
+      "firstPower": "587521.29",
+      "secondPower": "612036.74",
+      "firstPrice": "356.58",
+      "secondPrice": "393.58"
+    },
+    {
+      "time": "2025-01-08",
+      "areaCode": null,
+      "firstPower": "615421.1",
+      "secondPower": "633050.35",
+      "firstPrice": "396.47",
+      "secondPrice": "523.53"
+    },
+    {
+      "time": "2025-01-09",
+      "areaCode": null,
+      "firstPower": "585948.79",
+      "secondPower": "615243.37",
+      "firstPrice": "380.94",
+      "secondPrice": "542.0"
+    },
+    {
+      "time": "2025-01-10",
+      "areaCode": null,
+      "firstPower": "578887.75",
+      "secondPower": "592757.8",
+      "firstPrice": "376.36",
+      "secondPrice": "407.42"
+    },
+    {
+      "time": "2025-01-11",
+      "areaCode": null,
+      "firstPower": "563502.22",
+      "secondPower": "581201.68",
+      "firstPrice": "274.99",
+      "secondPrice": "364.65"
+    },
+    {
+      "time": "2025-01-12",
+      "areaCode": null,
+      "firstPower": "573652.96",
+      "secondPower": "577632.87",
+      "firstPrice": "340.77",
+      "secondPrice": "470.01"
+    },
+    {
+      "time": "2025-01-13",
+      "areaCode": null,
+      "firstPower": "575434.53",
+      "secondPower": "589366.63",
+      "firstPrice": "395.84",
+      "secondPrice": "434.8"
+    },
+    {
+      "time": "2025-01-14",
+      "areaCode": null,
+      "firstPower": "558547.77",
+      "secondPower": "564005.81",
+      "firstPrice": "372.78",
+      "secondPrice": "412.28"
+    },
+    {
+      "time": "2025-01-15",
+      "areaCode": null,
+      "firstPower": "568086.51",
+      "secondPower": "591497.78",
+      "firstPrice": "414.75",
+      "secondPrice": "507.63"
+    },
+    {
+      "time": "2025-01-16",
+      "areaCode": null,
+      "firstPower": "576083.85",
+      "secondPower": "577736.13",
+      "firstPrice": "372.9",
+      "secondPrice": "414.81"
+    },
+    {
+      "time": "2025-01-17",
+      "areaCode": null,
+      "firstPower": "569105.64",
+      "secondPower": "567663.44",
+      "firstPrice": "362.43",
+      "secondPrice": "364.13"
+    },
+    {
+      "time": "2025-01-18",
+      "areaCode": null,
+      "firstPower": "547875.51",
+      "secondPower": "540998.76",
+      "firstPrice": "295.85",
+      "secondPrice": "309.92"
+    },
+    {
+      "time": "2025-01-19",
+      "areaCode": null,
+      "firstPower": "547882.77",
+      "secondPower": "547424.34",
+      "firstPrice": "344.77",
+      "secondPrice": "364.1"
+    },
+    {
+      "time": "2025-01-20",
+      "areaCode": null,
+      "firstPower": "571358.82",
+      "secondPower": "541882.75",
+      "firstPrice": "399.11",
+      "secondPrice": "323.2"
+    },
+    {
+      "time": "2025-01-21",
+      "areaCode": null,
+      "firstPower": "535525.97",
+      "secondPower": "538429.14",
+      "firstPrice": "297.19",
+      "secondPrice": "308.16"
+    },
+    {
+      "time": "2025-01-22",
+      "areaCode": null,
+      "firstPower": "544869.91",
+      "secondPower": "545886.37",
+      "firstPrice": "316.8",
+      "secondPrice": "335.7"
+    },
+    {
+      "time": "2025-01-23",
+      "areaCode": null,
+      "firstPower": "550761.89",
+      "secondPower": "490720.9",
+      "firstPrice": "340.05",
+      "secondPrice": "328.67"
+    },
+    {
+      "time": "2025-01-24",
+      "areaCode": null,
+      "firstPower": "519162.17",
+      "secondPower": "466213.45",
+      "firstPrice": "374.13",
+      "secondPrice": "282.36"
+    },
+    {
+      "time": "2025-01-25",
+      "areaCode": null,
+      "firstPower": "467297.24",
+      "secondPower": "422889.9",
+      "firstPrice": "196.19",
+      "secondPrice": "106.71"
+    },
+    {
+      "time": "2025-01-26",
+      "areaCode": null,
+      "firstPower": "455524.85",
+      "secondPower": "445890.3",
+      "firstPrice": "165.29",
+      "secondPrice": "169.03"
+    },
+    {
+      "time": "2025-01-27",
+      "areaCode": null,
+      "firstPower": "416595.71",
+      "secondPower": "407454.01",
+      "firstPrice": "233.62",
+      "secondPrice": "265.91"
+    },
+    {
+      "time": "2025-01-28",
+      "areaCode": null,
+      "firstPower": "405059.14",
+      "secondPower": "411017.41",
+      "firstPrice": "271.29",
+      "secondPrice": "316.89"
+    },
+    {
+      "time": "2025-01-29",
+      "areaCode": null,
+      "firstPower": "377714.96",
+      "secondPower": "421880.52",
+      "firstPrice": "223.73",
+      "secondPrice": "453.03"
+    },
+    {
+      "time": "2025-01-30",
+      "areaCode": null,
+      "firstPower": "390545.89",
+      "secondPower": "407587.18",
+      "firstPrice": "315.26",
+      "secondPrice": "375.42"
+    },
+    {
+      "time": "2025-01-31",
+      "areaCode": null,
+      "firstPower": "389220.24",
+      "secondPower": "408985.26",
+      "firstPrice": "390.63",
+      "secondPrice": "427.13"
+    },
+    {
+      "time": "2025-02-01",
+      "areaCode": null,
+      "firstPower": "439595.65",
+      "secondPower": "427743.97",
+      "firstPrice": "318.9",
+      "secondPrice": "247.53"
+    },
+    {
+      "time": "2025-02-02",
+      "areaCode": null,
+      "firstPower": "422680.87",
+      "secondPower": "408676.71",
+      "firstPrice": "263.52",
+      "secondPrice": "172.75"
+    },
+    {
+      "time": "2025-02-03",
+      "areaCode": null,
+      "firstPower": "407112.86",
+      "secondPower": "408549.1",
+      "firstPrice": "301.01",
+      "secondPrice": "331.66"
+    },
+    {
+      "time": "2025-02-04",
+      "areaCode": null,
+      "firstPower": "417909.27",
+      "secondPower": "415003.99",
+      "firstPrice": "180.55",
+      "secondPrice": "253.23"
+    },
+    {
+      "time": "2025-02-05",
+      "areaCode": null,
+      "firstPower": "433998.25",
+      "secondPower": "417976.1",
+      "firstPrice": "312.6",
+      "secondPrice": "202.49"
+    },
+    {
+      "time": "2025-02-06",
+      "areaCode": null,
+      "firstPower": "454478.59",
+      "secondPower": "429382.48",
+      "firstPrice": "293.82",
+      "secondPrice": "148.92"
+    },
+    {
+      "time": "2025-02-07",
+      "areaCode": null,
+      "firstPower": "443025.58",
+      "secondPower": "425239.85",
+      "firstPrice": "311.16",
+      "secondPrice": "289.34"
+    },
+    {
+      "time": "2025-02-08",
+      "areaCode": null,
+      "firstPower": "449867.71",
+      "secondPower": "443382.44",
+      "firstPrice": "371.19",
+      "secondPrice": "398.85"
+    },
+    {
+      "time": "2025-02-09",
+      "areaCode": null,
+      "firstPower": "467923.65",
+      "secondPower": "435184.6",
+      "firstPrice": "364.37",
+      "secondPrice": "282.49"
+    },
+    {
+      "time": "2025-02-10",
+      "areaCode": null,
+      "firstPower": "460354.43",
+      "secondPower": "435080.05",
+      "firstPrice": "342.07",
+      "secondPrice": "231.52"
+    },
+    {
+      "time": "2025-02-11",
+      "areaCode": null,
+      "firstPower": "492131.13",
+      "secondPower": "465771.14",
+      "firstPrice": "298.69",
+      "secondPrice": "230.98"
+    },
+    {
+      "time": "2025-02-12",
+      "areaCode": null,
+      "firstPower": "445856.6",
+      "secondPower": "426157.56",
+      "firstPrice": "195.15",
+      "secondPrice": "165.48"
+    },
+    {
+      "time": "2025-02-13",
+      "areaCode": null,
+      "firstPower": "459840.99",
+      "secondPower": "450391.59",
+      "firstPrice": "262.95",
+      "secondPrice": "254.14"
+    },
+    {
+      "time": "2025-02-14",
+      "areaCode": null,
+      "firstPower": "471690.23",
+      "secondPower": "463283.34",
+      "firstPrice": "350.23",
+      "secondPrice": "301.27"
+    },
+    {
+      "time": "2025-02-15",
+      "areaCode": null,
+      "firstPower": "457242.11",
+      "secondPower": "442967.05",
+      "firstPrice": "158.32",
+      "secondPrice": "152.09"
+    },
+    {
+      "time": "2025-02-16",
+      "areaCode": null,
+      "firstPower": "452521.99",
+      "secondPower": "428046.37",
+      "firstPrice": "271.01",
+      "secondPrice": "242.57"
+    },
+    {
+      "time": "2025-02-17",
+      "areaCode": null,
+      "firstPower": "489733.69",
+      "secondPower": "445043.51",
+      "firstPrice": "308.5",
+      "secondPrice": "212.44"
+    },
+    {
+      "time": "2025-02-18",
+      "areaCode": null,
+      "firstPower": "474050.1",
+      "secondPower": "444027.58",
+      "firstPrice": "310.77",
+      "secondPrice": "223.91"
+    },
+    {
+      "time": "2025-02-19",
+      "areaCode": null,
+      "firstPower": "470633.13",
+      "secondPower": "502691.0",
+      "firstPrice": "377.63",
+      "secondPrice": "443.17"
+    },
+    {
+      "time": "2025-02-20",
+      "areaCode": null,
+      "firstPower": "490715.02",
+      "secondPower": "517570.94",
+      "firstPrice": "362.15",
+      "secondPrice": "444.74"
+    },
+    {
+      "time": "2025-02-21",
+      "areaCode": null,
+      "firstPower": "503808.86",
+      "secondPower": "503439.3",
+      "firstPrice": "370.76",
+      "secondPrice": "381.43"
+    },
+    {
+      "time": "2025-02-22",
+      "areaCode": null,
+      "firstPower": "483219.0",
+      "secondPower": "471004.36",
+      "firstPrice": "268.08",
+      "secondPrice": "246.8"
+    },
+    {
+      "time": "2025-02-23",
+      "areaCode": null,
+      "firstPower": "468840.98",
+      "secondPower": "447898.75",
+      "firstPrice": "291.19",
+      "secondPrice": "294.06"
+    },
+    {
+      "time": "2025-02-24",
+      "areaCode": null,
+      "firstPower": "494826.68",
+      "secondPower": "490837.31",
+      "firstPrice": "278.17",
+      "secondPrice": "287.02"
+    },
+    {
+      "time": "2025-02-25",
+      "areaCode": null,
+      "firstPower": "468047.92",
+      "secondPower": "428336.46",
+      "firstPrice": "244.15",
+      "secondPrice": "189.28"
+    },
+    {
+      "time": "2025-02-26",
+      "areaCode": null,
+      "firstPower": "462105.69",
+      "secondPower": "427234.78",
+      "firstPrice": "312.64",
+      "secondPrice": "225.5"
+    },
+    {
+      "time": "2025-02-27",
+      "areaCode": null,
+      "firstPower": "463670.41",
+      "secondPower": "431333.19",
+      "firstPrice": "376.01",
+      "secondPrice": "206.34"
+    },
+    {
+      "time": "2025-02-28",
+      "areaCode": null,
+      "firstPower": "464581.86",
+      "secondPower": "425266.98",
+      "firstPrice": "316.99",
+      "secondPrice": "240.03"
+    },
+    {
+      "time": "2025-03-01",
+      "areaCode": null,
+      "firstPower": "457321.21",
+      "secondPower": "436154.66",
+      "firstPrice": "309.56",
+      "secondPrice": "284.11"
+    },
+    {
+      "time": "2025-03-02",
+      "areaCode": null,
+      "firstPower": "510754.06",
+      "secondPower": "462496.27",
+      "firstPrice": "363.61",
+      "secondPrice": "306.54"
+    },
+    {
+      "time": "2025-03-03",
+      "areaCode": null,
+      "firstPower": "516120.76",
+      "secondPower": "500017.21",
+      "firstPrice": "325.07",
+      "secondPrice": "306.04"
+    },
+    {
+      "time": "2025-03-04",
+      "areaCode": null,
+      "firstPower": "502931.51",
+      "secondPower": "499923.09",
+      "firstPrice": "366.79",
+      "secondPrice": "287.88"
+    },
+    {
+      "time": "2025-03-05",
+      "areaCode": null,
+      "firstPower": "487078.07",
+      "secondPower": "491083.0",
+      "firstPrice": "300.67",
+      "secondPrice": "362.25"
+    },
+    {
+      "time": "2025-03-06",
+      "areaCode": null,
+      "firstPower": "475333.72",
+      "secondPower": "452946.84",
+      "firstPrice": "363.24",
+      "secondPrice": "277.15"
+    },
+    {
+      "time": "2025-03-07",
+      "areaCode": null,
+      "firstPower": "460330.94",
+      "secondPower": "460105.9",
+      "firstPrice": "272.18",
+      "secondPrice": "278.87"
+    },
+    {
+      "time": "2025-03-08",
+      "areaCode": null,
+      "firstPower": "427606.26",
+      "secondPower": "417436.29",
+      "firstPrice": "172.32",
+      "secondPrice": "151.49"
+    },
+    {
+      "time": "2025-03-09",
+      "areaCode": null,
+      "firstPower": "424114.72",
+      "secondPower": "405541.0",
+      "firstPrice": "174.67",
+      "secondPrice": "149.33"
+    },
+    {
+      "time": "2025-03-10",
+      "areaCode": null,
+      "firstPower": "430836.33",
+      "secondPower": "405770.83",
+      "firstPrice": "183.0",
+      "secondPrice": "183.15"
+    },
+    {
+      "time": "2025-03-11",
+      "areaCode": null,
+      "firstPower": "430024.46",
+      "secondPower": "423332.36",
+      "firstPrice": "220.23",
+      "secondPrice": "191.74"
+    },
+    {
+      "time": "2025-03-12",
+      "areaCode": null,
+      "firstPower": "453596.2",
+      "secondPower": "438728.78",
+      "firstPrice": "366.02",
+      "secondPrice": "252.66"
+    },
+    {
+      "time": "2025-03-13",
+      "areaCode": null,
+      "firstPower": "472723.88",
+      "secondPower": "439762.19",
+      "firstPrice": "238.43",
+      "secondPrice": "215.57"
+    },
+    {
+      "time": "2025-03-14",
+      "areaCode": null,
+      "firstPower": "510817.07",
+      "secondPower": "483414.29",
+      "firstPrice": "327.07",
+      "secondPrice": "254.87"
+    },
+    {
+      "time": "2025-03-15",
+      "areaCode": null,
+      "firstPower": "467209.9",
+      "secondPower": "433975.95",
+      "firstPrice": "223.36",
+      "secondPrice": "192.88"
+    },
+    {
+      "time": "2025-03-16",
+      "areaCode": null,
+      "firstPower": "464321.9",
+      "secondPower": "445920.01",
+      "firstPrice": "356.53",
+      "secondPrice": "305.51"
+    },
+    {
+      "time": "2025-03-17",
+      "areaCode": null,
+      "firstPower": "426081.25",
+      "secondPower": "418905.05",
+      "firstPrice": "270.08",
+      "secondPrice": "229.87"
+    },
+    {
+      "time": "2025-03-18",
+      "areaCode": null,
+      "firstPower": "433239.87",
+      "secondPower": "413880.66",
+      "firstPrice": "355.79",
+      "secondPrice": "189.34"
+    },
+    {
+      "time": "2025-03-19",
+      "areaCode": null,
+      "firstPower": "435696.43",
+      "secondPower": "408665.41",
+      "firstPrice": "226.24",
+      "secondPrice": "176.13"
+    },
+    {
+      "time": "2025-03-20",
+      "areaCode": null,
+      "firstPower": "423132.89",
+      "secondPower": "403485.58",
+      "firstPrice": "328.84",
+      "secondPrice": "242.47"
+    },
+    {
+      "time": "2025-03-21",
+      "areaCode": null,
+      "firstPower": "403006.18",
+      "secondPower": "403168.7",
+      "firstPrice": "277.61",
+      "secondPrice": "298.23"
+    },
+    {
+      "time": "2025-03-22",
+      "areaCode": null,
+      "firstPower": "415738.36",
+      "secondPower": "407484.27",
+      "firstPrice": "293.83",
+      "secondPrice": "294.0"
+    },
+    {
+      "time": "2025-03-23",
+      "areaCode": null,
+      "firstPower": "397960.09",
+      "secondPower": "391662.04",
+      "firstPrice": "262.53",
+      "secondPrice": "269.25"
+    },
+    {
+      "time": "2025-03-24",
+      "areaCode": null,
+      "firstPower": "389938.53",
+      "secondPower": "373997.18",
+      "firstPrice": "327.57",
+      "secondPrice": "280.36"
+    },
+    {
+      "time": "2025-03-25",
+      "areaCode": null,
+      "firstPower": "364717.9",
+      "secondPower": "355772.71",
+      "firstPrice": "315.22",
+      "secondPrice": "258.62"
+    },
+    {
+      "time": "2025-03-26",
+      "areaCode": null,
+      "firstPower": "364020.93",
+      "secondPower": "350763.95",
+      "firstPrice": "176.38",
+      "secondPrice": "133.88"
+    },
+    {
+      "time": "2025-03-27",
+      "areaCode": null,
+      "firstPower": "367315.44",
+      "secondPower": "379933.99",
+      "firstPrice": "252.21",
+      "secondPrice": "263.92"
+    },
+    {
+      "time": "2025-03-28",
+      "areaCode": null,
+      "firstPower": "381992.41",
+      "secondPower": "399258.76",
+      "firstPrice": "284.51",
+      "secondPrice": "321.28"
+    },
+    {
+      "time": "2025-03-29",
+      "areaCode": null,
+      "firstPower": "381350.51",
+      "secondPower": "418156.26",
+      "firstPrice": "245.41",
+      "secondPrice": "246.59"
+    },
+    {
+      "time": "2025-03-30",
+      "areaCode": null,
+      "firstPower": "389881.48",
+      "secondPower": "402813.43",
+      "firstPrice": "233.45",
+      "secondPrice": "241.2"
+    },
+    {
+      "time": "2025-03-31",
+      "areaCode": null,
+      "firstPower": "359439.75",
+      "secondPower": "379293.15",
+      "firstPrice": "262.02",
+      "secondPrice": "279.0"
+    },
+    {
+      "time": "2025-04-01",
+      "areaCode": null,
+      "firstPower": "346964.42",
+      "secondPower": "340163.57",
+      "firstPrice": "227.54",
+      "secondPrice": "193.31"
+    },
+    {
+      "time": "2025-04-02",
+      "areaCode": null,
+      "firstPower": "355602.19",
+      "secondPower": "380020.26",
+      "firstPrice": "279.69",
+      "secondPrice": "318.84"
+    },
+    {
+      "time": "2025-04-03",
+      "areaCode": null,
+      "firstPower": "348152.61",
+      "secondPower": "366739.64",
+      "firstPrice": "221.9",
+      "secondPrice": "250.39"
+    },
+    {
+      "time": "2025-04-04",
+      "areaCode": null,
+      "firstPower": "340861.0",
+      "secondPower": "346259.07",
+      "firstPrice": "245.51",
+      "secondPrice": "245.3"
+    },
+    {
+      "time": "2025-04-05",
+      "areaCode": null,
+      "firstPower": "359063.27",
+      "secondPower": "363820.26",
+      "firstPrice": "298.18",
+      "secondPrice": "271.1"
+    },
+    {
+      "time": "2025-04-06",
+      "areaCode": null,
+      "firstPower": "353710.66",
+      "secondPower": "351322.18",
+      "firstPrice": "326.62",
+      "secondPrice": "248.8"
+    },
+    {
+      "time": "2025-04-07",
+      "areaCode": null,
+      "firstPower": "356275.32",
+      "secondPower": "366846.71",
+      "firstPrice": "308.17",
+      "secondPrice": "384.46"
+    },
+    {
+      "time": "2025-04-08",
+      "areaCode": null,
+      "firstPower": "357744.25",
+      "secondPower": "377119.65",
+      "firstPrice": "226.59",
+      "secondPrice": "272.55"
+    },
+    {
+      "time": "2025-04-09",
+      "areaCode": null,
+      "firstPower": "355978.55",
+      "secondPower": "361675.83",
+      "firstPrice": "215.51",
+      "secondPrice": "222.97"
+    },
+    {
+      "time": "2025-04-10",
+      "areaCode": null,
+      "firstPower": "315132.3",
+      "secondPower": "321192.19",
+      "firstPrice": "216.71",
+      "secondPrice": "245.61"
+    },
+    {
+      "time": "2025-04-11",
+      "areaCode": null,
+      "firstPower": "307982.13",
+      "secondPower": "309204.12",
+      "firstPrice": "173.53",
+      "secondPrice": "200.48"
+    },
+    {
+      "time": "2025-04-12",
+      "areaCode": null,
+      "firstPower": "287053.89",
+      "secondPower": "271204.34",
+      "firstPrice": "139.53",
+      "secondPrice": "155.26"
+    },
+    {
+      "time": "2025-04-13",
+      "areaCode": null,
+      "firstPower": "289405.26",
+      "secondPower": "278958.35",
+      "firstPrice": "91.15",
+      "secondPrice": "111.09"
+    },
+    {
+      "time": "2025-04-14",
+      "areaCode": null,
+      "firstPower": "290581.48",
+      "secondPower": "298251.93",
+      "firstPrice": "172.89",
+      "secondPrice": "188.36"
+    },
+    {
+      "time": "2025-04-15",
+      "areaCode": null,
+      "firstPower": "309791.78",
+      "secondPower": "304180.91",
+      "firstPrice": "213.69",
+      "secondPrice": "235.15"
+    },
+    {
+      "time": "2025-04-16",
+      "areaCode": null,
+      "firstPower": "302456.13",
+      "secondPower": "310734.16",
+      "firstPrice": "182.71",
+      "secondPrice": "223.13"
+    },
+    {
+      "time": "2025-04-17",
+      "areaCode": null,
+      "firstPower": "298069.61",
+      "secondPower": "296851.2",
+      "firstPrice": "209.66",
+      "secondPrice": "217.86"
+    },
+    {
+      "time": "2025-04-18",
+      "areaCode": null,
+      "firstPower": "300908.47",
+      "secondPower": "312847.47",
+      "firstPrice": "244.97",
+      "secondPrice": "261.62"
+    },
+    {
+      "time": "2025-04-19",
+      "areaCode": null,
+      "firstPower": "312315.7",
+      "secondPower": "317820.4",
+      "firstPrice": "230.48",
+      "secondPrice": "219.53"
+    },
+    {
+      "time": "2025-04-20",
+      "areaCode": null,
+      "firstPower": "306940.05",
+      "secondPower": "296108.62",
+      "firstPrice": "127.04",
+      "secondPrice": "131.91"
+    },
+    {
+      "time": "2025-04-21",
+      "areaCode": null,
+      "firstPower": "345822.71",
+      "secondPower": "305712.55",
+      "firstPrice": "244.42",
+      "secondPrice": "195.08"
+    },
+    {
+      "time": "2025-04-22",
+      "areaCode": null,
+      "firstPower": "322951.9",
+      "secondPower": "323440.77",
+      "firstPrice": "237.09",
+      "secondPrice": "257.87"
+    },
+    {
+      "time": "2025-04-23",
+      "areaCode": null,
+      "firstPower": "340773.14",
+      "secondPower": "347353.57",
+      "firstPrice": "217.29",
+      "secondPrice": "222.04"
+    },
+    {
+      "time": "2025-04-24",
+      "areaCode": null,
+      "firstPower": "339000.99",
+      "secondPower": "331692.38",
+      "firstPrice": "234.48",
+      "secondPrice": "243.27"
+    },
+    {
+      "time": "2025-04-25",
+      "areaCode": null,
+      "firstPower": "343996.57",
+      "secondPower": "346622.15",
+      "firstPrice": "211.19",
+      "secondPrice": "241.52"
+    },
+    {
+      "time": "2025-04-26",
+      "areaCode": null,
+      "firstPower": "343957.31",
+      "secondPower": "360507.87",
+      "firstPrice": "247.85",
+      "secondPrice": "276.88"
+    },
+    {
+      "time": "2025-04-27",
+      "areaCode": null,
+      "firstPower": "332893.19",
+      "secondPower": "340693.21",
+      "firstPrice": "188.97",
+      "secondPrice": "198.41"
+    },
+    {
+      "time": "2025-04-28",
+      "areaCode": null,
+      "firstPower": "336612.93",
+      "secondPower": "340663.57",
+      "firstPrice": "270.59",
+      "secondPrice": "235.08"
+    },
+    {
+      "time": "2025-04-29",
+      "areaCode": null,
+      "firstPower": "335806.8",
+      "secondPower": "330837.52",
+      "firstPrice": "180.95",
+      "secondPrice": "173.7"
+    },
+    {
+      "time": "2025-04-30",
+      "areaCode": null,
+      "firstPower": "341979.06",
+      "secondPower": "346626.66",
+      "firstPrice": "227.38",
+      "secondPrice": "196.89"
+    },
+    {
+      "time": "2025-05-01",
+      "areaCode": null,
+      "firstPower": "325114.56",
+      "secondPower": "333042.67",
+      "firstPrice": "208.0",
+      "secondPrice": "209.85"
+    },
+    {
+      "time": "2025-05-02",
+      "areaCode": null,
+      "firstPower": "326636.51",
+      "secondPower": "354799.55",
+      "firstPrice": "357.26",
+      "secondPrice": "327.0"
+    },
+    {
+      "time": "2025-05-03",
+      "areaCode": null,
+      "firstPower": "323874.17",
+      "secondPower": "350599.73",
+      "firstPrice": "227.84",
+      "secondPrice": "241.97"
+    },
+    {
+      "time": "2025-05-04",
+      "areaCode": null,
+      "firstPower": "345447.53",
+      "secondPower": "364352.67",
+      "firstPrice": "252.81",
+      "secondPrice": "286.62"
+    },
+    {
+      "time": "2025-05-05",
+      "areaCode": null,
+      "firstPower": "350158.32",
+      "secondPower": "344145.22",
+      "firstPrice": "254.76",
+      "secondPrice": "227.91"
+    },
+    {
+      "time": "2025-05-06",
+      "areaCode": null,
+      "firstPower": "375972.72",
+      "secondPower": "359787.66",
+      "firstPrice": "331.26",
+      "secondPrice": "285.37"
+    },
+    {
+      "time": "2025-05-07",
+      "areaCode": null,
+      "firstPower": "360241.57",
+      "secondPower": "374156.93",
+      "firstPrice": "269.84",
+      "secondPrice": "307.61"
+    },
+    {
+      "time": "2025-05-08",
+      "areaCode": null,
+      "firstPower": "385853.2",
+      "secondPower": "397750.18",
+      "firstPrice": "247.18",
+      "secondPrice": "280.87"
+    },
+    {
+      "time": "2025-05-09",
+      "areaCode": null,
+      "firstPower": "352682.62",
+      "secondPower": "337416.68",
+      "firstPrice": "167.52",
+      "secondPrice": "132.87"
+    },
+    {
+      "time": "2025-05-10",
+      "areaCode": null,
+      "firstPower": "348360.57",
+      "secondPower": "354591.89",
+      "firstPrice": "226.26",
+      "secondPrice": "215.92"
+    },
+    {
+      "time": "2025-05-11",
+      "areaCode": null,
+      "firstPower": "352799.22",
+      "secondPower": "347605.39",
+      "firstPrice": "256.55",
+      "secondPrice": "223.01"
+    },
+    {
+      "time": "2025-05-12",
+      "areaCode": null,
+      "firstPower": "374591.19",
+      "secondPower": "363392.54",
+      "firstPrice": "217.65",
+      "secondPrice": "181.52"
+    },
+    {
+      "time": "2025-05-13",
+      "areaCode": null,
+      "firstPower": "363918.4",
+      "secondPower": "371331.48",
+      "firstPrice": "170.17",
+      "secondPrice": "173.73"
+    },
+    {
+      "time": "2025-05-14",
+      "areaCode": null,
+      "firstPower": "373116.58",
+      "secondPower": "381367.82",
+      "firstPrice": "243.52",
+      "secondPrice": "229.03"
+    },
+    {
+      "time": "2025-05-15",
+      "areaCode": null,
+      "firstPower": "374767.85",
+      "secondPower": "373586.36",
+      "firstPrice": "177.04",
+      "secondPrice": "201.78"
+    },
+    {
+      "time": "2025-05-16",
+      "areaCode": null,
+      "firstPower": "352262.82",
+      "secondPower": "352049.86",
+      "firstPrice": "163.72",
+      "secondPrice": "150.75"
+    },
+    {
+      "time": "2025-05-17",
+      "areaCode": null,
+      "firstPower": "342310.99",
+      "secondPower": "359977.6",
+      "firstPrice": "180.78",
+      "secondPrice": "230.49"
+    },
+    {
+      "time": "2025-05-18",
+      "areaCode": null,
+      "firstPower": "351037.69",
+      "secondPower": "345622.97",
+      "firstPrice": "185.85",
+      "secondPrice": "197.85"
+    },
+    {
+      "time": "2025-05-19",
+      "areaCode": null,
+      "firstPower": "386528.43",
+      "secondPower": "391251.97",
+      "firstPrice": "213.24",
+      "secondPrice": "252.39"
+    },
+    {
+      "time": "2025-05-20",
+      "areaCode": null,
+      "firstPower": "381636.19",
+      "secondPower": "411552.6",
+      "firstPrice": "239.52",
+      "secondPrice": "309.3"
+    },
+    {
+      "time": "2025-05-21",
+      "areaCode": null,
+      "firstPower": "404482.62",
+      "secondPower": "412081.08",
+      "firstPrice": "255.07",
+      "secondPrice": "274.26"
+    },
+    {
+      "time": "2025-05-22",
+      "areaCode": null,
+      "firstPower": "409481.88",
+      "secondPower": "381881.41",
+      "firstPrice": "241.37",
+      "secondPrice": "189.32"
+    },
+    {
+      "time": "2025-05-23",
+      "areaCode": null,
+      "firstPower": "361152.45",
+      "secondPower": "352556.12",
+      "firstPrice": "165.14",
+      "secondPrice": "157.21"
+    },
+    {
+      "time": "2025-05-24",
+      "areaCode": null,
+      "firstPower": "337936.63",
+      "secondPower": "336642.96",
+      "firstPrice": "184.32",
+      "secondPrice": "161.69"
+    },
+    {
+      "time": "2025-05-25",
+      "areaCode": null,
+      "firstPower": "344324.12",
+      "secondPower": "330415.72",
+      "firstPrice": "195.09",
+      "secondPrice": "171.91"
+    },
+    {
+      "time": "2025-05-26",
+      "areaCode": null,
+      "firstPower": "343174.92",
+      "secondPower": "352314.36",
+      "firstPrice": "222.46",
+      "secondPrice": "230.51"
+    },
+    {
+      "time": "2025-05-27",
+      "areaCode": null,
+      "firstPower": "341622.94",
+      "secondPower": "325814.28",
+      "firstPrice": "194.63",
+      "secondPrice": "153.62"
+    },
+    {
+      "time": "2025-05-28",
+      "areaCode": null,
+      "firstPower": "333345.04",
+      "secondPower": "313905.86",
+      "firstPrice": "133.1",
+      "secondPrice": "109.72"
+    },
+    {
+      "time": "2025-05-29",
+      "areaCode": null,
+      "firstPower": "331133.76",
+      "secondPower": "320918.83",
+      "firstPrice": "114.67",
+      "secondPrice": "91.41"
+    },
+    {
+      "time": "2025-05-30",
+      "areaCode": null,
+      "firstPower": "333525.86",
+      "secondPower": "355495.29",
+      "firstPrice": "199.77",
+      "secondPrice": "246.73"
+    },
+    {
+      "time": "2025-05-31",
+      "areaCode": null,
+      "firstPower": "334123.53",
+      "secondPower": "306673.67",
+      "firstPrice": "207.73",
+      "secondPrice": "171.11"
+    },
+    {
+      "time": "2025-06-01",
+      "areaCode": null,
+      "firstPower": "381193.3",
+      "secondPower": "384233.41",
+      "firstPrice": "297.87",
+      "secondPrice": "332.67"
+    },
+    {
+      "time": "2025-06-02",
+      "areaCode": null,
+      "firstPower": "361070.02",
+      "secondPower": "365188.48",
+      "firstPrice": "302.96",
+      "secondPrice": "350.01"
+    },
+    {
+      "time": "2025-06-03",
+      "areaCode": null,
+      "firstPower": "374503.12",
+      "secondPower": "375253.75",
+      "firstPrice": "365.62",
+      "secondPrice": "312.46"
+    },
+    {
+      "time": "2025-06-04",
+      "areaCode": null,
+      "firstPower": "365004.96",
+      "secondPower": "376556.99",
+      "firstPrice": "274.87",
+      "secondPrice": "240.46"
+    },
+    {
+      "time": "2025-06-05",
+      "areaCode": null,
+      "firstPower": "391819.6",
+      "secondPower": "396641.46",
+      "firstPrice": "257.64",
+      "secondPrice": "291.88"
+    },
+    {
+      "time": "2025-06-06",
+      "areaCode": null,
+      "firstPower": "412179.62",
+      "secondPower": "439543.41",
+      "firstPrice": "238.91",
+      "secondPrice": "291.8"
+    },
+    {
+      "time": "2025-06-07",
+      "areaCode": null,
+      "firstPower": "435062.36",
+      "secondPower": "429345.3",
+      "firstPrice": "235.0",
+      "secondPrice": "226.98"
+    },
+    {
+      "time": "2025-06-08",
+      "areaCode": null,
+      "firstPower": "415285.2",
+      "secondPower": "418401.47",
+      "firstPrice": "203.62",
+      "secondPrice": "219.49"
+    },
+    {
+      "time": "2025-06-09",
+      "areaCode": null,
+      "firstPower": "427606.7",
+      "secondPower": "421705.25",
+      "firstPrice": "183.11",
+      "secondPrice": "188.4"
+    },
+    {
+      "time": "2025-06-10",
+      "areaCode": null,
+      "firstPower": "445355.42",
+      "secondPower": "451431.86",
+      "firstPrice": "188.5",
+      "secondPrice": "219.18"
+    },
+    {
+      "time": "2025-06-11",
+      "areaCode": null,
+      "firstPower": "435971.32",
+      "secondPower": "450807.69",
+      "firstPrice": "153.73",
+      "secondPrice": "175.89"
+    },
+    {
+      "time": "2025-06-12",
+      "areaCode": null,
+      "firstPower": "462200.27",
+      "secondPower": "462454.04",
+      "firstPrice": "209.78",
+      "secondPrice": "242.29"
+    },
+    {
+      "time": "2025-06-13",
+      "areaCode": null,
+      "firstPower": "508286.83",
+      "secondPower": "511066.33",
+      "firstPrice": "310.66",
+      "secondPrice": "305.38"
+    },
+    {
+      "time": "2025-06-14",
+      "areaCode": null,
+      "firstPower": "457934.4",
+      "secondPower": "398939.0",
+      "firstPrice": "198.79",
+      "secondPrice": "127.2"
+    },
+    {
+      "time": "2025-06-15",
+      "areaCode": null,
+      "firstPower": "364048.31",
+      "secondPower": "345751.36",
+      "firstPrice": "112.13",
+      "secondPrice": "91.53"
+    },
+    {
+      "time": "2025-06-16",
+      "areaCode": null,
+      "firstPower": "398653.49",
+      "secondPower": "410247.64",
+      "firstPrice": "190.02",
+      "secondPrice": "210.99"
+    },
+    {
+      "time": "2025-06-17",
+      "areaCode": null,
+      "firstPower": "462530.06",
+      "secondPower": "456071.78",
+      "firstPrice": "297.34",
+      "secondPrice": "248.94"
+    },
+    {
+      "time": "2025-06-18",
+      "areaCode": null,
+      "firstPower": "398105.31",
+      "secondPower": "448702.33",
+      "firstPrice": "174.98",
+      "secondPrice": "266.0"
+    },
+    {
+      "time": "2025-06-19",
+      "areaCode": null,
+      "firstPower": "432627.3",
+      "secondPower": "465862.51",
+      "firstPrice": "266.32",
+      "secondPrice": "331.57"
+    },
+    {
+      "time": "2025-06-20",
+      "areaCode": null,
+      "firstPower": "473001.73",
+      "secondPower": "462844.66",
+      "firstPrice": "274.8",
+      "secondPrice": "320.8"
+    },
+    {
+      "time": "2025-06-21",
+      "areaCode": null,
+      "firstPower": "449955.31",
+      "secondPower": "449846.85",
+      "firstPrice": "230.79",
+      "secondPrice": "282.07"
+    },
+    {
+      "time": "2025-06-22",
+      "areaCode": null,
+      "firstPower": "467545.99",
+      "secondPower": "438921.71",
+      "firstPrice": "298.59",
+      "secondPrice": "236.1"
+    },
+    {
+      "time": "2025-06-23",
+      "areaCode": null,
+      "firstPower": "439371.25",
+      "secondPower": "424961.3",
+      "firstPrice": "225.93",
+      "secondPrice": "217.43"
+    },
+    {
+      "time": "2025-06-24",
+      "areaCode": null,
+      "firstPower": "453740.58",
+      "secondPower": "420987.2",
+      "firstPrice": "210.51",
+      "secondPrice": "201.34"
+    },
+    {
+      "time": "2025-06-25",
+      "areaCode": null,
+      "firstPower": "423742.52",
+      "secondPower": "395622.5",
+      "firstPrice": "242.59",
+      "secondPrice": "223.81"
+    },
+    {
+      "time": "2025-06-26",
+      "areaCode": null,
+      "firstPower": "405451.95",
+      "secondPower": "0.0",
+      "firstPrice": "219.7",
+      "secondPrice": null
+    },
+    {
+      "time": "2025-06-27",
+      "areaCode": null,
+      "firstPower": "430774.79",
+      "secondPower": "403855.93",
+      "firstPrice": "219.15",
+      "secondPrice": "222.39"
+    },
+    {
+      "time": "2025-06-28",
+      "areaCode": null,
+      "firstPower": "417171.79",
+      "secondPower": "410765.26",
+      "firstPrice": "236.91",
+      "secondPrice": "220.37"
+    },
+    {
+      "time": "2025-06-29",
+      "areaCode": null,
+      "firstPower": "429256.25",
+      "secondPower": "416762.43",
+      "firstPrice": "228.42",
+      "secondPrice": "205.27"
+    },
+    {
+      "time": "2025-06-30",
+      "areaCode": null,
+      "firstPower": "436689.48",
+      "secondPower": "388006.15",
+      "firstPrice": "262.73",
+      "secondPrice": "233.43"
+    },
+    {
+      "time": "2025-07-01",
+      "areaCode": null,
+      "firstPower": "443989.01",
+      "secondPower": "450224.61",
+      "firstPrice": "240.99",
+      "secondPrice": "255.23"
+    },
+    {
+      "time": "2025-07-02",
+      "areaCode": null,
+      "firstPower": "440879.24",
+      "secondPower": "467066.52",
+      "firstPrice": "200.66",
+      "secondPrice": "231.37"
+    },
+    {
+      "time": "2025-07-03",
+      "areaCode": null,
+      "firstPower": "478230.99",
+      "secondPower": "461777.05",
+      "firstPrice": "231.45",
+      "secondPrice": "214.09"
+    },
+    {
+      "time": "2025-07-04",
+      "areaCode": null,
+      "firstPower": "536231.67",
+      "secondPower": "456352.74",
+      "firstPrice": "250.75",
+      "secondPrice": "159.32"
+    },
+    {
+      "time": "2025-07-05",
+      "areaCode": null,
+      "firstPower": "445036.34",
+      "secondPower": "440288.19",
+      "firstPrice": "157.03",
+      "secondPrice": "164.13"
+    },
+    {
+      "time": "2025-07-06",
+      "areaCode": null,
+      "firstPower": "458608.75",
+      "secondPower": "460816.27",
+      "firstPrice": "213.47",
+      "secondPrice": "214.43"
+    },
+    {
+      "time": "2025-07-07",
+      "areaCode": null,
+      "firstPower": "457449.33",
+      "secondPower": "446867.82",
+      "firstPrice": "167.96",
+      "secondPrice": "148.79"
+    },
+    {
+      "time": "2025-07-08",
+      "areaCode": null,
+      "firstPower": "448926.49",
+      "secondPower": "431057.45",
+      "firstPrice": "160.9",
+      "secondPrice": "140.04"
+    },
+    {
+      "time": "2025-07-09",
+      "areaCode": null,
+      "firstPower": "435697.13",
+      "secondPower": "439632.59",
+      "firstPrice": "141.06",
+      "secondPrice": "169.29"
+    },
+    {
+      "time": "2025-07-10",
+      "areaCode": null,
+      "firstPower": "435329.5",
+      "secondPower": "440522.46",
+      "firstPrice": "125.46",
+      "secondPrice": "122.25"
+    },
+    {
+      "time": "2025-07-11",
+      "areaCode": null,
+      "firstPower": "451094.88",
+      "secondPower": "466001.0",
+      "firstPrice": "156.4",
+      "secondPrice": "154.97"
+    },
+    {
+      "time": "2025-07-12",
+      "areaCode": null,
+      "firstPower": "479340.45",
+      "secondPower": "479009.45",
+      "firstPrice": "189.42",
+      "secondPrice": "202.09"
+    },
+    {
+      "time": "2025-07-13",
+      "areaCode": null,
+      "firstPower": "487060.34",
+      "secondPower": "505318.94",
+      "firstPrice": "250.53",
+      "secondPrice": "256.94"
+    },
+    {
+      "time": "2025-07-14",
+      "areaCode": null,
+      "firstPower": "538702.0",
+      "secondPower": "562728.76",
+      "firstPrice": "214.71",
+      "secondPrice": "234.4"
+    },
+    {
+      "time": "2025-07-15",
+      "areaCode": null,
+      "firstPower": "594807.72",
+      "secondPower": "631933.7",
+      "firstPrice": "250.79",
+      "secondPrice": "282.6"
+    },
+    {
+      "time": "2025-07-16",
+      "areaCode": null,
+      "firstPower": "619770.14",
+      "secondPower": "657004.85",
+      "firstPrice": "292.56",
+      "secondPrice": "338.68"
+    },
+    {
+      "time": "2025-07-17",
+      "areaCode": null,
+      "firstPower": "628248.33",
+      "secondPower": "635784.91",
+      "firstPrice": "315.01",
+      "secondPrice": "292.05"
+    },
+    {
+      "time": "2025-07-18",
+      "areaCode": null,
+      "firstPower": "599399.96",
+      "secondPower": "618490.25",
+      "firstPrice": "248.2",
+      "secondPrice": "259.09"
+    },
+    {
+      "time": "2025-07-19",
+      "areaCode": null,
+      "firstPower": "645845.35",
+      "secondPower": "632546.04",
+      "firstPrice": "328.88",
+      "secondPrice": "286.7"
+    },
+    {
+      "time": "2025-07-20",
+      "areaCode": null,
+      "firstPower": "553162.99",
+      "secondPower": "530408.31",
+      "firstPrice": "256.64",
+      "secondPrice": "254.03"
+    },
+    {
+      "time": "2025-07-21",
+      "areaCode": null,
+      "firstPower": "497477.01",
+      "secondPower": "532299.43",
+      "firstPrice": "210.0",
+      "secondPrice": "273.16"
+    },
+    {
+      "time": "2025-07-22",
+      "areaCode": null,
+      "firstPower": "533845.68",
+      "secondPower": "527452.72",
+      "firstPrice": "220.29",
+      "secondPrice": "187.43"
+    },
+    {
+      "time": "2025-07-23",
+      "areaCode": null,
+      "firstPower": "533822.14",
+      "secondPower": "553627.07",
+      "firstPrice": "267.7",
+      "secondPrice": "310.28"
+    },
+    {
+      "time": "2025-07-24",
+      "areaCode": null,
+      "firstPower": "588445.96",
+      "secondPower": "630018.94",
+      "firstPrice": "343.68",
+      "secondPrice": "372.42"
+    },
+    {
+      "time": "2025-07-25",
+      "areaCode": null,
+      "firstPower": "627235.38",
+      "secondPower": "644439.22",
+      "firstPrice": "305.54",
+      "secondPrice": "447.96"
+    },
+    {
+      "time": "2025-07-26",
+      "areaCode": null,
+      "firstPower": "596638.88",
+      "secondPower": "625516.73",
+      "firstPrice": "303.39",
+      "secondPrice": "381.2"
+    },
+    {
+      "time": "2025-07-27",
+      "areaCode": null,
+      "firstPower": "592964.19",
+      "secondPower": "597076.7",
+      "firstPrice": "330.85",
+      "secondPrice": "308.56"
+    },
+    {
+      "time": "2025-07-28",
+      "areaCode": null,
+      "firstPower": "614891.36",
+      "secondPower": "609309.97",
+      "firstPrice": "312.97",
+      "secondPrice": "275.87"
+    },
+    {
+      "time": "2025-07-29",
+      "areaCode": null,
+      "firstPower": "632823.55",
+      "secondPower": "620417.04",
+      "firstPrice": "342.43",
+      "secondPrice": "294.65"
+    },
+    {
+      "time": "2025-07-30",
+      "areaCode": null,
+      "firstPower": "635532.19",
+      "secondPower": "626318.27",
+      "firstPrice": "357.06",
+      "secondPrice": "302.95"
+    },
+    {
+      "time": "2025-07-31",
+      "areaCode": null,
+      "firstPower": "663225.76",
+      "secondPower": "649758.52",
+      "firstPrice": "413.09",
+      "secondPrice": "393.62"
+    },
+    {
+      "time": "2025-08-01",
+      "areaCode": null,
+      "firstPower": "653664.1",
+      "secondPower": "628645.09",
+      "firstPrice": "293.0",
+      "secondPrice": "222.2"
+    },
+    {
+      "time": "2025-08-02",
+      "areaCode": null,
+      "firstPower": "623154.93",
+      "secondPower": "624722.9",
+      "firstPrice": "313.56",
+      "secondPrice": "274.98"
+    },
+    {
+      "time": "2025-08-03",
+      "areaCode": null,
+      "firstPower": "634341.97",
+      "secondPower": "661587.25",
+      "firstPrice": "358.84",
+      "secondPrice": "401.07"
+    },
+    {
+      "time": "2025-08-04",
+      "areaCode": null,
+      "firstPower": "705764.41",
+      "secondPower": "723971.06",
+      "firstPrice": "423.42",
+      "secondPrice": "438.38"
+    },
+    {
+      "time": "2025-08-05",
+      "areaCode": null,
+      "firstPower": "591633.95",
+      "secondPower": "681956.48",
+      "firstPrice": "272.78",
+      "secondPrice": "471.49"
+    },
+    {
+      "time": "2025-08-06",
+      "areaCode": null,
+      "firstPower": "612174.93",
+      "secondPower": "670647.03",
+      "firstPrice": "364.51",
+      "secondPrice": "485.46"
+    },
+    {
+      "time": "2025-08-07",
+      "areaCode": null,
+      "firstPower": "659432.22",
+      "secondPower": "680848.58",
+      "firstPrice": "391.09",
+      "secondPrice": "435.02"
+    },
+    {
+      "time": "2025-08-08",
+      "areaCode": null,
+      "firstPower": "691182.27",
+      "secondPower": "693310.62",
+      "firstPrice": "417.88",
+      "secondPrice": "439.36"
+    },
+    {
+      "time": "2025-08-09",
+      "areaCode": null,
+      "firstPower": "587088.91",
+      "secondPower": "585471.61",
+      "firstPrice": "287.85",
+      "secondPrice": "276.56"
+    },
+    {
+      "time": "2025-08-10",
+      "areaCode": null,
+      "firstPower": "540223.99",
+      "secondPower": "523192.89",
+      "firstPrice": "238.13",
+      "secondPrice": "241.79"
+    },
+    {
+      "time": "2025-08-11",
+      "areaCode": null,
+      "firstPower": "547021.74",
+      "secondPower": "501244.19",
+      "firstPrice": "242.83",
+      "secondPrice": "172.7"
+    },
+    {
+      "time": "2025-08-12",
+      "areaCode": null,
+      "firstPower": "569409.22",
+      "secondPower": "539404.05",
+      "firstPrice": "285.98",
+      "secondPrice": "209.2"
+    },
+    {
+      "time": "2025-08-13",
+      "areaCode": null,
+      "firstPower": "563558.58",
+      "secondPower": "544816.35",
+      "firstPrice": "284.41",
+      "secondPrice": "199.83"
+    },
+    {
+      "time": "2025-08-14",
+      "areaCode": null,
+      "firstPower": "554038.16",
+      "secondPower": "552889.28",
+      "firstPrice": "255.26",
+      "secondPrice": "260.14"
+    },
+    {
+      "time": "2025-08-15",
+      "areaCode": null,
+      "firstPower": "549068.84",
+      "secondPower": "543634.21",
+      "firstPrice": "228.02",
+      "secondPrice": "215.81"
+    },
+    {
+      "time": "2025-08-16",
+      "areaCode": null,
+      "firstPower": "518365.83",
+      "secondPower": "521043.9",
+      "firstPrice": "197.52",
+      "secondPrice": "257.6"
+    },
+    {
+      "time": "2025-08-17",
+      "areaCode": null,
+      "firstPower": "559637.94",
+      "secondPower": "571489.61",
+      "firstPrice": "248.35",
+      "secondPrice": "258.0"
+    },
+    {
+      "time": "2025-08-18",
+      "areaCode": null,
+      "firstPower": "585733.15",
+      "secondPower": "591719.58",
+      "firstPrice": "271.13",
+      "secondPrice": "346.46"
+    },
+    {
+      "time": "2025-08-19",
+      "areaCode": null,
+      "firstPower": "648222.62",
+      "secondPower": "626697.48",
+      "firstPrice": "374.71",
+      "secondPrice": "368.34"
+    },
+    {
+      "time": "2025-08-20",
+      "areaCode": null,
+      "firstPower": "646153.5",
+      "secondPower": "642555.05",
+      "firstPrice": "360.34",
+      "secondPrice": "359.13"
+    },
+    {
+      "time": "2025-08-21",
+      "areaCode": null,
+      "firstPower": "638802.72",
+      "secondPower": "603057.14",
+      "firstPrice": "335.92",
+      "secondPrice": "282.08"
+    },
+    {
+      "time": "2025-08-22",
+      "areaCode": null,
+      "firstPower": "584108.71",
+      "secondPower": "614134.11",
+      "firstPrice": "284.51",
+      "secondPrice": "331.85"
+    },
+    {
+      "time": "2025-08-23",
+      "areaCode": null,
+      "firstPower": "570916.59",
+      "secondPower": "531287.84",
+      "firstPrice": "332.15",
+      "secondPrice": "275.03"
+    },
+    {
+      "time": "2025-08-24",
+      "areaCode": null,
+      "firstPower": "514890.54",
+      "secondPower": "485145.55",
+      "firstPrice": "333.97",
+      "secondPrice": "259.59"
+    },
+    {
+      "time": "2025-08-25",
+      "areaCode": null,
+      "firstPower": "494571.95",
+      "secondPower": "492940.25",
+      "firstPrice": "312.58",
+      "secondPrice": "301.4"
+    },
+    {
+      "time": "2025-08-26",
+      "areaCode": null,
+      "firstPower": "523842.63",
+      "secondPower": "509278.89",
+      "firstPrice": "241.88",
+      "secondPrice": "224.68"
+    },
+    {
+      "time": "2025-08-27",
+      "areaCode": null,
+      "firstPower": "550549.81",
+      "secondPower": "511922.84",
+      "firstPrice": "353.67",
+      "secondPrice": "252.14"
+    },
+    {
+      "time": "2025-08-28",
+      "areaCode": null,
+      "firstPower": "532373.61",
+      "secondPower": "527697.52",
+      "firstPrice": "271.85",
+      "secondPrice": "293.52"
+    },
+    {
+      "time": "2025-08-29",
+      "areaCode": null,
+      "firstPower": "471189.84",
+      "secondPower": "451374.59",
+      "firstPrice": "203.52",
+      "secondPrice": "157.15"
+    },
+    {
+      "time": "2025-08-30",
+      "areaCode": null,
+      "firstPower": "441182.32",
+      "secondPower": "457024.57",
+      "firstPrice": "231.51",
+      "secondPrice": "230.83"
+    },
+    {
+      "time": "2025-08-31",
+      "areaCode": null,
+      "firstPower": "432444.33",
+      "secondPower": "422367.71",
+      "firstPrice": "238.41",
+      "secondPrice": "218.75"
+    },
+    {
+      "time": "2025-09-01",
+      "areaCode": null,
+      "firstPower": "401643.06",
+      "secondPower": "383789.05",
+      "firstPrice": "194.44",
+      "secondPrice": "168.54"
+    },
+    {
+      "time": "2025-09-02",
+      "areaCode": null,
+      "firstPower": "379549.4",
+      "secondPower": "395720.04",
+      "firstPrice": "255.42",
+      "secondPrice": "488.39"
+    },
+    {
+      "time": "2025-09-03",
+      "areaCode": null,
+      "firstPower": "363959.29",
+      "secondPower": "383095.2",
+      "firstPrice": "191.06",
+      "secondPrice": "242.75"
+    },
+    {
+      "time": "2025-09-04",
+      "areaCode": null,
+      "firstPower": "370063.23",
+      "secondPower": "389519.89",
+      "firstPrice": "237.85",
+      "secondPrice": "375.11"
+    },
+    {
+      "time": "2025-09-05",
+      "areaCode": null,
+      "firstPower": "366838.96",
+      "secondPower": "352659.45",
+      "firstPrice": "195.49",
+      "secondPrice": "219.17"
+    },
+    {
+      "time": "2025-09-06",
+      "areaCode": null,
+      "firstPower": "304392.64",
+      "secondPower": "302365.66",
+      "firstPrice": "105.63",
+      "secondPrice": "106.95"
+    },
+    {
+      "time": "2025-09-07",
+      "areaCode": null,
+      "firstPower": "307636.84",
+      "secondPower": "311010.97",
+      "firstPrice": "221.55",
+      "secondPrice": "210.97"
+    },
+    {
+      "time": "2025-09-08",
+      "areaCode": null,
+      "firstPower": "306105.84",
+      "secondPower": "293513.01",
+      "firstPrice": "212.82",
+      "secondPrice": "137.24"
+    },
+    {
+      "time": "2025-09-09",
+      "areaCode": null,
+      "firstPower": "311512.01",
+      "secondPower": "298591.93",
+      "firstPrice": "81.62",
+      "secondPrice": "115.14"
+    },
+    {
+      "time": "2025-09-10",
+      "areaCode": null,
+      "firstPower": "311180.52",
+      "secondPower": "320483.12",
+      "firstPrice": "125.3",
+      "secondPrice": "265.95"
+    },
+    {
+      "time": "2025-09-11",
+      "areaCode": null,
+      "firstPower": "356122.08",
+      "secondPower": "358459.03",
+      "firstPrice": "376.26",
+      "secondPrice": "400.96"
+    },
+    {
+      "time": "2025-09-12",
+      "areaCode": null,
+      "firstPower": "330399.38",
+      "secondPower": "333259.69",
+      "firstPrice": "125.58",
+      "secondPrice": "111.97"
+    },
+    {
+      "time": "2025-09-13",
+      "areaCode": null,
+      "firstPower": "313484.88",
+      "secondPower": "316477.88",
+      "firstPrice": "105.55",
+      "secondPrice": "101.49"
+    },
+    {
+      "time": "2025-09-14",
+      "areaCode": null,
+      "firstPower": "330619.22",
+      "secondPower": "328915.55",
+      "firstPrice": "126.16",
+      "secondPrice": "167.86"
+    },
+    {
+      "time": "2025-09-15",
+      "areaCode": null,
+      "firstPower": "332648.35",
+      "secondPower": "347144.96",
+      "firstPrice": "235.41",
+      "secondPrice": "215.98"
+    },
+    {
+      "time": "2025-09-16",
+      "areaCode": null,
+      "firstPower": "338967.43",
+      "secondPower": "349572.53",
+      "firstPrice": "143.09",
+      "secondPrice": "223.74"
+    },
+    {
+      "time": "2025-09-17",
+      "areaCode": null,
+      "firstPower": "331161.65",
+      "secondPower": "336420.62",
+      "firstPrice": "147.03",
+      "secondPrice": "189.95"
+    },
+    {
+      "time": "2025-09-18",
+      "areaCode": null,
+      "firstPower": "338003.72",
+      "secondPower": "347093.21",
+      "firstPrice": "142.21",
+      "secondPrice": "216.4"
+    },
+    {
+      "time": "2025-09-19",
+      "areaCode": null,
+      "firstPower": "314112.83",
+      "secondPower": "316380.86",
+      "firstPrice": "136.04",
+      "secondPrice": "160.16"
+    },
+    {
+      "time": "2025-09-20",
+      "areaCode": null,
+      "firstPower": "288974.72",
+      "secondPower": "279352.95",
+      "firstPrice": "65.23",
+      "secondPrice": "68.77"
+    },
+    {
+      "time": "2025-09-21",
+      "areaCode": null,
+      "firstPower": "301959.14",
+      "secondPower": "329652.9",
+      "firstPrice": "58.8",
+      "secondPrice": "211.43"
+    },
+    {
+      "time": "2025-09-22",
+      "areaCode": null,
+      "firstPower": "313592.2",
+      "secondPower": "342849.91",
+      "firstPrice": "134.63",
+      "secondPrice": "280.41"
+    },
+    {
+      "time": "2025-09-23",
+      "areaCode": null,
+      "firstPower": "288366.8",
+      "secondPower": "284834.42",
+      "firstPrice": "45.21",
+      "secondPrice": "59.97"
+    },
+    {
+      "time": "2025-09-24",
+      "areaCode": null,
+      "firstPower": "267455.93",
+      "secondPower": "265779.41",
+      "firstPrice": "52.27",
+      "secondPrice": "56.79"
+    },
+    {
+      "time": "2025-09-25",
+      "areaCode": null,
+      "firstPower": "265487.4",
+      "secondPower": "273837.02",
+      "firstPrice": "40.0",
+      "secondPrice": "40.0"
+    },
+    {
+      "time": "2025-09-26",
+      "areaCode": null,
+      "firstPower": "296476.32",
+      "secondPower": "314679.51",
+      "firstPrice": "81.42",
+      "secondPrice": "110.67"
+    },
+    {
+      "time": "2025-09-27",
+      "areaCode": null,
+      "firstPower": "323193.92",
+      "secondPower": "339372.61",
+      "firstPrice": "96.59",
+      "secondPrice": "524.82"
+    },
+    {
+      "time": "2025-09-28",
+      "areaCode": null,
+      "firstPower": "313977.44",
+      "secondPower": "328242.8",
+      "firstPrice": "159.39",
+      "secondPrice": "253.56"
+    },
+    {
+      "time": "2025-09-29",
+      "areaCode": null,
+      "firstPower": "283162.22",
+      "secondPower": "301569.6",
+      "firstPrice": "115.57",
+      "secondPrice": "139.13"
+    },
+    {
+      "time": "2025-09-30",
+      "areaCode": null,
+      "firstPower": "280495.0",
+      "secondPower": "294367.88",
+      "firstPrice": "119.05",
+      "secondPrice": "142.76"
+    },
+    {
+      "time": "2025-10-01",
+      "areaCode": null,
+      "firstPower": "277621.95",
+      "secondPower": "279757.07",
+      "firstPrice": "259.94",
+      "secondPrice": "258.22"
+    },
+    {
+      "time": "2025-10-02",
+      "areaCode": null,
+      "firstPower": "248566.47",
+      "secondPower": "240955.95",
+      "firstPrice": "147.49",
+      "secondPrice": "156.06"
+    },
+    {
+      "time": "2025-10-03",
+      "areaCode": null,
+      "firstPower": "260981.67",
+      "secondPower": "246910.25",
+      "firstPrice": "211.12",
+      "secondPrice": "222.93"
+    },
+    {
+      "time": "2025-10-04",
+      "areaCode": null,
+      "firstPower": "282890.29",
+      "secondPower": "278424.44",
+      "firstPrice": "329.73",
+      "secondPrice": "360.87"
+    },
+    {
+      "time": "2025-10-05",
+      "areaCode": null,
+      "firstPower": "304661.84",
+      "secondPower": "305160.29",
+      "firstPrice": "369.48",
+      "secondPrice": "460.47"
+    },
+    {
+      "time": "2025-10-06",
+      "areaCode": null,
+      "firstPower": "305709.57",
+      "secondPower": "298014.82",
+      "firstPrice": "186.37",
+      "secondPrice": "217.57"
+    },
+    {
+      "time": "2025-10-07",
+      "areaCode": null,
+      "firstPower": "295508.26",
+      "secondPower": "303353.86",
+      "firstPrice": "138.31",
+      "secondPrice": "218.42"
+    },
+    {
+      "time": "2025-10-08",
+      "areaCode": null,
+      "firstPower": "297235.37",
+      "secondPower": "321215.05",
+      "firstPrice": "101.32",
+      "secondPrice": "223.16"
+    },
+    {
+      "time": "2025-10-09",
+      "areaCode": null,
+      "firstPower": "318282.46",
+      "secondPower": "337748.87",
+      "firstPrice": "193.86",
+      "secondPrice": "481.77"
+    },
+    {
+      "time": "2025-10-10",
+      "areaCode": null,
+      "firstPower": "342827.36",
+      "secondPower": "348277.34",
+      "firstPrice": "314.58",
+      "secondPrice": "418.74"
+    },
+    {
+      "time": "2025-10-11",
+      "areaCode": null,
+      "firstPower": "339352.74",
+      "secondPower": "357127.23",
+      "firstPrice": "253.14",
+      "secondPrice": "336.38"
+    },
+    {
+      "time": "2025-10-12",
+      "areaCode": null,
+      "firstPower": "339856.4",
+      "secondPower": "353036.71",
+      "firstPrice": "192.41",
+      "secondPrice": "279.69"
+    },
+    {
+      "time": "2025-10-13",
+      "areaCode": null,
+      "firstPower": "334984.46",
+      "secondPower": "312979.79",
+      "firstPrice": "142.67",
+      "secondPrice": "157.41"
+    },
+    {
+      "time": "2025-10-14",
+      "areaCode": null,
+      "firstPower": "317273.65",
+      "secondPower": "339533.12",
+      "firstPrice": "144.32",
+      "secondPrice": "209.17"
+    },
+    {
+      "time": "2025-10-15",
+      "areaCode": null,
+      "firstPower": "334154.52",
+      "secondPower": "327678.2",
+      "firstPrice": "206.48",
+      "secondPrice": "221.03"
+    },
+    {
+      "time": "2025-10-16",
+      "areaCode": null,
+      "firstPower": "373825.96",
+      "secondPower": "371003.45",
+      "firstPrice": "224.42",
+      "secondPrice": "294.29"
+    },
+    {
+      "time": "2025-10-17",
+      "areaCode": null,
+      "firstPower": "370505.73",
+      "secondPower": "377278.51",
+      "firstPrice": "217.15",
+      "secondPrice": "228.9"
+    },
+    {
+      "time": "2025-10-18",
+      "areaCode": null,
+      "firstPower": "372088.13",
+      "secondPower": "398732.78",
+      "firstPrice": "362.8",
+      "secondPrice": "550.06"
+    },
+    {
+      "time": "2025-10-19",
+      "areaCode": null,
+      "firstPower": "365820.82",
+      "secondPower": "366904.7",
+      "firstPrice": "190.52",
+      "secondPrice": "237.79"
+    },
+    {
+      "time": "2025-10-20",
+      "areaCode": null,
+      "firstPower": "423800.22",
+      "secondPower": "428505.28",
+      "firstPrice": "408.3",
+      "secondPrice": "574.26"
+    },
+    {
+      "time": "2025-10-21",
+      "areaCode": null,
+      "firstPower": "412031.17",
+      "secondPower": "423151.68",
+      "firstPrice": "314.27",
+      "secondPrice": "304.62"
+    },
+    {
+      "time": "2025-10-22",
+      "areaCode": null,
+      "firstPower": "439540.29",
+      "secondPower": "460102.13",
+      "firstPrice": "289.66",
+      "secondPrice": "361.84"
+    },
+    {
+      "time": "2025-10-23",
+      "areaCode": null,
+      "firstPower": "440742.81",
+      "secondPower": "456400.26",
+      "firstPrice": "256.71",
+      "secondPrice": "379.97"
+    },
+    {
+      "time": "2025-10-24",
+      "areaCode": null,
+      "firstPower": "459019.9",
+      "secondPower": "474694.29",
+      "firstPrice": "354.92",
+      "secondPrice": "446.85"
+    },
+    {
+      "time": "2025-10-25",
+      "areaCode": null,
+      "firstPower": "450347.63",
+      "secondPower": "453249.62",
+      "firstPrice": "315.53",
+      "secondPrice": "312.33"
+    },
+    {
+      "time": "2025-10-26",
+      "areaCode": null,
+      "firstPower": "434696.52",
+      "secondPower": "417734.11",
+      "firstPrice": "311.17",
+      "secondPrice": "355.29"
+    },
+    {
+      "time": "2025-10-27",
+      "areaCode": null,
+      "firstPower": "420610.45",
+      "secondPower": "431921.8",
+      "firstPrice": "241.86",
+      "secondPrice": "282.73"
+    },
+    {
+      "time": "2025-10-28",
+      "areaCode": null,
+      "firstPower": "424947.69",
+      "secondPower": "425468.85",
+      "firstPrice": "362.42",
+      "secondPrice": "447.77"
+    },
+    {
+      "time": "2025-10-29",
+      "areaCode": null,
+      "firstPower": "429471.78",
+      "secondPower": "440543.04",
+      "firstPrice": "313.31",
+      "secondPrice": "319.6"
+    },
+    {
+      "time": "2025-10-30",
+      "areaCode": null,
+      "firstPower": "422353.23",
+      "secondPower": "404095.68",
+      "firstPrice": "304.2",
+      "secondPrice": "275.67"
+    },
+    {
+      "time": "2025-10-31",
+      "areaCode": null,
+      "firstPower": "418199.56",
+      "secondPower": "415775.28",
+      "firstPrice": "317.07",
+      "secondPrice": "309.67"
+    },
+    {
+      "time": "2025-11-01",
+      "areaCode": null,
+      "firstPower": "414711.94",
+      "secondPower": "415575.6",
+      "firstPrice": "249.94",
+      "secondPrice": "266.49"
+    },
+    {
+      "time": "2025-11-02",
+      "areaCode": null,
+      "firstPower": "404457.37",
+      "secondPower": "415054.97",
+      "firstPrice": "236.18",
+      "secondPrice": "290.89"
+    },
+    {
+      "time": "2025-11-03",
+      "areaCode": null,
+      "firstPower": "420851.64",
+      "secondPower": "418637.19",
+      "firstPrice": "161.28",
+      "secondPrice": "148.84"
+    },
+    {
+      "time": "2025-11-04",
+      "areaCode": null,
+      "firstPower": "417641.81",
+      "secondPower": "422415.53",
+      "firstPrice": "115.24",
+      "secondPrice": "124.5"
+    },
+    {
+      "time": "2025-11-05",
+      "areaCode": null,
+      "firstPower": "431494.15",
+      "secondPower": "460167.6",
+      "firstPrice": "132.24",
+      "secondPrice": "202.04"
+    },
+    {
+      "time": "2025-11-06",
+      "areaCode": null,
+      "firstPower": "399473.62",
+      "secondPower": "395599.2",
+      "firstPrice": "105.35",
+      "secondPrice": "125.4"
+    },
+    {
+      "time": "2025-11-07",
+      "areaCode": null,
+      "firstPower": "439475.78",
+      "secondPower": "457227.83",
+      "firstPrice": "227.84",
+      "secondPrice": "262.22"
+    },
+    {
+      "time": "2025-11-08",
+      "areaCode": null,
+      "firstPower": "432272.27",
+      "secondPower": "423576.94",
+      "firstPrice": "230.59",
+      "secondPrice": "234.21"
+    },
+    {
+      "time": "2025-11-09",
+      "areaCode": null,
+      "firstPower": "411615.1",
+      "secondPower": "406759.19",
+      "firstPrice": "256.97",
+      "secondPrice": "275.26"
+    },
+    {
+      "time": "2025-11-10",
+      "areaCode": null,
+      "firstPower": "461610.46",
+      "secondPower": "443442.49",
+      "firstPrice": "318.12",
+      "secondPrice": "256.67"
+    },
+    {
+      "time": "2025-11-11",
+      "areaCode": null,
+      "firstPower": "410518.88",
+      "secondPower": "420777.06",
+      "firstPrice": "262.68",
+      "secondPrice": "263.42"
+    },
+    {
+      "time": "2025-11-12",
+      "areaCode": null,
+      "firstPower": "408195.17",
+      "secondPower": "418968.46",
+      "firstPrice": "193.21",
+      "secondPrice": "274.81"
+    },
+    {
+      "time": "2025-11-13",
+      "areaCode": null,
+      "firstPower": "405344.35",
+      "secondPower": "425932.47",
+      "firstPrice": "258.01",
+      "secondPrice": "361.07"
+    },
+    {
+      "time": "2025-11-14",
+      "areaCode": null,
+      "firstPower": "397650.4",
+      "secondPower": "422100.3",
+      "firstPrice": "116.43",
+      "secondPrice": "176.64"
+    },
+    {
+      "time": "2025-11-15",
+      "areaCode": null,
+      "firstPower": "403877.85",
+      "secondPower": "408201.3",
+      "firstPrice": "172.88",
+      "secondPrice": "215.27"
+    },
+    {
+      "time": "2025-11-16",
+      "areaCode": null,
+      "firstPower": "408449.54",
+      "secondPower": "413429.84",
+      "firstPrice": "74.56",
+      "secondPrice": "98.25"
+    },
+    {
+      "time": "2025-11-17",
+      "areaCode": null,
+      "firstPower": "436032.56",
+      "secondPower": "438227.24",
+      "firstPrice": "104.38",
+      "secondPrice": "110.92"
+    },
+    {
+      "time": "2025-11-18",
+      "areaCode": null,
+      "firstPower": "467919.91",
+      "secondPower": "470861.7",
+      "firstPrice": "223.91",
+      "secondPrice": "217.56"
+    },
+    {
+      "time": "2025-11-19",
+      "areaCode": null,
+      "firstPower": "471855.0",
+      "secondPower": "481111.26",
+      "firstPrice": "237.06",
+      "secondPrice": "293.66"
+    },
+    {
+      "time": "2025-11-20",
+      "areaCode": null,
+      "firstPower": "516718.93",
+      "secondPower": "512050.26",
+      "firstPrice": "233.18",
+      "secondPrice": "248.9"
+    },
+    {
+      "time": "2025-11-21",
+      "areaCode": null,
+      "firstPower": "511231.89",
+      "secondPower": "518593.53",
+      "firstPrice": "285.09",
+      "secondPrice": "322.84"
+    },
+    {
+      "time": "2025-11-22",
+      "areaCode": null,
+      "firstPower": "485187.15",
+      "secondPower": "478753.88",
+      "firstPrice": "148.12",
+      "secondPrice": "136.76"
+    },
+    {
+      "time": "2025-11-23",
+      "areaCode": null,
+      "firstPower": "494869.55",
+      "secondPower": "469595.74",
+      "firstPrice": "127.57",
+      "secondPrice": "109.84"
+    },
+    {
+      "time": "2025-11-24",
+      "areaCode": null,
+      "firstPower": "471357.02",
+      "secondPower": "478370.72",
+      "firstPrice": "124.36",
+      "secondPrice": "143.22"
+    },
+    {
+      "time": "2025-11-25",
+      "areaCode": null,
+      "firstPower": "502814.23",
+      "secondPower": "481637.05",
+      "firstPrice": "261.07",
+      "secondPrice": "226.83"
+    },
+    {
+      "time": "2025-11-26",
+      "areaCode": null,
+      "firstPower": "457124.14",
+      "secondPower": "461803.38",
+      "firstPrice": "60.32",
+      "secondPrice": "93.35"
+    },
+    {
+      "time": "2025-11-27",
+      "areaCode": null,
+      "firstPower": "488309.2",
+      "secondPower": "478780.74",
+      "firstPrice": "143.13",
+      "secondPrice": "137.94"
+    },
+    {
+      "time": "2025-11-28",
+      "areaCode": null,
+      "firstPower": "475392.06",
+      "secondPower": "476549.51",
+      "firstPrice": "191.71",
+      "secondPrice": "184.1"
+    },
+    {
+      "time": "2025-11-29",
+      "areaCode": null,
+      "firstPower": "471460.55",
+      "secondPower": "485416.29",
+      "firstPrice": "153.54",
+      "secondPrice": "246.82"
+    },
+    {
+      "time": "2025-11-30",
+      "areaCode": null,
+      "firstPower": "476364.04",
+      "secondPower": "469774.6",
+      "firstPrice": "207.53",
+      "secondPrice": "214.25"
+    },
+    {
+      "time": "2025-12-01",
+      "areaCode": null,
+      "firstPower": "540258.52",
+      "secondPower": "525635.86",
+      "firstPrice": "224.27",
+      "secondPrice": "191.02"
+    },
+    {
+      "time": "2025-12-02",
+      "areaCode": null,
+      "firstPower": "530792.06",
+      "secondPower": "547050.66",
+      "firstPrice": "251.91",
+      "secondPrice": "262.34"
+    },
+    {
+      "time": "2025-12-03",
+      "areaCode": null,
+      "firstPower": "576568.01",
+      "secondPower": "578172.16",
+      "firstPrice": "298.53",
+      "secondPrice": "327.98"
+    },
+    {
+      "time": "2025-12-04",
+      "areaCode": null,
+      "firstPower": "571490.78",
+      "secondPower": "587543.52",
+      "firstPrice": "277.4",
+      "secondPrice": "328.95"
+    },
+    {
+      "time": "2025-12-05",
+      "areaCode": null,
+      "firstPower": "560947.61",
+      "secondPower": "571094.2",
+      "firstPrice": "158.54",
+      "secondPrice": "142.04"
+    },
+    {
+      "time": "2025-12-06",
+      "areaCode": null,
+      "firstPower": "537724.23",
+      "secondPower": "529776.08",
+      "firstPrice": "148.5",
+      "secondPrice": "129.77"
+    },
+    {
+      "time": "2025-12-07",
+      "areaCode": null,
+      "firstPower": "564832.88",
+      "secondPower": "553966.04",
+      "firstPrice": "306.52",
+      "secondPrice": "313.98"
+    },
+    {
+      "time": "2025-12-08",
+      "areaCode": null,
+      "firstPower": "590122.96",
+      "secondPower": "585516.52",
+      "firstPrice": "351.67",
+      "secondPrice": "402.81"
+    },
+    {
+      "time": "2025-12-09",
+      "areaCode": null,
+      "firstPower": "599392.9",
+      "secondPower": "607383.4",
+      "firstPrice": "237.9",
+      "secondPrice": "303.65"
+    },
+    {
+      "time": "2025-12-10",
+      "areaCode": null,
+      "firstPower": "563051.77",
+      "secondPower": "553440.78",
+      "firstPrice": "281.39",
+      "secondPrice": "275.78"
+    },
+    {
+      "time": "2025-12-11",
+      "areaCode": null,
+      "firstPower": "538642.57",
+      "secondPower": "548480.15",
+      "firstPrice": "120.27",
+      "secondPrice": "127.26"
+    },
+    {
+      "time": "2025-12-12",
+      "areaCode": null,
+      "firstPower": "576822.93",
+      "secondPower": "563183.19",
+      "firstPrice": "171.99",
+      "secondPrice": "178.27"
+    },
+    {
+      "time": "2025-12-13",
+      "areaCode": null,
+      "firstPower": "574793.5",
+      "secondPower": "571269.56",
+      "firstPrice": "316.38",
+      "secondPrice": "308.42"
+    },
+    {
+      "time": "2025-12-14",
+      "areaCode": null,
+      "firstPower": "590064.31",
+      "secondPower": "594295.97",
+      "firstPrice": "213.03",
+      "secondPrice": "172.05"
+    },
+    {
+      "time": "2025-12-15",
+      "areaCode": null,
+      "firstPower": "626019.9",
+      "secondPower": "625800.8",
+      "firstPrice": "338.92",
+      "secondPrice": "343.61"
+    },
+    {
+      "time": "2025-12-16",
+      "areaCode": null,
+      "firstPower": "601322.41",
+      "secondPower": "602551.47",
+      "firstPrice": "237.95",
+      "secondPrice": "263.88"
+    },
+    {
+      "time": "2025-12-17",
+      "areaCode": null,
+      "firstPower": "570876.22",
+      "secondPower": "556842.55",
+      "firstPrice": "279.18",
+      "secondPrice": "272.77"
+    },
+    {
+      "time": "2025-12-18",
+      "areaCode": null,
+      "firstPower": "548197.21",
+      "secondPower": "540087.11",
+      "firstPrice": "283.94",
+      "secondPrice": "171.96"
+    },
+    {
+      "time": "2025-12-19",
+      "areaCode": null,
+      "firstPower": "528661.29",
+      "secondPower": "528748.69",
+      "firstPrice": "258.71",
+      "secondPrice": "234.05"
+    },
+    {
+      "time": "2025-12-20",
+      "areaCode": null,
+      "firstPower": "536983.07",
+      "secondPower": "554042.34",
+      "firstPrice": "346.9",
+      "secondPrice": "369.76"
+    },
+    {
+      "time": "2025-12-21",
+      "areaCode": null,
+      "firstPower": "526578.39",
+      "secondPower": "509363.26",
+      "firstPrice": "191.56",
+      "secondPrice": "121.26"
+    },
+    {
+      "time": "2025-12-22",
+      "areaCode": null,
+      "firstPower": "558630.03",
+      "secondPower": "580612.71",
+      "firstPrice": "310.11",
+      "secondPrice": "375.64"
+    },
+    {
+      "time": "2025-12-23",
+      "areaCode": null,
+      "firstPower": "597766.17",
+      "secondPower": "591834.8",
+      "firstPrice": "257.05",
+      "secondPrice": "265.35"
+    },
+    {
+      "time": "2025-12-24",
+      "areaCode": null,
+      "firstPower": "596700.0",
+      "secondPower": "596041.34",
+      "firstPrice": "245.19",
+      "secondPrice": "223.03"
+    },
+    {
+      "time": "2025-12-25",
+      "areaCode": null,
+      "firstPower": "613238.68",
+      "secondPower": "628787.43",
+      "firstPrice": "320.72",
+      "secondPrice": "347.19"
+    },
+    {
+      "time": "2025-12-26",
+      "areaCode": null,
+      "firstPower": "600103.34",
+      "secondPower": "616180.08",
+      "firstPrice": "386.58",
+      "secondPrice": "372.16"
+    },
+    {
+      "time": "2025-12-27",
+      "areaCode": null,
+      "firstPower": "597930.08",
+      "secondPower": "611195.8",
+      "firstPrice": "342.34",
+      "secondPrice": "396.53"
+    },
+    {
+      "time": "2025-12-28",
+      "areaCode": null,
+      "firstPower": "595704.3",
+      "secondPower": "590495.94",
+      "firstPrice": "294.81",
+      "secondPrice": "286.02"
+    },
+    {
+      "time": "2025-12-29",
+      "areaCode": null,
+      "firstPower": "603456.14",
+      "secondPower": "606444.48",
+      "firstPrice": "372.42",
+      "secondPrice": "384.97"
+    },
+    {
+      "time": "2025-12-30",
+      "areaCode": null,
+      "firstPower": "580477.77",
+      "secondPower": "599292.11",
+      "firstPrice": "289.06",
+      "secondPrice": "247.91"
+    },
+    {
+      "time": "2025-12-31",
+      "areaCode": null,
+      "firstPower": "615992.28",
+      "secondPower": "616517.02",
+      "firstPrice": "316.17",
+      "secondPrice": "331.21"
+    },
+    {
+      "time": "2026-01-01",
+      "areaCode": null,
+      "firstPower": "637078.41",
+      "secondPower": "650040.99",
+      "firstPrice": "417.83",
+      "secondPrice": "433.55"
+    },
+    {
+      "time": "2026-01-02",
+      "areaCode": null,
+      "firstPower": "603743.45",
+      "secondPower": "658604.19",
+      "firstPrice": "324.22",
+      "secondPrice": "405.9"
+    },
+    {
+      "time": "2026-01-03",
+      "areaCode": null,
+      "firstPower": "668595.05",
+      "secondPower": "683748.16",
+      "firstPrice": "374.08",
+      "secondPrice": "467.33"
+    },
+    {
+      "time": "2026-01-04",
+      "areaCode": null,
+      "firstPower": "650274.14",
+      "secondPower": "652402.89",
+      "firstPrice": "349.78",
+      "secondPrice": "374.0"
+    },
+    {
+      "time": "2026-01-05",
+      "areaCode": null,
+      "firstPower": "636298.79",
+      "secondPower": "646974.26",
+      "firstPrice": "358.07",
+      "secondPrice": "376.73"
+    },
+    {
+      "time": "2026-01-06",
+      "areaCode": null,
+      "firstPower": "615100.99",
+      "secondPower": "601519.06",
+      "firstPrice": "356.16",
+      "secondPrice": "325.87"
+    },
+    {
+      "time": "2026-01-07",
+      "areaCode": null,
+      "firstPower": "612829.26",
+      "secondPower": "597240.1",
+      "firstPrice": "373.11",
+      "secondPrice": "347.6"
+    },
+    {
+      "time": "2026-01-08",
+      "areaCode": null,
+      "firstPower": "644945.74",
+      "secondPower": "626112.96",
+      "firstPrice": "320.93",
+      "secondPrice": "298.27"
+    },
+    {
+      "time": "2026-01-09",
+      "areaCode": null,
+      "firstPower": "604544.63",
+      "secondPower": "554772.1",
+      "firstPrice": "234.64",
+      "secondPrice": "174.57"
+    },
+    {
+      "time": "2026-01-10",
+      "areaCode": null,
+      "firstPower": "589547.93",
+      "secondPower": "566820.15",
+      "firstPrice": "200.19",
+      "secondPrice": "180.89"
+    },
+    {
+      "time": "2026-01-11",
+      "areaCode": null,
+      "firstPower": "597324.37",
+      "secondPower": "581612.73",
+      "firstPrice": "233.98",
+      "secondPrice": "230.49"
+    },
+    {
+      "time": "2026-01-12",
+      "areaCode": null,
+      "firstPower": "595063.55",
+      "secondPower": "558961.57",
+      "firstPrice": "238.35",
+      "secondPrice": "153.03"
+    },
+    {
+      "time": "2026-01-13",
+      "areaCode": null,
+      "firstPower": "601805.74",
+      "secondPower": "573487.11",
+      "firstPrice": "323.16",
+      "secondPrice": "248.93"
+    },
+    {
+      "time": "2026-01-14",
+      "areaCode": null,
+      "firstPower": "584637.74",
+      "secondPower": "564805.72",
+      "firstPrice": "307.88",
+      "secondPrice": "270.85"
+    },
+    {
+      "time": "2026-01-15",
+      "areaCode": null,
+      "firstPower": "589563.56",
+      "secondPower": "559859.17",
+      "firstPrice": "286.03",
+      "secondPrice": "224.8"
+    },
+    {
+      "time": "2026-01-16",
+      "areaCode": null,
+      "firstPower": "589704.8",
+      "secondPower": "578791.03",
+      "firstPrice": "275.7",
+      "secondPrice": "233.61"
+    },
+    {
+      "time": "2026-01-17",
+      "areaCode": null,
+      "firstPower": "533563.74",
+      "secondPower": "507615.16",
+      "firstPrice": "50.09",
+      "secondPrice": "60.4"
+    },
+    {
+      "time": "2026-01-18",
+      "areaCode": null,
+      "firstPower": "587084.24",
+      "secondPower": "604107.26",
+      "firstPrice": "195.1",
+      "secondPrice": "243.02"
+    },
+    {
+      "time": "2026-01-19",
+      "areaCode": null,
+      "firstPower": "671195.56",
+      "secondPower": "673391.3",
+      "firstPrice": "356.86",
+      "secondPrice": "375.07"
+    },
+    {
+      "time": "2026-01-20",
+      "areaCode": null,
+      "firstPower": "689711.88",
+      "secondPower": "629670.95",
+      "firstPrice": "384.34",
+      "secondPrice": "273.67"
+    },
+    {
+      "time": "2026-01-21",
+      "areaCode": null,
+      "firstPower": "667853.99",
+      "secondPower": "617920.34",
+      "firstPrice": "328.1",
+      "secondPrice": "297.13"
+    },
+    {
+      "time": "2026-01-22",
+      "areaCode": null,
+      "firstPower": "652984.07",
+      "secondPower": "646311.27",
+      "firstPrice": "329.5",
+      "secondPrice": "312.6"
+    },
+    {
+      "time": "2026-01-23",
+      "areaCode": null,
+      "firstPower": "656850.01",
+      "secondPower": "678105.51",
+      "firstPrice": "306.87",
+      "secondPrice": "327.17"
+    },
+    {
+      "time": "2026-01-24",
+      "areaCode": null,
+      "firstPower": "595993.79",
+      "secondPower": "572280.58",
+      "firstPrice": "98.71",
+      "secondPrice": "53.94"
+    },
+    {
+      "time": "2026-01-25",
+      "areaCode": null,
+      "firstPower": "617223.06",
+      "secondPower": "632654.73",
+      "firstPrice": "189.65",
+      "secondPrice": "227.16"
+    },
+    {
+      "time": "2026-01-26",
+      "areaCode": null,
+      "firstPower": "654835.42",
+      "secondPower": "656997.27",
+      "firstPrice": "260.96",
+      "secondPrice": "275.03"
+    },
+    {
+      "time": "2026-01-27",
+      "areaCode": null,
+      "firstPower": "656435.4",
+      "secondPower": "663976.67",
+      "firstPrice": "281.29",
+      "secondPrice": "308.24"
+    },
+    {
+      "time": "2026-01-28",
+      "areaCode": null,
+      "firstPower": "648443.77",
+      "secondPower": "648460.66",
+      "firstPrice": "180.11",
+      "secondPrice": "228.84"
+    },
+    {
+      "time": "2026-01-29",
+      "areaCode": null,
+      "firstPower": "646632.94",
+      "secondPower": "640611.09",
+      "firstPrice": "251.04",
+      "secondPrice": "238.19"
+    },
+    {
+      "time": "2026-01-30",
+      "areaCode": null,
+      "firstPower": "671532.51",
+      "secondPower": "664059.83",
+      "firstPrice": "241.12",
+      "secondPrice": "220.31"
+    },
+    {
+      "time": "2026-01-31",
+      "areaCode": null,
+      "firstPower": "638124.53",
+      "secondPower": "663025.14",
+      "firstPrice": "221.25",
+      "secondPrice": "243.03"
+    },
+    {
+      "time": "2026-02-01",
+      "areaCode": null,
+      "firstPower": "582283.44",
+      "secondPower": "561240.2",
+      "firstPrice": "248.75",
+      "secondPrice": "200.49"
+    },
+    {
+      "time": "2026-02-02",
+      "areaCode": null,
+      "firstPower": "562588.76",
+      "secondPower": "574481.4",
+      "firstPrice": "202.61",
+      "secondPrice": "210.18"
+    },
+    {
+      "time": "2026-02-03",
+      "areaCode": null,
+      "firstPower": "554980.94",
+      "secondPower": "558984.77",
+      "firstPrice": "177.92",
+      "secondPrice": "176.55"
+    },
+    {
+      "time": "2026-02-04",
+      "areaCode": null,
+      "firstPower": "558844.9",
+      "secondPower": "579616.48",
+      "firstPrice": "280.75",
+      "secondPrice": "349.25"
+    },
+    {
+      "time": "2026-02-05",
+      "areaCode": null,
+      "firstPower": "592676.02",
+      "secondPower": "589886.29",
+      "firstPrice": "334.41",
+      "secondPrice": "339.04"
+    },
+    {
+      "time": "2026-02-06",
+      "areaCode": null,
+      "firstPower": "535350.73",
+      "secondPower": "529175.36",
+      "firstPrice": "169.95",
+      "secondPrice": "162.29"
+    },
+    {
+      "time": "2026-02-07",
+      "areaCode": null,
+      "firstPower": "531027.63",
+      "secondPower": "540897.02",
+      "firstPrice": "263.46",
+      "secondPrice": "313.0"
+    },
+    {
+      "time": "2026-02-08",
+      "areaCode": null,
+      "firstPower": "532966.31",
+      "secondPower": "521703.4",
+      "firstPrice": "214.66",
+      "secondPrice": "196.57"
+    },
+    {
+      "time": "2026-02-09",
+      "areaCode": null,
+      "firstPower": "538921.06",
+      "secondPower": "523679.3",
+      "firstPrice": "217.8",
+      "secondPrice": "190.68"
+    },
+    {
+      "time": "2026-02-10",
+      "areaCode": null,
+      "firstPower": "493088.77",
+      "secondPower": "491078.91",
+      "firstPrice": "134.84",
+      "secondPrice": "150.21"
+    },
+    {
+      "time": "2026-02-11",
+      "areaCode": null,
+      "firstPower": "487810.65",
+      "secondPower": "473278.36",
+      "firstPrice": "146.98",
+      "secondPrice": "151.74"
+    },
+    {
+      "time": "2026-02-12",
+      "areaCode": null,
+      "firstPower": "506952.44",
+      "secondPower": "495162.38",
+      "firstPrice": "241.6",
+      "secondPrice": "213.32"
+    },
+    {
+      "time": "2026-02-13",
+      "areaCode": null,
+      "firstPower": "464230.31",
+      "secondPower": "448103.42",
+      "firstPrice": "230.3",
+      "secondPrice": "231.83"
+    },
+    {
+      "time": "2026-02-14",
+      "areaCode": null,
+      "firstPower": "422553.2",
+      "secondPower": "396161.36",
+      "firstPrice": "75.89",
+      "secondPrice": "31.43"
+    },
+    {
+      "time": "2026-02-15",
+      "areaCode": null,
+      "firstPower": "426780.54",
+      "secondPower": "432858.53",
+      "firstPrice": "257.37",
+      "secondPrice": "189.64"
+    },
+    {
+      "time": "2026-02-16",
+      "areaCode": null,
+      "firstPower": "429648.48",
+      "secondPower": "435692.25",
+      "firstPrice": "367.35",
+      "secondPrice": "411.07"
+    },
+    {
+      "time": "2026-02-17",
+      "areaCode": null,
+      "firstPower": "419973.43",
+      "secondPower": "395036.15",
+      "firstPrice": "409.05",
+      "secondPrice": "255.87"
+    },
+    {
+      "time": "2026-02-18",
+      "areaCode": null,
+      "firstPower": "386561.53",
+      "secondPower": "376034.94",
+      "firstPrice": "242.28",
+      "secondPrice": "181.55"
+    },
+    {
+      "time": "2026-02-19",
+      "areaCode": null,
+      "firstPower": "363038.36",
+      "secondPower": "345101.68",
+      "firstPrice": "1.75",
+      "secondPrice": "0.01"
+    },
+    {
+      "time": "2026-02-20",
+      "areaCode": null,
+      "firstPower": "361467.51",
+      "secondPower": "342762.01",
+      "firstPrice": "0.0",
+      "secondPrice": "3.59"
+    },
+    {
+      "time": "2026-02-21",
+      "areaCode": null,
+      "firstPower": "362408.48",
+      "secondPower": "344106.7",
+      "firstPrice": "0.01",
+      "secondPrice": "0.02"
+    },
+    {
+      "time": "2026-02-22",
+      "areaCode": null,
+      "firstPower": "390420.64",
+      "secondPower": "381169.24",
+      "firstPrice": "136.63",
+      "secondPrice": "111.5"
+    },
+    {
+      "time": "2026-02-23",
+      "areaCode": null,
+      "firstPower": "454717.92",
+      "secondPower": "440085.77",
+      "firstPrice": "399.96",
+      "secondPrice": "285.35"
+    },
+    {
+      "time": "2026-02-24",
+      "areaCode": null,
+      "firstPower": "449042.0",
+      "secondPower": "453630.96",
+      "firstPrice": "202.43",
+      "secondPrice": "231.58"
+    },
+    {
+      "time": "2026-02-25",
+      "areaCode": null,
+      "firstPower": "455728.79",
+      "secondPower": "468134.72",
+      "firstPrice": "141.72",
+      "secondPrice": "226.2"
+    },
+    {
+      "time": "2026-02-26",
+      "areaCode": null,
+      "firstPower": "476100.8",
+      "secondPower": "470220.27",
+      "firstPrice": "271.8",
+      "secondPrice": "267.46"
+    },
+    {
+      "time": "2026-02-27",
+      "areaCode": null,
+      "firstPower": "463168.3",
+      "secondPower": "482559.77",
+      "firstPrice": "199.36",
+      "secondPrice": "267.31"
+    },
+    {
+      "time": "2026-02-28",
+      "areaCode": null,
+      "firstPower": "502175.12",
+      "secondPower": "491082.89",
+      "firstPrice": "270.0",
+      "secondPrice": "244.95"
+    },
+    {
+      "time": "2026-03-01",
+      "areaCode": null,
+      "firstPower": "564329.9",
+      "secondPower": "553757.69",
+      "firstPrice": "363.14",
+      "secondPrice": "373.53"
+    },
+    {
+      "time": "2026-03-02",
+      "areaCode": null,
+      "firstPower": "521313.35",
+      "secondPower": "496462.18",
+      "firstPrice": "209.84",
+      "secondPrice": "143.67"
+    },
+    {
+      "time": "2026-03-03",
+      "areaCode": null,
+      "firstPower": "498590.24",
+      "secondPower": "495815.93",
+      "firstPrice": "202.86",
+      "secondPrice": "190.05"
+    },
+    {
+      "time": "2026-03-04",
+      "areaCode": null,
+      "firstPower": "456482.38",
+      "secondPower": "456033.69",
+      "firstPrice": "147.32",
+      "secondPrice": "124.31"
+    },
+    {
+      "time": "2026-03-05",
+      "areaCode": null,
+      "firstPower": "461182.05",
+      "secondPower": "433476.15",
+      "firstPrice": "289.59",
+      "secondPrice": "214.4"
+    },
+    {
+      "time": "2026-03-06",
+      "areaCode": null,
+      "firstPower": "485453.98",
+      "secondPower": "479369.57",
+      "firstPrice": "234.47",
+      "secondPrice": "223.62"
+    },
+    {
+      "time": "2026-03-07",
+      "areaCode": null,
+      "firstPower": "499175.43",
+      "secondPower": "519756.57",
+      "firstPrice": "268.72",
+      "secondPrice": "328.62"
+    },
+    {
+      "time": "2026-03-08",
+      "areaCode": null,
+      "firstPower": "522628.4",
+      "secondPower": "530507.02",
+      "firstPrice": "323.32",
+      "secondPrice": "367.14"
+    },
+    {
+      "time": "2026-03-09",
+      "areaCode": null,
+      "firstPower": "451948.86",
+      "secondPower": "452526.82",
+      "firstPrice": "206.34",
+      "secondPrice": "192.58"
+    },
+    {
+      "time": "2026-03-10",
+      "areaCode": null,
+      "firstPower": "446849.04",
+      "secondPower": "431106.01",
+      "firstPrice": "202.82",
+      "secondPrice": "135.27"
+    },
+    {
+      "time": "2026-03-11",
+      "areaCode": null,
+      "firstPower": "443373.39",
+      "secondPower": "425601.49",
+      "firstPrice": "252.61",
+      "secondPrice": "181.93"
+    },
+    {
+      "time": "2026-03-12",
+      "areaCode": null,
+      "firstPower": "427291.36",
+      "secondPower": "409692.31",
+      "firstPrice": "4.58",
+      "secondPrice": "19.06"
+    },
+    {
+      "time": "2026-03-13",
+      "areaCode": null,
+      "firstPower": "482315.86",
+      "secondPower": "480286.19",
+      "firstPrice": "225.02",
+      "secondPrice": "235.92"
+    },
+    {
+      "time": "2026-03-14",
+      "areaCode": null,
+      "firstPower": "478462.5",
+      "secondPower": "472009.81",
+      "firstPrice": "209.79",
+      "secondPrice": "193.38"
+    },
+    {
+      "time": "2026-03-15",
+      "areaCode": null,
+      "firstPower": "488597.05",
+      "secondPower": "478381.66",
+      "firstPrice": "251.84",
+      "secondPrice": "215.66"
+    },
+    {
+      "time": "2026-03-16",
+      "areaCode": null,
+      "firstPower": "478123.22",
+      "secondPower": "463823.86",
+      "firstPrice": "246.65",
+      "secondPrice": "203.1"
+    },
+    {
+      "time": "2026-03-17",
+      "areaCode": null,
+      "firstPower": "465131.41",
+      "secondPower": "458575.35",
+      "firstPrice": "201.93",
+      "secondPrice": "235.22"
+    },
+    {
+      "time": "2026-03-18",
+      "areaCode": null,
+      "firstPower": "447128.85",
+      "secondPower": "421467.71",
+      "firstPrice": "160.78",
+      "secondPrice": "139.39"
+    },
+    {
+      "time": "2026-03-19",
+      "areaCode": null,
+      "firstPower": "455559.28",
+      "secondPower": "464106.64",
+      "firstPrice": "275.03",
+      "secondPrice": "260.17"
+    },
+    {
+      "time": "2026-03-20",
+      "areaCode": null,
+      "firstPower": "435232.88",
+      "secondPower": "426968.75",
+      "firstPrice": "202.08",
+      "secondPrice": "192.02"
+    },
+    {
+      "time": "2026-03-21",
+      "areaCode": null,
+      "firstPower": "409014.3",
+      "secondPower": "415141.01",
+      "firstPrice": "69.83",
+      "secondPrice": "106.73"
+    },
+    {
+      "time": "2026-03-22",
+      "areaCode": null,
+      "firstPower": "418074.53",
+      "secondPower": "404041.83",
+      "firstPrice": "184.09",
+      "secondPrice": "151.32"
+    },
+    {
+      "time": "2026-03-23",
+      "areaCode": null,
+      "firstPower": "455866.54",
+      "secondPower": "436108.72",
+      "firstPrice": "300.97",
+      "secondPrice": "258.64"
+    },
+    {
+      "time": "2026-03-24",
+      "areaCode": null,
+      "firstPower": "448062.2",
+      "secondPower": "430163.61",
+      "firstPrice": "151.15",
+      "secondPrice": "156.5"
+    },
+    {
+      "time": "2026-03-25",
+      "areaCode": null,
+      "firstPower": "444206.5",
+      "secondPower": "452752.67",
+      "firstPrice": "236.75",
+      "secondPrice": "265.76"
+    },
+    {
+      "time": "2026-03-26",
+      "areaCode": null,
+      "firstPower": "434835.54",
+      "secondPower": "443709.42",
+      "firstPrice": "260.28",
+      "secondPrice": "251.33"
+    },
+    {
+      "time": "2026-03-27",
+      "areaCode": null,
+      "firstPower": "416319.96",
+      "secondPower": "414828.9",
+      "firstPrice": "187.56",
+      "secondPrice": "258.93"
+    },
+    {
+      "time": "2026-03-28",
+      "areaCode": null,
+      "firstPower": "399473.65",
+      "secondPower": "415015.46",
+      "firstPrice": "121.7",
+      "secondPrice": "148.84"
+    },
+    {
+      "time": "2026-03-29",
+      "areaCode": null,
+      "firstPower": "407970.62",
+      "secondPower": "435303.1",
+      "firstPrice": "242.07",
+      "secondPrice": "356.08"
+    },
+    {
+      "time": "2026-03-30",
+      "areaCode": null,
+      "firstPower": "413369.7",
+      "secondPower": "419522.32",
+      "firstPrice": "241.63",
+      "secondPrice": "233.49"
+    },
+    {
+      "time": "2026-03-31",
+      "areaCode": null,
+      "firstPower": "389456.63",
+      "secondPower": "372778.99",
+      "firstPrice": "182.55",
+      "secondPrice": "169.35"
+    },
+    {
+      "time": "2026-04-01",
+      "areaCode": null,
+      "firstPower": "389669.19",
+      "secondPower": "373831.73",
+      "firstPrice": "151.13",
+      "secondPrice": "121.55"
+    },
+    {
+      "time": "2026-04-02",
+      "areaCode": null,
+      "firstPower": "380013.91",
+      "secondPower": "368904.54",
+      "firstPrice": "111.36",
+      "secondPrice": "26.35"
+    },
+    {
+      "time": "2026-04-03",
+      "areaCode": null,
+      "firstPower": "359582.27",
+      "secondPower": "359512.07",
+      "firstPrice": "67.19",
+      "secondPrice": "125.35"
+    },
+    {
+      "time": "2026-04-04",
+      "areaCode": null,
+      "firstPower": "341497.13",
+      "secondPower": "352214.87",
+      "firstPrice": "31.47",
+      "secondPrice": "52.75"
+    },
+    {
+      "time": "2026-04-05",
+      "areaCode": null,
+      "firstPower": "339060.65",
+      "secondPower": "338702.45",
+      "firstPrice": "112.25",
+      "secondPrice": "55.23"
+    },
+    {
+      "time": "2026-04-06",
+      "areaCode": null,
+      "firstPower": "342901.5",
+      "secondPower": "349074.39",
+      "firstPrice": "119.77",
+      "secondPrice": "115.95"
+    },
+    {
+      "time": "2026-04-07",
+      "areaCode": null,
+      "firstPower": "347613.85",
+      "secondPower": "353788.17",
+      "firstPrice": "60.55",
+      "secondPrice": "48.28"
+    },
+    {
+      "time": "2026-04-08",
+      "areaCode": null,
+      "firstPower": "375957.75",
+      "secondPower": "361131.42",
+      "firstPrice": "319.97",
+      "secondPrice": "199.64"
+    },
+    {
+      "time": "2026-04-09",
+      "areaCode": null,
+      "firstPower": "369531.35",
+      "secondPower": "356629.34",
+      "firstPrice": "265.36",
+      "secondPrice": "286.4"
+    },
+    {
+      "time": "2026-04-10",
+      "areaCode": null,
+      "firstPower": "373989.5",
+      "secondPower": "378864.48",
+      "firstPrice": "220.21",
+      "secondPrice": "293.58"
+    },
+    {
+      "time": "2026-04-11",
+      "areaCode": null,
+      "firstPower": "368195.33",
+      "secondPower": "386745.91",
+      "firstPrice": "136.77",
+      "secondPrice": "229.67"
+    },
+    {
+      "time": "2026-04-12",
+      "areaCode": null,
+      "firstPower": "365892.12",
+      "secondPower": "372789.21",
+      "firstPrice": "133.88",
+      "secondPrice": "180.45"
+    },
+    {
+      "time": "2026-04-13",
+      "areaCode": null,
+      "firstPower": "395354.07",
+      "secondPower": "391214.2",
+      "firstPrice": "273.21",
+      "secondPrice": "302.4"
+    },
+    {
+      "time": "2026-04-14",
+      "areaCode": null,
+      "firstPower": "391134.28",
+      "secondPower": "390352.57",
+      "firstPrice": "268.72",
+      "secondPrice": "269.45"
+    },
+    {
+      "time": "2026-04-15",
+      "areaCode": null,
+      "firstPower": "385306.45",
+      "secondPower": "369399.71",
+      "firstPrice": "281.11",
+      "secondPrice": "159.21"
+    },
+    {
+      "time": "2026-04-16",
+      "areaCode": null,
+      "firstPower": "369418.69",
+      "secondPower": "344192.59",
+      "firstPrice": "164.76",
+      "secondPrice": "139.63"
+    },
+    {
+      "time": "2026-04-17",
+      "areaCode": null,
+      "firstPower": "363936.68",
+      "secondPower": "344068.7",
+      "firstPrice": "130.19",
+      "secondPrice": "97.56"
+    },
+    {
+      "time": "2026-04-18",
+      "areaCode": null,
+      "firstPower": "338432.07",
+      "secondPower": "327040.19",
+      "firstPrice": "60.76",
+      "secondPrice": "49.61"
+    },
+    {
+      "time": "2026-04-19",
+      "areaCode": null,
+      "firstPower": "339991.38",
+      "secondPower": "354233.37",
+      "firstPrice": "88.26",
+      "secondPrice": "198.09"
+    },
+    {
+      "time": "2026-04-20",
+      "areaCode": null,
+      "firstPower": "357551.63",
+      "secondPower": "346053.95",
+      "firstPrice": "130.73",
+      "secondPrice": "187.32"
+    },
+    {
+      "time": "2026-04-21",
+      "areaCode": null,
+      "firstPower": "389705.6",
+      "secondPower": "367537.71",
+      "firstPrice": "299.6",
+      "secondPrice": "230.48"
+    },
+    {
+      "time": "2026-04-22",
+      "areaCode": null,
+      "firstPower": "387239.47",
+      "secondPower": "375847.55",
+      "firstPrice": "191.35",
+      "secondPrice": "170.6"
+    },
+    {
+      "time": "2026-04-23",
+      "areaCode": null,
+      "firstPower": "367825.05",
+      "secondPower": "371619.79",
+      "firstPrice": "118.58",
+      "secondPrice": "140.81"
+    },
+    {
+      "time": "2026-04-24",
+      "areaCode": null,
+      "firstPower": "382807.76",
+      "secondPower": "390521.08",
+      "firstPrice": "192.56",
+      "secondPrice": "245.55"
+    },
+    {
+      "time": "2026-04-25",
+      "areaCode": null,
+      "firstPower": "379185.92",
+      "secondPower": "367928.52",
+      "firstPrice": "179.42",
+      "secondPrice": "143.52"
+    },
+    {
+      "time": "2026-04-26",
+      "areaCode": null,
+      "firstPower": "376884.59",
+      "secondPower": "364176.66",
+      "firstPrice": "167.42",
+      "secondPrice": "153.65"
+    },
+    {
+      "time": "2026-04-27",
+      "areaCode": null,
+      "firstPower": "395798.8",
+      "secondPower": "394775.91",
+      "firstPrice": "169.06",
+      "secondPrice": "222.32"
+    },
+    {
+      "time": "2026-04-28",
+      "areaCode": null,
+      "firstPower": "374232.48",
+      "secondPower": "373221.95",
+      "firstPrice": "152.96",
+      "secondPrice": "121.85"
+    },
+    {
+      "time": "2026-04-29",
+      "areaCode": null,
+      "firstPower": "364791.59",
+      "secondPower": "361791.06",
+      "firstPrice": "132.38",
+      "secondPrice": "158.77"
+    },
+    {
+      "time": "2026-04-30",
+      "areaCode": null,
+      "firstPower": "327866.13",
+      "secondPower": "337214.19",
+      "firstPrice": "42.07",
+      "secondPrice": "60.02"
+    },
+    {
+      "time": "2026-05-01",
+      "areaCode": null,
+      "firstPower": "331535.48",
+      "secondPower": "321830.16",
+      "firstPrice": "109.04",
+      "secondPrice": "104.62"
+    },
+    {
+      "time": "2026-05-02",
+      "areaCode": null,
+      "firstPower": "309187.3",
+      "secondPower": "305902.44",
+      "firstPrice": "54.19",
+      "secondPrice": "65.36"
+    },
+    {
+      "time": "2026-05-03",
+      "areaCode": null,
+      "firstPower": "309680.51",
+      "secondPower": "299706.36",
+      "firstPrice": "87.2",
+      "secondPrice": "122.92"
+    },
+    {
+      "time": "2026-05-04",
+      "areaCode": null,
+      "firstPower": "311679.04",
+      "secondPower": "311724.54",
+      "firstPrice": "150.82",
+      "secondPrice": "126.16"
+    },
+    {
+      "time": "2026-05-05",
+      "areaCode": null,
+      "firstPower": "306070.21",
+      "secondPower": "306649.13",
+      "firstPrice": "58.95",
+      "secondPrice": "55.2"
+    },
+    {
+      "time": "2026-05-06",
+      "areaCode": null,
+      "firstPower": "346233.63",
+      "secondPower": "349554.28",
+      "firstPrice": "88.88",
+      "secondPrice": "102.87"
+    },
+    {
+      "time": "2026-05-07",
+      "areaCode": null,
+      "firstPower": "347604.3",
+      "secondPower": "348783.58",
+      "firstPrice": "160.86",
+      "secondPrice": "217.21"
+    },
+    {
+      "time": "2026-05-08",
+      "areaCode": null,
+      "firstPower": "362117.93",
+      "secondPower": "358520.66",
+      "firstPrice": "78.95",
+      "secondPrice": "71.55"
+    },
+    {
+      "time": "2026-05-09",
+      "areaCode": null,
+      "firstPower": "331864.49",
+      "secondPower": "338498.18",
+      "firstPrice": "187.45",
+      "secondPrice": "222.57"
+    },
+    {
+      "time": "2026-05-10",
+      "areaCode": null,
+      "firstPower": "352473.44",
+      "secondPower": "363965.68",
+      "firstPrice": "233.11",
+      "secondPrice": "294.36"
+    },
+    {
+      "time": "2026-05-11",
+      "areaCode": null,
+      "firstPower": "379844.35",
+      "secondPower": "374820.37",
+      "firstPrice": "119.57",
+      "secondPrice": "86.86"
+    },
+    {
+      "time": "2026-05-12",
+      "areaCode": null,
+      "firstPower": "383348.61",
+      "secondPower": "415451.9",
+      "firstPrice": "32.43",
+      "secondPrice": "48.95"
+    },
+    {
+      "time": "2026-05-13",
+      "areaCode": null,
+      "firstPower": "382728.49",
+      "secondPower": "425448.88",
+      "firstPrice": "111.88",
+      "secondPrice": "199.0"
+    },
+    {
+      "time": "2026-05-14",
+      "areaCode": null,
+      "firstPower": "400043.03",
+      "secondPower": "430628.64",
+      "firstPrice": "158.83",
+      "secondPrice": "270.33"
+    },
+    {
+      "time": "2026-05-15",
+      "areaCode": null,
+      "firstPower": "408647.83",
+      "secondPower": "443120.59",
+      "firstPrice": "222.86",
+      "secondPrice": "330.37"
+    },
+    {
+      "time": "2026-05-16",
+      "areaCode": null,
+      "firstPower": "385537.06",
+      "secondPower": "385104.02",
+      "firstPrice": "210.75",
+      "secondPrice": "251.57"
+    },
+    {
+      "time": "2026-05-17",
+      "areaCode": null,
+      "firstPower": "405259.91",
+      "secondPower": "378239.72",
+      "firstPrice": "297.2",
+      "secondPrice": "240.31"
+    },
+    {
+      "time": "2026-05-18",
+      "areaCode": null,
+      "firstPower": "390985.66",
+      "secondPower": "382722.67",
+      "firstPrice": "209.61",
+      "secondPrice": "195.2"
+    },
+    {
+      "time": "2026-05-19",
+      "areaCode": null,
+      "firstPower": "343175.68",
+      "secondPower": "340432.39",
+      "firstPrice": "131.33",
+      "secondPrice": "61.44"
+    },
+    {
+      "time": "2026-05-20",
+      "areaCode": null,
+      "firstPower": "301144.83",
+      "secondPower": "291556.67",
+      "firstPrice": "21.78",
+      "secondPrice": "17.1"
+    },
+    {
+      "time": "2026-05-21",
+      "areaCode": null,
+      "firstPower": "345956.81",
+      "secondPower": "348721.46",
+      "firstPrice": "95.27",
+      "secondPrice": "91.66"
+    },
+    {
+      "time": "2026-05-22",
+      "areaCode": null,
+      "firstPower": "346216.31",
+      "secondPower": "337731.32",
+      "firstPrice": "171.88",
+      "secondPrice": "169.04"
+    },
+    {
+      "time": "2026-05-23",
+      "areaCode": null,
+      "firstPower": "351780.14",
+      "secondPower": "355425.29",
+      "firstPrice": "54.61",
+      "secondPrice": "63.71"
+    },
+    {
+      "time": "2026-05-24",
+      "areaCode": null,
+      "firstPower": "348826.33",
+      "secondPower": "352791.87",
+      "firstPrice": "109.17",
+      "secondPrice": "71.13"
+    },
+    {
+      "time": "2026-05-25",
+      "areaCode": null,
+      "firstPower": "379216.95",
+      "secondPower": "360377.41",
+      "firstPrice": "206.3",
+      "secondPrice": "159.06"
+    },
+    {
+      "time": "2026-05-26",
+      "areaCode": null,
+      "firstPower": "389672.98",
+      "secondPower": "380113.57",
+      "firstPrice": "209.94",
+      "secondPrice": "210.81"
+    },
+    {
+      "time": "2026-05-27",
+      "areaCode": null,
+      "firstPower": "374918.51",
+      "secondPower": "407213.09",
+      "firstPrice": "152.96",
+      "secondPrice": "181.03"
+    },
+    {
+      "time": "2026-05-28",
+      "areaCode": null,
+      "firstPower": "383490.15",
+      "secondPower": "398441.82",
+      "firstPrice": "203.61",
+      "secondPrice": "199.96"
+    },
+    {
+      "time": "2026-05-29",
+      "areaCode": null,
+      "firstPower": "354286.0",
+      "secondPower": "387872.03",
+      "firstPrice": "206.24",
+      "secondPrice": "205.88"
+    },
+    {
+      "time": "2026-05-30",
+      "areaCode": null,
+      "firstPower": "321046.24",
+      "secondPower": "321853.56",
+      "firstPrice": "200.07",
+      "secondPrice": "111.88"
+    },
+    {
+      "time": "2026-05-31",
+      "areaCode": null,
+      "firstPower": "309856.27",
+      "secondPower": "342223.37",
+      "firstPrice": "99.69",
+      "secondPrice": "81.87"
+    },
+    {
+      "time": "2026-06-01",
+      "areaCode": null,
+      "firstPower": "307020.98",
+      "secondPower": "330306.96",
+      "firstPrice": "94.42",
+      "secondPrice": "92.03"
+    },
+    {
+      "time": "2026-06-02",
+      "areaCode": null,
+      "firstPower": "339459.22",
+      "secondPower": "349305.82",
+      "firstPrice": "101.49",
+      "secondPrice": "112.89"
+    },
+    {
+      "time": "2026-06-03",
+      "areaCode": null,
+      "firstPower": "344870.78",
+      "secondPower": "370860.04",
+      "firstPrice": "85.67",
+      "secondPrice": "172.4"
+    },
+    {
+      "time": "2026-06-04",
+      "areaCode": null,
+      "firstPower": "375457.94",
+      "secondPower": "382961.79",
+      "firstPrice": "197.69",
+      "secondPrice": "199.36"
+    },
+    {
+      "time": "2026-06-05",
+      "areaCode": null,
+      "firstPower": "368787.15",
+      "secondPower": "371508.2",
+      "firstPrice": "142.06",
+      "secondPrice": "121.35"
+    },
+    {
+      "time": "2026-06-06",
+      "areaCode": null,
+      "firstPower": "385777.39",
+      "secondPower": "366030.91",
+      "firstPrice": "228.75",
+      "secondPrice": "181.73"
+    },
+    {
+      "time": "2026-06-07",
+      "areaCode": null,
+      "firstPower": "358400.75",
+      "secondPower": "337900.0",
+      "firstPrice": "251.43",
+      "secondPrice": "242.25"
+    },
+    {
+      "time": "2026-06-08",
+      "areaCode": null,
+      "firstPower": "306496.74",
+      "secondPower": "317381.73",
+      "firstPrice": "126.68",
+      "secondPrice": "112.23"
+    },
+    {
+      "time": "2026-06-09",
+      "areaCode": null,
+      "firstPower": "319744.84",
+      "secondPower": "312646.56",
+      "firstPrice": "121.66",
+      "secondPrice": "124.1"
+    },
+    {
+      "time": "2026-06-10",
+      "areaCode": null,
+      "firstPower": "347475.8",
+      "secondPower": "362668.82",
+      "firstPrice": "227.44",
+      "secondPrice": "224.86"
+    },
+    {
+      "time": "2026-06-11",
+      "areaCode": null,
+      "firstPower": "361565.77",
+      "secondPower": "372884.17",
+      "firstPrice": "154.68",
+      "secondPrice": "140.81"
+    },
+    {
+      "time": "2026-06-12",
+      "areaCode": null,
+      "firstPower": "349766.03",
+      "secondPower": "353477.41",
+      "firstPrice": "89.52",
+      "secondPrice": "69.94"
+    },
+    {
+      "time": "2026-06-13",
+      "areaCode": null,
+      "firstPower": "1434893.05",
+      "secondPower": "1366435.75",
+      "firstPrice": "163.22",
+      "secondPrice": "134.97"
+    },
+    {
+      "time": "2026-06-14",
+      "areaCode": null,
+      "firstPower": "1512624.85",
+      "secondPower": "1494945.42",
+      "firstPrice": "162.94",
+      "secondPrice": "164.84"
+    },
+    {
+      "time": "2026-06-15",
+      "areaCode": null,
+      "firstPower": "1535641.95",
+      "secondPower": "1606556.02",
+      "firstPrice": "66.38",
+      "secondPrice": "82.17"
+    },
+    {
+      "time": "2026-06-16",
+      "areaCode": null,
+      "firstPower": "1777192.46",
+      "secondPower": "1795256.93",
+      "firstPrice": "172.99",
+      "secondPrice": "175.3"
+    },
+    {
+      "time": "2026-06-17",
+      "areaCode": null,
+      "firstPower": "1696438.02",
+      "secondPower": "1898969.21",
+      "firstPrice": "157.75",
+      "secondPrice": "241.27"
+    },
+    {
+      "time": "2026-06-18",
+      "areaCode": null,
+      "firstPower": "1841860.83",
+      "secondPower": "1780420.96",
+      "firstPrice": "313.63",
+      "secondPrice": "303.97"
+    },
+    {
+      "time": "2026-06-19",
+      "areaCode": null,
+      "firstPower": "1555639.89",
+      "secondPower": "1510325.53",
+      "firstPrice": "183.77",
+      "secondPrice": "186.73"
+    },
+    {
+      "time": "2026-06-20",
+      "areaCode": null,
+      "firstPower": "1530562.93",
+      "secondPower": "1485504.71",
+      "firstPrice": "202.2",
+      "secondPrice": "197.45"
+    },
+    {
+      "time": "2026-06-21",
+      "areaCode": null,
+      "firstPower": "1548825.36",
+      "secondPower": "1482151.71",
+      "firstPrice": "253.31",
+      "secondPrice": "228.83"
+    },
+    {
+      "time": "2026-06-22",
+      "areaCode": null,
+      "firstPower": "1586704.04",
+      "secondPower": "1409569.49",
+      "firstPrice": "221.2",
+      "secondPrice": "128.29"
+    },
+    {
+      "time": "2026-06-23",
+      "areaCode": null,
+      "firstPower": "1579651.47",
+      "secondPower": "1578754.39",
+      "firstPrice": "225.96",
+      "secondPrice": "230.76"
+    },
+    {
+      "time": "2026-06-24",
+      "areaCode": null,
+      "firstPower": "1614294.31",
+      "secondPower": "1589115.58",
+      "firstPrice": "212.58",
+      "secondPrice": "285.23"
+    },
+    {
+      "time": "2026-06-25",
+      "areaCode": null,
+      "firstPower": "1773540.96",
+      "secondPower": "1673686.18",
+      "firstPrice": "278.9",
+      "secondPrice": "234.25"
+    },
+    {
+      "time": "2026-06-26",
+      "areaCode": null,
+      "firstPower": "1688816.49",
+      "secondPower": "1705411.92",
+      "firstPrice": "197.28",
+      "secondPrice": "215.34"
+    },
+    {
+      "time": "2026-06-27",
+      "areaCode": null,
+      "firstPower": "1699044.05",
+      "secondPower": "1705618.3",
+      "firstPrice": "169.9",
+      "secondPrice": "140.51"
+    },
+    {
+      "time": "2026-06-28",
+      "areaCode": null,
+      "firstPower": "1729928.13",
+      "secondPower": "1705786.1",
+      "firstPrice": "145.55",
+      "secondPrice": "124.06"
+    },
+    {
+      "time": "2026-06-29",
+      "areaCode": null,
+      "firstPower": "1838704.79",
+      "secondPower": "1819553.89",
+      "firstPrice": "157.58",
+      "secondPrice": "134.43"
+    },
+    {
+      "time": "2026-06-30",
+      "areaCode": null,
+      "firstPower": "2028693.87",
+      "secondPower": "1908816.97",
+      "firstPrice": "260.45",
+      "secondPrice": "220.02"
+    },
+    {
+      "time": "2026-07-01",
+      "areaCode": null,
+      "firstPower": "2117044.03",
+      "secondPower": "2161840.01",
+      "firstPrice": "232.15",
+      "secondPrice": "263.93"
+    },
+    {
+      "time": "2026-07-02",
+      "areaCode": null,
+      "firstPower": "2169646.47",
+      "secondPower": "2093550.14",
+      "firstPrice": "258.42",
+      "secondPrice": "247.1"
+    },
+    {
+      "time": "2026-07-03",
+      "areaCode": null,
+      "firstPower": "1900060.2",
+      "secondPower": "2005886.88",
+      "firstPrice": "204.19",
+      "secondPrice": "222.99"
+    },
+    {
+      "time": "2026-07-04",
+      "areaCode": null,
+      "firstPower": "2039986.6",
+      "secondPower": "2070827.18",
+      "firstPrice": "230.18",
+      "secondPrice": "235.79"
+    },
+    {
+      "time": "2026-07-05",
+      "areaCode": null,
+      "firstPower": "2076448.99",
+      "secondPower": "2179730.65",
+      "firstPrice": "235.84",
+      "secondPrice": "291.68"
+    },
+    {
+      "time": "2026-07-06",
+      "areaCode": null,
+      "firstPower": "2366210.89",
+      "secondPower": "2482707.98",
+      "firstPrice": "323.87",
+      "secondPrice": "382.83"
+    },
+    {
+      "time": "2026-07-07",
+      "areaCode": null,
+      "firstPower": "2536144.75",
+      "secondPower": "2341611.15",
+      "firstPrice": "364.89",
+      "secondPrice": "311.31"
+    },
+    {
+      "time": "2026-07-08",
+      "areaCode": null,
+      "firstPower": "2431689.61",
+      "secondPower": "2428646.78",
+      "firstPrice": "343.24",
+      "secondPrice": "348.76"
+    },
+    {
+      "time": "2026-07-09",
+      "areaCode": null,
+      "firstPower": "2478576.42",
+      "secondPower": "2586976.29",
+      "firstPrice": "355.22",
+      "secondPrice": "382.46"
+    },
+    {
+      "time": "2026-07-10",
+      "areaCode": null,
+      "firstPower": "2736491.93",
+      "secondPower": "2665008.18",
+      "firstPrice": "385.08",
+      "secondPrice": "323.06"
+    },
+    {
+      "time": "2026-07-11",
+      "areaCode": null,
+      "firstPower": "2417577.0",
+      "secondPower": "2469396.89",
+      "firstPrice": "311.97",
+      "secondPrice": "322.65"
+    },
+    {
+      "time": "2026-07-12",
+      "areaCode": null,
+      "firstPower": "2227446.89",
+      "secondPower": "2198983.04",
+      "firstPrice": "316.52",
+      "secondPrice": "310.17"
+    },
+    {
+      "time": "2026-07-13",
+      "areaCode": null,
+      "firstPower": "2289220.02",
+      "secondPower": "2433504.04",
+      "firstPrice": "295.05",
+      "secondPrice": "393.98"
+    },
+    {
+      "time": "2026-07-14",
+      "areaCode": null,
+      "firstPower": "2603536.97",
+      "secondPower": "2539011.2",
+      "firstPrice": "352.95",
+      "secondPrice": "322.6"
+    },
+    {
+      "time": "2026-07-15",
+      "areaCode": null,
+      "firstPower": "2227528.17",
+      "secondPower": "2260488.04",
+      "firstPrice": "276.6",
+      "secondPrice": "312.56"
+    },
+    {
+      "time": "2026-07-16",
+      "areaCode": null,
+      "firstPower": "2415168.11",
+      "secondPower": "2369490.23",
+      "firstPrice": "317.24",
+      "secondPrice": "309.49"
+    },
+    {
+      "time": "2026-07-17",
+      "areaCode": null,
+      "firstPower": "2301137.68",
+      "secondPower": "2164037.76",
+      "firstPrice": "309.86",
+      "secondPrice": "262.71"
+    },
+    {
+      "time": "2026-07-18",
+      "areaCode": null,
+      "firstPower": "2281641.59",
+      "secondPower": "2164525.52",
+      "firstPrice": "290.52",
+      "secondPrice": "239.98"
+    },
+    {
+      "time": "2026-07-19",
+      "areaCode": null,
+      "firstPower": "2249713.36",
+      "secondPower": "2033067.7",
+      "firstPrice": "241.29",
+      "secondPrice": "182.29"
+    },
+    {
+      "time": "2026-07-20",
+      "areaCode": null,
+      "firstPower": "2254528.03",
+      "secondPower": "2234108.42",
+      "firstPrice": "280.11",
+      "secondPrice": "289.02"
+    },
+    {
+      "time": "2026-07-21",
+      "areaCode": null,
+      "firstPower": "2426409.94",
+      "secondPower": "2501343.67",
+      "firstPrice": "342.45",
+      "secondPrice": "390.52"
+    },
+    {
+      "time": "2026-07-22",
+      "areaCode": null,
+      "firstPower": "2519013.28",
+      "secondPower": "2234045.68",
+      "firstPrice": "360.62",
+      "secondPrice": "286.04"
+    },
+    {
+      "time": "2026-07-23",
+      "areaCode": null,
+      "firstPower": "2433853.29",
+      "secondPower": "2337568.45",
+      "firstPrice": "324.24",
+      "secondPrice": "317.97"
+    },
+    {
+      "time": "2026-07-24",
+      "areaCode": null,
+      "firstPower": "2356707.05",
+      "secondPower": "2441985.62",
+      "firstPrice": "226.6",
+      "secondPrice": "343.12"
+    },
+    {
+      "time": "2026-07-25",
+      "areaCode": null,
+      "firstPower": "2467675.74",
+      "secondPower": "2451443.95",
+      "firstPrice": "322.43",
+      "secondPrice": "309.67"
+    },
+    {
+      "time": "2026-07-26",
+      "areaCode": null,
+      "firstPower": "2370895.22",
+      "secondPower": "2379497.34",
+      "firstPrice": "250.6",
+      "secondPrice": "269.26"
+    }
+  ]
+}
