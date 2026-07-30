@@ -19,6 +19,9 @@ ROOT = Path(__file__).parent
 DATA_DIR = ROOT / "data"
 DOWNLOADS_DIR = ROOT / "downloads"
 
+# 允许发布的数据质量门禁状态
+ALLOWED_QUALITY_GATES = {"pass", "pass_with_recorded_source_gaps"}
+
 # 文件清单（key 必须与需求文档 3.2 节一致）
 # path 统一相对于网站根（index.html 所在目录），前端校验时直接用 "./" + path
 FILES = {
@@ -64,6 +67,12 @@ def main():
     latest_trading = snap.get("latestTradingDate")
     latest_wind_solar = snap.get("latestWindSolarDate")
     quality_gate = snap.get("qualityGate")
+
+    if quality_gate not in ALLOWED_QUALITY_GATES:
+        raise SystemExit(
+            f"质量门禁未通过（qualityGate={quality_gate}），禁止生成清单并发布。"
+            f"允许的状态：{ALLOWED_QUALITY_GATES}"
+        )
 
     # latestCompleteDate：所有必需数据都已通过质量检查的共同最新日
     # = min(latestTradingDate, latestWindSolarDate)（ISO 日期字符串可直接比较）
