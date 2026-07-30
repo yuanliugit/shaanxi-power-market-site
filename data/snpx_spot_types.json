@@ -1,0 +1,6073 @@
+{
+  "extractedAt": "2026-07-30T15:02:00.813Z",
+  "calls": [
+    {
+      "bizDay": "2025-01-14",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-01-29",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-02-13",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-02-28",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-03-15",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-03-30",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-04-14",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-04-29",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-05-14",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-05-29",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-06-13",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-06-28",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-07-13",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-07-28",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-08-12",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-08-27",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-09-11",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-09-26",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-10-11",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-10-26",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-11-10",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-11-25",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-12-10",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2025-12-25",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2026-01-09",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2026-01-24",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2026-02-08",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2026-02-23",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2026-03-10",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2026-03-25",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2026-04-09",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2026-04-24",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2026-05-09",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2026-05-24",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2026-06-08",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2026-06-23",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2026-07-08",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2026-07-11",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2026-07-11",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-18",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-13",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-18",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-13",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-19",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-13",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-26",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-14",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-26",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-14",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-26",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-06-27",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-12",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-26",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-27",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-27",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-29",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    }
+  ],
+  "rows": [
+    {
+      "time": "2025-01-01",
+      "areaCode": null,
+      "firstPrice": "297.08",
+      "secondPrice": "275.25",
+      "thirdPrice": "313.88",
+      "fourPrice": "291.83",
+      "fivePrice": "200.69",
+      "sixPrice": "188.69"
+    },
+    {
+      "time": "2025-01-02",
+      "areaCode": null,
+      "firstPrice": "340.28",
+      "secondPrice": "427.88",
+      "thirdPrice": "356.76",
+      "fourPrice": "448.38",
+      "fivePrice": "201.19",
+      "sixPrice": "256.58"
+    },
+    {
+      "time": "2025-01-03",
+      "areaCode": null,
+      "firstPrice": "383.92",
+      "secondPrice": "444.07",
+      "thirdPrice": "393.53",
+      "fourPrice": "455.17",
+      "fivePrice": "296.07",
+      "sixPrice": "346.8"
+    },
+    {
+      "time": "2025-01-04",
+      "areaCode": null,
+      "firstPrice": "299.56",
+      "secondPrice": "354.72",
+      "thirdPrice": "319.66",
+      "fourPrice": "363.34",
+      "fivePrice": "222.53",
+      "sixPrice": "319.74"
+    },
+    {
+      "time": "2025-01-05",
+      "areaCode": null,
+      "firstPrice": "297.98",
+      "secondPrice": "212.91",
+      "thirdPrice": "316.74",
+      "fourPrice": "229.02",
+      "fivePrice": "213.09",
+      "sixPrice": "140.24"
+    },
+    {
+      "time": "2025-01-06",
+      "areaCode": null,
+      "firstPrice": "388.7",
+      "secondPrice": "351.58",
+      "thirdPrice": "415.16",
+      "fourPrice": "370.87",
+      "fivePrice": "204.77",
+      "sixPrice": "223.53"
+    },
+    {
+      "time": "2025-01-07",
+      "areaCode": null,
+      "firstPrice": "356.58",
+      "secondPrice": "393.58",
+      "thirdPrice": "379.3",
+      "fourPrice": "426.18",
+      "fivePrice": "217.04",
+      "sixPrice": "226.71"
+    },
+    {
+      "time": "2025-01-08",
+      "areaCode": null,
+      "firstPrice": "396.47",
+      "secondPrice": "523.53",
+      "thirdPrice": "428.39",
+      "fourPrice": "580.07",
+      "fivePrice": "213.38",
+      "sixPrice": "234.73"
+    },
+    {
+      "time": "2025-01-09",
+      "areaCode": null,
+      "firstPrice": "380.94",
+      "secondPrice": "542.0",
+      "thirdPrice": "410.15",
+      "fourPrice": "578.02",
+      "fivePrice": "160.24",
+      "sixPrice": "267.83"
+    },
+    {
+      "time": "2025-01-10",
+      "areaCode": null,
+      "firstPrice": "376.36",
+      "secondPrice": "407.42",
+      "thirdPrice": "402.68",
+      "fourPrice": "422.44",
+      "fivePrice": "288.93",
+      "sixPrice": "356.81"
+    },
+    {
+      "time": "2025-01-11",
+      "areaCode": null,
+      "firstPrice": "274.99",
+      "secondPrice": "364.65",
+      "thirdPrice": "301.22",
+      "fourPrice": "387.79",
+      "fivePrice": "210.22",
+      "sixPrice": "304.42"
+    },
+    {
+      "time": "2025-01-12",
+      "areaCode": null,
+      "firstPrice": "340.77",
+      "secondPrice": "470.01",
+      "thirdPrice": "373.08",
+      "fourPrice": "509.82",
+      "fivePrice": "226.75",
+      "sixPrice": "325.52"
+    },
+    {
+      "time": "2025-01-13",
+      "areaCode": null,
+      "firstPrice": "395.84",
+      "secondPrice": "434.8",
+      "thirdPrice": "434.22",
+      "fourPrice": "465.6",
+      "fivePrice": "275.24",
+      "sixPrice": "341.06"
+    },
+    {
+      "time": "2025-01-14",
+      "areaCode": null,
+      "firstPrice": "372.78",
+      "secondPrice": "412.28",
+      "thirdPrice": "406.64",
+      "fourPrice": "453.67",
+      "fivePrice": "263.28",
+      "sixPrice": "284.11"
+    },
+    {
+      "time": "2025-01-15",
+      "areaCode": null,
+      "firstPrice": "414.75",
+      "secondPrice": "507.63",
+      "thirdPrice": "449.22",
+      "fourPrice": "535.09",
+      "fivePrice": "218.59",
+      "sixPrice": "353.05"
+    },
+    {
+      "time": "2025-01-16",
+      "areaCode": null,
+      "firstPrice": "372.9",
+      "secondPrice": "414.81",
+      "thirdPrice": "405.17",
+      "fourPrice": "450.85",
+      "fivePrice": "212.59",
+      "sixPrice": "230.13"
+    },
+    {
+      "time": "2025-01-17",
+      "areaCode": null,
+      "firstPrice": "362.43",
+      "secondPrice": "364.13",
+      "thirdPrice": "386.47",
+      "fourPrice": "389.19",
+      "fivePrice": "259.49",
+      "sixPrice": "264.15"
+    },
+    {
+      "time": "2025-01-18",
+      "areaCode": null,
+      "firstPrice": "295.85",
+      "secondPrice": "309.92",
+      "thirdPrice": "323.17",
+      "fourPrice": "339.58",
+      "fivePrice": "194.88",
+      "sixPrice": "195.92"
+    },
+    {
+      "time": "2025-01-19",
+      "areaCode": null,
+      "firstPrice": "344.77",
+      "secondPrice": "364.1",
+      "thirdPrice": "375.43",
+      "fourPrice": "391.66",
+      "fivePrice": "186.87",
+      "sixPrice": "201.72"
+    },
+    {
+      "time": "2025-01-20",
+      "areaCode": null,
+      "firstPrice": "399.11",
+      "secondPrice": "323.2",
+      "thirdPrice": "434.55",
+      "fourPrice": "344.77",
+      "fivePrice": "202.97",
+      "sixPrice": "207.35"
+    },
+    {
+      "time": "2025-01-21",
+      "areaCode": null,
+      "firstPrice": "297.19",
+      "secondPrice": "308.16",
+      "thirdPrice": "314.98",
+      "fourPrice": "319.7",
+      "fivePrice": "175.38",
+      "sixPrice": "226.18"
+    },
+    {
+      "time": "2025-01-22",
+      "areaCode": null,
+      "firstPrice": "316.8",
+      "secondPrice": "335.7",
+      "thirdPrice": "339.44",
+      "fourPrice": "358.72",
+      "fivePrice": "159.04",
+      "sixPrice": "167.23"
+    },
+    {
+      "time": "2025-01-23",
+      "areaCode": null,
+      "firstPrice": "340.05",
+      "secondPrice": "328.67",
+      "thirdPrice": "343.25",
+      "fourPrice": "329.32",
+      "fivePrice": "322.37",
+      "sixPrice": "323.85"
+    },
+    {
+      "time": "2025-01-24",
+      "areaCode": null,
+      "firstPrice": "374.13",
+      "secondPrice": "282.36",
+      "thirdPrice": "374.88",
+      "fourPrice": "283.43",
+      "fivePrice": "362.43",
+      "sixPrice": "266.13"
+    },
+    {
+      "time": "2025-01-25",
+      "areaCode": null,
+      "firstPrice": "196.19",
+      "secondPrice": "106.71",
+      "thirdPrice": "197.11",
+      "fourPrice": "107.27",
+      "fivePrice": "191.24",
+      "sixPrice": "103.75"
+    },
+    {
+      "time": "2025-01-26",
+      "areaCode": null,
+      "firstPrice": "165.29",
+      "secondPrice": "169.03",
+      "thirdPrice": "180.78",
+      "fourPrice": "186.36",
+      "fivePrice": "107.25",
+      "sixPrice": "97.83"
+    },
+    {
+      "time": "2025-01-27",
+      "areaCode": null,
+      "firstPrice": "233.62",
+      "secondPrice": "265.91",
+      "thirdPrice": "249.35",
+      "fourPrice": "280.93",
+      "fivePrice": "163.83",
+      "sixPrice": "187.86"
+    },
+    {
+      "time": "2025-01-28",
+      "areaCode": null,
+      "firstPrice": "271.29",
+      "secondPrice": "316.89",
+      "thirdPrice": "284.44",
+      "fourPrice": "330.45",
+      "fivePrice": "214.0",
+      "sixPrice": "253.7"
+    },
+    {
+      "time": "2025-01-29",
+      "areaCode": null,
+      "firstPrice": "223.73",
+      "secondPrice": "453.03",
+      "thirdPrice": "233.06",
+      "fourPrice": "478.02",
+      "fivePrice": "177.69",
+      "sixPrice": "310.83"
+    },
+    {
+      "time": "2025-01-30",
+      "areaCode": null,
+      "firstPrice": "315.26",
+      "secondPrice": "375.42",
+      "thirdPrice": "337.17",
+      "fourPrice": "396.94",
+      "fivePrice": "169.12",
+      "sixPrice": "229.02"
+    },
+    {
+      "time": "2025-01-31",
+      "areaCode": null,
+      "firstPrice": "390.63",
+      "secondPrice": "427.13",
+      "thirdPrice": "411.22",
+      "fourPrice": "454.37",
+      "fivePrice": "173.33",
+      "sixPrice": "194.3"
+    },
+    {
+      "time": "2025-02-01",
+      "areaCode": null,
+      "firstPrice": "318.9",
+      "secondPrice": "247.53",
+      "thirdPrice": "331.65",
+      "fourPrice": "255.37",
+      "fivePrice": "223.69",
+      "sixPrice": "206.1"
+    },
+    {
+      "time": "2025-02-02",
+      "areaCode": null,
+      "firstPrice": "263.52",
+      "secondPrice": "172.75",
+      "thirdPrice": "280.39",
+      "fourPrice": "189.11",
+      "fivePrice": "202.83",
+      "sixPrice": "121.92"
+    },
+    {
+      "time": "2025-02-03",
+      "areaCode": null,
+      "firstPrice": "301.01",
+      "secondPrice": "331.66",
+      "thirdPrice": "325.48",
+      "fourPrice": "352.7",
+      "fivePrice": "200.62",
+      "sixPrice": "242.13"
+    },
+    {
+      "time": "2025-02-04",
+      "areaCode": null,
+      "firstPrice": "180.55",
+      "secondPrice": "253.23",
+      "thirdPrice": "192.02",
+      "fourPrice": "270.35",
+      "fivePrice": "144.99",
+      "sixPrice": "192.43"
+    },
+    {
+      "time": "2025-02-05",
+      "areaCode": null,
+      "firstPrice": "312.6",
+      "secondPrice": "202.49",
+      "thirdPrice": "339.86",
+      "fourPrice": "215.84",
+      "fivePrice": "205.65",
+      "sixPrice": "154.9"
+    },
+    {
+      "time": "2025-02-06",
+      "areaCode": null,
+      "firstPrice": "293.82",
+      "secondPrice": "148.92",
+      "thirdPrice": "341.14",
+      "fourPrice": "164.52",
+      "fivePrice": "181.73",
+      "sixPrice": "114.34"
+    },
+    {
+      "time": "2025-02-07",
+      "areaCode": null,
+      "firstPrice": "311.16",
+      "secondPrice": "289.34",
+      "thirdPrice": "348.91",
+      "fourPrice": "323.03",
+      "fivePrice": "158.13",
+      "sixPrice": "155.4"
+    },
+    {
+      "time": "2025-02-08",
+      "areaCode": null,
+      "firstPrice": "371.19",
+      "secondPrice": "398.85",
+      "thirdPrice": "409.17",
+      "fourPrice": "436.79",
+      "fivePrice": "182.98",
+      "sixPrice": "199.53"
+    },
+    {
+      "time": "2025-02-09",
+      "areaCode": null,
+      "firstPrice": "364.37",
+      "secondPrice": "282.49",
+      "thirdPrice": "401.27",
+      "fourPrice": "307.36",
+      "fivePrice": "211.75",
+      "sixPrice": "178.67"
+    },
+    {
+      "time": "2025-02-10",
+      "areaCode": null,
+      "firstPrice": "342.07",
+      "secondPrice": "231.52",
+      "thirdPrice": "384.61",
+      "fourPrice": "256.06",
+      "fivePrice": "193.59",
+      "sixPrice": "144.15"
+    },
+    {
+      "time": "2025-02-11",
+      "areaCode": null,
+      "firstPrice": "298.69",
+      "secondPrice": "230.98",
+      "thirdPrice": "309.61",
+      "fourPrice": "240.93",
+      "fivePrice": "261.02",
+      "sixPrice": "198.85"
+    },
+    {
+      "time": "2025-02-12",
+      "areaCode": null,
+      "firstPrice": "195.15",
+      "secondPrice": "165.48",
+      "thirdPrice": "227.84",
+      "fourPrice": "192.34",
+      "fivePrice": "93.03",
+      "sixPrice": "85.01"
+    },
+    {
+      "time": "2025-02-13",
+      "areaCode": null,
+      "firstPrice": "262.95",
+      "secondPrice": "254.14",
+      "thirdPrice": "292.51",
+      "fourPrice": "286.84",
+      "fivePrice": "113.16",
+      "sixPrice": "101.44"
+    },
+    {
+      "time": "2025-02-14",
+      "areaCode": null,
+      "firstPrice": "350.23",
+      "secondPrice": "301.27",
+      "thirdPrice": "381.21",
+      "fourPrice": "320.89",
+      "fivePrice": "201.03",
+      "sixPrice": "195.54"
+    },
+    {
+      "time": "2025-02-15",
+      "areaCode": null,
+      "firstPrice": "158.32",
+      "secondPrice": "152.09",
+      "thirdPrice": "185.25",
+      "fourPrice": "173.02",
+      "fivePrice": "87.31",
+      "sixPrice": "94.88"
+    },
+    {
+      "time": "2025-02-16",
+      "areaCode": null,
+      "firstPrice": "271.01",
+      "secondPrice": "242.57",
+      "thirdPrice": "299.91",
+      "fourPrice": "263.76",
+      "fivePrice": "136.23",
+      "sixPrice": "130.34"
+    },
+    {
+      "time": "2025-02-17",
+      "areaCode": null,
+      "firstPrice": "308.5",
+      "secondPrice": "212.44",
+      "thirdPrice": "341.75",
+      "fourPrice": "235.7",
+      "fivePrice": "182.35",
+      "sixPrice": "115.41"
+    },
+    {
+      "time": "2025-02-18",
+      "areaCode": null,
+      "firstPrice": "310.77",
+      "secondPrice": "223.91",
+      "thirdPrice": "334.84",
+      "fourPrice": "241.48",
+      "fivePrice": "178.89",
+      "sixPrice": "140.58"
+    },
+    {
+      "time": "2025-02-19",
+      "areaCode": null,
+      "firstPrice": "377.63",
+      "secondPrice": "443.17",
+      "thirdPrice": "388.21",
+      "fourPrice": "443.9",
+      "fivePrice": "276.34",
+      "sixPrice": "435.65"
+    },
+    {
+      "time": "2025-02-20",
+      "areaCode": null,
+      "firstPrice": "362.15",
+      "secondPrice": "444.74",
+      "thirdPrice": "377.92",
+      "fourPrice": "448.24",
+      "fivePrice": "216.91",
+      "sixPrice": "407.91"
+    },
+    {
+      "time": "2025-02-21",
+      "areaCode": null,
+      "firstPrice": "370.76",
+      "secondPrice": "381.43",
+      "thirdPrice": "389.4",
+      "fourPrice": "386.23",
+      "fivePrice": "254.46",
+      "sixPrice": "348.27"
+    },
+    {
+      "time": "2025-02-22",
+      "areaCode": null,
+      "firstPrice": "268.08",
+      "secondPrice": "246.8",
+      "thirdPrice": "284.46",
+      "fourPrice": "261.77",
+      "fivePrice": "188.74",
+      "sixPrice": "177.99"
+    },
+    {
+      "time": "2025-02-23",
+      "areaCode": null,
+      "firstPrice": "291.19",
+      "secondPrice": "294.06",
+      "thirdPrice": "318.53",
+      "fourPrice": "315.19",
+      "fivePrice": "144.35",
+      "sixPrice": "156.63"
+    },
+    {
+      "time": "2025-02-24",
+      "areaCode": null,
+      "firstPrice": "278.17",
+      "secondPrice": "287.02",
+      "thirdPrice": "301.21",
+      "fourPrice": "306.03",
+      "fivePrice": "175.71",
+      "sixPrice": "200.48"
+    },
+    {
+      "time": "2025-02-25",
+      "areaCode": null,
+      "firstPrice": "244.15",
+      "secondPrice": "189.28",
+      "thirdPrice": "273.29",
+      "fourPrice": "208.66",
+      "fivePrice": "128.62",
+      "sixPrice": "101.71"
+    },
+    {
+      "time": "2025-02-26",
+      "areaCode": null,
+      "firstPrice": "312.64",
+      "secondPrice": "225.5",
+      "thirdPrice": "356.19",
+      "fourPrice": "252.95",
+      "fivePrice": "137.22",
+      "sixPrice": "112.57"
+    },
+    {
+      "time": "2025-02-27",
+      "areaCode": null,
+      "firstPrice": "376.01",
+      "secondPrice": "206.34",
+      "thirdPrice": "420.06",
+      "fourPrice": "222.97",
+      "fivePrice": "131.3",
+      "sixPrice": "111.21"
+    },
+    {
+      "time": "2025-02-28",
+      "areaCode": null,
+      "firstPrice": "316.99",
+      "secondPrice": "240.03",
+      "thirdPrice": "355.59",
+      "fourPrice": "265.52",
+      "fivePrice": "175.97",
+      "sixPrice": "140.65"
+    },
+    {
+      "time": "2025-03-01",
+      "areaCode": null,
+      "firstPrice": "309.56",
+      "secondPrice": "284.11",
+      "thirdPrice": "331.21",
+      "fourPrice": "308.09",
+      "fivePrice": "223.2",
+      "sixPrice": "192.71"
+    },
+    {
+      "time": "2025-03-02",
+      "areaCode": null,
+      "firstPrice": "363.61",
+      "secondPrice": "306.54",
+      "thirdPrice": "365.41",
+      "fourPrice": "314.78",
+      "fivePrice": "353.06",
+      "sixPrice": "262.42"
+    },
+    {
+      "time": "2025-03-03",
+      "areaCode": null,
+      "firstPrice": "325.07",
+      "secondPrice": "306.04",
+      "thirdPrice": "328.22",
+      "fourPrice": "305.95",
+      "fivePrice": "298.52",
+      "sixPrice": "306.85"
+    },
+    {
+      "time": "2025-03-04",
+      "areaCode": null,
+      "firstPrice": "366.79",
+      "secondPrice": "287.88",
+      "thirdPrice": "384.5",
+      "fourPrice": "293.49",
+      "fivePrice": "242.64",
+      "sixPrice": "236.93"
+    },
+    {
+      "time": "2025-03-05",
+      "areaCode": null,
+      "firstPrice": "300.67",
+      "secondPrice": "362.25",
+      "thirdPrice": "323.31",
+      "fourPrice": "373.82",
+      "fivePrice": "176.32",
+      "sixPrice": "282.56"
+    },
+    {
+      "time": "2025-03-06",
+      "areaCode": null,
+      "firstPrice": "363.24",
+      "secondPrice": "277.15",
+      "thirdPrice": "391.03",
+      "fourPrice": "296.27",
+      "fivePrice": "226.05",
+      "sixPrice": "183.2"
+    },
+    {
+      "time": "2025-03-07",
+      "areaCode": null,
+      "firstPrice": "272.18",
+      "secondPrice": "278.87",
+      "thirdPrice": "295.88",
+      "fourPrice": "298.26",
+      "fivePrice": "153.5",
+      "sixPrice": "171.79"
+    },
+    {
+      "time": "2025-03-08",
+      "areaCode": null,
+      "firstPrice": "172.32",
+      "secondPrice": "151.49",
+      "thirdPrice": "187.87",
+      "fourPrice": "162.19",
+      "fivePrice": "126.03",
+      "sixPrice": "121.25"
+    },
+    {
+      "time": "2025-03-09",
+      "areaCode": null,
+      "firstPrice": "174.67",
+      "secondPrice": "149.33",
+      "thirdPrice": "198.99",
+      "fourPrice": "167.63",
+      "fivePrice": "106.56",
+      "sixPrice": "96.86"
+    },
+    {
+      "time": "2025-03-10",
+      "areaCode": null,
+      "firstPrice": "183.0",
+      "secondPrice": "183.15",
+      "thirdPrice": "202.03",
+      "fourPrice": "200.01",
+      "fivePrice": "129.33",
+      "sixPrice": "125.97"
+    },
+    {
+      "time": "2025-03-11",
+      "areaCode": null,
+      "firstPrice": "220.23",
+      "secondPrice": "191.74",
+      "thirdPrice": "247.55",
+      "fourPrice": "217.66",
+      "fivePrice": "141.36",
+      "sixPrice": "118.62"
+    },
+    {
+      "time": "2025-03-12",
+      "areaCode": null,
+      "firstPrice": "366.02",
+      "secondPrice": "252.66",
+      "thirdPrice": "398.34",
+      "fourPrice": "272.92",
+      "fivePrice": "227.88",
+      "sixPrice": "159.78"
+    },
+    {
+      "time": "2025-03-13",
+      "areaCode": null,
+      "firstPrice": "238.43",
+      "secondPrice": "215.57",
+      "thirdPrice": "259.76",
+      "fourPrice": "233.92",
+      "fivePrice": "166.59",
+      "sixPrice": "153.31"
+    },
+    {
+      "time": "2025-03-14",
+      "areaCode": null,
+      "firstPrice": "327.07",
+      "secondPrice": "254.87",
+      "thirdPrice": "333.9",
+      "fourPrice": "255.94",
+      "fivePrice": "285.81",
+      "sixPrice": "249.09"
+    },
+    {
+      "time": "2025-03-15",
+      "areaCode": null,
+      "firstPrice": "223.36",
+      "secondPrice": "192.88",
+      "thirdPrice": "244.04",
+      "fourPrice": "207.82",
+      "fivePrice": "174.33",
+      "sixPrice": "157.42"
+    },
+    {
+      "time": "2025-03-16",
+      "areaCode": null,
+      "firstPrice": "356.53",
+      "secondPrice": "305.51",
+      "thirdPrice": "397.29",
+      "fourPrice": "332.82",
+      "fivePrice": "185.21",
+      "sixPrice": "169.19"
+    },
+    {
+      "time": "2025-03-17",
+      "areaCode": null,
+      "firstPrice": "270.08",
+      "secondPrice": "229.87",
+      "thirdPrice": "300.68",
+      "fourPrice": "258.98",
+      "fivePrice": "193.32",
+      "sixPrice": "158.56"
+    },
+    {
+      "time": "2025-03-18",
+      "areaCode": null,
+      "firstPrice": "355.79",
+      "secondPrice": "189.34",
+      "thirdPrice": "403.21",
+      "fourPrice": "206.99",
+      "fivePrice": "202.81",
+      "sixPrice": "139.93"
+    },
+    {
+      "time": "2025-03-19",
+      "areaCode": null,
+      "firstPrice": "226.24",
+      "secondPrice": "176.13",
+      "thirdPrice": "251.49",
+      "fourPrice": "197.16",
+      "fivePrice": "135.85",
+      "sixPrice": "105.14"
+    },
+    {
+      "time": "2025-03-20",
+      "areaCode": null,
+      "firstPrice": "328.84",
+      "secondPrice": "242.47",
+      "thirdPrice": "371.48",
+      "fourPrice": "268.59",
+      "fivePrice": "179.49",
+      "sixPrice": "150.08"
+    },
+    {
+      "time": "2025-03-21",
+      "areaCode": null,
+      "firstPrice": "277.61",
+      "secondPrice": "298.23",
+      "thirdPrice": "315.21",
+      "fourPrice": "337.85",
+      "fivePrice": "145.7",
+      "sixPrice": "154.46"
+    },
+    {
+      "time": "2025-03-22",
+      "areaCode": null,
+      "firstPrice": "293.83",
+      "secondPrice": "294.0",
+      "thirdPrice": "335.81",
+      "fourPrice": "326.77",
+      "fivePrice": "168.85",
+      "sixPrice": "191.74"
+    },
+    {
+      "time": "2025-03-23",
+      "areaCode": null,
+      "firstPrice": "262.53",
+      "secondPrice": "269.25",
+      "thirdPrice": "300.26",
+      "fourPrice": "295.83",
+      "fivePrice": "186.65",
+      "sixPrice": "211.6"
+    },
+    {
+      "time": "2025-03-24",
+      "areaCode": null,
+      "firstPrice": "327.57",
+      "secondPrice": "280.36",
+      "thirdPrice": "395.39",
+      "fourPrice": "336.65",
+      "fivePrice": "162.92",
+      "sixPrice": "138.87"
+    },
+    {
+      "time": "2025-03-25",
+      "areaCode": null,
+      "firstPrice": "315.22",
+      "secondPrice": "258.62",
+      "thirdPrice": "377.25",
+      "fourPrice": "311.89",
+      "fivePrice": "139.67",
+      "sixPrice": "125.78"
+    },
+    {
+      "time": "2025-03-26",
+      "areaCode": null,
+      "firstPrice": "176.38",
+      "secondPrice": "133.88",
+      "thirdPrice": "220.78",
+      "fourPrice": "169.4",
+      "fivePrice": "93.18",
+      "sixPrice": "74.29"
+    },
+    {
+      "time": "2025-03-27",
+      "areaCode": null,
+      "firstPrice": "252.21",
+      "secondPrice": "263.92",
+      "thirdPrice": "329.17",
+      "fourPrice": "327.9",
+      "fivePrice": "114.69",
+      "sixPrice": "146.99"
+    },
+    {
+      "time": "2025-03-28",
+      "areaCode": null,
+      "firstPrice": "284.51",
+      "secondPrice": "321.28",
+      "thirdPrice": "366.3",
+      "fourPrice": "417.03",
+      "fivePrice": "98.33",
+      "sixPrice": "110.47"
+    },
+    {
+      "time": "2025-03-29",
+      "areaCode": null,
+      "firstPrice": "245.41",
+      "secondPrice": "246.59",
+      "thirdPrice": "274.14",
+      "fourPrice": "272.89",
+      "fivePrice": "90.88",
+      "sixPrice": "98.86"
+    },
+    {
+      "time": "2025-03-30",
+      "areaCode": null,
+      "firstPrice": "233.45",
+      "secondPrice": "241.2",
+      "thirdPrice": "259.94",
+      "fourPrice": "268.43",
+      "fivePrice": "88.73",
+      "sixPrice": "84.59"
+    },
+    {
+      "time": "2025-03-31",
+      "areaCode": null,
+      "firstPrice": "262.02",
+      "secondPrice": "279.0",
+      "thirdPrice": "305.38",
+      "fourPrice": "330.3",
+      "fivePrice": "97.5",
+      "sixPrice": "89.36"
+    },
+    {
+      "time": "2025-04-01",
+      "areaCode": null,
+      "firstPrice": "227.54",
+      "secondPrice": "193.31",
+      "thirdPrice": "275.74",
+      "fourPrice": "243.51",
+      "fivePrice": "106.98",
+      "sixPrice": "75.11"
+    },
+    {
+      "time": "2025-04-02",
+      "areaCode": null,
+      "firstPrice": "279.69",
+      "secondPrice": "318.84",
+      "thirdPrice": "317.32",
+      "fourPrice": "356.43",
+      "fivePrice": "164.05",
+      "sixPrice": "188.14"
+    },
+    {
+      "time": "2025-04-03",
+      "areaCode": null,
+      "firstPrice": "221.9",
+      "secondPrice": "250.39",
+      "thirdPrice": "258.16",
+      "fourPrice": "294.01",
+      "fivePrice": "139.09",
+      "sixPrice": "150.46"
+    },
+    {
+      "time": "2025-04-04",
+      "areaCode": null,
+      "firstPrice": "245.51",
+      "secondPrice": "245.3",
+      "thirdPrice": "283.43",
+      "fourPrice": "289.69",
+      "fivePrice": "155.05",
+      "sixPrice": "139.4"
+    },
+    {
+      "time": "2025-04-05",
+      "areaCode": null,
+      "firstPrice": "298.18",
+      "secondPrice": "271.1",
+      "thirdPrice": "341.03",
+      "fourPrice": "312.8",
+      "fivePrice": "137.1",
+      "sixPrice": "130.64"
+    },
+    {
+      "time": "2025-04-06",
+      "areaCode": null,
+      "firstPrice": "326.62",
+      "secondPrice": "248.8",
+      "thirdPrice": "376.6",
+      "fourPrice": "293.91",
+      "fivePrice": "188.89",
+      "sixPrice": "140.36"
+    },
+    {
+      "time": "2025-04-07",
+      "areaCode": null,
+      "firstPrice": "308.17",
+      "secondPrice": "384.46",
+      "thirdPrice": "350.18",
+      "fourPrice": "440.94",
+      "fivePrice": "160.84",
+      "sixPrice": "184.4"
+    },
+    {
+      "time": "2025-04-08",
+      "areaCode": null,
+      "firstPrice": "226.59",
+      "secondPrice": "272.55",
+      "thirdPrice": "268.96",
+      "fourPrice": "309.12",
+      "fivePrice": "127.68",
+      "sixPrice": "177.82"
+    },
+    {
+      "time": "2025-04-09",
+      "areaCode": null,
+      "firstPrice": "215.51",
+      "secondPrice": "222.97",
+      "thirdPrice": "272.67",
+      "fourPrice": "279.05",
+      "fivePrice": "90.94",
+      "sixPrice": "95.6"
+    },
+    {
+      "time": "2025-04-10",
+      "areaCode": null,
+      "firstPrice": "216.71",
+      "secondPrice": "245.61",
+      "thirdPrice": "268.02",
+      "fourPrice": "292.01",
+      "fivePrice": "82.14",
+      "sixPrice": "110.33"
+    },
+    {
+      "time": "2025-04-11",
+      "areaCode": null,
+      "firstPrice": "173.53",
+      "secondPrice": "200.48",
+      "thirdPrice": "236.34",
+      "fourPrice": "245.83",
+      "fivePrice": "80.42",
+      "sixPrice": "110.86"
+    },
+    {
+      "time": "2025-04-12",
+      "areaCode": null,
+      "firstPrice": "139.53",
+      "secondPrice": "155.26",
+      "thirdPrice": "184.08",
+      "fourPrice": "199.5",
+      "fivePrice": "77.35",
+      "sixPrice": "77.4"
+    },
+    {
+      "time": "2025-04-13",
+      "areaCode": null,
+      "firstPrice": "91.15",
+      "secondPrice": "111.09",
+      "thirdPrice": "113.56",
+      "fourPrice": "141.43",
+      "fivePrice": "58.5",
+      "sixPrice": "66.94"
+    },
+    {
+      "time": "2025-04-14",
+      "areaCode": null,
+      "firstPrice": "172.89",
+      "secondPrice": "188.36",
+      "thirdPrice": "218.66",
+      "fourPrice": "229.03",
+      "fivePrice": "77.98",
+      "sixPrice": "107.51"
+    },
+    {
+      "time": "2025-04-15",
+      "areaCode": null,
+      "firstPrice": "213.69",
+      "secondPrice": "235.15",
+      "thirdPrice": "262.16",
+      "fourPrice": "283.95",
+      "fivePrice": "84.02",
+      "sixPrice": "111.95"
+    },
+    {
+      "time": "2025-04-16",
+      "areaCode": null,
+      "firstPrice": "182.71",
+      "secondPrice": "223.13",
+      "thirdPrice": "243.18",
+      "fourPrice": "272.49",
+      "fivePrice": "71.97",
+      "sixPrice": "122.44"
+    },
+    {
+      "time": "2025-04-17",
+      "areaCode": null,
+      "firstPrice": "209.66",
+      "secondPrice": "217.86",
+      "thirdPrice": "240.79",
+      "fourPrice": "252.61",
+      "fivePrice": "136.27",
+      "sixPrice": "134.3"
+    },
+    {
+      "time": "2025-04-18",
+      "areaCode": null,
+      "firstPrice": "244.97",
+      "secondPrice": "261.62",
+      "thirdPrice": "276.59",
+      "fourPrice": "293.77",
+      "fivePrice": "168.44",
+      "sixPrice": "182.9"
+    },
+    {
+      "time": "2025-04-19",
+      "areaCode": null,
+      "firstPrice": "230.48",
+      "secondPrice": "219.53",
+      "thirdPrice": "253.97",
+      "fourPrice": "251.58",
+      "fivePrice": "176.29",
+      "sixPrice": "147.65"
+    },
+    {
+      "time": "2025-04-20",
+      "areaCode": null,
+      "firstPrice": "127.04",
+      "secondPrice": "131.91",
+      "thirdPrice": "163.27",
+      "fourPrice": "171.06",
+      "fivePrice": "73.37",
+      "sixPrice": "74.07"
+    },
+    {
+      "time": "2025-04-21",
+      "areaCode": null,
+      "firstPrice": "244.42",
+      "secondPrice": "195.08",
+      "thirdPrice": "308.64",
+      "fourPrice": "243.9",
+      "fivePrice": "128.62",
+      "sixPrice": "105.25"
+    },
+    {
+      "time": "2025-04-22",
+      "areaCode": null,
+      "firstPrice": "237.09",
+      "secondPrice": "257.87",
+      "thirdPrice": "267.63",
+      "fourPrice": "284.54",
+      "fivePrice": "151.83",
+      "sixPrice": "184.49"
+    },
+    {
+      "time": "2025-04-23",
+      "areaCode": null,
+      "firstPrice": "217.29",
+      "secondPrice": "222.04",
+      "thirdPrice": "264.24",
+      "fourPrice": "268.78",
+      "fivePrice": "126.74",
+      "sixPrice": "136.6"
+    },
+    {
+      "time": "2025-04-24",
+      "areaCode": null,
+      "firstPrice": "234.48",
+      "secondPrice": "243.27",
+      "thirdPrice": "272.34",
+      "fourPrice": "278.86",
+      "fivePrice": "146.23",
+      "sixPrice": "144.68"
+    },
+    {
+      "time": "2025-04-25",
+      "areaCode": null,
+      "firstPrice": "211.19",
+      "secondPrice": "241.52",
+      "thirdPrice": "251.09",
+      "fourPrice": "287.51",
+      "fivePrice": "140.14",
+      "sixPrice": "152.21"
+    },
+    {
+      "time": "2025-04-26",
+      "areaCode": null,
+      "firstPrice": "247.85",
+      "secondPrice": "276.88",
+      "thirdPrice": "278.31",
+      "fourPrice": "291.17",
+      "fivePrice": "167.15",
+      "sixPrice": "234.92"
+    },
+    {
+      "time": "2025-04-27",
+      "areaCode": null,
+      "firstPrice": "188.97",
+      "secondPrice": "198.41",
+      "thirdPrice": "236.1",
+      "fourPrice": "238.21",
+      "fivePrice": "92.07",
+      "sixPrice": "119.66"
+    },
+    {
+      "time": "2025-04-28",
+      "areaCode": null,
+      "firstPrice": "270.59",
+      "secondPrice": "235.08",
+      "thirdPrice": "312.62",
+      "fourPrice": "272.45",
+      "fivePrice": "124.82",
+      "sixPrice": "120.37"
+    },
+    {
+      "time": "2025-04-29",
+      "areaCode": null,
+      "firstPrice": "180.95",
+      "secondPrice": "173.7",
+      "thirdPrice": "220.62",
+      "fourPrice": "213.94",
+      "fivePrice": "105.65",
+      "sixPrice": "93.44"
+    },
+    {
+      "time": "2025-04-30",
+      "areaCode": null,
+      "firstPrice": "227.38",
+      "secondPrice": "196.89",
+      "thirdPrice": "262.93",
+      "fourPrice": "249.63",
+      "fivePrice": "167.26",
+      "sixPrice": "113.48"
+    },
+    {
+      "time": "2025-05-01",
+      "areaCode": null,
+      "firstPrice": "208.0",
+      "secondPrice": "209.85",
+      "thirdPrice": "236.12",
+      "fourPrice": "251.38",
+      "fivePrice": "135.29",
+      "sixPrice": "117.28"
+    },
+    {
+      "time": "2025-05-02",
+      "areaCode": null,
+      "firstPrice": "357.26",
+      "secondPrice": "327.0",
+      "thirdPrice": "402.56",
+      "fourPrice": "375.7",
+      "fivePrice": "283.24",
+      "sixPrice": "248.65"
+    },
+    {
+      "time": "2025-05-03",
+      "areaCode": null,
+      "firstPrice": "227.84",
+      "secondPrice": "241.97",
+      "thirdPrice": "263.1",
+      "fourPrice": "272.53",
+      "fivePrice": "160.66",
+      "sixPrice": "168.36"
+    },
+    {
+      "time": "2025-05-04",
+      "areaCode": null,
+      "firstPrice": "252.81",
+      "secondPrice": "286.62",
+      "thirdPrice": "283.89",
+      "fourPrice": "314.68",
+      "fivePrice": "196.92",
+      "sixPrice": "234.2"
+    },
+    {
+      "time": "2025-05-05",
+      "areaCode": null,
+      "firstPrice": "254.76",
+      "secondPrice": "227.91",
+      "thirdPrice": "295.98",
+      "fourPrice": "275.21",
+      "fivePrice": "180.36",
+      "sixPrice": "152.19"
+    },
+    {
+      "time": "2025-05-06",
+      "areaCode": null,
+      "firstPrice": "331.26",
+      "secondPrice": "285.37",
+      "thirdPrice": "383.62",
+      "fourPrice": "334.24",
+      "fivePrice": "189.36",
+      "sixPrice": "155.16"
+    },
+    {
+      "time": "2025-05-07",
+      "areaCode": null,
+      "firstPrice": "269.84",
+      "secondPrice": "307.61",
+      "thirdPrice": "308.29",
+      "fourPrice": "333.29",
+      "fivePrice": "158.04",
+      "sixPrice": "220.15"
+    },
+    {
+      "time": "2025-05-08",
+      "areaCode": null,
+      "firstPrice": "247.18",
+      "secondPrice": "280.87",
+      "thirdPrice": "281.65",
+      "fourPrice": "308.98",
+      "fivePrice": "166.12",
+      "sixPrice": "202.03"
+    },
+    {
+      "time": "2025-05-09",
+      "areaCode": null,
+      "firstPrice": "167.52",
+      "secondPrice": "132.87",
+      "thirdPrice": "196.05",
+      "fourPrice": "154.93",
+      "fivePrice": "118.67",
+      "sixPrice": "100.81"
+    },
+    {
+      "time": "2025-05-10",
+      "areaCode": null,
+      "firstPrice": "226.26",
+      "secondPrice": "215.92",
+      "thirdPrice": "260.39",
+      "fourPrice": "254.75",
+      "fivePrice": "124.4",
+      "sixPrice": "115.77"
+    },
+    {
+      "time": "2025-05-11",
+      "areaCode": null,
+      "firstPrice": "256.55",
+      "secondPrice": "223.01",
+      "thirdPrice": "292.64",
+      "fourPrice": "262.93",
+      "fivePrice": "139.57",
+      "sixPrice": "114.92"
+    },
+    {
+      "time": "2025-05-12",
+      "areaCode": null,
+      "firstPrice": "217.65",
+      "secondPrice": "181.52",
+      "thirdPrice": "248.3",
+      "fourPrice": "208.82",
+      "fivePrice": "137.59",
+      "sixPrice": "115.81"
+    },
+    {
+      "time": "2025-05-13",
+      "areaCode": null,
+      "firstPrice": "170.17",
+      "secondPrice": "173.73",
+      "thirdPrice": "205.13",
+      "fourPrice": "204.82",
+      "fivePrice": "87.23",
+      "sixPrice": "97.81"
+    },
+    {
+      "time": "2025-05-14",
+      "areaCode": null,
+      "firstPrice": "243.52",
+      "secondPrice": "229.03",
+      "thirdPrice": "295.96",
+      "fourPrice": "270.64",
+      "fivePrice": "99.41",
+      "sixPrice": "106.88"
+    },
+    {
+      "time": "2025-05-15",
+      "areaCode": null,
+      "firstPrice": "177.04",
+      "secondPrice": "201.78",
+      "thirdPrice": "213.21",
+      "fourPrice": "239.09",
+      "fivePrice": "101.63",
+      "sixPrice": "117.42"
+    },
+    {
+      "time": "2025-05-16",
+      "areaCode": null,
+      "firstPrice": "163.72",
+      "secondPrice": "150.75",
+      "thirdPrice": "207.48",
+      "fourPrice": "201.58",
+      "fivePrice": "93.42",
+      "sixPrice": "74.94"
+    },
+    {
+      "time": "2025-05-17",
+      "areaCode": null,
+      "firstPrice": "180.78",
+      "secondPrice": "230.49",
+      "thirdPrice": "212.74",
+      "fourPrice": "256.92",
+      "fivePrice": "87.45",
+      "sixPrice": "136.0"
+    },
+    {
+      "time": "2025-05-18",
+      "areaCode": null,
+      "firstPrice": "185.85",
+      "secondPrice": "197.85",
+      "thirdPrice": "217.88",
+      "fourPrice": "229.44",
+      "fivePrice": "78.97",
+      "sixPrice": "89.18"
+    },
+    {
+      "time": "2025-05-19",
+      "areaCode": null,
+      "firstPrice": "213.24",
+      "secondPrice": "252.39",
+      "thirdPrice": "245.52",
+      "fourPrice": "284.32",
+      "fivePrice": "103.85",
+      "sixPrice": "131.24"
+    },
+    {
+      "time": "2025-05-20",
+      "areaCode": null,
+      "firstPrice": "239.52",
+      "secondPrice": "309.3",
+      "thirdPrice": "273.6",
+      "fourPrice": "345.92",
+      "fivePrice": "105.95",
+      "sixPrice": "150.86"
+    },
+    {
+      "time": "2025-05-21",
+      "areaCode": null,
+      "firstPrice": "255.07",
+      "secondPrice": "274.26",
+      "thirdPrice": "289.01",
+      "fourPrice": "303.1",
+      "fivePrice": "145.62",
+      "sixPrice": "164.57"
+    },
+    {
+      "time": "2025-05-22",
+      "areaCode": null,
+      "firstPrice": "241.37",
+      "secondPrice": "189.32",
+      "thirdPrice": "259.51",
+      "fourPrice": "207.55",
+      "fivePrice": "201.8",
+      "sixPrice": "149.28"
+    },
+    {
+      "time": "2025-05-23",
+      "areaCode": null,
+      "firstPrice": "165.14",
+      "secondPrice": "157.21",
+      "thirdPrice": "200.54",
+      "fourPrice": "188.8",
+      "fivePrice": "86.26",
+      "sixPrice": "80.77"
+    },
+    {
+      "time": "2025-05-24",
+      "areaCode": null,
+      "firstPrice": "184.32",
+      "secondPrice": "161.69",
+      "thirdPrice": "201.41",
+      "fourPrice": "178.09",
+      "fivePrice": "111.4",
+      "sixPrice": "105.2"
+    },
+    {
+      "time": "2025-05-25",
+      "areaCode": null,
+      "firstPrice": "195.09",
+      "secondPrice": "171.91",
+      "thirdPrice": "212.16",
+      "fourPrice": "188.95",
+      "fivePrice": "123.81",
+      "sixPrice": "115.15"
+    },
+    {
+      "time": "2025-05-26",
+      "areaCode": null,
+      "firstPrice": "222.46",
+      "secondPrice": "230.51",
+      "thirdPrice": "248.88",
+      "fourPrice": "252.01",
+      "fivePrice": "135.92",
+      "sixPrice": "149.73"
+    },
+    {
+      "time": "2025-05-27",
+      "areaCode": null,
+      "firstPrice": "194.63",
+      "secondPrice": "153.62",
+      "thirdPrice": "221.69",
+      "fourPrice": "177.01",
+      "fivePrice": "138.82",
+      "sixPrice": "102.05"
+    },
+    {
+      "time": "2025-05-28",
+      "areaCode": null,
+      "firstPrice": "133.1",
+      "secondPrice": "109.72",
+      "thirdPrice": "157.1",
+      "fourPrice": "125.77",
+      "fivePrice": "97.79",
+      "sixPrice": "86.75"
+    },
+    {
+      "time": "2025-05-29",
+      "areaCode": null,
+      "firstPrice": "114.67",
+      "secondPrice": "91.41",
+      "thirdPrice": "142.6",
+      "fourPrice": "115.23",
+      "fivePrice": "73.79",
+      "sixPrice": "59.33"
+    },
+    {
+      "time": "2025-05-30",
+      "areaCode": null,
+      "firstPrice": "199.77",
+      "secondPrice": "246.73",
+      "thirdPrice": "230.08",
+      "fourPrice": "276.05",
+      "fivePrice": "114.39",
+      "sixPrice": "155.46"
+    },
+    {
+      "time": "2025-05-31",
+      "areaCode": null,
+      "firstPrice": "207.73",
+      "secondPrice": "171.11",
+      "thirdPrice": "231.92",
+      "fourPrice": "189.13",
+      "fivePrice": "105.64",
+      "sixPrice": "96.98"
+    },
+    {
+      "time": "2025-06-01",
+      "areaCode": null,
+      "firstPrice": "297.87",
+      "secondPrice": "332.67",
+      "thirdPrice": "331.92",
+      "fourPrice": "341.62",
+      "fivePrice": "163.72",
+      "sixPrice": "280.19"
+    },
+    {
+      "time": "2025-06-02",
+      "areaCode": null,
+      "firstPrice": "302.96",
+      "secondPrice": "350.01",
+      "thirdPrice": "353.42",
+      "fourPrice": "401.82",
+      "fivePrice": "160.72",
+      "sixPrice": "193.75"
+    },
+    {
+      "time": "2025-06-03",
+      "areaCode": null,
+      "firstPrice": "365.62",
+      "secondPrice": "312.46",
+      "thirdPrice": "431.12",
+      "fourPrice": "350.6",
+      "fivePrice": "152.78",
+      "sixPrice": "180.07"
+    },
+    {
+      "time": "2025-06-04",
+      "areaCode": null,
+      "firstPrice": "274.87",
+      "secondPrice": "240.46",
+      "thirdPrice": "317.14",
+      "fourPrice": "277.17",
+      "fivePrice": "150.53",
+      "sixPrice": "143.34"
+    },
+    {
+      "time": "2025-06-05",
+      "areaCode": null,
+      "firstPrice": "257.64",
+      "secondPrice": "291.88",
+      "thirdPrice": "293.48",
+      "fourPrice": "327.94",
+      "fivePrice": "152.31",
+      "sixPrice": "159.24"
+    },
+    {
+      "time": "2025-06-06",
+      "areaCode": null,
+      "firstPrice": "238.91",
+      "secondPrice": "291.8",
+      "thirdPrice": "271.91",
+      "fourPrice": "316.42",
+      "fivePrice": "100.58",
+      "sixPrice": "157.5"
+    },
+    {
+      "time": "2025-06-07",
+      "areaCode": null,
+      "firstPrice": "235.0",
+      "secondPrice": "226.98",
+      "thirdPrice": "261.52",
+      "fourPrice": "250.3",
+      "fivePrice": "130.31",
+      "sixPrice": "117.96"
+    },
+    {
+      "time": "2025-06-08",
+      "areaCode": null,
+      "firstPrice": "203.62",
+      "secondPrice": "219.49",
+      "thirdPrice": "228.48",
+      "fourPrice": "244.02",
+      "fivePrice": "100.01",
+      "sixPrice": "106.45"
+    },
+    {
+      "time": "2025-06-09",
+      "areaCode": null,
+      "firstPrice": "183.11",
+      "secondPrice": "188.4",
+      "thirdPrice": "215.8",
+      "fourPrice": "218.68",
+      "fivePrice": "82.7",
+      "sixPrice": "95.41"
+    },
+    {
+      "time": "2025-06-10",
+      "areaCode": null,
+      "firstPrice": "188.5",
+      "secondPrice": "219.18",
+      "thirdPrice": "217.15",
+      "fourPrice": "245.16",
+      "fivePrice": "93.85",
+      "sixPrice": "119.31"
+    },
+    {
+      "time": "2025-06-11",
+      "areaCode": null,
+      "firstPrice": "153.73",
+      "secondPrice": "175.89",
+      "thirdPrice": "188.18",
+      "fourPrice": "204.41",
+      "fivePrice": "76.54",
+      "sixPrice": "106.09"
+    },
+    {
+      "time": "2025-06-12",
+      "areaCode": null,
+      "firstPrice": "209.78",
+      "secondPrice": "242.29",
+      "thirdPrice": "248.8",
+      "fourPrice": "287.55",
+      "fivePrice": "108.8",
+      "sixPrice": "113.37"
+    },
+    {
+      "time": "2025-06-13",
+      "areaCode": null,
+      "firstPrice": "310.66",
+      "secondPrice": "305.38",
+      "thirdPrice": "347.65",
+      "fourPrice": "330.03",
+      "fivePrice": "158.03",
+      "sixPrice": "188.5"
+    },
+    {
+      "time": "2025-06-14",
+      "areaCode": null,
+      "firstPrice": "198.79",
+      "secondPrice": "127.2",
+      "thirdPrice": "231.5",
+      "fourPrice": "145.7",
+      "fivePrice": "115.13",
+      "sixPrice": "84.7"
+    },
+    {
+      "time": "2025-06-15",
+      "areaCode": null,
+      "firstPrice": "112.13",
+      "secondPrice": "91.53",
+      "thirdPrice": "129.3",
+      "fourPrice": "109.63",
+      "fivePrice": "77.27",
+      "sixPrice": "56.01"
+    },
+    {
+      "time": "2025-06-16",
+      "areaCode": null,
+      "firstPrice": "190.02",
+      "secondPrice": "210.99",
+      "thirdPrice": "218.98",
+      "fourPrice": "242.08",
+      "fivePrice": "102.2",
+      "sixPrice": "107.57"
+    },
+    {
+      "time": "2025-06-17",
+      "areaCode": null,
+      "firstPrice": "297.34",
+      "secondPrice": "248.94",
+      "thirdPrice": "334.56",
+      "fourPrice": "279.3",
+      "fivePrice": "187.23",
+      "sixPrice": "164.61"
+    },
+    {
+      "time": "2025-06-18",
+      "areaCode": null,
+      "firstPrice": "174.98",
+      "secondPrice": "266.0",
+      "thirdPrice": "196.54",
+      "fourPrice": "286.07",
+      "fivePrice": "104.61",
+      "sixPrice": "179.22"
+    },
+    {
+      "time": "2025-06-19",
+      "areaCode": null,
+      "firstPrice": "266.32",
+      "secondPrice": "331.57",
+      "thirdPrice": "279.31",
+      "fourPrice": "342.06",
+      "fivePrice": "203.89",
+      "sixPrice": "269.43"
+    },
+    {
+      "time": "2025-06-20",
+      "areaCode": null,
+      "firstPrice": "274.8",
+      "secondPrice": "320.8",
+      "thirdPrice": "302.78",
+      "fourPrice": "336.78",
+      "fivePrice": "151.84",
+      "sixPrice": "226.66"
+    },
+    {
+      "time": "2025-06-21",
+      "areaCode": null,
+      "firstPrice": "230.79",
+      "secondPrice": "282.07",
+      "thirdPrice": "260.19",
+      "fourPrice": "309.74",
+      "fivePrice": "119.42",
+      "sixPrice": "137.96"
+    },
+    {
+      "time": "2025-06-22",
+      "areaCode": null,
+      "firstPrice": "298.59",
+      "secondPrice": "236.1",
+      "thirdPrice": "336.87",
+      "fourPrice": "258.25",
+      "fivePrice": "161.06",
+      "sixPrice": "149.77"
+    },
+    {
+      "time": "2025-06-23",
+      "areaCode": null,
+      "firstPrice": "225.93",
+      "secondPrice": "217.43",
+      "thirdPrice": "252.77",
+      "fourPrice": "239.19",
+      "fivePrice": "133.61",
+      "sixPrice": "145.23"
+    },
+    {
+      "time": "2025-06-24",
+      "areaCode": null,
+      "firstPrice": "210.51",
+      "secondPrice": "201.34",
+      "thirdPrice": "235.72",
+      "fourPrice": "212.78",
+      "fivePrice": "130.01",
+      "sixPrice": "158.78"
+    },
+    {
+      "time": "2025-06-25",
+      "areaCode": null,
+      "firstPrice": "242.59",
+      "secondPrice": "223.81",
+      "thirdPrice": "252.7",
+      "fourPrice": "230.94",
+      "fivePrice": "203.51",
+      "sixPrice": "190.41"
+    },
+    {
+      "time": "2025-06-26",
+      "areaCode": null,
+      "firstPrice": "219.7",
+      "secondPrice": null,
+      "thirdPrice": "249.43",
+      "fourPrice": null,
+      "fivePrice": "106.62",
+      "sixPrice": null
+    },
+    {
+      "time": "2025-06-27",
+      "areaCode": null,
+      "firstPrice": "219.15",
+      "secondPrice": "222.39",
+      "thirdPrice": "246.08",
+      "fourPrice": "237.31",
+      "fivePrice": "119.91",
+      "sixPrice": "156.78"
+    },
+    {
+      "time": "2025-06-28",
+      "areaCode": null,
+      "firstPrice": "236.91",
+      "secondPrice": "220.37",
+      "thirdPrice": "263.24",
+      "fourPrice": "236.91",
+      "fivePrice": "114.39",
+      "sixPrice": "143.82"
+    },
+    {
+      "time": "2025-06-29",
+      "areaCode": null,
+      "firstPrice": "228.42",
+      "secondPrice": "205.27",
+      "thirdPrice": "253.52",
+      "fourPrice": "222.22",
+      "fivePrice": "123.34",
+      "sixPrice": "144.4"
+    },
+    {
+      "time": "2025-06-30",
+      "areaCode": null,
+      "firstPrice": "262.73",
+      "secondPrice": "233.43",
+      "thirdPrice": "265.2",
+      "fourPrice": "235.4",
+      "fivePrice": "247.12",
+      "sixPrice": "221.18"
+    },
+    {
+      "time": "2025-07-01",
+      "areaCode": null,
+      "firstPrice": "240.99",
+      "secondPrice": "255.23",
+      "thirdPrice": "269.81",
+      "fourPrice": "273.83",
+      "fivePrice": "134.58",
+      "sixPrice": "174.59"
+    },
+    {
+      "time": "2025-07-02",
+      "areaCode": null,
+      "firstPrice": "200.66",
+      "secondPrice": "231.37",
+      "thirdPrice": "223.51",
+      "fourPrice": "246.49",
+      "fivePrice": "125.17",
+      "sixPrice": "176.98"
+    },
+    {
+      "time": "2025-07-03",
+      "areaCode": null,
+      "firstPrice": "231.45",
+      "secondPrice": "214.09",
+      "thirdPrice": "260.43",
+      "fourPrice": "224.15",
+      "fivePrice": "125.97",
+      "sixPrice": "173.2"
+    },
+    {
+      "time": "2025-07-04",
+      "areaCode": null,
+      "firstPrice": "250.75",
+      "secondPrice": "159.32",
+      "thirdPrice": "264.38",
+      "fourPrice": "165.97",
+      "fivePrice": "197.12",
+      "sixPrice": "139.75"
+    },
+    {
+      "time": "2025-07-05",
+      "areaCode": null,
+      "firstPrice": "157.03",
+      "secondPrice": "164.13",
+      "thirdPrice": "173.13",
+      "fourPrice": "182.58",
+      "fivePrice": "78.42",
+      "sixPrice": "82.09"
+    },
+    {
+      "time": "2025-07-06",
+      "areaCode": null,
+      "firstPrice": "213.47",
+      "secondPrice": "214.43",
+      "thirdPrice": "230.65",
+      "fourPrice": "226.74",
+      "fivePrice": "109.28",
+      "sixPrice": "135.23"
+    },
+    {
+      "time": "2025-07-07",
+      "areaCode": null,
+      "firstPrice": "167.96",
+      "secondPrice": "148.79",
+      "thirdPrice": "184.85",
+      "fourPrice": "158.38",
+      "fivePrice": "106.5",
+      "sixPrice": "115.65"
+    },
+    {
+      "time": "2025-07-08",
+      "areaCode": null,
+      "firstPrice": "160.9",
+      "secondPrice": "140.04",
+      "thirdPrice": "181.66",
+      "fourPrice": "148.6",
+      "fivePrice": "101.0",
+      "sixPrice": "117.97"
+    },
+    {
+      "time": "2025-07-09",
+      "areaCode": null,
+      "firstPrice": "141.06",
+      "secondPrice": "169.29",
+      "thirdPrice": "151.83",
+      "fourPrice": "179.02",
+      "fivePrice": "104.53",
+      "sixPrice": "129.76"
+    },
+    {
+      "time": "2025-07-10",
+      "areaCode": null,
+      "firstPrice": "125.46",
+      "secondPrice": "122.25",
+      "thirdPrice": "144.98",
+      "fourPrice": "142.74",
+      "fivePrice": "79.08",
+      "sixPrice": "76.76"
+    },
+    {
+      "time": "2025-07-11",
+      "areaCode": null,
+      "firstPrice": "156.4",
+      "secondPrice": "154.97",
+      "thirdPrice": "192.04",
+      "fourPrice": "185.97",
+      "fivePrice": "79.93",
+      "sixPrice": "89.71"
+    },
+    {
+      "time": "2025-07-12",
+      "areaCode": null,
+      "firstPrice": "189.42",
+      "secondPrice": "202.09",
+      "thirdPrice": "229.78",
+      "fourPrice": "239.34",
+      "fivePrice": "91.98",
+      "sixPrice": "106.99"
+    },
+    {
+      "time": "2025-07-13",
+      "areaCode": null,
+      "firstPrice": "250.53",
+      "secondPrice": "256.94",
+      "thirdPrice": "284.7",
+      "fourPrice": "292.45",
+      "fivePrice": "130.16",
+      "sixPrice": "134.02"
+    },
+    {
+      "time": "2025-07-14",
+      "areaCode": null,
+      "firstPrice": "214.71",
+      "secondPrice": "234.4",
+      "thirdPrice": "244.99",
+      "fourPrice": "271.42",
+      "fivePrice": "118.63",
+      "sixPrice": "110.68"
+    },
+    {
+      "time": "2025-07-15",
+      "areaCode": null,
+      "firstPrice": "250.79",
+      "secondPrice": "282.6",
+      "thirdPrice": "288.3",
+      "fourPrice": "311.61",
+      "fivePrice": "114.98",
+      "sixPrice": "150.82"
+    },
+    {
+      "time": "2025-07-16",
+      "areaCode": null,
+      "firstPrice": "292.56",
+      "secondPrice": "338.68",
+      "thirdPrice": "323.31",
+      "fourPrice": "359.03",
+      "fivePrice": "148.57",
+      "sixPrice": "219.94"
+    },
+    {
+      "time": "2025-07-17",
+      "areaCode": null,
+      "firstPrice": "315.01",
+      "secondPrice": "292.05",
+      "thirdPrice": "345.85",
+      "fourPrice": "313.12",
+      "fivePrice": "151.65",
+      "sixPrice": "185.57"
+    },
+    {
+      "time": "2025-07-18",
+      "areaCode": null,
+      "firstPrice": "248.2",
+      "secondPrice": "259.09",
+      "thirdPrice": "286.97",
+      "fourPrice": "291.32",
+      "fivePrice": "109.16",
+      "sixPrice": "143.27"
+    },
+    {
+      "time": "2025-07-19",
+      "areaCode": null,
+      "firstPrice": "328.88",
+      "secondPrice": "286.7",
+      "thirdPrice": "348.71",
+      "fourPrice": "299.49",
+      "fivePrice": "227.69",
+      "sixPrice": "219.48"
+    },
+    {
+      "time": "2025-07-20",
+      "areaCode": null,
+      "firstPrice": "256.64",
+      "secondPrice": "254.03",
+      "thirdPrice": "281.74",
+      "fourPrice": "272.98",
+      "fivePrice": "127.48",
+      "sixPrice": "141.25"
+    },
+    {
+      "time": "2025-07-21",
+      "areaCode": null,
+      "firstPrice": "210.0",
+      "secondPrice": "273.16",
+      "thirdPrice": "233.25",
+      "fourPrice": "290.76",
+      "fivePrice": "109.44",
+      "sixPrice": "175.44"
+    },
+    {
+      "time": "2025-07-22",
+      "areaCode": null,
+      "firstPrice": "220.29",
+      "secondPrice": "187.43",
+      "thirdPrice": "254.9",
+      "fourPrice": "206.74",
+      "fivePrice": "121.81",
+      "sixPrice": "132.48"
+    },
+    {
+      "time": "2025-07-23",
+      "areaCode": null,
+      "firstPrice": "267.7",
+      "secondPrice": "310.28",
+      "thirdPrice": "314.02",
+      "fourPrice": "351.92",
+      "fivePrice": "132.08",
+      "sixPrice": "184.3"
+    },
+    {
+      "time": "2025-07-24",
+      "areaCode": null,
+      "firstPrice": "343.68",
+      "secondPrice": "372.42",
+      "thirdPrice": "368.54",
+      "fourPrice": "393.42",
+      "fivePrice": "249.9",
+      "sixPrice": "282.16"
+    },
+    {
+      "time": "2025-07-25",
+      "areaCode": null,
+      "firstPrice": "305.54",
+      "secondPrice": "447.96",
+      "thirdPrice": "321.54",
+      "fourPrice": "471.76",
+      "fivePrice": "230.29",
+      "sixPrice": "311.96"
+    },
+    {
+      "time": "2025-07-26",
+      "areaCode": null,
+      "firstPrice": "303.39",
+      "secondPrice": "381.2",
+      "thirdPrice": "339.1",
+      "fourPrice": "412.09",
+      "fivePrice": "150.62",
+      "sixPrice": "214.43"
+    },
+    {
+      "time": "2025-07-27",
+      "areaCode": null,
+      "firstPrice": "330.85",
+      "secondPrice": "308.56",
+      "thirdPrice": "377.59",
+      "fourPrice": "336.29",
+      "fivePrice": "137.14",
+      "sixPrice": "174.87"
+    },
+    {
+      "time": "2025-07-28",
+      "areaCode": null,
+      "firstPrice": "312.97",
+      "secondPrice": "275.87",
+      "thirdPrice": "356.56",
+      "fourPrice": "317.97",
+      "fivePrice": "140.39",
+      "sixPrice": "115.69"
+    },
+    {
+      "time": "2025-07-29",
+      "areaCode": null,
+      "firstPrice": "342.43",
+      "secondPrice": "294.65",
+      "thirdPrice": "376.58",
+      "fourPrice": "327.49",
+      "fivePrice": "158.4",
+      "sixPrice": "126.01"
+    },
+    {
+      "time": "2025-07-30",
+      "areaCode": null,
+      "firstPrice": "357.06",
+      "secondPrice": "302.95",
+      "thirdPrice": "401.41",
+      "fourPrice": "343.53",
+      "fivePrice": "143.27",
+      "sixPrice": "122.76"
+    },
+    {
+      "time": "2025-07-31",
+      "areaCode": null,
+      "firstPrice": "413.09",
+      "secondPrice": "393.62",
+      "thirdPrice": "457.62",
+      "fourPrice": "431.55",
+      "fivePrice": "206.48",
+      "sixPrice": "208.16"
+    },
+    {
+      "time": "2025-08-01",
+      "areaCode": null,
+      "firstPrice": "293.0",
+      "secondPrice": "222.2",
+      "thirdPrice": "314.75",
+      "fourPrice": "239.13",
+      "fivePrice": "175.55",
+      "sixPrice": "138.62"
+    },
+    {
+      "time": "2025-08-02",
+      "areaCode": null,
+      "firstPrice": "313.56",
+      "secondPrice": "274.98",
+      "thirdPrice": "351.53",
+      "fourPrice": "312.45",
+      "fivePrice": "146.74",
+      "sixPrice": "130.57"
+    },
+    {
+      "time": "2025-08-03",
+      "areaCode": null,
+      "firstPrice": "358.84",
+      "secondPrice": "401.07",
+      "thirdPrice": "399.31",
+      "fourPrice": "440.56",
+      "fivePrice": "164.53",
+      "sixPrice": "207.67"
+    },
+    {
+      "time": "2025-08-04",
+      "areaCode": null,
+      "firstPrice": "423.42",
+      "secondPrice": "438.38",
+      "thirdPrice": "437.13",
+      "fourPrice": "444.86",
+      "fivePrice": "306.27",
+      "sixPrice": "375.58"
+    },
+    {
+      "time": "2025-08-05",
+      "areaCode": null,
+      "firstPrice": "272.78",
+      "secondPrice": "471.49",
+      "thirdPrice": "295.48",
+      "fourPrice": "496.88",
+      "fivePrice": "133.37",
+      "sixPrice": "263.29"
+    },
+    {
+      "time": "2025-08-06",
+      "areaCode": null,
+      "firstPrice": "364.51",
+      "secondPrice": "485.46",
+      "thirdPrice": "404.07",
+      "fourPrice": "512.9",
+      "fivePrice": "139.35",
+      "sixPrice": "269.78"
+    },
+    {
+      "time": "2025-08-07",
+      "areaCode": null,
+      "firstPrice": "391.09",
+      "secondPrice": "435.02",
+      "thirdPrice": "421.67",
+      "fourPrice": "449.91",
+      "fivePrice": "207.77",
+      "sixPrice": "305.15"
+    },
+    {
+      "time": "2025-08-08",
+      "areaCode": null,
+      "firstPrice": "417.88",
+      "secondPrice": "439.36",
+      "thirdPrice": "441.45",
+      "fourPrice": "456.06",
+      "fivePrice": "255.3",
+      "sixPrice": "314.06"
+    },
+    {
+      "time": "2025-08-09",
+      "areaCode": null,
+      "firstPrice": "287.85",
+      "secondPrice": "276.56",
+      "thirdPrice": "311.11",
+      "fourPrice": "299.31",
+      "fivePrice": "155.79",
+      "sixPrice": "138.97"
+    },
+    {
+      "time": "2025-08-10",
+      "areaCode": null,
+      "firstPrice": "238.13",
+      "secondPrice": "241.79",
+      "thirdPrice": "262.81",
+      "fourPrice": "267.75",
+      "fivePrice": "93.09",
+      "sixPrice": "91.84"
+    },
+    {
+      "time": "2025-08-11",
+      "areaCode": null,
+      "firstPrice": "242.83",
+      "secondPrice": "172.7",
+      "thirdPrice": "271.77",
+      "fourPrice": "191.77",
+      "fivePrice": "100.51",
+      "sixPrice": "91.98"
+    },
+    {
+      "time": "2025-08-12",
+      "areaCode": null,
+      "firstPrice": "285.98",
+      "secondPrice": "209.2",
+      "thirdPrice": "321.63",
+      "fourPrice": "230.71",
+      "fivePrice": "121.54",
+      "sixPrice": "106.13"
+    },
+    {
+      "time": "2025-08-13",
+      "areaCode": null,
+      "firstPrice": "284.41",
+      "secondPrice": "199.83",
+      "thirdPrice": "319.6",
+      "fourPrice": "232.13",
+      "fivePrice": "132.76",
+      "sixPrice": "78.03"
+    },
+    {
+      "time": "2025-08-14",
+      "areaCode": null,
+      "firstPrice": "255.26",
+      "secondPrice": "260.14",
+      "thirdPrice": "309.76",
+      "fourPrice": "314.18",
+      "fivePrice": "111.67",
+      "sixPrice": "112.48"
+    },
+    {
+      "time": "2025-08-15",
+      "areaCode": null,
+      "firstPrice": "228.02",
+      "secondPrice": "215.81",
+      "thirdPrice": "284.91",
+      "fourPrice": "261.21",
+      "fivePrice": "83.93",
+      "sixPrice": "96.45"
+    },
+    {
+      "time": "2025-08-16",
+      "areaCode": null,
+      "firstPrice": "197.52",
+      "secondPrice": "257.6",
+      "thirdPrice": "244.54",
+      "fourPrice": "300.44",
+      "fivePrice": "76.78",
+      "sixPrice": "126.06"
+    },
+    {
+      "time": "2025-08-17",
+      "areaCode": null,
+      "firstPrice": "248.35",
+      "secondPrice": "258.0",
+      "thirdPrice": "297.92",
+      "fourPrice": "301.61",
+      "fivePrice": "117.15",
+      "sixPrice": "130.31"
+    },
+    {
+      "time": "2025-08-18",
+      "areaCode": null,
+      "firstPrice": "271.13",
+      "secondPrice": "346.46",
+      "thirdPrice": "324.63",
+      "fourPrice": "419.0",
+      "fivePrice": "128.47",
+      "sixPrice": "140.9"
+    },
+    {
+      "time": "2025-08-19",
+      "areaCode": null,
+      "firstPrice": "374.71",
+      "secondPrice": "368.34",
+      "thirdPrice": "447.39",
+      "fourPrice": "427.11",
+      "fivePrice": "140.84",
+      "sixPrice": "156.1"
+    },
+    {
+      "time": "2025-08-20",
+      "areaCode": null,
+      "firstPrice": "360.34",
+      "secondPrice": "359.13",
+      "thirdPrice": "415.58",
+      "fourPrice": "416.3",
+      "fivePrice": "162.92",
+      "sixPrice": "136.89"
+    },
+    {
+      "time": "2025-08-21",
+      "areaCode": null,
+      "firstPrice": "335.92",
+      "secondPrice": "282.08",
+      "thirdPrice": "353.4",
+      "fourPrice": "288.06",
+      "fivePrice": "219.89",
+      "sixPrice": "237.31"
+    },
+    {
+      "time": "2025-08-22",
+      "areaCode": null,
+      "firstPrice": "284.51",
+      "secondPrice": "331.85",
+      "thirdPrice": "298.56",
+      "fourPrice": "344.11",
+      "fivePrice": "181.35",
+      "sixPrice": "226.07"
+    },
+    {
+      "time": "2025-08-23",
+      "areaCode": null,
+      "firstPrice": "332.15",
+      "secondPrice": "275.03",
+      "thirdPrice": "353.16",
+      "fourPrice": "289.29",
+      "fivePrice": "185.98",
+      "sixPrice": "164.54"
+    },
+    {
+      "time": "2025-08-24",
+      "areaCode": null,
+      "firstPrice": "333.97",
+      "secondPrice": "259.59",
+      "thirdPrice": "366.85",
+      "fourPrice": "286.55",
+      "fivePrice": "129.55",
+      "sixPrice": "86.33"
+    },
+    {
+      "time": "2025-08-25",
+      "areaCode": null,
+      "firstPrice": "312.58",
+      "secondPrice": "301.4",
+      "thirdPrice": "363.11",
+      "fourPrice": "328.48",
+      "fivePrice": "110.84",
+      "sixPrice": "156.19"
+    },
+    {
+      "time": "2025-08-26",
+      "areaCode": null,
+      "firstPrice": "241.88",
+      "secondPrice": "224.68",
+      "thirdPrice": "285.42",
+      "fourPrice": "244.11",
+      "fivePrice": "119.61",
+      "sixPrice": "165.81"
+    },
+    {
+      "time": "2025-08-27",
+      "areaCode": null,
+      "firstPrice": "353.67",
+      "secondPrice": "252.14",
+      "thirdPrice": "380.78",
+      "fourPrice": "267.03",
+      "fivePrice": "240.37",
+      "sixPrice": "194.36"
+    },
+    {
+      "time": "2025-08-28",
+      "areaCode": null,
+      "firstPrice": "271.85",
+      "secondPrice": "293.52",
+      "thirdPrice": "279.48",
+      "fourPrice": "293.85",
+      "fivePrice": "218.25",
+      "sixPrice": "290.96"
+    },
+    {
+      "time": "2025-08-29",
+      "areaCode": null,
+      "firstPrice": "203.52",
+      "secondPrice": "157.15",
+      "thirdPrice": "219.31",
+      "fourPrice": "166.74",
+      "fivePrice": "118.17",
+      "sixPrice": "105.11"
+    },
+    {
+      "time": "2025-08-30",
+      "areaCode": null,
+      "firstPrice": "231.51",
+      "secondPrice": "230.83",
+      "thirdPrice": "257.47",
+      "fourPrice": "249.87",
+      "fivePrice": "99.64",
+      "sixPrice": "120.54"
+    },
+    {
+      "time": "2025-08-31",
+      "areaCode": null,
+      "firstPrice": "238.41",
+      "secondPrice": "218.75",
+      "thirdPrice": "270.11",
+      "fourPrice": "246.56",
+      "fivePrice": "113.85",
+      "sixPrice": "105.88"
+    },
+    {
+      "time": "2025-09-01",
+      "areaCode": null,
+      "firstPrice": "194.44",
+      "secondPrice": "168.54",
+      "thirdPrice": "223.47",
+      "fourPrice": "192.39",
+      "fivePrice": "141.49",
+      "sixPrice": "126.52"
+    },
+    {
+      "time": "2025-09-02",
+      "areaCode": null,
+      "firstPrice": "255.42",
+      "secondPrice": "488.39",
+      "thirdPrice": "284.08",
+      "fourPrice": "527.11",
+      "fivePrice": "174.17",
+      "sixPrice": "344.03"
+    },
+    {
+      "time": "2025-09-03",
+      "areaCode": null,
+      "firstPrice": "191.06",
+      "secondPrice": "242.75",
+      "thirdPrice": "214.51",
+      "fourPrice": "254.82",
+      "fivePrice": "107.08",
+      "sixPrice": "177.64"
+    },
+    {
+      "time": "2025-09-04",
+      "areaCode": null,
+      "firstPrice": "237.85",
+      "secondPrice": "375.11",
+      "thirdPrice": "248.69",
+      "fourPrice": "376.13",
+      "fivePrice": "204.75",
+      "sixPrice": "369.99"
+    },
+    {
+      "time": "2025-09-05",
+      "areaCode": null,
+      "firstPrice": "195.49",
+      "secondPrice": "219.17",
+      "thirdPrice": "221.58",
+      "fourPrice": "241.24",
+      "fivePrice": "133.71",
+      "sixPrice": "159.66"
+    },
+    {
+      "time": "2025-09-06",
+      "areaCode": null,
+      "firstPrice": "105.63",
+      "secondPrice": "106.95",
+      "thirdPrice": "119.97",
+      "fourPrice": "126.81",
+      "fivePrice": "71.27",
+      "sixPrice": "57.82"
+    },
+    {
+      "time": "2025-09-07",
+      "areaCode": null,
+      "firstPrice": "221.55",
+      "secondPrice": "210.97",
+      "thirdPrice": "279.4",
+      "fourPrice": "252.76",
+      "fivePrice": "84.62",
+      "sixPrice": "101.66"
+    },
+    {
+      "time": "2025-09-08",
+      "areaCode": null,
+      "firstPrice": "212.82",
+      "secondPrice": "137.24",
+      "thirdPrice": "251.59",
+      "fourPrice": "155.71",
+      "fivePrice": "124.37",
+      "sixPrice": "103.48"
+    },
+    {
+      "time": "2025-09-09",
+      "areaCode": null,
+      "firstPrice": "81.62",
+      "secondPrice": "115.14",
+      "thirdPrice": "96.59",
+      "fourPrice": "146.74",
+      "fivePrice": "62.18",
+      "sixPrice": "75.95"
+    },
+    {
+      "time": "2025-09-10",
+      "areaCode": null,
+      "firstPrice": "125.3",
+      "secondPrice": "265.95",
+      "thirdPrice": "165.72",
+      "fourPrice": "330.47",
+      "fivePrice": "72.8",
+      "sixPrice": "154.69"
+    },
+    {
+      "time": "2025-09-11",
+      "areaCode": null,
+      "firstPrice": "376.26",
+      "secondPrice": "400.96",
+      "thirdPrice": "401.57",
+      "fourPrice": "421.08",
+      "fivePrice": "305.48",
+      "sixPrice": "337.63"
+    },
+    {
+      "time": "2025-09-12",
+      "areaCode": null,
+      "firstPrice": "125.58",
+      "secondPrice": "111.97",
+      "thirdPrice": "142.53",
+      "fourPrice": "124.25",
+      "fivePrice": "83.24",
+      "sixPrice": "73.06"
+    },
+    {
+      "time": "2025-09-13",
+      "areaCode": null,
+      "firstPrice": "105.55",
+      "secondPrice": "101.49",
+      "thirdPrice": "128.64",
+      "fourPrice": "116.72",
+      "fivePrice": "58.4",
+      "sixPrice": "66.61"
+    },
+    {
+      "time": "2025-09-14",
+      "areaCode": null,
+      "firstPrice": "126.16",
+      "secondPrice": "167.86",
+      "thirdPrice": "146.86",
+      "fourPrice": "194.36",
+      "fivePrice": "78.54",
+      "sixPrice": "108.98"
+    },
+    {
+      "time": "2025-09-15",
+      "areaCode": null,
+      "firstPrice": "235.41",
+      "secondPrice": "215.98",
+      "thirdPrice": "307.24",
+      "fourPrice": "262.22",
+      "fivePrice": "100.48",
+      "sixPrice": "117.54"
+    },
+    {
+      "time": "2025-09-16",
+      "areaCode": null,
+      "firstPrice": "143.09",
+      "secondPrice": "223.74",
+      "thirdPrice": "161.35",
+      "fourPrice": "249.0",
+      "fivePrice": "99.41",
+      "sixPrice": "144.6"
+    },
+    {
+      "time": "2025-09-17",
+      "areaCode": null,
+      "firstPrice": "147.03",
+      "secondPrice": "189.95",
+      "thirdPrice": "167.92",
+      "fourPrice": "212.49",
+      "fivePrice": "78.59",
+      "sixPrice": "97.23"
+    },
+    {
+      "time": "2025-09-18",
+      "areaCode": null,
+      "firstPrice": "142.21",
+      "secondPrice": "216.4",
+      "thirdPrice": "148.45",
+      "fourPrice": "223.51",
+      "fivePrice": "117.63",
+      "sixPrice": "181.74"
+    },
+    {
+      "time": "2025-09-19",
+      "areaCode": null,
+      "firstPrice": "136.04",
+      "secondPrice": "160.16",
+      "thirdPrice": "156.7",
+      "fourPrice": "177.29",
+      "fivePrice": "78.81",
+      "sixPrice": "89.58"
+    },
+    {
+      "time": "2025-09-20",
+      "areaCode": null,
+      "firstPrice": "65.23",
+      "secondPrice": "68.77",
+      "thirdPrice": "69.55",
+      "fourPrice": "73.94",
+      "fivePrice": "56.65",
+      "sixPrice": "58.1"
+    },
+    {
+      "time": "2025-09-21",
+      "areaCode": null,
+      "firstPrice": "58.8",
+      "secondPrice": "211.43",
+      "thirdPrice": "59.52",
+      "fourPrice": "221.02",
+      "fivePrice": "57.3",
+      "sixPrice": "187.5"
+    },
+    {
+      "time": "2025-09-22",
+      "areaCode": null,
+      "firstPrice": "134.63",
+      "secondPrice": "280.41",
+      "thirdPrice": "139.01",
+      "fourPrice": "277.06",
+      "fivePrice": "122.19",
+      "sixPrice": "300.69"
+    },
+    {
+      "time": "2025-09-23",
+      "areaCode": null,
+      "firstPrice": "45.21",
+      "secondPrice": "59.97",
+      "thirdPrice": "46.55",
+      "fourPrice": "63.16",
+      "fivePrice": "41.77",
+      "sixPrice": "48.81"
+    },
+    {
+      "time": "2025-09-24",
+      "areaCode": null,
+      "firstPrice": "52.27",
+      "secondPrice": "56.79",
+      "thirdPrice": "55.61",
+      "fourPrice": "61.76",
+      "fivePrice": "45.71",
+      "sixPrice": "46.13"
+    },
+    {
+      "time": "2025-09-25",
+      "areaCode": null,
+      "firstPrice": "40.0",
+      "secondPrice": "40.0",
+      "thirdPrice": "40.0",
+      "fourPrice": "40.0",
+      "fivePrice": "40.0",
+      "sixPrice": "40.0"
+    },
+    {
+      "time": "2025-09-26",
+      "areaCode": null,
+      "firstPrice": "81.42",
+      "secondPrice": "110.67",
+      "thirdPrice": "92.49",
+      "fourPrice": "127.82",
+      "fivePrice": "63.51",
+      "sixPrice": "81.31"
+    },
+    {
+      "time": "2025-09-27",
+      "areaCode": null,
+      "firstPrice": "96.59",
+      "secondPrice": "524.82",
+      "thirdPrice": "104.82",
+      "fourPrice": "516.93",
+      "fivePrice": "69.8",
+      "sixPrice": "572.7"
+    },
+    {
+      "time": "2025-09-28",
+      "areaCode": null,
+      "firstPrice": "159.39",
+      "secondPrice": "253.56",
+      "thirdPrice": "189.23",
+      "fourPrice": "262.44",
+      "fivePrice": "73.55",
+      "sixPrice": "210.46"
+    },
+    {
+      "time": "2025-09-29",
+      "areaCode": null,
+      "firstPrice": "115.57",
+      "secondPrice": "139.13",
+      "thirdPrice": "130.18",
+      "fourPrice": "159.56",
+      "fivePrice": "63.25",
+      "sixPrice": "66.12"
+    },
+    {
+      "time": "2025-09-30",
+      "areaCode": null,
+      "firstPrice": "119.05",
+      "secondPrice": "142.76",
+      "thirdPrice": "135.32",
+      "fourPrice": "166.4",
+      "fivePrice": "67.01",
+      "sixPrice": "70.68"
+    },
+    {
+      "time": "2025-10-01",
+      "areaCode": null,
+      "firstPrice": "259.94",
+      "secondPrice": "258.22",
+      "thirdPrice": "267.39",
+      "fourPrice": "262.65",
+      "fivePrice": "229.21",
+      "sixPrice": "239.79"
+    },
+    {
+      "time": "2025-10-02",
+      "areaCode": null,
+      "firstPrice": "147.49",
+      "secondPrice": "156.06",
+      "thirdPrice": "166.15",
+      "fourPrice": "177.49",
+      "fivePrice": "110.84",
+      "sixPrice": "109.37"
+    },
+    {
+      "time": "2025-10-03",
+      "areaCode": null,
+      "firstPrice": "211.12",
+      "secondPrice": "222.93",
+      "thirdPrice": "246.29",
+      "fourPrice": "277.36",
+      "fivePrice": "140.97",
+      "sixPrice": "107.21"
+    },
+    {
+      "time": "2025-10-04",
+      "areaCode": null,
+      "firstPrice": "329.73",
+      "secondPrice": "360.87",
+      "thirdPrice": "337.77",
+      "fourPrice": "363.04",
+      "fivePrice": "289.25",
+      "sixPrice": "345.58"
+    },
+    {
+      "time": "2025-10-05",
+      "areaCode": null,
+      "firstPrice": "369.48",
+      "secondPrice": "460.47",
+      "thirdPrice": "370.9",
+      "fourPrice": "468.15",
+      "fivePrice": "359.23",
+      "sixPrice": "394.24"
+    },
+    {
+      "time": "2025-10-06",
+      "areaCode": null,
+      "firstPrice": "186.37",
+      "secondPrice": "217.57",
+      "thirdPrice": "201.41",
+      "fourPrice": "232.6",
+      "fivePrice": "102.98",
+      "sixPrice": "112.76"
+    },
+    {
+      "time": "2025-10-07",
+      "areaCode": null,
+      "firstPrice": "138.31",
+      "secondPrice": "218.42",
+      "thirdPrice": "149.48",
+      "fourPrice": "228.27",
+      "fivePrice": "87.57",
+      "sixPrice": "148.6"
+    },
+    {
+      "time": "2025-10-08",
+      "areaCode": null,
+      "firstPrice": "101.32",
+      "secondPrice": "223.16",
+      "thirdPrice": "114.16",
+      "fourPrice": "243.45",
+      "fivePrice": "75.1",
+      "sixPrice": "164.17"
+    },
+    {
+      "time": "2025-10-09",
+      "areaCode": null,
+      "firstPrice": "193.86",
+      "secondPrice": "481.77",
+      "thirdPrice": "196.71",
+      "fourPrice": "487.72",
+      "fivePrice": "180.8",
+      "sixPrice": "441.39"
+    },
+    {
+      "time": "2025-10-10",
+      "areaCode": null,
+      "firstPrice": "314.58",
+      "secondPrice": "418.74",
+      "thirdPrice": "316.57",
+      "fourPrice": "420.28",
+      "fivePrice": "302.37",
+      "sixPrice": "403.24"
+    },
+    {
+      "time": "2025-10-11",
+      "areaCode": null,
+      "firstPrice": "253.14",
+      "secondPrice": "336.38",
+      "thirdPrice": "259.51",
+      "fourPrice": "337.51",
+      "fivePrice": "220.3",
+      "sixPrice": "327.24"
+    },
+    {
+      "time": "2025-10-12",
+      "areaCode": null,
+      "firstPrice": "192.41",
+      "secondPrice": "279.69",
+      "thirdPrice": "198.54",
+      "fourPrice": "280.93",
+      "fivePrice": "154.45",
+      "sixPrice": "267.56"
+    },
+    {
+      "time": "2025-10-13",
+      "areaCode": null,
+      "firstPrice": "142.67",
+      "secondPrice": "157.41",
+      "thirdPrice": "170.9",
+      "fourPrice": "189.45",
+      "fivePrice": "81.13",
+      "sixPrice": "69.81"
+    },
+    {
+      "time": "2025-10-14",
+      "areaCode": null,
+      "firstPrice": "144.32",
+      "secondPrice": "209.17",
+      "thirdPrice": "168.29",
+      "fourPrice": "232.17",
+      "fivePrice": "99.04",
+      "sixPrice": "156.28"
+    },
+    {
+      "time": "2025-10-15",
+      "areaCode": null,
+      "firstPrice": "206.48",
+      "secondPrice": "221.03",
+      "thirdPrice": "231.97",
+      "fourPrice": "245.95",
+      "fivePrice": "114.41",
+      "sixPrice": "120.05"
+    },
+    {
+      "time": "2025-10-16",
+      "areaCode": null,
+      "firstPrice": "224.42",
+      "secondPrice": "294.29",
+      "thirdPrice": "242.56",
+      "fourPrice": "322.86",
+      "fivePrice": "177.19",
+      "sixPrice": "218.36"
+    },
+    {
+      "time": "2025-10-17",
+      "areaCode": null,
+      "firstPrice": "217.15",
+      "secondPrice": "228.9",
+      "thirdPrice": "244.39",
+      "fourPrice": "257.4",
+      "fivePrice": "141.26",
+      "sixPrice": "146.49"
+    },
+    {
+      "time": "2025-10-18",
+      "areaCode": null,
+      "firstPrice": "362.8",
+      "secondPrice": "550.06",
+      "thirdPrice": "406.41",
+      "fourPrice": "585.22",
+      "fivePrice": "213.72",
+      "sixPrice": "394.0"
+    },
+    {
+      "time": "2025-10-19",
+      "areaCode": null,
+      "firstPrice": "190.52",
+      "secondPrice": "237.79",
+      "thirdPrice": "210.29",
+      "fourPrice": "257.94",
+      "fivePrice": "130.53",
+      "sixPrice": "168.29"
+    },
+    {
+      "time": "2025-10-20",
+      "areaCode": null,
+      "firstPrice": "408.3",
+      "secondPrice": "574.26",
+      "thirdPrice": "420.6",
+      "fourPrice": "563.82",
+      "fivePrice": "335.62",
+      "sixPrice": "667.14"
+    },
+    {
+      "time": "2025-10-21",
+      "areaCode": null,
+      "firstPrice": "314.27",
+      "secondPrice": "304.62",
+      "thirdPrice": "334.62",
+      "fourPrice": "320.31",
+      "fivePrice": "220.64",
+      "sixPrice": "231.93"
+    },
+    {
+      "time": "2025-10-22",
+      "areaCode": null,
+      "firstPrice": "289.66",
+      "secondPrice": "361.84",
+      "thirdPrice": "298.73",
+      "fourPrice": "371.95",
+      "fivePrice": "231.78",
+      "sixPrice": "289.68"
+    },
+    {
+      "time": "2025-10-23",
+      "areaCode": null,
+      "firstPrice": "256.71",
+      "secondPrice": "379.97",
+      "thirdPrice": "269.07",
+      "fourPrice": "393.45",
+      "fivePrice": "166.65",
+      "sixPrice": "249.64"
+    },
+    {
+      "time": "2025-10-24",
+      "areaCode": null,
+      "firstPrice": "354.92",
+      "secondPrice": "446.85",
+      "thirdPrice": "370.97",
+      "fourPrice": "464.49",
+      "fivePrice": "236.1",
+      "sixPrice": "279.13"
+    },
+    {
+      "time": "2025-10-25",
+      "areaCode": null,
+      "firstPrice": "315.53",
+      "secondPrice": "312.33",
+      "thirdPrice": "334.92",
+      "fourPrice": "327.24",
+      "fivePrice": "171.34",
+      "sixPrice": "183.37"
+    },
+    {
+      "time": "2025-10-26",
+      "areaCode": null,
+      "firstPrice": "311.17",
+      "secondPrice": "355.29",
+      "thirdPrice": "344.84",
+      "fourPrice": "390.38",
+      "fivePrice": "143.85",
+      "sixPrice": "137.43"
+    },
+    {
+      "time": "2025-10-27",
+      "areaCode": null,
+      "firstPrice": "241.86",
+      "secondPrice": "282.73",
+      "thirdPrice": "277.6",
+      "fourPrice": "322.13",
+      "fivePrice": "108.23",
+      "sixPrice": "118.93"
+    },
+    {
+      "time": "2025-10-28",
+      "areaCode": null,
+      "firstPrice": "362.42",
+      "secondPrice": "447.77",
+      "thirdPrice": "420.64",
+      "fourPrice": "507.39",
+      "fivePrice": "117.3",
+      "sixPrice": "146.83"
+    },
+    {
+      "time": "2025-10-29",
+      "areaCode": null,
+      "firstPrice": "313.31",
+      "secondPrice": "319.6",
+      "thirdPrice": "373.9",
+      "fourPrice": "358.73",
+      "fivePrice": "98.23",
+      "sixPrice": "161.0"
+    },
+    {
+      "time": "2025-10-30",
+      "areaCode": null,
+      "firstPrice": "304.2",
+      "secondPrice": "275.67",
+      "thirdPrice": "344.69",
+      "fourPrice": "303.16",
+      "fivePrice": "131.0",
+      "sixPrice": "150.83"
+    },
+    {
+      "time": "2025-10-31",
+      "areaCode": null,
+      "firstPrice": "317.07",
+      "secondPrice": "309.67",
+      "thirdPrice": "361.66",
+      "fourPrice": "350.86",
+      "fivePrice": "135.98",
+      "sixPrice": "144.73"
+    },
+    {
+      "time": "2025-11-01",
+      "areaCode": null,
+      "firstPrice": "249.94",
+      "secondPrice": "266.49",
+      "thirdPrice": "278.0",
+      "fourPrice": "294.47",
+      "fivePrice": "111.64",
+      "sixPrice": "119.12"
+    },
+    {
+      "time": "2025-11-02",
+      "areaCode": null,
+      "firstPrice": "236.18",
+      "secondPrice": "290.89",
+      "thirdPrice": "267.41",
+      "fourPrice": "327.5",
+      "fivePrice": "93.36",
+      "sixPrice": "118.38"
+    },
+    {
+      "time": "2025-11-03",
+      "areaCode": null,
+      "firstPrice": "161.28",
+      "secondPrice": "148.84",
+      "thirdPrice": "189.42",
+      "fourPrice": "175.04",
+      "fivePrice": "85.88",
+      "sixPrice": "84.05"
+    },
+    {
+      "time": "2025-11-04",
+      "areaCode": null,
+      "firstPrice": "115.24",
+      "secondPrice": "124.5",
+      "thirdPrice": "136.07",
+      "fourPrice": "145.17",
+      "fivePrice": "63.73",
+      "sixPrice": "75.02"
+    },
+    {
+      "time": "2025-11-05",
+      "areaCode": null,
+      "firstPrice": "132.24",
+      "secondPrice": "202.04",
+      "thirdPrice": "152.46",
+      "fourPrice": "211.92",
+      "fivePrice": "83.42",
+      "sixPrice": "170.4"
+    },
+    {
+      "time": "2025-11-06",
+      "areaCode": null,
+      "firstPrice": "105.35",
+      "secondPrice": "125.4",
+      "thirdPrice": "115.62",
+      "fourPrice": "135.57",
+      "fivePrice": "80.84",
+      "sixPrice": "101.2"
+    },
+    {
+      "time": "2025-11-07",
+      "areaCode": null,
+      "firstPrice": "227.84",
+      "secondPrice": "262.22",
+      "thirdPrice": "238.62",
+      "fourPrice": "271.01",
+      "fivePrice": "168.05",
+      "sixPrice": "208.89"
+    },
+    {
+      "time": "2025-11-08",
+      "areaCode": null,
+      "firstPrice": "230.59",
+      "secondPrice": "234.21",
+      "thirdPrice": "260.31",
+      "fourPrice": "260.8",
+      "fivePrice": "108.99",
+      "sixPrice": "112.9"
+    },
+    {
+      "time": "2025-11-09",
+      "areaCode": null,
+      "firstPrice": "256.97",
+      "secondPrice": "275.26",
+      "thirdPrice": "282.52",
+      "fourPrice": "302.58",
+      "fivePrice": "117.14",
+      "sixPrice": "109.35"
+    },
+    {
+      "time": "2025-11-10",
+      "areaCode": null,
+      "firstPrice": "318.12",
+      "secondPrice": "256.67",
+      "thirdPrice": "326.72",
+      "fourPrice": "268.3",
+      "fivePrice": "241.33",
+      "sixPrice": "167.72"
+    },
+    {
+      "time": "2025-11-11",
+      "areaCode": null,
+      "firstPrice": "262.68",
+      "secondPrice": "263.42",
+      "thirdPrice": "292.14",
+      "fourPrice": "288.41",
+      "fivePrice": "118.86",
+      "sixPrice": "138.76"
+    },
+    {
+      "time": "2025-11-12",
+      "areaCode": null,
+      "firstPrice": "193.21",
+      "secondPrice": "274.81",
+      "thirdPrice": "211.13",
+      "fourPrice": "307.26",
+      "fivePrice": "123.77",
+      "sixPrice": "150.63"
+    },
+    {
+      "time": "2025-11-13",
+      "areaCode": null,
+      "firstPrice": "258.01",
+      "secondPrice": "361.07",
+      "thirdPrice": "281.05",
+      "fourPrice": "391.32",
+      "fivePrice": "135.94",
+      "sixPrice": "154.59"
+    },
+    {
+      "time": "2025-11-14",
+      "areaCode": null,
+      "firstPrice": "116.43",
+      "secondPrice": "176.64",
+      "thirdPrice": "125.15",
+      "fourPrice": "194.89",
+      "fivePrice": "81.7",
+      "sixPrice": "109.33"
+    },
+    {
+      "time": "2025-11-15",
+      "areaCode": null,
+      "firstPrice": "172.88",
+      "secondPrice": "215.27",
+      "thirdPrice": "189.66",
+      "fourPrice": "238.34",
+      "fivePrice": "96.27",
+      "sixPrice": "97.45"
+    },
+    {
+      "time": "2025-11-16",
+      "areaCode": null,
+      "firstPrice": "74.56",
+      "secondPrice": "98.25",
+      "thirdPrice": "78.44",
+      "fourPrice": "105.23",
+      "fivePrice": "62.56",
+      "sixPrice": "76.88"
+    },
+    {
+      "time": "2025-11-17",
+      "areaCode": null,
+      "firstPrice": "104.38",
+      "secondPrice": "110.92",
+      "thirdPrice": "113.72",
+      "fourPrice": "117.4",
+      "fivePrice": "76.85",
+      "sixPrice": "90.1"
+    },
+    {
+      "time": "2025-11-18",
+      "areaCode": null,
+      "firstPrice": "223.91",
+      "secondPrice": "217.56",
+      "thirdPrice": "250.29",
+      "fourPrice": "242.23",
+      "fivePrice": "129.36",
+      "sixPrice": "135.76"
+    },
+    {
+      "time": "2025-11-19",
+      "areaCode": null,
+      "firstPrice": "237.06",
+      "secondPrice": "293.66",
+      "thirdPrice": "260.33",
+      "fourPrice": "316.39",
+      "fivePrice": "123.1",
+      "sixPrice": "163.17"
+    },
+    {
+      "time": "2025-11-20",
+      "areaCode": null,
+      "firstPrice": "233.18",
+      "secondPrice": "248.9",
+      "thirdPrice": "258.85",
+      "fourPrice": "267.21",
+      "fivePrice": "116.14",
+      "sixPrice": "157.92"
+    },
+    {
+      "time": "2025-11-21",
+      "areaCode": null,
+      "firstPrice": "285.09",
+      "secondPrice": "322.84",
+      "thirdPrice": "311.73",
+      "fourPrice": "346.67",
+      "fivePrice": "127.33",
+      "sixPrice": "173.47"
+    },
+    {
+      "time": "2025-11-22",
+      "areaCode": null,
+      "firstPrice": "148.12",
+      "secondPrice": "136.76",
+      "thirdPrice": "168.29",
+      "fourPrice": "148.92",
+      "fivePrice": "85.22",
+      "sixPrice": "100.04"
+    },
+    {
+      "time": "2025-11-23",
+      "areaCode": null,
+      "firstPrice": "127.57",
+      "secondPrice": "109.84",
+      "thirdPrice": "144.64",
+      "fourPrice": "120.59",
+      "fivePrice": "83.23",
+      "sixPrice": "80.8"
+    },
+    {
+      "time": "2025-11-24",
+      "areaCode": null,
+      "firstPrice": "124.36",
+      "secondPrice": "143.22",
+      "thirdPrice": "137.23",
+      "fourPrice": "154.86",
+      "fivePrice": "87.14",
+      "sixPrice": "109.01"
+    },
+    {
+      "time": "2025-11-25",
+      "areaCode": null,
+      "firstPrice": "261.07",
+      "secondPrice": "226.83",
+      "thirdPrice": "291.68",
+      "fourPrice": "266.19",
+      "fivePrice": "154.65",
+      "sixPrice": "96.92"
+    },
+    {
+      "time": "2025-11-26",
+      "areaCode": null,
+      "firstPrice": "60.32",
+      "secondPrice": "93.35",
+      "thirdPrice": "65.83",
+      "fourPrice": "110.42",
+      "fivePrice": "47.08",
+      "sixPrice": "55.33"
+    },
+    {
+      "time": "2025-11-27",
+      "areaCode": null,
+      "firstPrice": "143.13",
+      "secondPrice": "137.94",
+      "thirdPrice": "173.73",
+      "fourPrice": "169.95",
+      "fivePrice": "58.98",
+      "sixPrice": "56.45"
+    },
+    {
+      "time": "2025-11-28",
+      "areaCode": null,
+      "firstPrice": "191.71",
+      "secondPrice": "184.1",
+      "thirdPrice": "235.7",
+      "fourPrice": "227.86",
+      "fivePrice": "67.85",
+      "sixPrice": "66.6"
+    },
+    {
+      "time": "2025-11-29",
+      "areaCode": null,
+      "firstPrice": "153.54",
+      "secondPrice": "246.82",
+      "thirdPrice": "172.01",
+      "fourPrice": "283.14",
+      "fivePrice": "89.41",
+      "sixPrice": "116.16"
+    },
+    {
+      "time": "2025-11-30",
+      "areaCode": null,
+      "firstPrice": "207.53",
+      "secondPrice": "214.25",
+      "thirdPrice": "241.64",
+      "fourPrice": "249.54",
+      "fivePrice": "73.65",
+      "sixPrice": "71.3"
+    },
+    {
+      "time": "2025-12-01",
+      "areaCode": null,
+      "firstPrice": "224.27",
+      "secondPrice": "191.02",
+      "thirdPrice": "242.44",
+      "fourPrice": "208.83",
+      "fivePrice": "152.49",
+      "sixPrice": "120.26"
+    },
+    {
+      "time": "2025-12-02",
+      "areaCode": null,
+      "firstPrice": "251.91",
+      "secondPrice": "262.34",
+      "thirdPrice": "270.85",
+      "fourPrice": "283.53",
+      "fivePrice": "158.78",
+      "sixPrice": "164.24"
+    },
+    {
+      "time": "2025-12-03",
+      "areaCode": null,
+      "firstPrice": "298.53",
+      "secondPrice": "327.98",
+      "thirdPrice": "324.08",
+      "fourPrice": "354.5",
+      "fivePrice": "156.29",
+      "sixPrice": "170.14"
+    },
+    {
+      "time": "2025-12-04",
+      "areaCode": null,
+      "firstPrice": "277.4",
+      "secondPrice": "328.95",
+      "thirdPrice": "302.77",
+      "fourPrice": "361.0",
+      "fivePrice": "118.29",
+      "sixPrice": "132.0"
+    },
+    {
+      "time": "2025-12-05",
+      "areaCode": null,
+      "firstPrice": "158.54",
+      "secondPrice": "142.04",
+      "thirdPrice": "183.65",
+      "fourPrice": "165.51",
+      "fivePrice": "72.25",
+      "sixPrice": "58.17"
+    },
+    {
+      "time": "2025-12-06",
+      "areaCode": null,
+      "firstPrice": "148.5",
+      "secondPrice": "129.77",
+      "thirdPrice": "170.07",
+      "fourPrice": "154.26",
+      "fivePrice": "72.23",
+      "sixPrice": "49.18"
+    },
+    {
+      "time": "2025-12-07",
+      "areaCode": null,
+      "firstPrice": "306.52",
+      "secondPrice": "313.98",
+      "thirdPrice": "355.61",
+      "fourPrice": "359.84",
+      "fivePrice": "92.59",
+      "sixPrice": "105.91"
+    },
+    {
+      "time": "2025-12-08",
+      "areaCode": null,
+      "firstPrice": "351.67",
+      "secondPrice": "402.81",
+      "thirdPrice": "383.86",
+      "fourPrice": "438.56",
+      "fivePrice": "165.99",
+      "sixPrice": "158.67"
+    },
+    {
+      "time": "2025-12-09",
+      "areaCode": null,
+      "firstPrice": "237.9",
+      "secondPrice": "303.65",
+      "thirdPrice": "259.06",
+      "fourPrice": "330.27",
+      "fivePrice": "132.6",
+      "sixPrice": "151.8"
+    },
+    {
+      "time": "2025-12-10",
+      "areaCode": null,
+      "firstPrice": "281.39",
+      "secondPrice": "275.78",
+      "thirdPrice": "308.86",
+      "fourPrice": "300.52",
+      "fivePrice": "123.97",
+      "sixPrice": "134.89"
+    },
+    {
+      "time": "2025-12-11",
+      "areaCode": null,
+      "firstPrice": "120.27",
+      "secondPrice": "127.26",
+      "thirdPrice": "136.06",
+      "fourPrice": "139.88",
+      "fivePrice": "66.01",
+      "sixPrice": "79.4"
+    },
+    {
+      "time": "2025-12-12",
+      "areaCode": null,
+      "firstPrice": "171.99",
+      "secondPrice": "178.27",
+      "thirdPrice": "193.95",
+      "fourPrice": "194.27",
+      "fivePrice": "94.09",
+      "sixPrice": "113.78"
+    },
+    {
+      "time": "2025-12-13",
+      "areaCode": null,
+      "firstPrice": "316.38",
+      "secondPrice": "308.42",
+      "thirdPrice": "364.39",
+      "fourPrice": "357.9",
+      "fivePrice": "114.66",
+      "sixPrice": "108.04"
+    },
+    {
+      "time": "2025-12-14",
+      "areaCode": null,
+      "firstPrice": "213.03",
+      "secondPrice": "172.05",
+      "thirdPrice": "229.29",
+      "fourPrice": "185.73",
+      "fivePrice": "132.02",
+      "sixPrice": "109.02"
+    },
+    {
+      "time": "2025-12-15",
+      "areaCode": null,
+      "firstPrice": "338.92",
+      "secondPrice": "343.61",
+      "thirdPrice": "370.93",
+      "fourPrice": "379.88",
+      "fivePrice": "136.44",
+      "sixPrice": "110.25"
+    },
+    {
+      "time": "2025-12-16",
+      "areaCode": null,
+      "firstPrice": "237.95",
+      "secondPrice": "263.88",
+      "thirdPrice": "255.4",
+      "fourPrice": "285.45",
+      "fivePrice": "138.33",
+      "sixPrice": "143.78"
+    },
+    {
+      "time": "2025-12-17",
+      "areaCode": null,
+      "firstPrice": "279.18",
+      "secondPrice": "272.77",
+      "thirdPrice": "320.38",
+      "fourPrice": "307.83",
+      "fivePrice": "97.13",
+      "sixPrice": "114.9"
+    },
+    {
+      "time": "2025-12-18",
+      "areaCode": null,
+      "firstPrice": "283.94",
+      "secondPrice": "171.96",
+      "thirdPrice": "322.41",
+      "fourPrice": "186.85",
+      "fivePrice": "156.97",
+      "sixPrice": "125.42"
+    },
+    {
+      "time": "2025-12-19",
+      "areaCode": null,
+      "firstPrice": "258.71",
+      "secondPrice": "234.05",
+      "thirdPrice": "287.58",
+      "fourPrice": "269.77",
+      "fivePrice": "148.3",
+      "sixPrice": "110.9"
+    },
+    {
+      "time": "2025-12-20",
+      "areaCode": null,
+      "firstPrice": "346.9",
+      "secondPrice": "369.76",
+      "thirdPrice": "397.95",
+      "fourPrice": "428.5",
+      "fivePrice": "133.92",
+      "sixPrice": "117.88"
+    },
+    {
+      "time": "2025-12-21",
+      "areaCode": null,
+      "firstPrice": "191.56",
+      "secondPrice": "121.26",
+      "thirdPrice": "226.89",
+      "fourPrice": "140.49",
+      "fivePrice": "93.3",
+      "sixPrice": "70.24"
+    },
+    {
+      "time": "2025-12-22",
+      "areaCode": null,
+      "firstPrice": "310.11",
+      "secondPrice": "375.64",
+      "thirdPrice": "344.03",
+      "fourPrice": "406.43",
+      "fivePrice": "180.57",
+      "sixPrice": "249.85"
+    },
+    {
+      "time": "2025-12-23",
+      "areaCode": null,
+      "firstPrice": "257.05",
+      "secondPrice": "265.35",
+      "thirdPrice": "288.57",
+      "fourPrice": "294.55",
+      "fivePrice": "122.04",
+      "sixPrice": "123.71"
+    },
+    {
+      "time": "2025-12-24",
+      "areaCode": null,
+      "firstPrice": "245.19",
+      "secondPrice": "223.03",
+      "thirdPrice": "263.14",
+      "fourPrice": "240.46",
+      "fivePrice": "140.17",
+      "sixPrice": "126.05"
+    },
+    {
+      "time": "2025-12-25",
+      "areaCode": null,
+      "firstPrice": "320.72",
+      "secondPrice": "347.19",
+      "thirdPrice": "342.67",
+      "fourPrice": "372.31",
+      "fivePrice": "161.42",
+      "sixPrice": "153.6"
+    },
+    {
+      "time": "2025-12-26",
+      "areaCode": null,
+      "firstPrice": "386.58",
+      "secondPrice": "372.16",
+      "thirdPrice": "410.17",
+      "fourPrice": "397.49",
+      "fivePrice": "255.02",
+      "sixPrice": "238.33"
+    },
+    {
+      "time": "2025-12-27",
+      "areaCode": null,
+      "firstPrice": "342.34",
+      "secondPrice": "396.53",
+      "thirdPrice": "367.63",
+      "fourPrice": "425.56",
+      "fivePrice": "176.32",
+      "sixPrice": "187.62"
+    },
+    {
+      "time": "2025-12-28",
+      "areaCode": null,
+      "firstPrice": "294.81",
+      "secondPrice": "286.02",
+      "thirdPrice": "317.61",
+      "fourPrice": "305.91",
+      "fivePrice": "173.06",
+      "sixPrice": "183.05"
+    },
+    {
+      "time": "2025-12-29",
+      "areaCode": null,
+      "firstPrice": "372.42",
+      "secondPrice": "384.97",
+      "thirdPrice": "400.0",
+      "fourPrice": "412.62",
+      "fivePrice": "144.6",
+      "sixPrice": "164.63"
+    },
+    {
+      "time": "2025-12-30",
+      "areaCode": null,
+      "firstPrice": "289.06",
+      "secondPrice": "247.91",
+      "thirdPrice": "309.37",
+      "fourPrice": "264.88",
+      "fivePrice": "161.51",
+      "sixPrice": "154.56"
+    },
+    {
+      "time": "2025-12-31",
+      "areaCode": null,
+      "firstPrice": "316.17",
+      "secondPrice": "331.21",
+      "thirdPrice": "320.42",
+      "fourPrice": "335.67",
+      "fivePrice": "270.1",
+      "sixPrice": "285.33"
+    },
+    {
+      "time": "2026-01-01",
+      "areaCode": null,
+      "firstPrice": "417.83",
+      "secondPrice": "433.55",
+      "thirdPrice": "438.64",
+      "fourPrice": "450.04",
+      "fivePrice": "222.58",
+      "sixPrice": "254.58"
+    },
+    {
+      "time": "2026-01-02",
+      "areaCode": null,
+      "firstPrice": "324.22",
+      "secondPrice": "405.9",
+      "thirdPrice": "348.12",
+      "fourPrice": "424.74",
+      "fivePrice": "143.19",
+      "sixPrice": "235.14"
+    },
+    {
+      "time": "2026-01-03",
+      "areaCode": null,
+      "firstPrice": "374.08",
+      "secondPrice": "467.33",
+      "thirdPrice": "377.79",
+      "fourPrice": "466.91",
+      "fivePrice": "332.07",
+      "sixPrice": "472.35"
+    },
+    {
+      "time": "2026-01-04",
+      "areaCode": null,
+      "firstPrice": "349.78",
+      "secondPrice": "374.0",
+      "thirdPrice": "372.82",
+      "fourPrice": "393.94",
+      "fivePrice": "260.08",
+      "sixPrice": "287.35"
+    },
+    {
+      "time": "2026-01-05",
+      "areaCode": null,
+      "firstPrice": "358.07",
+      "secondPrice": "376.73",
+      "thirdPrice": "378.11",
+      "fourPrice": "393.35",
+      "fivePrice": "283.84",
+      "sixPrice": "314.49"
+    },
+    {
+      "time": "2026-01-06",
+      "areaCode": null,
+      "firstPrice": "356.16",
+      "secondPrice": "325.87",
+      "thirdPrice": "383.34",
+      "fourPrice": "354.87",
+      "fivePrice": "280.55",
+      "sixPrice": "244.62"
+    },
+    {
+      "time": "2026-01-07",
+      "areaCode": null,
+      "firstPrice": "373.11",
+      "secondPrice": "347.6",
+      "thirdPrice": "393.82",
+      "fourPrice": "371.29",
+      "fivePrice": "306.85",
+      "sixPrice": "270.33"
+    },
+    {
+      "time": "2026-01-08",
+      "areaCode": null,
+      "firstPrice": "320.93",
+      "secondPrice": "298.27",
+      "thirdPrice": "347.14",
+      "fourPrice": "325.08",
+      "fivePrice": "223.68",
+      "sixPrice": "195.53"
+    },
+    {
+      "time": "2026-01-09",
+      "areaCode": null,
+      "firstPrice": "234.64",
+      "secondPrice": "174.57",
+      "thirdPrice": "255.06",
+      "fourPrice": "191.67",
+      "fivePrice": "182.13",
+      "sixPrice": "132.25"
+    },
+    {
+      "time": "2026-01-10",
+      "areaCode": null,
+      "firstPrice": "200.19",
+      "secondPrice": "180.89",
+      "thirdPrice": "232.84",
+      "fourPrice": "207.09",
+      "fivePrice": "102.54",
+      "sixPrice": "99.2"
+    },
+    {
+      "time": "2026-01-11",
+      "areaCode": null,
+      "firstPrice": "233.98",
+      "secondPrice": "230.49",
+      "thirdPrice": "262.59",
+      "fourPrice": "263.37",
+      "fivePrice": "138.83",
+      "sixPrice": "121.85"
+    },
+    {
+      "time": "2026-01-12",
+      "areaCode": null,
+      "firstPrice": "238.35",
+      "secondPrice": "153.03",
+      "thirdPrice": "265.85",
+      "fourPrice": "173.52",
+      "fivePrice": "163.04",
+      "sixPrice": "99.09"
+    },
+    {
+      "time": "2026-01-13",
+      "areaCode": null,
+      "firstPrice": "323.16",
+      "secondPrice": "248.93",
+      "thirdPrice": "360.21",
+      "fourPrice": "275.06",
+      "fivePrice": "191.9",
+      "sixPrice": "159.65"
+    },
+    {
+      "time": "2026-01-14",
+      "areaCode": null,
+      "firstPrice": "307.88",
+      "secondPrice": "270.85",
+      "thirdPrice": "334.69",
+      "fourPrice": "290.04",
+      "fivePrice": "237.0",
+      "sixPrice": "218.07"
+    },
+    {
+      "time": "2026-01-15",
+      "areaCode": null,
+      "firstPrice": "286.03",
+      "secondPrice": "224.8",
+      "thirdPrice": "316.92",
+      "fourPrice": "251.03",
+      "fivePrice": "191.31",
+      "sixPrice": "148.46"
+    },
+    {
+      "time": "2026-01-16",
+      "areaCode": null,
+      "firstPrice": "275.7",
+      "secondPrice": "233.61",
+      "thirdPrice": "301.71",
+      "fourPrice": "260.24",
+      "fivePrice": "179.1",
+      "sixPrice": "137.86"
+    },
+    {
+      "time": "2026-01-17",
+      "areaCode": null,
+      "firstPrice": "50.09",
+      "secondPrice": "60.4",
+      "thirdPrice": "59.59",
+      "fourPrice": "68.16",
+      "fivePrice": "30.44",
+      "sixPrice": "43.1"
+    },
+    {
+      "time": "2026-01-18",
+      "areaCode": null,
+      "firstPrice": "195.1",
+      "secondPrice": "243.02",
+      "thirdPrice": "211.4",
+      "fourPrice": "246.66",
+      "fivePrice": "135.37",
+      "sixPrice": "228.26"
+    },
+    {
+      "time": "2026-01-19",
+      "areaCode": null,
+      "firstPrice": "356.86",
+      "secondPrice": "375.07",
+      "thirdPrice": "360.74",
+      "fourPrice": "380.31",
+      "fivePrice": "324.42",
+      "sixPrice": "322.58"
+    },
+    {
+      "time": "2026-01-20",
+      "areaCode": null,
+      "firstPrice": "384.34",
+      "secondPrice": "273.67",
+      "thirdPrice": "403.74",
+      "fourPrice": "281.21",
+      "fivePrice": "211.07",
+      "sixPrice": "197.93"
+    },
+    {
+      "time": "2026-01-21",
+      "areaCode": null,
+      "firstPrice": "328.1",
+      "secondPrice": "297.13",
+      "thirdPrice": "344.49",
+      "fourPrice": "313.37",
+      "fivePrice": "195.75",
+      "sixPrice": "149.32"
+    },
+    {
+      "time": "2026-01-22",
+      "areaCode": null,
+      "firstPrice": "329.5",
+      "secondPrice": "312.6",
+      "thirdPrice": "350.56",
+      "fourPrice": "334.25",
+      "fivePrice": "203.12",
+      "sixPrice": "182.83"
+    },
+    {
+      "time": "2026-01-23",
+      "areaCode": null,
+      "firstPrice": "306.87",
+      "secondPrice": "327.17",
+      "thirdPrice": "335.05",
+      "fourPrice": "349.66",
+      "fivePrice": "148.97",
+      "sixPrice": "193.24"
+    },
+    {
+      "time": "2026-01-24",
+      "areaCode": null,
+      "firstPrice": "98.71",
+      "secondPrice": "53.94",
+      "thirdPrice": "118.24",
+      "fourPrice": "59.27",
+      "fivePrice": "46.27",
+      "sixPrice": "40.17"
+    },
+    {
+      "time": "2026-01-25",
+      "areaCode": null,
+      "firstPrice": "189.65",
+      "secondPrice": "227.16",
+      "thirdPrice": "202.8",
+      "fourPrice": "230.34",
+      "fivePrice": "129.74",
+      "sixPrice": "210.26"
+    },
+    {
+      "time": "2026-01-26",
+      "areaCode": null,
+      "firstPrice": "260.96",
+      "secondPrice": "275.03",
+      "thirdPrice": "285.39",
+      "fourPrice": "295.68",
+      "fivePrice": "120.93",
+      "sixPrice": "136.35"
+    },
+    {
+      "time": "2026-01-27",
+      "areaCode": null,
+      "firstPrice": "281.29",
+      "secondPrice": "308.24",
+      "thirdPrice": "306.18",
+      "fourPrice": "330.93",
+      "fivePrice": "111.95",
+      "sixPrice": "137.87"
+    },
+    {
+      "time": "2026-01-28",
+      "areaCode": null,
+      "firstPrice": "180.11",
+      "secondPrice": "228.84",
+      "thirdPrice": "200.85",
+      "fourPrice": "255.16",
+      "fivePrice": "71.97",
+      "sixPrice": "86.39"
+    },
+    {
+      "time": "2026-01-29",
+      "areaCode": null,
+      "firstPrice": "251.04",
+      "secondPrice": "238.19",
+      "thirdPrice": "258.01",
+      "fourPrice": "246.32",
+      "fivePrice": "203.37",
+      "sixPrice": "180.25"
+    },
+    {
+      "time": "2026-01-30",
+      "areaCode": null,
+      "firstPrice": "241.12",
+      "secondPrice": "220.31",
+      "thirdPrice": "248.77",
+      "fourPrice": "225.54",
+      "fivePrice": "175.72",
+      "sixPrice": "176.52"
+    },
+    {
+      "time": "2026-01-31",
+      "areaCode": null,
+      "firstPrice": "221.25",
+      "secondPrice": "243.03",
+      "thirdPrice": "245.68",
+      "fourPrice": "261.68",
+      "fivePrice": "53.21",
+      "sixPrice": "100.86"
+    },
+    {
+      "time": "2026-02-01",
+      "areaCode": null,
+      "firstPrice": "248.75",
+      "secondPrice": "200.49",
+      "thirdPrice": "277.88",
+      "fourPrice": "221.51",
+      "fivePrice": "105.3",
+      "sixPrice": "100.85"
+    },
+    {
+      "time": "2026-02-02",
+      "areaCode": null,
+      "firstPrice": "202.61",
+      "secondPrice": "210.18",
+      "thirdPrice": "226.9",
+      "fourPrice": "234.78",
+      "fivePrice": "101.12",
+      "sixPrice": "111.12"
+    },
+    {
+      "time": "2026-02-03",
+      "areaCode": null,
+      "firstPrice": "177.92",
+      "secondPrice": "176.55",
+      "thirdPrice": "196.45",
+      "fourPrice": "191.48",
+      "fivePrice": "107.87",
+      "sixPrice": "119.84"
+    },
+    {
+      "time": "2026-02-04",
+      "areaCode": null,
+      "firstPrice": "280.75",
+      "secondPrice": "349.25",
+      "thirdPrice": "316.73",
+      "fourPrice": "386.99",
+      "fivePrice": "115.64",
+      "sixPrice": "164.92"
+    },
+    {
+      "time": "2026-02-05",
+      "areaCode": null,
+      "firstPrice": "334.41",
+      "secondPrice": "339.04",
+      "thirdPrice": "356.61",
+      "fourPrice": "358.98",
+      "fivePrice": "195.4",
+      "sixPrice": "209.57"
+    },
+    {
+      "time": "2026-02-06",
+      "areaCode": null,
+      "firstPrice": "169.95",
+      "secondPrice": "162.29",
+      "thirdPrice": "186.33",
+      "fourPrice": "174.28",
+      "fivePrice": "109.8",
+      "sixPrice": "119.63"
+    },
+    {
+      "time": "2026-02-07",
+      "areaCode": null,
+      "firstPrice": "263.46",
+      "secondPrice": "313.0",
+      "thirdPrice": "307.49",
+      "fourPrice": "363.0",
+      "fivePrice": "93.44",
+      "sixPrice": "110.1"
+    },
+    {
+      "time": "2026-02-08",
+      "areaCode": null,
+      "firstPrice": "214.66",
+      "secondPrice": "196.57",
+      "thirdPrice": "249.89",
+      "fourPrice": "226.58",
+      "fivePrice": "99.55",
+      "sixPrice": "90.09"
+    },
+    {
+      "time": "2026-02-09",
+      "areaCode": null,
+      "firstPrice": "217.8",
+      "secondPrice": "190.68",
+      "thirdPrice": "253.2",
+      "fourPrice": "202.05",
+      "fivePrice": "127.33",
+      "sixPrice": "158.23"
+    },
+    {
+      "time": "2026-02-10",
+      "areaCode": null,
+      "firstPrice": "134.84",
+      "secondPrice": "150.21",
+      "thirdPrice": "175.06",
+      "fourPrice": "192.72",
+      "fivePrice": "24.64",
+      "sixPrice": "25.11"
+    },
+    {
+      "time": "2026-02-11",
+      "areaCode": null,
+      "firstPrice": "146.98",
+      "secondPrice": "151.74",
+      "thirdPrice": "172.89",
+      "fourPrice": "175.77",
+      "fivePrice": "67.19",
+      "sixPrice": "64.97"
+    },
+    {
+      "time": "2026-02-12",
+      "areaCode": null,
+      "firstPrice": "241.6",
+      "secondPrice": "213.32",
+      "thirdPrice": "276.54",
+      "fourPrice": "243.01",
+      "fivePrice": "119.46",
+      "sixPrice": "108.27"
+    },
+    {
+      "time": "2026-02-13",
+      "areaCode": null,
+      "firstPrice": "230.3",
+      "secondPrice": "231.83",
+      "thirdPrice": "262.33",
+      "fourPrice": "264.18",
+      "fivePrice": "125.96",
+      "sixPrice": "104.28"
+    },
+    {
+      "time": "2026-02-14",
+      "areaCode": null,
+      "firstPrice": "75.89",
+      "secondPrice": "31.43",
+      "thirdPrice": "89.18",
+      "fourPrice": "33.67",
+      "fivePrice": "46.35",
+      "sixPrice": "26.49"
+    },
+    {
+      "time": "2026-02-15",
+      "areaCode": null,
+      "firstPrice": "257.37",
+      "secondPrice": "189.64",
+      "thirdPrice": "311.72",
+      "fourPrice": "224.74",
+      "fivePrice": "97.68",
+      "sixPrice": "91.53"
+    },
+    {
+      "time": "2026-02-16",
+      "areaCode": null,
+      "firstPrice": "367.35",
+      "secondPrice": "411.07",
+      "thirdPrice": "414.73",
+      "fourPrice": "462.01",
+      "fivePrice": "126.79",
+      "sixPrice": "151.41"
+    },
+    {
+      "time": "2026-02-17",
+      "areaCode": null,
+      "firstPrice": "409.05",
+      "secondPrice": "255.87",
+      "thirdPrice": "460.86",
+      "fourPrice": "281.29",
+      "fivePrice": "120.75",
+      "sixPrice": "88.45"
+    },
+    {
+      "time": "2026-02-18",
+      "areaCode": null,
+      "firstPrice": "242.28",
+      "secondPrice": "181.55",
+      "thirdPrice": "268.95",
+      "fourPrice": "204.36",
+      "fivePrice": "117.61",
+      "sixPrice": "82.61"
+    },
+    {
+      "time": "2026-02-19",
+      "areaCode": null,
+      "firstPrice": "1.75",
+      "secondPrice": "0.01",
+      "thirdPrice": "1.89",
+      "fourPrice": "0.01",
+      "fivePrice": "1.42",
+      "sixPrice": "0.01"
+    },
+    {
+      "time": "2026-02-20",
+      "areaCode": null,
+      "firstPrice": "0.0",
+      "secondPrice": "3.59",
+      "thirdPrice": "0.0",
+      "fourPrice": "3.63",
+      "fivePrice": "0.0",
+      "sixPrice": "3.53"
+    },
+    {
+      "time": "2026-02-21",
+      "areaCode": null,
+      "firstPrice": "0.01",
+      "secondPrice": "0.02",
+      "thirdPrice": "0.01",
+      "fourPrice": "0.02",
+      "fivePrice": "0.01",
+      "sixPrice": "0.02"
+    },
+    {
+      "time": "2026-02-22",
+      "areaCode": null,
+      "firstPrice": "136.63",
+      "secondPrice": "111.5",
+      "thirdPrice": "163.78",
+      "fourPrice": "135.28",
+      "fivePrice": "62.17",
+      "sixPrice": "42.86"
+    },
+    {
+      "time": "2026-02-23",
+      "areaCode": null,
+      "firstPrice": "399.96",
+      "secondPrice": "285.35",
+      "thirdPrice": "430.74",
+      "fourPrice": "299.86",
+      "fivePrice": "241.72",
+      "sixPrice": "205.41"
+    },
+    {
+      "time": "2026-02-24",
+      "areaCode": null,
+      "firstPrice": "202.43",
+      "secondPrice": "231.58",
+      "thirdPrice": "250.22",
+      "fourPrice": "284.52",
+      "fivePrice": "87.33",
+      "sixPrice": "96.93"
+    },
+    {
+      "time": "2026-02-25",
+      "areaCode": null,
+      "firstPrice": "141.72",
+      "secondPrice": "226.2",
+      "thirdPrice": "172.19",
+      "fourPrice": "258.08",
+      "fivePrice": "83.87",
+      "sixPrice": "153.23"
+    },
+    {
+      "time": "2026-02-26",
+      "areaCode": null,
+      "firstPrice": "271.8",
+      "secondPrice": "267.46",
+      "thirdPrice": "319.22",
+      "fourPrice": "315.01",
+      "fivePrice": "134.22",
+      "sixPrice": "129.04"
+    },
+    {
+      "time": "2026-02-27",
+      "areaCode": null,
+      "firstPrice": "199.36",
+      "secondPrice": "267.31",
+      "thirdPrice": "246.51",
+      "fourPrice": "303.0",
+      "fivePrice": "90.82",
+      "sixPrice": "174.28"
+    },
+    {
+      "time": "2026-02-28",
+      "areaCode": null,
+      "firstPrice": "270.0",
+      "secondPrice": "244.95",
+      "thirdPrice": "295.46",
+      "fourPrice": "261.37",
+      "fivePrice": "149.25",
+      "sixPrice": "163.78"
+    },
+    {
+      "time": "2026-03-01",
+      "areaCode": null,
+      "firstPrice": "363.14",
+      "secondPrice": "373.53",
+      "thirdPrice": "362.71",
+      "fourPrice": "375.4",
+      "fivePrice": "367.64",
+      "sixPrice": "347.66"
+    },
+    {
+      "time": "2026-03-02",
+      "areaCode": null,
+      "firstPrice": "209.84",
+      "secondPrice": "143.67",
+      "thirdPrice": "221.47",
+      "fourPrice": "157.36",
+      "fivePrice": "145.68",
+      "sixPrice": "81.66"
+    },
+    {
+      "time": "2026-03-03",
+      "areaCode": null,
+      "firstPrice": "202.86",
+      "secondPrice": "190.05",
+      "thirdPrice": "232.22",
+      "fourPrice": "218.57",
+      "fivePrice": "106.45",
+      "sixPrice": "96.31"
+    },
+    {
+      "time": "2026-03-04",
+      "areaCode": null,
+      "firstPrice": "147.32",
+      "secondPrice": "124.31",
+      "thirdPrice": "165.98",
+      "fourPrice": "139.84",
+      "fivePrice": "111.0",
+      "sixPrice": "92.24"
+    },
+    {
+      "time": "2026-03-05",
+      "areaCode": null,
+      "firstPrice": "289.59",
+      "secondPrice": "214.4",
+      "thirdPrice": "348.04",
+      "fourPrice": "253.24",
+      "fivePrice": "155.19",
+      "sixPrice": "120.87"
+    },
+    {
+      "time": "2026-03-06",
+      "areaCode": null,
+      "firstPrice": "234.47",
+      "secondPrice": "223.62",
+      "thirdPrice": "243.06",
+      "fourPrice": "240.76",
+      "fivePrice": "201.38",
+      "sixPrice": "165.92"
+    },
+    {
+      "time": "2026-03-07",
+      "areaCode": null,
+      "firstPrice": "268.72",
+      "secondPrice": "328.62",
+      "thirdPrice": "273.5",
+      "fourPrice": "335.78",
+      "fivePrice": "249.04",
+      "sixPrice": "296.6"
+    },
+    {
+      "time": "2026-03-08",
+      "areaCode": null,
+      "firstPrice": "323.32",
+      "secondPrice": "367.14",
+      "thirdPrice": "333.09",
+      "fourPrice": "377.52",
+      "fivePrice": "274.94",
+      "sixPrice": "310.24"
+    },
+    {
+      "time": "2026-03-09",
+      "areaCode": null,
+      "firstPrice": "206.34",
+      "secondPrice": "192.58",
+      "thirdPrice": "257.66",
+      "fourPrice": "235.57",
+      "fivePrice": "68.82",
+      "sixPrice": "70.83"
+    },
+    {
+      "time": "2026-03-10",
+      "areaCode": null,
+      "firstPrice": "202.82",
+      "secondPrice": "135.27",
+      "thirdPrice": "249.19",
+      "fourPrice": "158.14",
+      "fivePrice": "91.83",
+      "sixPrice": "85.4"
+    },
+    {
+      "time": "2026-03-11",
+      "areaCode": null,
+      "firstPrice": "252.61",
+      "secondPrice": "181.93",
+      "thirdPrice": "314.9",
+      "fourPrice": "223.52",
+      "fivePrice": "113.49",
+      "sixPrice": "88.0"
+    },
+    {
+      "time": "2026-03-12",
+      "areaCode": null,
+      "firstPrice": "4.58",
+      "secondPrice": "19.06",
+      "thirdPrice": "5.3",
+      "fourPrice": "21.66",
+      "fivePrice": "3.66",
+      "sixPrice": "15.06"
+    },
+    {
+      "time": "2026-03-13",
+      "areaCode": null,
+      "firstPrice": "225.02",
+      "secondPrice": "235.92",
+      "thirdPrice": "227.36",
+      "fourPrice": "238.02",
+      "fivePrice": "214.47",
+      "sixPrice": "225.49"
+    },
+    {
+      "time": "2026-03-14",
+      "areaCode": null,
+      "firstPrice": "209.79",
+      "secondPrice": "193.38",
+      "thirdPrice": "230.68",
+      "fourPrice": "207.67",
+      "fivePrice": "134.26",
+      "sixPrice": "141.47"
+    },
+    {
+      "time": "2026-03-15",
+      "areaCode": null,
+      "firstPrice": "251.84",
+      "secondPrice": "215.66",
+      "thirdPrice": "286.74",
+      "fourPrice": "246.02",
+      "fivePrice": "87.52",
+      "sixPrice": "92.1"
+    },
+    {
+      "time": "2026-03-16",
+      "areaCode": null,
+      "firstPrice": "246.65",
+      "secondPrice": "203.1",
+      "thirdPrice": "293.33",
+      "fourPrice": "240.8",
+      "fivePrice": "103.68",
+      "sixPrice": "90.51"
+    },
+    {
+      "time": "2026-03-17",
+      "areaCode": null,
+      "firstPrice": "201.93",
+      "secondPrice": "235.22",
+      "thirdPrice": "225.84",
+      "fourPrice": "260.66",
+      "fivePrice": "123.66",
+      "sixPrice": "137.62"
+    },
+    {
+      "time": "2026-03-18",
+      "areaCode": null,
+      "firstPrice": "160.78",
+      "secondPrice": "139.39",
+      "thirdPrice": "208.15",
+      "fourPrice": "187.11",
+      "fivePrice": "41.78",
+      "sixPrice": "21.64"
+    },
+    {
+      "time": "2026-03-19",
+      "areaCode": null,
+      "firstPrice": "275.03",
+      "secondPrice": "260.17",
+      "thirdPrice": "320.5",
+      "fourPrice": "291.59",
+      "fivePrice": "107.62",
+      "sixPrice": "149.01"
+    },
+    {
+      "time": "2026-03-20",
+      "areaCode": null,
+      "firstPrice": "202.08",
+      "secondPrice": "192.02",
+      "thirdPrice": "252.94",
+      "fourPrice": "235.81",
+      "fivePrice": "58.49",
+      "sixPrice": "63.31"
+    },
+    {
+      "time": "2026-03-21",
+      "areaCode": null,
+      "firstPrice": "69.83",
+      "secondPrice": "106.73",
+      "thirdPrice": "90.53",
+      "fourPrice": "124.01",
+      "fivePrice": "33.7",
+      "sixPrice": "74.94"
+    },
+    {
+      "time": "2026-03-22",
+      "areaCode": null,
+      "firstPrice": "184.09",
+      "secondPrice": "151.32",
+      "thirdPrice": "222.87",
+      "fourPrice": "185.57",
+      "fivePrice": "92.51",
+      "sixPrice": "66.1"
+    },
+    {
+      "time": "2026-03-23",
+      "areaCode": null,
+      "firstPrice": "300.97",
+      "secondPrice": "258.64",
+      "thirdPrice": "332.11",
+      "fourPrice": "290.98",
+      "fivePrice": "192.33",
+      "sixPrice": "149.22"
+    },
+    {
+      "time": "2026-03-24",
+      "areaCode": null,
+      "firstPrice": "151.15",
+      "secondPrice": "156.5",
+      "thirdPrice": "187.25",
+      "fourPrice": "196.37",
+      "fivePrice": "46.1",
+      "sixPrice": "45.09"
+    },
+    {
+      "time": "2026-03-25",
+      "areaCode": null,
+      "firstPrice": "236.75",
+      "secondPrice": "265.76",
+      "thirdPrice": "262.48",
+      "fourPrice": "283.16",
+      "fivePrice": "133.28",
+      "sixPrice": "194.53"
+    },
+    {
+      "time": "2026-03-26",
+      "areaCode": null,
+      "firstPrice": "260.28",
+      "secondPrice": "251.33",
+      "thirdPrice": "297.78",
+      "fourPrice": "271.32",
+      "fivePrice": "109.74",
+      "sixPrice": "169.1"
+    },
+    {
+      "time": "2026-03-27",
+      "areaCode": null,
+      "firstPrice": "187.56",
+      "secondPrice": "258.93",
+      "thirdPrice": "231.36",
+      "fourPrice": "321.9",
+      "fivePrice": "82.97",
+      "sixPrice": "101.24"
+    },
+    {
+      "time": "2026-03-28",
+      "areaCode": null,
+      "firstPrice": "121.7",
+      "secondPrice": "148.84",
+      "thirdPrice": "160.02",
+      "fourPrice": "190.19",
+      "fivePrice": "48.86",
+      "sixPrice": "70.01"
+    },
+    {
+      "time": "2026-03-29",
+      "areaCode": null,
+      "firstPrice": "242.07",
+      "secondPrice": "356.08",
+      "thirdPrice": "280.64",
+      "fourPrice": "394.78",
+      "fivePrice": "111.41",
+      "sixPrice": "207.09"
+    },
+    {
+      "time": "2026-03-30",
+      "areaCode": null,
+      "firstPrice": "241.63",
+      "secondPrice": "233.49",
+      "thirdPrice": "265.93",
+      "fourPrice": "254.08",
+      "fivePrice": "152.36",
+      "sixPrice": "166.62"
+    },
+    {
+      "time": "2026-03-31",
+      "areaCode": null,
+      "firstPrice": "182.55",
+      "secondPrice": "169.35",
+      "thirdPrice": "227.28",
+      "fourPrice": "208.15",
+      "fivePrice": "67.76",
+      "sixPrice": "66.65"
+    },
+    {
+      "time": "2026-04-01",
+      "areaCode": null,
+      "firstPrice": "151.13",
+      "secondPrice": "121.55",
+      "thirdPrice": "194.24",
+      "fourPrice": "155.63",
+      "fivePrice": "53.43",
+      "sixPrice": "45.9"
+    },
+    {
+      "time": "2026-04-02",
+      "areaCode": null,
+      "firstPrice": "111.36",
+      "secondPrice": "26.35",
+      "thirdPrice": "139.48",
+      "fourPrice": "34.93",
+      "fivePrice": "48.89",
+      "sixPrice": "11.83"
+    },
+    {
+      "time": "2026-04-03",
+      "areaCode": null,
+      "firstPrice": "67.19",
+      "secondPrice": "125.35",
+      "thirdPrice": "103.11",
+      "fourPrice": "181.93",
+      "fivePrice": "15.97",
+      "sixPrice": "30.48"
+    },
+    {
+      "time": "2026-04-04",
+      "areaCode": null,
+      "firstPrice": "31.47",
+      "secondPrice": "52.75",
+      "thirdPrice": "43.63",
+      "fourPrice": "75.56",
+      "fivePrice": "12.24",
+      "sixPrice": "20.42"
+    },
+    {
+      "time": "2026-04-05",
+      "areaCode": null,
+      "firstPrice": "112.25",
+      "secondPrice": "55.23",
+      "thirdPrice": "149.58",
+      "fourPrice": "75.17",
+      "fivePrice": "55.59",
+      "sixPrice": "26.72"
+    },
+    {
+      "time": "2026-04-06",
+      "areaCode": null,
+      "firstPrice": "119.77",
+      "secondPrice": "115.95",
+      "thirdPrice": "159.24",
+      "fourPrice": "156.03",
+      "fivePrice": "38.71",
+      "sixPrice": "37.77"
+    },
+    {
+      "time": "2026-04-07",
+      "areaCode": null,
+      "firstPrice": "60.55",
+      "secondPrice": "48.28",
+      "thirdPrice": "92.32",
+      "fourPrice": "70.8",
+      "fivePrice": "20.69",
+      "sixPrice": "20.05"
+    },
+    {
+      "time": "2026-04-08",
+      "areaCode": null,
+      "firstPrice": "319.97",
+      "secondPrice": "199.64",
+      "thirdPrice": "367.1",
+      "fourPrice": "217.62",
+      "fivePrice": "213.57",
+      "sixPrice": "161.69"
+    },
+    {
+      "time": "2026-04-09",
+      "areaCode": null,
+      "firstPrice": "265.36",
+      "secondPrice": "286.4",
+      "thirdPrice": "357.46",
+      "fourPrice": "370.3",
+      "fivePrice": "130.9",
+      "sixPrice": "145.59"
+    },
+    {
+      "time": "2026-04-10",
+      "areaCode": null,
+      "firstPrice": "220.21",
+      "secondPrice": "293.58",
+      "thirdPrice": "280.28",
+      "fourPrice": "360.1",
+      "fivePrice": "113.82",
+      "sixPrice": "154.41"
+    },
+    {
+      "time": "2026-04-11",
+      "areaCode": null,
+      "firstPrice": "136.77",
+      "secondPrice": "229.67",
+      "thirdPrice": "169.06",
+      "fourPrice": "262.87",
+      "fivePrice": "91.22",
+      "sixPrice": "171.85"
+    },
+    {
+      "time": "2026-04-12",
+      "areaCode": null,
+      "firstPrice": "133.88",
+      "secondPrice": "180.45",
+      "thirdPrice": "165.99",
+      "fourPrice": "216.83",
+      "fivePrice": "75.71",
+      "sixPrice": "113.24"
+    },
+    {
+      "time": "2026-04-13",
+      "areaCode": null,
+      "firstPrice": "273.21",
+      "secondPrice": "302.4",
+      "thirdPrice": "291.64",
+      "fourPrice": "329.36",
+      "fivePrice": "216.67",
+      "sixPrice": "221.33"
+    },
+    {
+      "time": "2026-04-14",
+      "areaCode": null,
+      "firstPrice": "268.72",
+      "secondPrice": "269.45",
+      "thirdPrice": "346.41",
+      "fourPrice": "315.83",
+      "fivePrice": "97.46",
+      "sixPrice": "163.58"
+    },
+    {
+      "time": "2026-04-15",
+      "areaCode": null,
+      "firstPrice": "281.11",
+      "secondPrice": "159.21",
+      "thirdPrice": "356.32",
+      "fourPrice": "196.63",
+      "fivePrice": "139.19",
+      "sixPrice": "105.55"
+    },
+    {
+      "time": "2026-04-16",
+      "areaCode": null,
+      "firstPrice": "164.76",
+      "secondPrice": "139.63",
+      "thirdPrice": "223.34",
+      "fourPrice": "184.53",
+      "fivePrice": "71.76",
+      "sixPrice": "65.87"
+    },
+    {
+      "time": "2026-04-17",
+      "areaCode": null,
+      "firstPrice": "130.19",
+      "secondPrice": "97.56",
+      "thirdPrice": "183.13",
+      "fourPrice": "136.16",
+      "fivePrice": "60.59",
+      "sixPrice": "47.25"
+    },
+    {
+      "time": "2026-04-18",
+      "areaCode": null,
+      "firstPrice": "60.76",
+      "secondPrice": "49.61",
+      "thirdPrice": "101.35",
+      "fourPrice": "75.72",
+      "fivePrice": "26.91",
+      "sixPrice": "24.62"
+    },
+    {
+      "time": "2026-04-19",
+      "areaCode": null,
+      "firstPrice": "88.26",
+      "secondPrice": "198.09",
+      "thirdPrice": "128.21",
+      "fourPrice": "209.28",
+      "fivePrice": "46.5",
+      "sixPrice": "182.93"
+    },
+    {
+      "time": "2026-04-20",
+      "areaCode": null,
+      "firstPrice": "130.73",
+      "secondPrice": "187.32",
+      "thirdPrice": "168.8",
+      "fourPrice": "235.48",
+      "fivePrice": "66.06",
+      "sixPrice": "107.26"
+    },
+    {
+      "time": "2026-04-21",
+      "areaCode": null,
+      "firstPrice": "299.6",
+      "secondPrice": "230.48",
+      "thirdPrice": "326.93",
+      "fourPrice": "256.87",
+      "fivePrice": "185.83",
+      "sixPrice": "137.55"
+    },
+    {
+      "time": "2026-04-22",
+      "areaCode": null,
+      "firstPrice": "191.35",
+      "secondPrice": "170.6",
+      "thirdPrice": "240.49",
+      "fourPrice": "220.72",
+      "fivePrice": "80.68",
+      "sixPrice": "71.55"
+    },
+    {
+      "time": "2026-04-23",
+      "areaCode": null,
+      "firstPrice": "118.58",
+      "secondPrice": "140.81",
+      "thirdPrice": "152.66",
+      "fourPrice": "187.27",
+      "fivePrice": "60.35",
+      "sixPrice": "59.04"
+    },
+    {
+      "time": "2026-04-24",
+      "areaCode": null,
+      "firstPrice": "192.56",
+      "secondPrice": "245.55",
+      "thirdPrice": "272.18",
+      "fourPrice": "324.63",
+      "fivePrice": "57.77",
+      "sixPrice": "105.54"
+    },
+    {
+      "time": "2026-04-25",
+      "areaCode": null,
+      "firstPrice": "179.42",
+      "secondPrice": "143.52",
+      "thirdPrice": "229.97",
+      "fourPrice": "185.68",
+      "fivePrice": "71.6",
+      "sixPrice": "67.62"
+    },
+    {
+      "time": "2026-04-26",
+      "areaCode": null,
+      "firstPrice": "167.42",
+      "secondPrice": "153.65",
+      "thirdPrice": "215.08",
+      "fourPrice": "201.32",
+      "fivePrice": "82.59",
+      "sixPrice": "73.18"
+    },
+    {
+      "time": "2026-04-27",
+      "areaCode": null,
+      "firstPrice": "169.06",
+      "secondPrice": "222.32",
+      "thirdPrice": "238.94",
+      "fourPrice": "308.75",
+      "fivePrice": "55.84",
+      "sixPrice": "59.11"
+    },
+    {
+      "time": "2026-04-28",
+      "areaCode": null,
+      "firstPrice": "152.96",
+      "secondPrice": "121.85",
+      "thirdPrice": "197.77",
+      "fourPrice": "162.99",
+      "fivePrice": "61.17",
+      "sixPrice": "52.3"
+    },
+    {
+      "time": "2026-04-29",
+      "areaCode": null,
+      "firstPrice": "132.38",
+      "secondPrice": "158.77",
+      "thirdPrice": "170.75",
+      "fourPrice": "207.99",
+      "fivePrice": "60.04",
+      "sixPrice": "60.07"
+    },
+    {
+      "time": "2026-04-30",
+      "areaCode": null,
+      "firstPrice": "42.07",
+      "secondPrice": "60.02",
+      "thirdPrice": "56.91",
+      "fourPrice": "80.81",
+      "fivePrice": "25.52",
+      "sixPrice": "34.9"
+    },
+    {
+      "time": "2026-05-01",
+      "areaCode": null,
+      "firstPrice": "109.04",
+      "secondPrice": "104.62",
+      "thirdPrice": "126.78",
+      "fourPrice": "131.85",
+      "fivePrice": "67.91",
+      "sixPrice": "46.2"
+    },
+    {
+      "time": "2026-05-02",
+      "areaCode": null,
+      "firstPrice": "54.19",
+      "secondPrice": "65.36",
+      "thirdPrice": "67.42",
+      "fourPrice": "83.52",
+      "fivePrice": "38.6",
+      "sixPrice": "41.35"
+    },
+    {
+      "time": "2026-05-03",
+      "areaCode": null,
+      "firstPrice": "87.2",
+      "secondPrice": "122.92",
+      "thirdPrice": "120.37",
+      "fourPrice": "164.98",
+      "fivePrice": "34.68",
+      "sixPrice": "52.01"
+    },
+    {
+      "time": "2026-05-04",
+      "areaCode": null,
+      "firstPrice": "150.82",
+      "secondPrice": "126.16",
+      "thirdPrice": "187.23",
+      "fourPrice": "154.28",
+      "fivePrice": "95.71",
+      "sixPrice": "83.79"
+    },
+    {
+      "time": "2026-05-05",
+      "areaCode": null,
+      "firstPrice": "58.95",
+      "secondPrice": "55.2",
+      "thirdPrice": "76.62",
+      "fourPrice": "66.78",
+      "fivePrice": "37.66",
+      "sixPrice": "42.07"
+    },
+    {
+      "time": "2026-05-06",
+      "areaCode": null,
+      "firstPrice": "88.88",
+      "secondPrice": "102.87",
+      "thirdPrice": "109.83",
+      "fourPrice": "120.39",
+      "fivePrice": "62.91",
+      "sixPrice": "78.14"
+    },
+    {
+      "time": "2026-05-07",
+      "areaCode": null,
+      "firstPrice": "160.86",
+      "secondPrice": "217.21",
+      "thirdPrice": "212.35",
+      "fourPrice": "297.63",
+      "fivePrice": "73.29",
+      "sixPrice": "72.68"
+    },
+    {
+      "time": "2026-05-08",
+      "areaCode": null,
+      "firstPrice": "78.95",
+      "secondPrice": "71.55",
+      "thirdPrice": "100.94",
+      "fourPrice": "92.76",
+      "fivePrice": "48.31",
+      "sixPrice": "42.4"
+    },
+    {
+      "time": "2026-05-09",
+      "areaCode": null,
+      "firstPrice": "187.45",
+      "secondPrice": "222.57",
+      "thirdPrice": "290.29",
+      "fourPrice": "334.17",
+      "fivePrice": "46.33",
+      "sixPrice": "62.71"
+    },
+    {
+      "time": "2026-05-10",
+      "areaCode": null,
+      "firstPrice": "233.11",
+      "secondPrice": "294.36",
+      "thirdPrice": "303.0",
+      "fourPrice": "389.6",
+      "fivePrice": "91.39",
+      "sixPrice": "107.2"
+    },
+    {
+      "time": "2026-05-11",
+      "areaCode": null,
+      "firstPrice": "119.57",
+      "secondPrice": "86.86",
+      "thirdPrice": "150.99",
+      "fourPrice": "116.26",
+      "fivePrice": "51.65",
+      "sixPrice": "28.14"
+    },
+    {
+      "time": "2026-05-12",
+      "areaCode": null,
+      "firstPrice": "32.43",
+      "secondPrice": "48.95",
+      "thirdPrice": "41.97",
+      "fourPrice": "64.65",
+      "fivePrice": "19.68",
+      "sixPrice": "27.5"
+    },
+    {
+      "time": "2026-05-13",
+      "areaCode": null,
+      "firstPrice": "111.88",
+      "secondPrice": "199.0",
+      "thirdPrice": "136.25",
+      "fourPrice": "227.42",
+      "fivePrice": "52.27",
+      "sixPrice": "117.08"
+    },
+    {
+      "time": "2026-05-14",
+      "areaCode": null,
+      "firstPrice": "158.83",
+      "secondPrice": "270.33",
+      "thirdPrice": "192.84",
+      "fourPrice": "324.23",
+      "fivePrice": "73.64",
+      "sixPrice": "113.01"
+    },
+    {
+      "time": "2026-05-15",
+      "areaCode": null,
+      "firstPrice": "222.86",
+      "secondPrice": "330.37",
+      "thirdPrice": "242.65",
+      "fourPrice": "335.89",
+      "fivePrice": "157.59",
+      "sixPrice": "308.65"
+    },
+    {
+      "time": "2026-05-16",
+      "areaCode": null,
+      "firstPrice": "210.75",
+      "secondPrice": "251.57",
+      "thirdPrice": "240.54",
+      "fourPrice": "306.59",
+      "fivePrice": "143.46",
+      "sixPrice": "109.45"
+    },
+    {
+      "time": "2026-05-17",
+      "areaCode": null,
+      "firstPrice": "297.2",
+      "secondPrice": "240.31",
+      "thirdPrice": "308.27",
+      "fourPrice": "257.44",
+      "fivePrice": "253.63",
+      "sixPrice": "173.34"
+    },
+    {
+      "time": "2026-05-18",
+      "areaCode": null,
+      "firstPrice": "209.61",
+      "secondPrice": "195.2",
+      "thirdPrice": "254.79",
+      "fourPrice": "238.08",
+      "fivePrice": "96.64",
+      "sixPrice": "90.5"
+    },
+    {
+      "time": "2026-05-19",
+      "areaCode": null,
+      "firstPrice": "131.33",
+      "secondPrice": "61.44",
+      "thirdPrice": "170.06",
+      "fourPrice": "75.39",
+      "fivePrice": "62.02",
+      "sixPrice": "40.42"
+    },
+    {
+      "time": "2026-05-20",
+      "areaCode": null,
+      "firstPrice": "21.78",
+      "secondPrice": "17.1",
+      "thirdPrice": "36.76",
+      "fourPrice": "24.61",
+      "fivePrice": "5.85",
+      "sixPrice": "8.32"
+    },
+    {
+      "time": "2026-05-21",
+      "areaCode": null,
+      "firstPrice": "95.27",
+      "secondPrice": "91.66",
+      "thirdPrice": "125.98",
+      "fourPrice": "122.51",
+      "fivePrice": "46.06",
+      "sixPrice": "42.09"
+    },
+    {
+      "time": "2026-05-22",
+      "areaCode": null,
+      "firstPrice": "171.88",
+      "secondPrice": "169.04",
+      "thirdPrice": "219.61",
+      "fourPrice": "215.26",
+      "fivePrice": "52.64",
+      "sixPrice": "54.25"
+    },
+    {
+      "time": "2026-05-23",
+      "areaCode": null,
+      "firstPrice": "54.61",
+      "secondPrice": "63.71",
+      "thirdPrice": "73.83",
+      "fourPrice": "91.45",
+      "fivePrice": "21.92",
+      "sixPrice": "20.24"
+    },
+    {
+      "time": "2026-05-24",
+      "areaCode": null,
+      "firstPrice": "109.17",
+      "secondPrice": "71.13",
+      "thirdPrice": "128.33",
+      "fourPrice": "83.35",
+      "fivePrice": "72.3",
+      "sixPrice": "50.62"
+    },
+    {
+      "time": "2026-05-25",
+      "areaCode": null,
+      "firstPrice": "206.3",
+      "secondPrice": "159.06",
+      "thirdPrice": "242.16",
+      "fourPrice": "203.88",
+      "fivePrice": "125.09",
+      "sixPrice": "57.37"
+    },
+    {
+      "time": "2026-05-26",
+      "areaCode": null,
+      "firstPrice": "209.94",
+      "secondPrice": "210.81",
+      "thirdPrice": "242.41",
+      "fourPrice": "251.76",
+      "fivePrice": "102.98",
+      "sixPrice": "78.1"
+    },
+    {
+      "time": "2026-05-27",
+      "areaCode": null,
+      "firstPrice": "152.96",
+      "secondPrice": "181.03",
+      "thirdPrice": "184.07",
+      "fourPrice": "213.93",
+      "fivePrice": "70.06",
+      "sixPrice": "89.14"
+    },
+    {
+      "time": "2026-05-28",
+      "areaCode": null,
+      "firstPrice": "203.61",
+      "secondPrice": "199.96",
+      "thirdPrice": "241.02",
+      "fourPrice": "243.26",
+      "fivePrice": "88.95",
+      "sixPrice": "81.76"
+    },
+    {
+      "time": "2026-05-29",
+      "areaCode": null,
+      "firstPrice": "206.24",
+      "secondPrice": "205.88",
+      "thirdPrice": "238.25",
+      "fourPrice": "251.93",
+      "fivePrice": "59.61",
+      "sixPrice": "47.97"
+    },
+    {
+      "time": "2026-05-30",
+      "areaCode": null,
+      "firstPrice": "200.07",
+      "secondPrice": "111.88",
+      "thirdPrice": "249.13",
+      "fourPrice": "138.68",
+      "fivePrice": "59.96",
+      "sixPrice": "56.7"
+    },
+    {
+      "time": "2026-05-31",
+      "areaCode": null,
+      "firstPrice": "99.69",
+      "secondPrice": "81.87",
+      "thirdPrice": "133.96",
+      "fourPrice": "113.2",
+      "fivePrice": "24.49",
+      "sixPrice": "27.48"
+    },
+    {
+      "time": "2026-06-01",
+      "areaCode": null,
+      "firstPrice": "94.42",
+      "secondPrice": "92.03",
+      "thirdPrice": "116.48",
+      "fourPrice": "119.48",
+      "fivePrice": "45.52",
+      "sixPrice": "41.84"
+    },
+    {
+      "time": "2026-06-02",
+      "areaCode": null,
+      "firstPrice": "101.49",
+      "secondPrice": "112.89",
+      "thirdPrice": "128.12",
+      "fourPrice": "142.85",
+      "fivePrice": "53.5",
+      "sixPrice": "60.25"
+    },
+    {
+      "time": "2026-06-03",
+      "areaCode": null,
+      "firstPrice": "85.67",
+      "secondPrice": "172.4",
+      "thirdPrice": "116.02",
+      "fourPrice": "223.45",
+      "fivePrice": "33.57",
+      "sixPrice": "76.01"
+    },
+    {
+      "time": "2026-06-04",
+      "areaCode": null,
+      "firstPrice": "197.69",
+      "secondPrice": "199.36",
+      "thirdPrice": "246.6",
+      "fourPrice": "248.12",
+      "fivePrice": "78.75",
+      "sixPrice": "91.17"
+    },
+    {
+      "time": "2026-06-05",
+      "areaCode": null,
+      "firstPrice": "142.06",
+      "secondPrice": "121.35",
+      "thirdPrice": "177.38",
+      "fourPrice": "146.53",
+      "fivePrice": "82.8",
+      "sixPrice": "81.11"
+    },
+    {
+      "time": "2026-06-06",
+      "areaCode": null,
+      "firstPrice": "228.75",
+      "secondPrice": "181.73",
+      "thirdPrice": "293.67",
+      "fourPrice": "216.49",
+      "fivePrice": "109.19",
+      "sixPrice": "110.87"
+    },
+    {
+      "time": "2026-06-07",
+      "areaCode": null,
+      "firstPrice": "251.43",
+      "secondPrice": "242.25",
+      "thirdPrice": "318.52",
+      "fourPrice": "305.9",
+      "fivePrice": "85.28",
+      "sixPrice": "68.39"
+    },
+    {
+      "time": "2026-06-08",
+      "areaCode": null,
+      "firstPrice": "126.68",
+      "secondPrice": "112.23",
+      "thirdPrice": "167.35",
+      "fourPrice": "154.34",
+      "fivePrice": "44.63",
+      "sixPrice": "37.08"
+    },
+    {
+      "time": "2026-06-09",
+      "areaCode": null,
+      "firstPrice": "121.66",
+      "secondPrice": "124.1",
+      "thirdPrice": "171.93",
+      "fourPrice": "186.53",
+      "fivePrice": "28.71",
+      "sixPrice": "20.68"
+    },
+    {
+      "time": "2026-06-10",
+      "areaCode": null,
+      "firstPrice": "227.44",
+      "secondPrice": "224.86",
+      "thirdPrice": "290.85",
+      "fourPrice": "287.59",
+      "fivePrice": "76.04",
+      "sixPrice": "83.51"
+    },
+    {
+      "time": "2026-06-11",
+      "areaCode": null,
+      "firstPrice": "154.68",
+      "secondPrice": "140.81",
+      "thirdPrice": "200.29",
+      "fourPrice": "188.45",
+      "fivePrice": "82.91",
+      "sixPrice": "74.08"
+    },
+    {
+      "time": "2026-06-12",
+      "areaCode": null,
+      "firstPrice": "89.52",
+      "secondPrice": "69.94",
+      "thirdPrice": "124.35",
+      "fourPrice": "98.17",
+      "fivePrice": "48.15",
+      "sixPrice": "38.33"
+    },
+    {
+      "time": "2026-06-13",
+      "areaCode": null,
+      "firstPrice": "163.22",
+      "secondPrice": "134.97",
+      "thirdPrice": "225.88",
+      "fourPrice": "186.35",
+      "fivePrice": "60.09",
+      "sixPrice": "52.18"
+    },
+    {
+      "time": "2026-06-14",
+      "areaCode": null,
+      "firstPrice": "162.94",
+      "secondPrice": "164.84",
+      "thirdPrice": "205.79",
+      "fourPrice": "204.05",
+      "fivePrice": "76.22",
+      "sixPrice": "93.62"
+    },
+    {
+      "time": "2026-06-15",
+      "areaCode": null,
+      "firstPrice": "66.38",
+      "secondPrice": "82.17",
+      "thirdPrice": "97.66",
+      "fourPrice": "118.19",
+      "fivePrice": "20.64",
+      "sixPrice": "32.24"
+    },
+    {
+      "time": "2026-06-16",
+      "areaCode": null,
+      "firstPrice": "172.99",
+      "secondPrice": "175.3",
+      "thirdPrice": "237.11",
+      "fourPrice": "232.52",
+      "fivePrice": "70.31",
+      "sixPrice": "82.28"
+    },
+    {
+      "time": "2026-06-17",
+      "areaCode": null,
+      "firstPrice": "157.75",
+      "secondPrice": "241.27",
+      "thirdPrice": "186.77",
+      "fourPrice": "264.23",
+      "fivePrice": "95.55",
+      "sixPrice": "184.39"
+    },
+    {
+      "time": "2026-06-18",
+      "areaCode": null,
+      "firstPrice": "313.63",
+      "secondPrice": "303.97",
+      "thirdPrice": "322.03",
+      "fourPrice": "311.93",
+      "fivePrice": "282.63",
+      "sixPrice": "269.02"
+    },
+    {
+      "time": "2026-06-19",
+      "areaCode": null,
+      "firstPrice": "183.77",
+      "secondPrice": "186.73",
+      "thirdPrice": "223.84",
+      "fourPrice": "225.77",
+      "fivePrice": "87.01",
+      "sixPrice": "83.52"
+    },
+    {
+      "time": "2026-06-20",
+      "areaCode": null,
+      "firstPrice": "202.2",
+      "secondPrice": "197.45",
+      "thirdPrice": "222.9",
+      "fourPrice": "225.1",
+      "fivePrice": "154.44",
+      "sixPrice": "126.35"
+    },
+    {
+      "time": "2026-06-21",
+      "areaCode": null,
+      "firstPrice": "253.31",
+      "secondPrice": "228.83",
+      "thirdPrice": "271.04",
+      "fourPrice": "242.92",
+      "fivePrice": "189.85",
+      "sixPrice": "183.0"
+    },
+    {
+      "time": "2026-06-22",
+      "areaCode": null,
+      "firstPrice": "221.2",
+      "secondPrice": "128.29",
+      "thirdPrice": "250.52",
+      "fourPrice": "150.22",
+      "fivePrice": "153.23",
+      "sixPrice": "93.19"
+    },
+    {
+      "time": "2026-06-23",
+      "areaCode": null,
+      "firstPrice": "225.96",
+      "secondPrice": "230.76",
+      "thirdPrice": "259.29",
+      "fourPrice": "277.58",
+      "fivePrice": "154.78",
+      "sixPrice": "134.82"
+    },
+    {
+      "time": "2026-06-24",
+      "areaCode": null,
+      "firstPrice": "212.58",
+      "secondPrice": "285.23",
+      "thirdPrice": "247.1",
+      "fourPrice": "343.16",
+      "fivePrice": "136.6",
+      "sixPrice": "151.13"
+    },
+    {
+      "time": "2026-06-25",
+      "areaCode": null,
+      "firstPrice": "278.9",
+      "secondPrice": "234.25",
+      "thirdPrice": "288.31",
+      "fourPrice": "274.63",
+      "fivePrice": "244.63",
+      "sixPrice": "114.93"
+    },
+    {
+      "time": "2026-06-26",
+      "areaCode": null,
+      "firstPrice": "197.28",
+      "secondPrice": "215.34",
+      "thirdPrice": "237.58",
+      "fourPrice": "255.47",
+      "fivePrice": "80.87",
+      "sixPrice": "101.76"
+    },
+    {
+      "time": "2026-06-27",
+      "areaCode": null,
+      "firstPrice": "169.9",
+      "secondPrice": "140.51",
+      "thirdPrice": "209.11",
+      "fourPrice": "169.7",
+      "fivePrice": "87.21",
+      "sixPrice": "87.42"
+    },
+    {
+      "time": "2026-06-28",
+      "areaCode": null,
+      "firstPrice": "145.55",
+      "secondPrice": "124.06",
+      "thirdPrice": "181.25",
+      "fourPrice": "154.14",
+      "fivePrice": "77.87",
+      "sixPrice": "70.66"
+    },
+    {
+      "time": "2026-06-29",
+      "areaCode": null,
+      "firstPrice": "157.58",
+      "secondPrice": "134.43",
+      "thirdPrice": "191.11",
+      "fourPrice": "153.89",
+      "fivePrice": "90.03",
+      "sixPrice": "96.27"
+    },
+    {
+      "time": "2026-06-30",
+      "areaCode": null,
+      "firstPrice": "260.45",
+      "secondPrice": "220.02",
+      "thirdPrice": "295.32",
+      "fourPrice": "249.76",
+      "fivePrice": "159.93",
+      "sixPrice": "149.46"
+    },
+    {
+      "time": "2026-07-01",
+      "areaCode": null,
+      "firstPrice": "232.15",
+      "secondPrice": "263.93",
+      "thirdPrice": "273.21",
+      "fourPrice": "295.54",
+      "fivePrice": "91.1",
+      "sixPrice": "147.9"
+    },
+    {
+      "time": "2026-07-02",
+      "areaCode": null,
+      "firstPrice": "258.42",
+      "secondPrice": "247.1",
+      "thirdPrice": "274.29",
+      "fourPrice": "258.5",
+      "fivePrice": "206.73",
+      "sixPrice": "211.51"
+    },
+    {
+      "time": "2026-07-03",
+      "areaCode": null,
+      "firstPrice": "204.19",
+      "secondPrice": "222.99",
+      "thirdPrice": "235.75",
+      "fourPrice": "258.14",
+      "fivePrice": "120.34",
+      "sixPrice": "139.58"
+    },
+    {
+      "time": "2026-07-04",
+      "areaCode": null,
+      "firstPrice": "230.18",
+      "secondPrice": "235.79",
+      "thirdPrice": "269.36",
+      "fourPrice": "272.48",
+      "fivePrice": "141.25",
+      "sixPrice": "153.08"
+    },
+    {
+      "time": "2026-07-05",
+      "areaCode": null,
+      "firstPrice": "235.84",
+      "secondPrice": "291.68",
+      "thirdPrice": "276.81",
+      "fourPrice": "341.5",
+      "fivePrice": "135.74",
+      "sixPrice": "164.34"
+    },
+    {
+      "time": "2026-07-06",
+      "areaCode": null,
+      "firstPrice": "323.87",
+      "secondPrice": "382.83",
+      "thirdPrice": "365.44",
+      "fourPrice": "413.55",
+      "fivePrice": "183.65",
+      "sixPrice": "257.86"
+    },
+    {
+      "time": "2026-07-07",
+      "areaCode": null,
+      "firstPrice": "364.89",
+      "secondPrice": "311.31",
+      "thirdPrice": "400.62",
+      "fourPrice": "346.19",
+      "fivePrice": "220.05",
+      "sixPrice": "174.63"
+    },
+    {
+      "time": "2026-07-08",
+      "areaCode": null,
+      "firstPrice": "343.24",
+      "secondPrice": "348.76",
+      "thirdPrice": "367.82",
+      "fourPrice": "372.47",
+      "fivePrice": "245.62",
+      "sixPrice": "247.05"
+    },
+    {
+      "time": "2026-07-09",
+      "areaCode": null,
+      "firstPrice": "355.22",
+      "secondPrice": "382.46",
+      "thirdPrice": "379.76",
+      "fourPrice": "404.37",
+      "fivePrice": "268.3",
+      "sixPrice": "300.52"
+    },
+    {
+      "time": "2026-07-10",
+      "areaCode": null,
+      "firstPrice": "385.08",
+      "secondPrice": "323.06",
+      "thirdPrice": "395.94",
+      "fourPrice": "327.34",
+      "fivePrice": "330.68",
+      "sixPrice": "301.82"
+    },
+    {
+      "time": "2026-07-11",
+      "areaCode": null,
+      "firstPrice": "311.97",
+      "secondPrice": "322.65",
+      "thirdPrice": "316.76",
+      "fourPrice": "328.34",
+      "fivePrice": "276.39",
+      "sixPrice": "283.91"
+    },
+    {
+      "time": "2026-07-12",
+      "areaCode": null,
+      "firstPrice": "316.52",
+      "secondPrice": "310.17",
+      "thirdPrice": "335.57",
+      "fourPrice": "338.47",
+      "fivePrice": "226.24",
+      "sixPrice": "177.05"
+    },
+    {
+      "time": "2026-07-13",
+      "areaCode": null,
+      "firstPrice": "295.05",
+      "secondPrice": "393.98",
+      "thirdPrice": "332.35",
+      "fourPrice": "428.88",
+      "fivePrice": "159.06",
+      "sixPrice": "242.83"
+    },
+    {
+      "time": "2026-07-14",
+      "areaCode": null,
+      "firstPrice": "352.95",
+      "secondPrice": "322.6",
+      "thirdPrice": null,
+      "fourPrice": null,
+      "fivePrice": null,
+      "sixPrice": null
+    },
+    {
+      "time": "2026-07-15",
+      "areaCode": null,
+      "firstPrice": "276.6",
+      "secondPrice": "312.56",
+      "thirdPrice": "303.71",
+      "fourPrice": "335.47",
+      "fivePrice": "165.62",
+      "sixPrice": "204.9"
+    },
+    {
+      "time": "2026-07-16",
+      "areaCode": null,
+      "firstPrice": "317.24",
+      "secondPrice": "309.49",
+      "thirdPrice": "322.53",
+      "fourPrice": "313.72",
+      "fivePrice": "279.81",
+      "sixPrice": "277.18"
+    },
+    {
+      "time": "2026-07-17",
+      "areaCode": null,
+      "firstPrice": "309.86",
+      "secondPrice": "262.71",
+      "thirdPrice": "343.51",
+      "fourPrice": "290.56",
+      "fivePrice": "182.64",
+      "sixPrice": "164.01"
+    },
+    {
+      "time": "2026-07-18",
+      "areaCode": null,
+      "firstPrice": "290.52",
+      "secondPrice": "239.98",
+      "thirdPrice": "337.8",
+      "fourPrice": "264.42",
+      "fivePrice": "154.3",
+      "sixPrice": "157.65"
+    },
+    {
+      "time": "2026-07-19",
+      "areaCode": null,
+      "firstPrice": "241.29",
+      "secondPrice": "182.29",
+      "thirdPrice": "281.5",
+      "fourPrice": "206.87",
+      "fivePrice": "123.23",
+      "sixPrice": "116.82"
+    },
+    {
+      "time": "2026-07-20",
+      "areaCode": null,
+      "firstPrice": "280.11",
+      "secondPrice": "289.02",
+      "thirdPrice": "338.43",
+      "fourPrice": "336.57",
+      "fivePrice": "127.56",
+      "sixPrice": "156.92"
+    },
+    {
+      "time": "2026-07-21",
+      "areaCode": null,
+      "firstPrice": "342.45",
+      "secondPrice": "390.52",
+      "thirdPrice": "369.08",
+      "fourPrice": "414.18",
+      "fivePrice": "253.68",
+      "sixPrice": "291.79"
+    },
+    {
+      "time": "2026-07-22",
+      "areaCode": null,
+      "firstPrice": "360.62",
+      "secondPrice": "286.04",
+      "thirdPrice": "392.96",
+      "fourPrice": "328.35",
+      "fivePrice": "266.94",
+      "sixPrice": "168.61"
+    },
+    {
+      "time": "2026-07-23",
+      "areaCode": null,
+      "firstPrice": "324.24",
+      "secondPrice": "317.97",
+      "thirdPrice": "355.43",
+      "fourPrice": "358.42",
+      "fivePrice": "229.0",
+      "sixPrice": "202.48"
+    },
+    {
+      "time": "2026-07-24",
+      "areaCode": null,
+      "firstPrice": "226.6",
+      "secondPrice": "343.12",
+      "thirdPrice": "250.02",
+      "fourPrice": "375.22",
+      "fivePrice": "168.14",
+      "sixPrice": "243.29"
+    },
+    {
+      "time": "2026-07-25",
+      "areaCode": null,
+      "firstPrice": "322.43",
+      "secondPrice": "309.67",
+      "thirdPrice": "348.27",
+      "fourPrice": "336.61",
+      "fivePrice": "250.23",
+      "sixPrice": "224.94"
+    },
+    {
+      "time": "2026-07-26",
+      "areaCode": null,
+      "firstPrice": "250.6",
+      "secondPrice": "269.26",
+      "thirdPrice": "267.56",
+      "fourPrice": "291.62",
+      "fivePrice": "200.51",
+      "sixPrice": "200.36"
+    },
+    {
+      "time": "2026-07-27",
+      "areaCode": null,
+      "firstPrice": "372.61",
+      "secondPrice": "253.16",
+      "thirdPrice": "393.42",
+      "fourPrice": "262.14",
+      "fivePrice": "299.3",
+      "sixPrice": "213.27"
+    },
+    {
+      "time": "2026-07-28",
+      "areaCode": null,
+      "firstPrice": "187.43",
+      "secondPrice": "204.37",
+      "thirdPrice": "207.85",
+      "fourPrice": "219.42",
+      "fivePrice": "137.9",
+      "sixPrice": "165.8"
+    }
+  ],
+  "sourcePage": "https://snpx.com.cn/#/home/marketData/transactionData/spotmarketsection",
+  "endpoint": "/sso-portal/large/screen/statistic/v2/greenSpotTradingFireLateralCurve",
+  "mapping": {
+    "firstPrice": "日前出清加权均价",
+    "secondPrice": "实时出清加权均价",
+    "thirdPrice": "火电日前出清加权均价",
+    "fourPrice": "火电实时出清加权均价",
+    "fivePrice": "新能源日前出清加权均价",
+    "sixPrice": "新能源实时出清加权均价"
+  }
+}

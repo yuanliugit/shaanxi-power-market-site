@@ -1,0 +1,435 @@
+{
+  "generatedAt": "2026-07-27T15:47:37.130Z",
+  "website": {
+    "dateRange": [
+      "2025-01-01",
+      "2026-07-26"
+    ],
+    "historyRows": 572,
+    "typeRows": 572,
+    "duplicateHistoryDates": [],
+    "duplicateTypeDates": [],
+    "missingDates": [],
+    "missingHistoryFields": [
+      "2025-06-26:secondPrice"
+    ],
+    "missingTypeFields": [
+      "2025-06-26:secondPrice",
+      "2025-06-26:fourPrice",
+      "2025-06-26:sixPrice",
+      "2026-07-14:thirdPrice",
+      "2026-07-14:fourPrice",
+      "2026-07-14:fivePrice",
+      "2026-07-14:sixPrice"
+    ],
+    "knownMissingHistoryFields": [
+      "2025-06-26:secondPrice"
+    ],
+    "knownMissingTypeFields": [
+      "2025-06-26:secondPrice",
+      "2025-06-26:fourPrice",
+      "2025-06-26:sixPrice",
+      "2026-07-14:thirdPrice",
+      "2026-07-14:fourPrice",
+      "2026-07-14:fivePrice",
+      "2026-07-14:sixPrice"
+    ],
+    "unexpectedMissingHistoryFields": [],
+    "unexpectedMissingTypeFields": [],
+    "historyTypePriceMismatches": [],
+    "priceRangeErrors": [],
+    "powerChangeAlerts": [
+      {
+        "date": "2025-06-26",
+        "field": "secondPower",
+        "previousDate": "2025-06-25",
+        "ratio": 0,
+        "previousValue": 395622.5,
+        "currentValue": 0
+      },
+      {
+        "date": "2026-06-13",
+        "field": "firstPower",
+        "previousDate": "2026-06-12",
+        "ratio": 4.102,
+        "previousValue": 349766.03,
+        "currentValue": 1434893.05
+      },
+      {
+        "date": "2026-06-13",
+        "field": "secondPower",
+        "previousDate": "2026-06-12",
+        "ratio": 3.866,
+        "previousValue": 353477.41,
+        "currentValue": 1366435.75
+      }
+    ]
+  },
+  "wechat": {
+    "articleRange": [
+      "2025-03-31",
+      "2026-07-26"
+    ],
+    "articleRows": 482,
+    "windSolarRange": [
+      "2025-04-06",
+      "2026-07-26"
+    ],
+    "windSolarRows": 476,
+    "duplicateWindSolarDates": [],
+    "missingOcrDates": [
+      "2025-11-16"
+    ],
+    "windSolarWeightedFields": 1904,
+    "expectedWindSolarWeightedFields": 1904,
+    "ocrStatus": {
+      "ok": 476
+    },
+    "ocrReviewDates": [],
+    "minOcrConfidence": 0.8989459276199341,
+    "rangeErrors": []
+  },
+  "sourceDifferences": {
+    "overlapDays": 476,
+    "overThresholdDays": 465,
+    "latestOverlapRows": [
+      {
+        "date": "2026-07-20",
+        "website": {
+          "dayAheadPrice": 280.11,
+          "realTimePrice": 289.02,
+          "dayAheadPowerMWh": 2254528.03,
+          "realTimePowerMWh": 2234108.42
+        },
+        "wechat": {
+          "dayAheadPrice": 280.11,
+          "realTimePrice": 289.02,
+          "dayAheadPowerMWh": 564000,
+          "realTimePowerMWh": 559000
+        },
+        "difference": {
+          "dayAheadPrice": 0,
+          "realTimePrice": 0,
+          "dayAheadPowerPct": -74.98,
+          "realTimePowerPct": -74.98
+        },
+        "overThreshold": true,
+        "action": "记录差异，不覆盖网站主序列"
+      },
+      {
+        "date": "2026-07-21",
+        "website": {
+          "dayAheadPrice": 342.45,
+          "realTimePrice": 390.52,
+          "dayAheadPowerMWh": 2426409.94,
+          "realTimePowerMWh": 2501343.67
+        },
+        "wechat": {
+          "dayAheadPrice": 342.45,
+          "realTimePrice": 390.52,
+          "dayAheadPowerMWh": 607000,
+          "realTimePowerMWh": 625000
+        },
+        "difference": {
+          "dayAheadPrice": 0,
+          "realTimePrice": 0,
+          "dayAheadPowerPct": -74.98,
+          "realTimePowerPct": -75.01
+        },
+        "overThreshold": true,
+        "action": "记录差异，不覆盖网站主序列"
+      },
+      {
+        "date": "2026-07-22",
+        "website": {
+          "dayAheadPrice": 360.62,
+          "realTimePrice": 286.04,
+          "dayAheadPowerMWh": 2519013.28,
+          "realTimePowerMWh": 2234045.68
+        },
+        "wechat": {
+          "dayAheadPrice": 360.62,
+          "realTimePrice": 286.04,
+          "dayAheadPowerMWh": 630000,
+          "realTimePowerMWh": 559000
+        },
+        "difference": {
+          "dayAheadPrice": 0,
+          "realTimePrice": 0,
+          "dayAheadPowerPct": -74.99,
+          "realTimePowerPct": -74.98
+        },
+        "overThreshold": true,
+        "action": "记录差异，不覆盖网站主序列"
+      },
+      {
+        "date": "2026-07-23",
+        "website": {
+          "dayAheadPrice": 324.24,
+          "realTimePrice": 317.97,
+          "dayAheadPowerMWh": 2433853.29,
+          "realTimePowerMWh": 2337568.45
+        },
+        "wechat": {
+          "dayAheadPrice": 324.24,
+          "realTimePrice": 317.97,
+          "dayAheadPowerMWh": 608000,
+          "realTimePowerMWh": 584000
+        },
+        "difference": {
+          "dayAheadPrice": 0,
+          "realTimePrice": 0,
+          "dayAheadPowerPct": -75.02,
+          "realTimePowerPct": -75.02
+        },
+        "overThreshold": true,
+        "action": "记录差异，不覆盖网站主序列"
+      },
+      {
+        "date": "2026-07-24",
+        "website": {
+          "dayAheadPrice": 226.6,
+          "realTimePrice": 343.12,
+          "dayAheadPowerMWh": 2356707.05,
+          "realTimePowerMWh": 2441985.62
+        },
+        "wechat": {
+          "dayAheadPrice": 226.6,
+          "realTimePrice": 343.12,
+          "dayAheadPowerMWh": 589000,
+          "realTimePowerMWh": 610000
+        },
+        "difference": {
+          "dayAheadPrice": 0,
+          "realTimePrice": 0,
+          "dayAheadPowerPct": -75.01,
+          "realTimePowerPct": -75.02
+        },
+        "overThreshold": true,
+        "action": "记录差异，不覆盖网站主序列"
+      },
+      {
+        "date": "2026-07-25",
+        "website": {
+          "dayAheadPrice": 322.43,
+          "realTimePrice": 309.67,
+          "dayAheadPowerMWh": 2467675.74,
+          "realTimePowerMWh": 2451443.95
+        },
+        "wechat": {
+          "dayAheadPrice": 322.43,
+          "realTimePrice": 309.67,
+          "dayAheadPowerMWh": 617000,
+          "realTimePowerMWh": 613000
+        },
+        "difference": {
+          "dayAheadPrice": 0,
+          "realTimePrice": 0,
+          "dayAheadPowerPct": -75,
+          "realTimePowerPct": -74.99
+        },
+        "overThreshold": true,
+        "action": "记录差异，不覆盖网站主序列"
+      },
+      {
+        "date": "2026-07-26",
+        "website": {
+          "dayAheadPrice": 250.6,
+          "realTimePrice": 269.26,
+          "dayAheadPowerMWh": 2370895.22,
+          "realTimePowerMWh": 2379497.34
+        },
+        "wechat": {
+          "dayAheadPrice": 250.6,
+          "realTimePrice": 269.26,
+          "dayAheadPowerMWh": 593000,
+          "realTimePowerMWh": 595000
+        },
+        "difference": {
+          "dayAheadPrice": 0,
+          "realTimePrice": 0,
+          "dayAheadPowerPct": -74.99,
+          "realTimePowerPct": -74.99
+        },
+        "overThreshold": true,
+        "action": "记录差异，不覆盖网站主序列"
+      }
+    ],
+    "websiteUnavailableDatesWithWechatDisclosure": []
+  },
+  "runChanges": {
+    "websiteHistory": {
+      "added": [
+        "2026-07-14",
+        "2026-07-15",
+        "2026-07-16",
+        "2026-07-17",
+        "2026-07-18",
+        "2026-07-19",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-22",
+        "2026-07-23",
+        "2026-07-24",
+        "2026-07-25",
+        "2026-07-26"
+      ],
+      "revised": [
+        "2026-06-13",
+        "2026-06-14",
+        "2026-06-15",
+        "2026-06-16",
+        "2026-06-17",
+        "2026-06-18",
+        "2026-06-19",
+        "2026-06-20",
+        "2026-06-21",
+        "2026-06-22",
+        "2026-06-23",
+        "2026-06-24",
+        "2026-06-25",
+        "2026-06-26",
+        "2026-06-27",
+        "2026-06-28",
+        "2026-06-29",
+        "2026-06-30",
+        "2026-07-01",
+        "2026-07-02",
+        "2026-07-03",
+        "2026-07-04",
+        "2026-07-05",
+        "2026-07-06",
+        "2026-07-07",
+        "2026-07-08",
+        "2026-07-09",
+        "2026-07-10",
+        "2026-07-11",
+        "2026-07-12",
+        "2026-07-13"
+      ],
+      "removed": []
+    },
+    "websiteTypes": {
+      "added": [
+        "2026-07-14",
+        "2026-07-15",
+        "2026-07-16",
+        "2026-07-17",
+        "2026-07-18",
+        "2026-07-19",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-22",
+        "2026-07-23",
+        "2026-07-24",
+        "2026-07-25",
+        "2026-07-26"
+      ],
+      "revised": [
+        "2026-06-13",
+        "2026-06-14",
+        "2026-06-15",
+        "2026-06-16",
+        "2026-06-17",
+        "2026-06-18",
+        "2026-06-19",
+        "2026-06-20",
+        "2026-06-21",
+        "2026-06-22",
+        "2026-06-23",
+        "2026-06-24",
+        "2026-06-25",
+        "2026-06-26",
+        "2026-06-27",
+        "2026-06-28",
+        "2026-06-29",
+        "2026-06-30",
+        "2026-07-01",
+        "2026-07-02",
+        "2026-07-03",
+        "2026-07-04",
+        "2026-07-05",
+        "2026-07-06",
+        "2026-07-07",
+        "2026-07-08",
+        "2026-07-09",
+        "2026-07-10",
+        "2026-07-11",
+        "2026-07-12",
+        "2026-07-13"
+      ],
+      "removed": []
+    },
+    "wechatArticles": {
+      "added": [
+        "2026-07-19",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-22",
+        "2026-07-23",
+        "2026-07-24",
+        "2026-07-25",
+        "2026-07-26"
+      ],
+      "revised": [
+        "2026-06-22",
+        "2026-06-23",
+        "2026-06-24",
+        "2026-06-25",
+        "2026-06-26",
+        "2026-06-27",
+        "2026-06-28",
+        "2026-06-29",
+        "2026-06-30",
+        "2026-07-01",
+        "2026-07-02",
+        "2026-07-03",
+        "2026-07-04",
+        "2026-07-05",
+        "2026-07-06",
+        "2026-07-07",
+        "2026-07-08",
+        "2026-07-09",
+        "2026-07-10",
+        "2026-07-11",
+        "2026-07-12",
+        "2026-07-13",
+        "2026-07-14",
+        "2026-07-15",
+        "2026-07-16",
+        "2026-07-17",
+        "2026-07-18"
+      ],
+      "removed": []
+    },
+    "windSolar": {
+      "added": [
+        "2026-07-19",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-22",
+        "2026-07-23",
+        "2026-07-24",
+        "2026-07-25",
+        "2026-07-26"
+      ],
+      "revised": [],
+      "removed": []
+    }
+  },
+  "qualityGate": {
+    "status": "pass_with_recorded_source_gaps",
+    "blockingIssues": [],
+    "recordedSourceGaps": [
+      "2025-06-26:secondPrice",
+      "2025-06-26:secondPrice",
+      "2025-06-26:fourPrice",
+      "2025-06-26:sixPrice",
+      "2026-07-14:thirdPrice",
+      "2026-07-14:fourPrice",
+      "2026-07-14:fivePrice",
+      "2026-07-14:sixPrice"
+    ]
+  },
+  "noAutoZeroFill": true
+}

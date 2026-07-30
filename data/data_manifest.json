@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "1.0",
+  "datasetVersion": "428bb13",
+  "generatedAt": "2026-07-30T15:37:28+00:00",
+  "files": {
+    "history": {
+      "path": "data/snpx_spot_history.json",
+      "sha256": "6ef10f97d2feca5e4b8a5249ffad8fcddcc083db1f3f367dbf74dc0f4c9317cc"
+    },
+    "types": {
+      "path": "data/snpx_spot_types.json",
+      "sha256": "6467665b5e3f8640e3f92de0ddda012155b7b53579d825f3e6e2a31e81dcb021"
+    },
+    "windSolar": {
+      "path": "data/wechat_wind_solar_prices.json",
+      "sha256": "baee0cfd129f8ceb59e8f964ea5aa4d66aedba6a8b777514ac91f2873a907d96"
+    },
+    "snapshot": {
+      "path": "data/data_snapshot.json",
+      "sha256": "0d8956469004f4a766f0759d3f109d82643ff7cbf488df61a7695b91ac099b94"
+    },
+    "quality": {
+      "path": "data/snpx_quality_checks.json",
+      "sha256": "a1eadd95396771a6e8d7ad0bc699de7b093dcebd6b3a5f5572b3a16cef9647bc"
+    },
+    "differences": {
+      "path": "data/snpx_source_discrepancies.json",
+      "sha256": "61ae9d62a6cbe76af9dd89fcb458764445eeda5e67eab3e9103cb7f3a1de37a9"
+    },
+    "changes": {
+      "path": "data/snpx_run_changes.json",
+      "sha256": "88cd9d90ecf9445027934b4ec63915cd606fa07b321c5d2a6f19fc9fa45f3e18"
+    },
+    "workbook": {
+      "path": "downloads/陕西现货市场每日出清价格跟踪_2025至今_含风光分项.xlsx",
+      "sha256": "4c24de662e322ab0823acc482fff2f8b4525a2979aa4735d263e30d2c5f147c3"
+    }
+  },
+  "latestTradingDate": "2026-07-26",
+  "latestWindSolarDate": "2026-07-26",
+  "latestCompleteDate": "2026-07-26",
+  "qualityGate": "pass_with_recorded_source_gaps"
+}

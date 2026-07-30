@@ -1,11 +1,20 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>陕电现货观察</title>
-<meta name="description" content="陕西电力现货市场每日出清价格跟踪 — 总体、火电、新能源、风电、光伏价格与电量">
-<style>
+#!/usr/bin/env python3
+"""
+构建陕电现货观察网站 index.html（运行时 fetch 数据，不内联数据）。
+
+用法：
+  python3 build_site.py
+
+输出：index.html（含内联 CSS+JS，不含数据）
+数据：运行时从 ./data/*.json fetch，带 SHA-256 校验
+
+遵循需求文档《WorkBuddy网页配置与数据接入需求.md》全部要求。
+"""
+from pathlib import Path
+
+OUT = Path(__file__).parent / "index.html"
+
+CSS = r"""
 /* ============================================================
    陕电现货观察 — Apple 风格视觉系统 v2
    设计语言：SF Pro / 大留白 / 圆角卡片 / 毛玻璃 / 系统蓝
@@ -418,353 +427,10 @@ footer .foot-links a:hover { color: var(--ink); text-decoration: underline; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
-</style>
-</head>
-<body>
+"""
 
-<header class="site-header">
-  <a class="brand" href="#">
-    <span class="brand-mark">陕</span>
-    <span>
-      <b>陕电现货观察</b>
-      <small>Shaanxi Power Spot Market</small>
-    </span>
-  </a>
-  <nav>
-    <a href="#overview">概览</a>
-    <a href="#prices">价格趋势</a>
-    <a href="#renewables">风光分项</a>
-    <a href="#table">每日数据</a>
-    <a href="#quality">数据质量</a>
-    <a href="#method">数据与方法</a>
-  </nav>
-  <a class="btn-primary compact" href="./downloads/陕西现货市场每日出清价格跟踪_2025至今_含风光分项.xlsx">下载 Excel</a>
-</header>
-
-<main id="main-content" style="display:none">
-
-  <!-- Hero -->
-  <section class="hero" id="overview">
-    <div class="hero-copy">
-      <span class="eyebrow"><span class="live-dot"></span>陕西电力现货市场 · 每日更新</span>
-      <h1>看见<em>陕电现货</em>的每一天</h1>
-      <p>跟踪陕西电力现货市场每日出清价格与电量，覆盖总体、火电、新能源、风电、光伏五类口径。数据来自交易中心公开页面与公众号日报，所有数值均可追溯至原始来源。</p>
-      <div class="hero-actions">
-        <a class="btn-primary" href="#prices">查看价格趋势</a>
-        <a class="btn-outline" href="#method">数据与方法</a>
-      </div>
-    </div>
-    <div class="hero-status">
-      <div class="status-topline">
-        <span>最新观测</span>
-        <span class="quality-badge gaps" id="quality-badge">—</span>
-      </div>
-      <div class="latest-date" id="latest-date">加载中…</div>
-      <div class="latest-prices">
-        <div>
-          <span>总体日前加权均价</span>
-          <strong id="da-price">—</strong>
-          <small>元/MWh</small>
-        </div>
-        <div>
-          <span>总体实时加权均价</span>
-          <strong id="rt-price">—</strong>
-          <small>元/MWh</small>
-        </div>
-      </div>
-      <div class="status-foot">
-        <span>主序列最新：<code id="date-trading" style="font-family:inherit">—</code></span>
-        <span>风光最新：<code id="date-windsolar" style="font-family:inherit">—</code></span>
-        <span>共同最新：<code id="date-complete" style="font-family:inherit">—</code></span>
-      </div>
-    </div>
-  </section>
-
-  <!-- 加载状态条 -->
-  <div class="load-bar" id="load-bar">
-    <span class="lbl">正在加载数据…</span>
-  </div>
-
-  <!-- 概览卡片 -->
-  <section class="summary-grid">
-    <div class="metric-card primary" id="m-da">
-      <span>总体日前加权均价</span>
-      <strong>—</strong>
-      <small>元/MWh · 最新交易日</small>
-      <div class="delta">—</div>
-    </div>
-    <div class="metric-card" id="m-rt">
-      <span>总体实时加权均价</span>
-      <strong>—</strong>
-      <small>元/MWh · 最新交易日</small>
-    </div>
-    <div class="metric-card" id="m-spread">
-      <span>日前—实时价差</span>
-      <strong>—</strong>
-      <small>元/MWh · 正值=日前高于实时</small>
-    </div>
-    <div class="metric-card" id="m-quality">
-      <span>数据质量状态</span>
-      <strong>—</strong>
-      <small>质量门禁</small>
-    </div>
-    <div class="metric-card" id="m-da-power">
-      <span>日前出清电量</span>
-      <strong>—</strong>
-      <small>MWh · 交易中心口径</small>
-    </div>
-    <div class="metric-card" id="m-rt-power">
-      <span>实时出清电量</span>
-      <strong>—</strong>
-      <small>MWh · 交易中心口径</small>
-    </div>
-    <div class="metric-card" id="m-thermal-da">
-      <span>火电日前均价</span>
-      <strong>—</strong>
-      <small>元/MWh · 最新交易日</small>
-    </div>
-    <div class="metric-card" id="m-renew-da">
-      <span>新能源日前均价</span>
-      <strong>—</strong>
-      <small>元/MWh · 最新交易日</small>
-    </div>
-    <div class="metric-card" id="m-wind-da">
-      <span>风电日前均价</span>
-      <strong>—</strong>
-      <small>元/MWh · 公众号口径</small>
-    </div>
-    <div class="metric-card" id="m-solar-da">
-      <span>光伏日前均价</span>
-      <strong>—</strong>
-      <small>元/MWh · 公众号口径</small>
-    </div>
-  </section>
-
-  <!-- 价格趋势 -->
-  <section class="section" id="prices">
-    <div class="section-heading">
-      <div>
-        <span class="section-kicker">价格趋势</span>
-        <h2>十类出清价格</h2>
-        <p>总体、火电、新能源、风电、光伏的日前与实时加权均价。缺失值断线，不补零。点击图例可隐藏/显示。</p>
-      </div>
-    </div>
-    <div class="chart-card">
-      <div class="chart-toolbar">
-        <div class="legend" id="legend">
-          <button data-curve="overallDa"><span class="dot" style="background:var(--c-overall-da)"></span>总体日前</button>
-          <button data-curve="overallRt"><span class="dot" style="background:var(--c-overall-rt)"></span>总体实时</button>
-          <button data-curve="thermalDa"><span class="dot" style="background:var(--c-thermal-da)"></span>火电日前</button>
-          <button data-curve="thermalRt"><span class="dot" style="background:var(--c-thermal-rt)"></span>火电实时</button>
-          <button data-curve="renewDa"><span class="dot" style="background:var(--c-renew-da)"></span>新能源日前</button>
-          <button data-curve="renewRt"><span class="dot" style="background:var(--c-renew-rt)"></span>新能源实时</button>
-          <button data-curve="windDa"><span class="dot" style="background:var(--c-wind-da)"></span>风电日前</button>
-          <button data-curve="windRt"><span class="dot" style="background:var(--c-wind-rt)"></span>风电实时</button>
-          <button data-curve="solarDa"><span class="dot" style="background:var(--c-solar-da)"></span>光伏日前</button>
-          <button data-curve="solarRt"><span class="dot" style="background:var(--c-solar-rt)"></span>光伏实时</button>
-        </div>
-        <div class="tabs-row">
-          <div class="segmented">
-            <button class="view-btn active" data-view="all">全部</button>
-            <button class="view-btn" data-view="overall">总体</button>
-            <button class="view-btn" data-view="thermal">火电</button>
-            <button class="view-btn" data-view="renewable">新能源</button>
-            <button class="view-btn" data-view="wind">风电</button>
-            <button class="view-btn" data-view="solar">光伏</button>
-          </div>
-        </div>
-      </div>
-      <div class="chart-toolbar" style="border-bottom:1px solid var(--soft)">
-        <div class="segmented">
-          <button class="range-btn" data-range="7d">近7天</button>
-          <button class="range-btn active" data-range="30d">近30天</button>
-          <button class="range-btn" data-range="90d">近90天</button>
-          <button class="range-btn" data-range="ytd">今年</button>
-          <button class="range-btn" data-range="all">全部</button>
-          <button class="range-btn" data-range="custom">自定义</button>
-        </div>
-        <div class="date-range-inputs" id="date-custom" style="display:none">
-          <input type="date" id="custom-start">
-          <span>至</span>
-          <input type="date" id="custom-end">
-        </div>
-      </div>
-      <div class="chart-wrap" id="chart-wrap">
-        <div class="loading-chart">加载中…</div>
-        <div class="chart-tooltip" id="chart-tooltip" style="display:none"></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- 风光分项 -->
-  <section class="section" id="renewables">
-    <div class="section-heading">
-      <div>
-        <span class="section-kicker">风光分项</span>
-        <h2>风电与光伏</h2>
-        <p>来自公众号日报口径，含 OCR 识别状态与最低置信度。公众号电量单位为亿千瓦时，独立展示，不与交易中心电量混并。</p>
-      </div>
-    </div>
-    <div class="renewables-grid">
-      <div class="renewable-card" id="renew-wind">
-        <h3>风电</h3>
-        <div class="sub">公众号口径 · 加权均价（元/MWh）</div>
-        <div class="renewable-prices">
-          <div><span>日前</span><strong class="da-price">—</strong></div>
-          <div><span>实时</span><strong class="rt-price">—</strong></div>
-        </div>
-        <div class="renewable-meta">
-          <span class="ocr-tag ok">OCR 正常</span>
-          <span class="ocr-conf">最低置信度 —</span>
-          <span class="wechat-link"></span>
-        </div>
-      </div>
-      <div class="renewable-card" id="renew-solar">
-        <h3>光伏</h3>
-        <div class="sub">公众号口径 · 加权均价（元/MWh）</div>
-        <div class="renewable-prices">
-          <div><span>日前</span><strong class="da-price">—</strong></div>
-          <div><span>实时</span><strong class="rt-price">—</strong></div>
-        </div>
-        <div class="renewable-meta">
-          <span class="ocr-tag ok">OCR 正常</span>
-          <span class="ocr-conf">最低置信度 —</span>
-          <span class="wechat-link"></span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- 每日数据表 -->
-  <section class="table-section" id="table">
-    <div class="section-heading">
-      <div>
-        <span class="section-kicker">每日数据</span>
-        <h2>明细表</h2>
-        <p>按日期倒序，缺失值显示"—"。每行提供交易中心和公众号原文追溯链接。</p>
-      </div>
-      <div class="tabs-row">
-        <button class="btn-outline compact" id="csv-export">导出当前范围 CSV</button>
-        <div class="col-toggle">
-          <button class="btn-outline compact" id="col-toggle-btn">选择列 ▾</button>
-          <div class="col-toggle-menu" id="col-menu"></div>
-        </div>
-      </div>
-    </div>
-    <div class="table-toolbar">
-      <input type="search" id="table-search" placeholder="搜索日期（如 2026-07）…">
-    </div>
-    <div class="table-wrap">
-      <table>
-        <thead id="table-head"></thead>
-        <tbody id="table-body">
-          <tr><td colspan="20" style="text-align:center;color:var(--subtle);padding:24px">加载中…</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </section>
-
-  <!-- 质量与异常 -->
-  <section class="section" id="quality">
-    <div class="section-heading">
-      <div>
-        <span class="section-kicker">数据质量</span>
-        <h2>质量与异常</h2>
-        <p>门禁状态、日期范围、重复/缺失、价格范围错误、OCR 复核、双源差异、变更记录。</p>
-      </div>
-    </div>
-    <div class="quality-grid">
-      <div class="q-card" id="q-gate"></div>
-      <div class="q-card" id="q-range"></div>
-      <div class="q-card" id="q-diff"></div>
-      <div class="q-card" id="q-changes"></div>
-      <div class="q-card" id="q-orphans"></div>
-    </div>
-  </section>
-
-  <!-- 数据与方法 -->
-  <section class="section" id="method">
-    <div class="section-heading">
-      <div>
-        <span class="section-kicker">来源追溯</span>
-        <h2>数据与方法</h2>
-        <p>网站只读取已公开的静态 JSON，不直接访问交易中心或公众号。所有链接仅供追溯核验。</p>
-      </div>
-    </div>
-    <div class="method-grid">
-      <div class="method-card">
-        <h3>基础数据源</h3>
-        <p>网站运行时只读取 <code>./data/*.json</code>，由上游 Codex 自动化生成并经质量检查后发布。网页不调用交易中心接口，不抓取公众号文章。</p>
-        <div class="raw-buttons">
-          <a href="./data/snpx_spot_history.json" target="_blank" rel="noopener noreferrer">总体 JSON</a>
-          <a href="./data/snpx_spot_types.json" target="_blank" rel="noopener noreferrer">分类型 JSON</a>
-          <a href="./data/wechat_wind_solar_prices.json" target="_blank" rel="noopener noreferrer">风光/OCR JSON</a>
-          <a href="./data/data_snapshot.json" target="_blank" rel="noopener noreferrer">质量快照</a>
-          <a href="./data/data_manifest.json" target="_blank" rel="noopener noreferrer">数据清单</a>
-          <a href="./data/snpx_quality_checks.json" target="_blank" rel="noopener noreferrer">质量检查</a>
-          <a href="./data/snpx_source_discrepancies.json" target="_blank" rel="noopener noreferrer">双源差异</a>
-          <a href="./data/snpx_run_changes.json" target="_blank" rel="noopener noreferrer">变更记录</a>
-          <a href="./downloads/陕西现货市场每日出清价格跟踪_2025至今_含风光分项.xlsx" target="_blank" rel="noopener noreferrer">完整 Excel</a>
-        </div>
-      </div>
-      <div class="method-card">
-        <h3>追溯链接</h3>
-        <p><strong>交易中心公开页面：</strong><span id="snpx-link">—</span></p>
-        <p><strong>最新公众号日报：</strong><span id="latest-wechat-link">—</span></p>
-        <p style="margin-top:12px"><strong>口径说明：</strong></p>
-        <ul>
-          <li>总体、火电、新能源价格及总体电量 → 交易中心口径</li>
-          <li>风电、光伏分项及 OCR 字段 → 公众号日报口径</li>
-          <li>双源差异由上游自动化计算并记录，网页只展示</li>
-        </ul>
-      </div>
-      <div class="method-card">
-        <h3>核心规则</h3>
-        <ul>
-          <li>不反推：不用新能源合计减光伏得风电</li>
-          <li>不补零：<code>null</code>/空值显示"—"，图表断线</li>
-          <li>不覆盖：公众号总体值不覆盖交易中心总体值</li>
-          <li>不取数：追溯链接仅供用户点击核验，不参与网页取数</li>
-          <li>不混并：公众号电量独立展示，不并入交易中心主序列</li>
-        </ul>
-      </div>
-      <div class="method-card">
-        <h3>数据完整性</h3>
-        <p>每次发布通过 <code>data_manifest.json</code> 绑定同一批次的所有文件 SHA-256。前端加载时逐文件校验哈希，任一不符则整批加载失败，不跨版本混合展示。</p>
-        <p style="margin-top:10px">质量门禁仅以下状态允许发布：<code>pass</code> / <code>pass_with_recorded_source_gaps</code>。失败时保留上一版已发布数据。</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- 下载横幅 -->
-  <section class="download-banner">
-    <div>
-      <span class="section-kicker">完整数据集</span>
-      <h2>下载完整 Excel 底表</h2>
-      <p>含全部交易日、五类价格、电量、风光分项与 OCR 字段，可用于人工复核与离线分析。</p>
-    </div>
-    <a class="btn-primary light" href="./downloads/陕西现货市场每日出清价格跟踪_2025至今_含风光分项.xlsx">下载 Excel<span>↗</span></a>
-  </section>
-
-</main>
-
-<!-- 加载错误屏 -->
-<div class="error-screen" id="error-screen" style="display:none">
-  <h2>数据加载失败</h2>
-  <p>网页无法加载或校验基础数据。请检查网络连接或稍后重试。所有数据文件必须属于同一质量检查批次，SHA-256 校验通过后才会展示。</p>
-  <div class="err-detail" id="err-detail"></div>
-  <button class="btn-primary" id="reload-btn">重新加载</button>
-</div>
-
-<footer>
-  <p>陕电现货观察 · 数据来自陕西电力交易中心公开页面与公众号日报 · 仅供研究参考</p>
-  <div class="foot-links">
-    <a href="./data/data_manifest.json" target="_blank" rel="noopener noreferrer">数据清单</a>
-    <a href="https://github.com/yuanliugit/shaanxi-power-market-site" target="_blank" rel="noopener noreferrer">GitHub 仓库</a>
-  </div>
-</footer>
-
-<script>
+# JS 逻辑（运行时 fetch / 合并 / 渲染 / 交互）
+JS = r"""
 /* ============================================================
    陕电现货观察 — 前端逻辑
    运行时 fetch data/*.json，SHA-256 校验，渲染所有区块
@@ -1711,6 +1377,379 @@ footer .foot-links a:hover { color: var(--ink); text-decoration: underline; }
     init();
   });
 })();
+"""
+
+# HTML 结构
+HTML = r"""<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>陕电现货观察</title>
+<meta name="description" content="陕西电力现货市场每日出清价格跟踪 — 总体、火电、新能源、风电、光伏价格与电量">
+<style>
+__CSS__
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <a class="brand" href="#">
+    <span class="brand-mark">陕</span>
+    <span>
+      <b>陕电现货观察</b>
+      <small>Shaanxi Power Spot Market</small>
+    </span>
+  </a>
+  <nav>
+    <a href="#overview">概览</a>
+    <a href="#prices">价格趋势</a>
+    <a href="#renewables">风光分项</a>
+    <a href="#table">每日数据</a>
+    <a href="#quality">数据质量</a>
+    <a href="#method">数据与方法</a>
+  </nav>
+  <a class="btn-primary compact" href="./downloads/陕西现货市场每日出清价格跟踪_2025至今_含风光分项.xlsx">下载 Excel</a>
+</header>
+
+<main id="main-content" style="display:none">
+
+  <!-- Hero -->
+  <section class="hero" id="overview">
+    <div class="hero-copy">
+      <span class="eyebrow"><span class="live-dot"></span>陕西电力现货市场 · 每日更新</span>
+      <h1>看见<em>陕电现货</em>的每一天</h1>
+      <p>跟踪陕西电力现货市场每日出清价格与电量，覆盖总体、火电、新能源、风电、光伏五类口径。数据来自交易中心公开页面与公众号日报，所有数值均可追溯至原始来源。</p>
+      <div class="hero-actions">
+        <a class="btn-primary" href="#prices">查看价格趋势</a>
+        <a class="btn-outline" href="#method">数据与方法</a>
+      </div>
+    </div>
+    <div class="hero-status">
+      <div class="status-topline">
+        <span>最新观测</span>
+        <span class="quality-badge gaps" id="quality-badge">—</span>
+      </div>
+      <div class="latest-date" id="latest-date">加载中…</div>
+      <div class="latest-prices">
+        <div>
+          <span>总体日前加权均价</span>
+          <strong id="da-price">—</strong>
+          <small>元/MWh</small>
+        </div>
+        <div>
+          <span>总体实时加权均价</span>
+          <strong id="rt-price">—</strong>
+          <small>元/MWh</small>
+        </div>
+      </div>
+      <div class="status-foot">
+        <span>主序列最新：<code id="date-trading" style="font-family:inherit">—</code></span>
+        <span>风光最新：<code id="date-windsolar" style="font-family:inherit">—</code></span>
+        <span>共同最新：<code id="date-complete" style="font-family:inherit">—</code></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 加载状态条 -->
+  <div class="load-bar" id="load-bar">
+    <span class="lbl">正在加载数据…</span>
+  </div>
+
+  <!-- 概览卡片 -->
+  <section class="summary-grid">
+    <div class="metric-card primary" id="m-da">
+      <span>总体日前加权均价</span>
+      <strong>—</strong>
+      <small>元/MWh · 最新交易日</small>
+      <div class="delta">—</div>
+    </div>
+    <div class="metric-card" id="m-rt">
+      <span>总体实时加权均价</span>
+      <strong>—</strong>
+      <small>元/MWh · 最新交易日</small>
+    </div>
+    <div class="metric-card" id="m-spread">
+      <span>日前—实时价差</span>
+      <strong>—</strong>
+      <small>元/MWh · 正值=日前高于实时</small>
+    </div>
+    <div class="metric-card" id="m-quality">
+      <span>数据质量状态</span>
+      <strong>—</strong>
+      <small>质量门禁</small>
+    </div>
+    <div class="metric-card" id="m-da-power">
+      <span>日前出清电量</span>
+      <strong>—</strong>
+      <small>MWh · 交易中心口径</small>
+    </div>
+    <div class="metric-card" id="m-rt-power">
+      <span>实时出清电量</span>
+      <strong>—</strong>
+      <small>MWh · 交易中心口径</small>
+    </div>
+    <div class="metric-card" id="m-thermal-da">
+      <span>火电日前均价</span>
+      <strong>—</strong>
+      <small>元/MWh · 最新交易日</small>
+    </div>
+    <div class="metric-card" id="m-renew-da">
+      <span>新能源日前均价</span>
+      <strong>—</strong>
+      <small>元/MWh · 最新交易日</small>
+    </div>
+    <div class="metric-card" id="m-wind-da">
+      <span>风电日前均价</span>
+      <strong>—</strong>
+      <small>元/MWh · 公众号口径</small>
+    </div>
+    <div class="metric-card" id="m-solar-da">
+      <span>光伏日前均价</span>
+      <strong>—</strong>
+      <small>元/MWh · 公众号口径</small>
+    </div>
+  </section>
+
+  <!-- 价格趋势 -->
+  <section class="section" id="prices">
+    <div class="section-heading">
+      <div>
+        <span class="section-kicker">价格趋势</span>
+        <h2>十类出清价格</h2>
+        <p>总体、火电、新能源、风电、光伏的日前与实时加权均价。缺失值断线，不补零。点击图例可隐藏/显示。</p>
+      </div>
+    </div>
+    <div class="chart-card">
+      <div class="chart-toolbar">
+        <div class="legend" id="legend">
+          <button data-curve="overallDa"><span class="dot" style="background:var(--c-overall-da)"></span>总体日前</button>
+          <button data-curve="overallRt"><span class="dot" style="background:var(--c-overall-rt)"></span>总体实时</button>
+          <button data-curve="thermalDa"><span class="dot" style="background:var(--c-thermal-da)"></span>火电日前</button>
+          <button data-curve="thermalRt"><span class="dot" style="background:var(--c-thermal-rt)"></span>火电实时</button>
+          <button data-curve="renewDa"><span class="dot" style="background:var(--c-renew-da)"></span>新能源日前</button>
+          <button data-curve="renewRt"><span class="dot" style="background:var(--c-renew-rt)"></span>新能源实时</button>
+          <button data-curve="windDa"><span class="dot" style="background:var(--c-wind-da)"></span>风电日前</button>
+          <button data-curve="windRt"><span class="dot" style="background:var(--c-wind-rt)"></span>风电实时</button>
+          <button data-curve="solarDa"><span class="dot" style="background:var(--c-solar-da)"></span>光伏日前</button>
+          <button data-curve="solarRt"><span class="dot" style="background:var(--c-solar-rt)"></span>光伏实时</button>
+        </div>
+        <div class="tabs-row">
+          <div class="segmented">
+            <button class="view-btn active" data-view="all">全部</button>
+            <button class="view-btn" data-view="overall">总体</button>
+            <button class="view-btn" data-view="thermal">火电</button>
+            <button class="view-btn" data-view="renewable">新能源</button>
+            <button class="view-btn" data-view="wind">风电</button>
+            <button class="view-btn" data-view="solar">光伏</button>
+          </div>
+        </div>
+      </div>
+      <div class="chart-toolbar" style="border-bottom:1px solid var(--soft)">
+        <div class="segmented">
+          <button class="range-btn" data-range="7d">近7天</button>
+          <button class="range-btn active" data-range="30d">近30天</button>
+          <button class="range-btn" data-range="90d">近90天</button>
+          <button class="range-btn" data-range="ytd">今年</button>
+          <button class="range-btn" data-range="all">全部</button>
+          <button class="range-btn" data-range="custom">自定义</button>
+        </div>
+        <div class="date-range-inputs" id="date-custom" style="display:none">
+          <input type="date" id="custom-start">
+          <span>至</span>
+          <input type="date" id="custom-end">
+        </div>
+      </div>
+      <div class="chart-wrap" id="chart-wrap">
+        <div class="loading-chart">加载中…</div>
+        <div class="chart-tooltip" id="chart-tooltip" style="display:none"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 风光分项 -->
+  <section class="section" id="renewables">
+    <div class="section-heading">
+      <div>
+        <span class="section-kicker">风光分项</span>
+        <h2>风电与光伏</h2>
+        <p>来自公众号日报口径，含 OCR 识别状态与最低置信度。公众号电量单位为亿千瓦时，独立展示，不与交易中心电量混并。</p>
+      </div>
+    </div>
+    <div class="renewables-grid">
+      <div class="renewable-card" id="renew-wind">
+        <h3>风电</h3>
+        <div class="sub">公众号口径 · 加权均价（元/MWh）</div>
+        <div class="renewable-prices">
+          <div><span>日前</span><strong class="da-price">—</strong></div>
+          <div><span>实时</span><strong class="rt-price">—</strong></div>
+        </div>
+        <div class="renewable-meta">
+          <span class="ocr-tag ok">OCR 正常</span>
+          <span class="ocr-conf">最低置信度 —</span>
+          <span class="wechat-link"></span>
+        </div>
+      </div>
+      <div class="renewable-card" id="renew-solar">
+        <h3>光伏</h3>
+        <div class="sub">公众号口径 · 加权均价（元/MWh）</div>
+        <div class="renewable-prices">
+          <div><span>日前</span><strong class="da-price">—</strong></div>
+          <div><span>实时</span><strong class="rt-price">—</strong></div>
+        </div>
+        <div class="renewable-meta">
+          <span class="ocr-tag ok">OCR 正常</span>
+          <span class="ocr-conf">最低置信度 —</span>
+          <span class="wechat-link"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 每日数据表 -->
+  <section class="table-section" id="table">
+    <div class="section-heading">
+      <div>
+        <span class="section-kicker">每日数据</span>
+        <h2>明细表</h2>
+        <p>按日期倒序，缺失值显示"—"。每行提供交易中心和公众号原文追溯链接。</p>
+      </div>
+      <div class="tabs-row">
+        <button class="btn-outline compact" id="csv-export">导出当前范围 CSV</button>
+        <div class="col-toggle">
+          <button class="btn-outline compact" id="col-toggle-btn">选择列 ▾</button>
+          <div class="col-toggle-menu" id="col-menu"></div>
+        </div>
+      </div>
+    </div>
+    <div class="table-toolbar">
+      <input type="search" id="table-search" placeholder="搜索日期（如 2026-07）…">
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead id="table-head"></thead>
+        <tbody id="table-body">
+          <tr><td colspan="20" style="text-align:center;color:var(--subtle);padding:24px">加载中…</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 质量与异常 -->
+  <section class="section" id="quality">
+    <div class="section-heading">
+      <div>
+        <span class="section-kicker">数据质量</span>
+        <h2>质量与异常</h2>
+        <p>门禁状态、日期范围、重复/缺失、价格范围错误、OCR 复核、双源差异、变更记录。</p>
+      </div>
+    </div>
+    <div class="quality-grid">
+      <div class="q-card" id="q-gate"></div>
+      <div class="q-card" id="q-range"></div>
+      <div class="q-card" id="q-diff"></div>
+      <div class="q-card" id="q-changes"></div>
+      <div class="q-card" id="q-orphans"></div>
+    </div>
+  </section>
+
+  <!-- 数据与方法 -->
+  <section class="section" id="method">
+    <div class="section-heading">
+      <div>
+        <span class="section-kicker">来源追溯</span>
+        <h2>数据与方法</h2>
+        <p>网站只读取已公开的静态 JSON，不直接访问交易中心或公众号。所有链接仅供追溯核验。</p>
+      </div>
+    </div>
+    <div class="method-grid">
+      <div class="method-card">
+        <h3>基础数据源</h3>
+        <p>网站运行时只读取 <code>./data/*.json</code>，由上游 Codex 自动化生成并经质量检查后发布。网页不调用交易中心接口，不抓取公众号文章。</p>
+        <div class="raw-buttons">
+          <a href="./data/snpx_spot_history.json" target="_blank" rel="noopener noreferrer">总体 JSON</a>
+          <a href="./data/snpx_spot_types.json" target="_blank" rel="noopener noreferrer">分类型 JSON</a>
+          <a href="./data/wechat_wind_solar_prices.json" target="_blank" rel="noopener noreferrer">风光/OCR JSON</a>
+          <a href="./data/data_snapshot.json" target="_blank" rel="noopener noreferrer">质量快照</a>
+          <a href="./data/data_manifest.json" target="_blank" rel="noopener noreferrer">数据清单</a>
+          <a href="./data/snpx_quality_checks.json" target="_blank" rel="noopener noreferrer">质量检查</a>
+          <a href="./data/snpx_source_discrepancies.json" target="_blank" rel="noopener noreferrer">双源差异</a>
+          <a href="./data/snpx_run_changes.json" target="_blank" rel="noopener noreferrer">变更记录</a>
+          <a href="./downloads/陕西现货市场每日出清价格跟踪_2025至今_含风光分项.xlsx" target="_blank" rel="noopener noreferrer">完整 Excel</a>
+        </div>
+      </div>
+      <div class="method-card">
+        <h3>追溯链接</h3>
+        <p><strong>交易中心公开页面：</strong><span id="snpx-link">—</span></p>
+        <p><strong>最新公众号日报：</strong><span id="latest-wechat-link">—</span></p>
+        <p style="margin-top:12px"><strong>口径说明：</strong></p>
+        <ul>
+          <li>总体、火电、新能源价格及总体电量 → 交易中心口径</li>
+          <li>风电、光伏分项及 OCR 字段 → 公众号日报口径</li>
+          <li>双源差异由上游自动化计算并记录，网页只展示</li>
+        </ul>
+      </div>
+      <div class="method-card">
+        <h3>核心规则</h3>
+        <ul>
+          <li>不反推：不用新能源合计减光伏得风电</li>
+          <li>不补零：<code>null</code>/空值显示"—"，图表断线</li>
+          <li>不覆盖：公众号总体值不覆盖交易中心总体值</li>
+          <li>不取数：追溯链接仅供用户点击核验，不参与网页取数</li>
+          <li>不混并：公众号电量独立展示，不并入交易中心主序列</li>
+        </ul>
+      </div>
+      <div class="method-card">
+        <h3>数据完整性</h3>
+        <p>每次发布通过 <code>data_manifest.json</code> 绑定同一批次的所有文件 SHA-256。前端加载时逐文件校验哈希，任一不符则整批加载失败，不跨版本混合展示。</p>
+        <p style="margin-top:10px">质量门禁仅以下状态允许发布：<code>pass</code> / <code>pass_with_recorded_source_gaps</code>。失败时保留上一版已发布数据。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 下载横幅 -->
+  <section class="download-banner">
+    <div>
+      <span class="section-kicker">完整数据集</span>
+      <h2>下载完整 Excel 底表</h2>
+      <p>含全部交易日、五类价格、电量、风光分项与 OCR 字段，可用于人工复核与离线分析。</p>
+    </div>
+    <a class="btn-primary light" href="./downloads/陕西现货市场每日出清价格跟踪_2025至今_含风光分项.xlsx">下载 Excel<span>↗</span></a>
+  </section>
+
+</main>
+
+<!-- 加载错误屏 -->
+<div class="error-screen" id="error-screen" style="display:none">
+  <h2>数据加载失败</h2>
+  <p>网页无法加载或校验基础数据。请检查网络连接或稍后重试。所有数据文件必须属于同一质量检查批次，SHA-256 校验通过后才会展示。</p>
+  <div class="err-detail" id="err-detail"></div>
+  <button class="btn-primary" id="reload-btn">重新加载</button>
+</div>
+
+<footer>
+  <p>陕电现货观察 · 数据来自陕西电力交易中心公开页面与公众号日报 · 仅供研究参考</p>
+  <div class="foot-links">
+    <a href="./data/data_manifest.json" target="_blank" rel="noopener noreferrer">数据清单</a>
+    <a href="https://github.com/yuanliugit/shaanxi-power-market-site" target="_blank" rel="noopener noreferrer">GitHub 仓库</a>
+  </div>
+</footer>
+
+<script>
+__JS__
 </script>
 </body>
 </html>
+"""
+
+def main():
+    html = HTML.replace("__CSS__", CSS.strip()).replace("__JS__", JS.strip())
+    with open(OUT, "w", encoding="utf-8") as f:
+        f.write(html)
+    print(f"已生成 {OUT}")
+    print(f"  大小: {len(html):,} 字符")
+    print(f"  CSS: {len(CSS):,} 字符")
+    print(f"  JS: {len(JS):,} 字符")
+
+if __name__ == "__main__":
+    main()
