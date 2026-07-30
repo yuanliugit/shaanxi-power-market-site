@@ -349,14 +349,14 @@ td .src-link.missing { color: var(--subtle); background: var(--soft); cursor: de
 .q-note { margin-top: 14px; padding: 12px 14px; border-radius: var(--radius-sm); background: var(--accent-soft); font-size: 12px; color: #0046a8; line-height: 1.5; }
 
 /* ============ 数据与方法区 ============ */
-.method-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
-.method-card { padding: 24px; border-radius: var(--radius); background: var(--surface); box-shadow: var(--shadow); }
+.method-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.method-card { padding: 24px; border-radius: var(--radius); background: var(--surface); box-shadow: var(--shadow); min-width: 0; overflow-wrap: break-word; word-break: break-word; }
 .method-card h3 { margin: 0 0 10px; font-size: 16px; font-weight: 600; }
 .method-card p, .method-card li { color: var(--muted); font-size: 13px; line-height: 1.6; }
 .method-card ul { padding-left: 18px; margin: 8px 0; }
-.method-card code { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 12px; color: var(--ink); background: var(--soft); padding: 1px 5px; border-radius: 4px; }
+.method-card code { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 12px; color: var(--ink); background: var(--soft); padding: 1px 5px; border-radius: 4px; white-space: pre-wrap; word-break: break-word; }
 .raw-buttons { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
-.raw-buttons a { padding: 7px 13px; border: 1px solid var(--line); border-radius: 980px; font-size: 12px; color: var(--accent); background: var(--surface); transition: all 160ms ease; }
+.raw-buttons a { padding: 7px 13px; border: 1px solid var(--line); border-radius: 980px; font-size: 12px; color: var(--accent); background: var(--surface); transition: all 160ms ease; white-space: normal; text-align: center; }
 .raw-buttons a:hover { background: var(--accent-soft); border-color: var(--accent); }
 
 /* ============ 加载错误屏 ============ */
@@ -401,7 +401,7 @@ footer .foot-links a:hover { color: var(--ink); text-decoration: underline; }
   nav { display: none; }
   .hero { grid-template-columns: 1fr; min-height: auto; padding-top: 40px; }
   .summary-grid { grid-template-columns: 1fr 1fr; }
-  .renewables-grid, .quality-grid, .method-grid { grid-template-columns: 1fr; }
+  .renewables-grid, .quality-grid, .method-grid { grid-template-columns: minmax(0, 1fr); }
 }
 @media (max-width: 640px) {
   .site-header, .hero, .summary-grid, .section, .table-section, .download-banner, footer, .load-bar {
