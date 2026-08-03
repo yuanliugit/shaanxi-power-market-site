@@ -1,5 +1,5 @@
 {
-  "extractedAt": "2026-07-30T15:02:00.813Z",
+  "extractedAt": "2026-08-03T12:48:11.806+00:00",
   "calls": [
     {
       "bizDay": "2025-01-14",
@@ -312,6 +312,13 @@
     },
     {
       "bizDay": "2026-07-29",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-08-02",
       "code": 200,
       "count": 15,
       "typeCode": 200,
@@ -6036,8 +6043,8 @@
       "secondPrice": "269.26",
       "thirdPrice": "267.56",
       "fourPrice": "291.62",
-      "fivePrice": "200.51",
-      "sixPrice": "200.36"
+      "fivePrice": "200.63",
+      "sixPrice": "200.51"
     },
     {
       "time": "2026-07-27",
@@ -6046,8 +6053,8 @@
       "secondPrice": "253.16",
       "thirdPrice": "393.42",
       "fourPrice": "262.14",
-      "fivePrice": "299.3",
-      "sixPrice": "213.27"
+      "fivePrice": "299.48",
+      "sixPrice": "213.44"
     },
     {
       "time": "2026-07-28",
@@ -6056,8 +6063,58 @@
       "secondPrice": "204.37",
       "thirdPrice": "207.85",
       "fourPrice": "219.42",
-      "fivePrice": "137.9",
-      "sixPrice": "165.8"
+      "fivePrice": "138.06",
+      "sixPrice": "166.03"
+    },
+    {
+      "time": "2026-07-29",
+      "areaCode": null,
+      "firstPrice": null,
+      "secondPrice": null,
+      "thirdPrice": "214.44",
+      "fourPrice": "208.93",
+      "fivePrice": "164.76",
+      "sixPrice": "166.55"
+    },
+    {
+      "time": "2026-07-30",
+      "areaCode": null,
+      "firstPrice": null,
+      "secondPrice": null,
+      "thirdPrice": "242.48",
+      "fourPrice": "280.8",
+      "fivePrice": "149.14",
+      "sixPrice": "189.74"
+    },
+    {
+      "time": "2026-07-31",
+      "areaCode": null,
+      "firstPrice": null,
+      "secondPrice": null,
+      "thirdPrice": "327.41",
+      "fourPrice": "315.63",
+      "fivePrice": "231.88",
+      "sixPrice": "184.75"
+    },
+    {
+      "time": "2026-08-01",
+      "areaCode": null,
+      "firstPrice": null,
+      "secondPrice": null,
+      "thirdPrice": "404.96",
+      "fourPrice": "339.19",
+      "fivePrice": "272.32",
+      "sixPrice": "233.25"
+    },
+    {
+      "time": "2026-08-02",
+      "areaCode": null,
+      "firstPrice": null,
+      "secondPrice": null,
+      "thirdPrice": "324.43",
+      "fourPrice": "238.8",
+      "fivePrice": "282.65",
+      "sixPrice": "203.07"
     }
   ],
   "sourcePage": "https://snpx.com.cn/#/home/marketData/transactionData/spotmarketsection",

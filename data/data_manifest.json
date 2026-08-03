@@ -1,15 +1,15 @@
 {
   "schemaVersion": "1.0",
-  "datasetVersion": "daabbbf",
-  "generatedAt": "2026-07-30T15:58:41+00:00",
+  "datasetVersion": "c20043e",
+  "generatedAt": "2026-08-03T12:48:23+00:00",
   "files": {
     "history": {
       "path": "data/snpx_spot_history.json",
-      "sha256": "6ef10f97d2feca5e4b8a5249ffad8fcddcc083db1f3f367dbf74dc0f4c9317cc"
+      "sha256": "2dd6260e9a0fe4f947dc88667ab8712e0c26fa7550737d63a5c97f85e54b3994"
     },
     "types": {
       "path": "data/snpx_spot_types.json",
-      "sha256": "6467665b5e3f8640e3f92de0ddda012155b7b53579d825f3e6e2a31e81dcb021"
+      "sha256": "2e08d71142a28ccb32f19e3cea60f1f9603ea7282161fef033c03b3b606869d6"
     },
     "windSolar": {
       "path": "data/wechat_wind_solar_prices.json",
@@ -17,11 +17,11 @@
     },
     "snapshot": {
       "path": "data/data_snapshot.json",
-      "sha256": "0d8956469004f4a766f0759d3f109d82643ff7cbf488df61a7695b91ac099b94"
+      "sha256": "0342e3cc4f43c013b8f665000712af36e5fbc3d54df0886db007a176ab9a337b"
     },
     "quality": {
       "path": "data/snpx_quality_checks.json",
-      "sha256": "a1eadd95396771a6e8d7ad0bc699de7b093dcebd6b3a5f5572b3a16cef9647bc"
+      "sha256": "75aad1693df3227dc3338ca61cc7d2ce7195836e826f669e22c56445889fae58"
     },
     "differences": {
       "path": "data/snpx_source_discrepancies.json",
@@ -29,14 +29,14 @@
     },
     "changes": {
       "path": "data/snpx_run_changes.json",
-      "sha256": "88cd9d90ecf9445027934b4ec63915cd606fa07b321c5d2a6f19fc9fa45f3e18"
+      "sha256": "bb416189e926b538df32110a3787d768dffbf93ef10bdfa1c8d3e0ea6285ece7"
     },
     "workbook": {
       "path": "downloads/陕西现货市场每日出清价格跟踪_2025至今_含风光分项.xlsx",
       "sha256": "4c24de662e322ab0823acc482fff2f8b4525a2979aa4735d263e30d2c5f147c3"
     }
   },
-  "latestTradingDate": "2026-07-26",
+  "latestTradingDate": "2026-07-28",
   "latestWindSolarDate": "2026-07-26",
   "latestCompleteDate": "2026-07-26",
   "qualityGate": "pass_with_recorded_source_gaps"
