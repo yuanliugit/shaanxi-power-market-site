@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
-  "datasetVersion": "c20043e",
-  "generatedAt": "2026-08-03T12:48:23+00:00",
+  "datasetVersion": "17933a8",
+  "generatedAt": "2026-08-03T12:55:04+00:00",
   "files": {
     "history": {
       "path": "data/snpx_spot_history.json",
