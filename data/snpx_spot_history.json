@@ -1,5 +1,5 @@
 {
-  "extractedAt": "2026-08-03T12:48:11.806+00:00",
+  "extractedAt": "2026-08-25T23:03:09.000Z",
   "sourcePage": "https://snpx.com.cn/#/home/marketData/transactionData/spotmarketsection",
   "endpoint": "/sso-portal/large/screen/statistic/v2/greenSpotTradingOverview",
   "mapping": {
@@ -312,7 +312,182 @@
       "typeCount": 15
     },
     {
+      "bizDay": "2026-07-27",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-29",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-29",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-30",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-29",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-31",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-29",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-08-01",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-29",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
       "bizDay": "2026-08-02",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-29",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-08-03",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-29",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-08-05",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-29",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-08-06",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-29",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-08-07",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-07-29",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-08-12",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-08-13",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-08-16",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-08-16",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-08-24",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-08-24",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-08-25",
       "code": 200,
       "count": 15,
       "typeCode": 200,
@@ -4911,6 +5086,222 @@
       "secondPower": "2162596.32",
       "firstPrice": "187.43",
       "secondPrice": "204.37"
+    },
+    {
+      "time": "2026-07-29",
+      "areaCode": null,
+      "firstPower": "2248114.86",
+      "secondPower": "2217481.32",
+      "firstPrice": "200.19",
+      "secondPrice": "198.34"
+    },
+    {
+      "time": "2026-07-30",
+      "areaCode": null,
+      "firstPower": "2187765.15",
+      "secondPower": "2265627.69",
+      "firstPrice": "220.9",
+      "secondPrice": "262.6"
+    },
+    {
+      "time": "2026-07-31",
+      "areaCode": null,
+      "firstPower": "2356872.03",
+      "secondPower": "2258750.47",
+      "firstPrice": "314.53",
+      "secondPrice": "300.24"
+    },
+    {
+      "time": "2026-08-01",
+      "areaCode": null,
+      "firstPower": "2375005.16",
+      "secondPower": "2226863.31",
+      "firstPrice": "386.48",
+      "secondPrice": "323.06"
+    },
+    {
+      "time": "2026-08-02",
+      "areaCode": null,
+      "firstPower": "2167148.57",
+      "secondPower": "1878447.45",
+      "firstPrice": "319.2",
+      "secondPrice": "233.64"
+    },
+    {
+      "time": "2026-08-03",
+      "areaCode": null,
+      "firstPower": "2066805.17",
+      "secondPower": "1904050.23",
+      "firstPrice": "342.6",
+      "secondPrice": "295.72"
+    },
+    {
+      "time": "2026-08-04",
+      "areaCode": null,
+      "firstPower": "1727454.12",
+      "secondPower": "1775417.57",
+      "firstPrice": "197.59",
+      "secondPrice": "217.72"
+    },
+    {
+      "time": "2026-08-05",
+      "areaCode": null,
+      "firstPower": "1753089.46",
+      "secondPower": "1769204.92",
+      "firstPrice": "141.09",
+      "secondPrice": "115.05"
+    },
+    {
+      "time": "2026-08-06",
+      "areaCode": null,
+      "firstPower": "1722843.02",
+      "secondPower": "1764790.11",
+      "firstPrice": "97.48",
+      "secondPrice": "87.57"
+    },
+    {
+      "time": "2026-08-07",
+      "areaCode": null,
+      "firstPower": "1774100.96",
+      "secondPower": "1840146.98",
+      "firstPrice": "149.84",
+      "secondPrice": "155.81"
+    },
+    {
+      "time": "2026-08-08",
+      "areaCode": null,
+      "firstPower": "1845154.76",
+      "secondPower": "1881067.31",
+      "firstPrice": "96.86",
+      "secondPrice": "142.23"
+    },
+    {
+      "time": "2026-08-09",
+      "areaCode": null,
+      "firstPower": "1843860.37",
+      "secondPower": "1890236.87",
+      "firstPrice": "79.03",
+      "secondPrice": "112.38"
+    },
+    {
+      "time": "2026-08-10",
+      "areaCode": null,
+      "firstPower": "1877678.42",
+      "secondPower": "2055502.81",
+      "firstPrice": "99.59",
+      "secondPrice": "143.05"
+    },
+    {
+      "time": "2026-08-11",
+      "areaCode": null,
+      "firstPower": "2081865.37",
+      "secondPower": "2134517.9",
+      "firstPrice": "175.49",
+      "secondPrice": "153.63"
+    },
+    {
+      "time": "2026-08-12",
+      "areaCode": null,
+      "firstPower": "1977885.0",
+      "secondPower": "1991710.83",
+      "firstPrice": "96.83",
+      "secondPrice": "97.13"
+    },
+    {
+      "time": "2026-08-13",
+      "areaCode": null,
+      "firstPower": "1833388.39",
+      "secondPower": "1889560.82",
+      "firstPrice": "152.83",
+      "secondPrice": "181.94"
+    },
+    {
+      "time": "2026-08-14",
+      "areaCode": null,
+      "firstPower": "1894923.18",
+      "secondPower": "1894662.83",
+      "firstPrice": "165.17",
+      "secondPrice": "146.0"
+    },
+    {
+      "time": "2026-08-15",
+      "areaCode": null,
+      "firstPower": "1951241.23",
+      "secondPower": "1978013.77",
+      "firstPrice": "143.01",
+      "secondPrice": "131.89"
+    },
+    {
+      "time": "2026-08-16",
+      "areaCode": null,
+      "firstPower": "2074016.45",
+      "secondPower": "2083593.9",
+      "firstPrice": "183.57",
+      "secondPrice": "290.2"
+    },
+    {
+      "time": "2026-08-17",
+      "areaCode": null,
+      "firstPower": "2145643.55",
+      "secondPower": "2197937.94",
+      "firstPrice": "259.92",
+      "secondPrice": "321.26"
+    },
+    {
+      "time": "2026-08-18",
+      "areaCode": null,
+      "firstPower": "2226909.44",
+      "secondPower": "2152871.47",
+      "firstPrice": "379.56",
+      "secondPrice": "303.41"
+    },
+    {
+      "time": "2026-08-19",
+      "areaCode": null,
+      "firstPower": "1929532.85",
+      "secondPower": "1997692.97",
+      "firstPrice": "133.2",
+      "secondPrice": "141.97"
+    },
+    {
+      "time": "2026-08-20",
+      "areaCode": null,
+      "firstPower": "2017345.17",
+      "secondPower": "2087247.32",
+      "firstPrice": "73.46",
+      "secondPrice": "99.22"
+    },
+    {
+      "time": "2026-08-21",
+      "areaCode": null,
+      "firstPower": "2173343.6",
+      "secondPower": "2251066.18",
+      "firstPrice": "181.7",
+      "secondPrice": "196.3"
+    },
+    {
+      "time": "2026-08-22",
+      "areaCode": null,
+      "firstPower": "2319669.19",
+      "secondPower": "2399429.6",
+      "firstPrice": "293.96",
+      "secondPrice": "400.36"
+    },
+    {
+      "time": "2026-08-23",
+      "areaCode": null,
+      "firstPower": "2478095.76",
+      "secondPower": "2600244.29",
+      "firstPrice": "412.41",
+      "secondPrice": "489.7"
+    },
+    {
+      "time": "2026-08-24",
+      "areaCode": null,
+      "firstPower": "2457198.12",
+      "secondPower": "2551335.18",
+      "firstPrice": "299.64",
+      "secondPrice": "388.07"
     }
   ]
 }
