@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-25T23:11:05.833Z",
-  "latestTradingDate": "2026-08-24",
-  "latestWindSolarDate": "2026-08-23",
+  "generatedAt": "2026-08-31T02:37:31.765Z",
+  "latestTradingDate": "2026-08-29",
+  "latestWindSolarDate": "2026-08-29",
   "qualityGate": "pass_with_recorded_source_gaps",
   "rowCounts": {
-    "official": 601,
-    "windSolar": 504
+    "official": 606,
+    "windSolar": 508
   },
   "recordedSourceGapCount": 8,
-  "overThresholdDifferenceDays": 493,
+  "overThresholdDifferenceDays": 497,
   "ocrReviewDates": [],
   "minOcrConfidence": 0.8989459276199341,
   "noAutoZeroFill": true

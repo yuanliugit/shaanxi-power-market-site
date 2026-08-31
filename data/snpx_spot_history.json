@@ -1,5 +1,5 @@
 {
-  "extractedAt": "2026-08-25T23:03:09.000Z",
+  "extractedAt": "2026-08-31T02:32:33.410Z",
   "sourcePage": "https://snpx.com.cn/#/home/marketData/transactionData/spotmarketsection",
   "endpoint": "/sso-portal/large/screen/statistic/v2/greenSpotTradingOverview",
   "mapping": {
@@ -488,6 +488,20 @@
     },
     {
       "bizDay": "2026-08-25",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-08-25",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-08-30",
       "code": 200,
       "count": 15,
       "typeCode": 200,
@@ -5302,6 +5316,46 @@
       "secondPower": "2551335.18",
       "firstPrice": "299.64",
       "secondPrice": "388.07"
+    },
+    {
+      "time": "2026-08-25",
+      "areaCode": null,
+      "firstPower": "2610328.82",
+      "secondPower": "2544299.85",
+      "firstPrice": "299.71",
+      "secondPrice": "283.58"
+    },
+    {
+      "time": "2026-08-26",
+      "areaCode": null,
+      "firstPower": "2714597.4",
+      "secondPower": "2774558.94",
+      "firstPrice": "408.85",
+      "secondPrice": "535.34"
+    },
+    {
+      "time": "2026-08-27",
+      "areaCode": null,
+      "firstPower": "2880473.18",
+      "secondPower": "2886656.45",
+      "firstPrice": "414.23",
+      "secondPrice": "437.34"
+    },
+    {
+      "time": "2026-08-28",
+      "areaCode": null,
+      "firstPower": "2796021.05",
+      "secondPower": "2496559.75",
+      "firstPrice": "472.75",
+      "secondPrice": "331.83"
+    },
+    {
+      "time": "2026-08-29",
+      "areaCode": null,
+      "firstPower": "2138169.04",
+      "secondPower": "2160900.95",
+      "firstPrice": "172.48",
+      "secondPrice": "188.04"
     }
   ]
 }
