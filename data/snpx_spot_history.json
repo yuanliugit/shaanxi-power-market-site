@@ -1,5 +1,5 @@
 {
-  "extractedAt": "2026-08-31T02:32:33.410Z",
+  "extractedAt": "2026-09-07T02:34:37.446Z",
   "sourcePage": "https://snpx.com.cn/#/home/marketData/transactionData/spotmarketsection",
   "endpoint": "/sso-portal/large/screen/statistic/v2/greenSpotTradingOverview",
   "mapping": {
@@ -502,6 +502,20 @@
     },
     {
       "bizDay": "2026-08-30",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-08-30",
+      "code": 200,
+      "count": 15,
+      "typeCode": 200,
+      "typeCount": 15
+    },
+    {
+      "bizDay": "2026-09-06",
       "code": 200,
       "count": 15,
       "typeCode": 200,
@@ -5356,6 +5370,62 @@
       "secondPower": "2160900.95",
       "firstPrice": "172.48",
       "secondPrice": "188.04"
+    },
+    {
+      "time": "2026-08-30",
+      "areaCode": null,
+      "firstPower": "2148865.26",
+      "secondPower": "2154616.58",
+      "firstPrice": "263.65",
+      "secondPrice": "252.58"
+    },
+    {
+      "time": "2026-08-31",
+      "areaCode": null,
+      "firstPower": "2129993.68",
+      "secondPower": "2077173.26",
+      "firstPrice": "236.93",
+      "secondPrice": "199.42"
+    },
+    {
+      "time": "2026-09-01",
+      "areaCode": null,
+      "firstPower": "2080974.4",
+      "secondPower": "2002859.94",
+      "firstPrice": "246.3",
+      "secondPrice": "220.47"
+    },
+    {
+      "time": "2026-09-02",
+      "areaCode": null,
+      "firstPower": "1973001.6",
+      "secondPower": "1994925.91",
+      "firstPrice": "210.62",
+      "secondPrice": "222.19"
+    },
+    {
+      "time": "2026-09-03",
+      "areaCode": null,
+      "firstPower": "1896583.97",
+      "secondPower": "1891148.92",
+      "firstPrice": "208.75",
+      "secondPrice": "218.69"
+    },
+    {
+      "time": "2026-09-04",
+      "areaCode": null,
+      "firstPower": "1906658.05",
+      "secondPower": "1967781.95",
+      "firstPrice": "228.92",
+      "secondPrice": "346.76"
+    },
+    {
+      "time": "2026-09-05",
+      "areaCode": null,
+      "firstPower": "1801951.84",
+      "secondPower": "2040992.05",
+      "firstPrice": "229.57",
+      "secondPrice": "323.18"
     }
   ]
 }
