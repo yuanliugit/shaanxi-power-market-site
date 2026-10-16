@@ -1,5 +1,5 @@
 {
-  "parsedAt": "2026-09-07T02:36:53.282Z",
+  "parsedAt": "2026-10-15T23:05:06.502596Z",
   "rows": [
     {
       "date": "2025-04-06",
@@ -48834,6 +48834,3846 @@
       "status": "ok",
       "ocr_text_count": 80,
       "overallStatus": "ok"
+    },
+    {
+      "date": "2026-09-06",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508427&idx=1&sn=1cc73ea62eb437b693e221a72d94f75e&chksm=f9f99571ce8e1c6703403a1a687b5d0454d87ec73d28f4a785f45e89670010e7e7f6c5de6b6e#rd",
+      "image_index": 0,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.53,
+          "max": 448.39,
+          "min": 0,
+          "weighted": 225.18,
+          "minConfidence": 0.9999947547912598,
+          "raw": [
+            "4.53",
+            "448.39",
+            "0.00",
+            "225.18"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.98,
+          "max": 439.64,
+          "min": 0,
+          "weighted": 244.52,
+          "minConfidence": 0.9999975562095642,
+          "raw": [
+            "0.98",
+            "439.64",
+            "0.00",
+            "244.52"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.81,
+          "max": 439.64,
+          "min": 0,
+          "weighted": 63.41,
+          "minConfidence": 0.9999963641166687,
+          "raw": [
+            "0.81",
+            "439.64",
+            "0.00",
+            "63.41"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 5.08,
+          "max": 1000,
+          "min": 0,
+          "weighted": 407.46,
+          "minConfidence": 0.9999788403511047,
+          "raw": [
+            "5.08",
+            "1,000.00",
+            "0.00",
+            "407.46"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.87,
+          "max": 1000,
+          "min": 0,
+          "weighted": 374.56,
+          "minConfidence": 0.9999859929084778,
+          "raw": [
+            "0.87",
+            "1,000.00",
+            "0.00",
+            "374.56"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.83,
+          "max": 1000,
+          "min": 0,
+          "weighted": 193.4,
+          "minConfidence": 0.9999852180480957,
+          "raw": [
+            "0.83",
+            "1,000.00",
+            "0.00",
+            "193.40"
+          ]
+        }
+      },
+      "status": "ok",
+      "ocr_text_count": 80,
+      "overallStatus": "ok"
+    },
+    {
+      "date": "2026-09-07",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508437&idx=1&sn=de4d05036e18fd3c0f081fc8a0dc8c60&chksm=f9f9956fce8e1c79f975b2868336b9f155838e2dab5ab70661b9b2d3305aa6a1769f7d5b5cb1#rd",
+      "image_index": 0,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.95,
+          "max": 1000,
+          "min": 0,
+          "weighted": 348.35,
+          "minConfidence": 0.9999856948852539,
+          "raw": [
+            "4.95",
+            "1,000.00",
+            "0.00",
+            "348.35"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.51,
+          "max": 1000,
+          "min": 0,
+          "weighted": 346.91,
+          "minConfidence": 0.9999861717224121,
+          "raw": [
+            "0.51",
+            "1,000.00",
+            "0.00",
+            "346.91"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.41,
+          "max": 1000,
+          "min": 0,
+          "weighted": 318.24,
+          "minConfidence": 0.9560198187828064,
+          "raw": [
+            "0.41",
+            "1,000.00",
+            "0.00",
+            "318.24"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 5.28,
+          "max": 1000,
+          "min": 0,
+          "weighted": 550.73,
+          "minConfidence": 0.9999866485595703,
+          "raw": [
+            "5.28",
+            "1,000.00",
+            "0.00",
+            "550.73"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.39,
+          "max": 1000,
+          "min": 0,
+          "weighted": 516.22,
+          "minConfidence": 0.9999867677688599,
+          "raw": [
+            "0.39",
+            "1,000.00",
+            "0.00",
+            "516.22"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.32,
+          "max": 1000,
+          "min": 0,
+          "weighted": 630.34,
+          "minConfidence": 0.9999620914459229,
+          "raw": [
+            "0.32",
+            "1,000.00",
+            "0.00",
+            "630.34"
+          ]
+        }
+      },
+      "status": "ok",
+      "ocr_text_count": 80,
+      "overallStatus": "ok"
+    },
+    {
+      "date": "2026-09-08",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508460&idx=1&sn=7c9e1c420a4a2a83c323087f4178db88&chksm=f9f99556ce8e1c40cf57610cb6b1694207f8e02e6a35ebd0bbe87b084dcac5229f60cf91d0fa#rd",
+      "image_index": 0,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 5.14,
+          "max": 1000,
+          "min": 0,
+          "weighted": 412.76,
+          "minConfidence": 0.9827477931976318,
+          "raw": [
+            "5.14",
+            "1,000.00",
+            "0.00",
+            "412.76"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.71,
+          "max": 1000,
+          "min": 0,
+          "weighted": 378.44,
+          "minConfidence": 0.9999841451644897,
+          "raw": [
+            "0.71",
+            "1,000.00",
+            "0.00",
+            "378.44"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.3,
+          "max": 1000,
+          "min": 0,
+          "weighted": 433.83,
+          "minConfidence": 0.9999494552612305,
+          "raw": [
+            "0.30",
+            "1,000.00",
+            "0.00",
+            "433.83"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 5.13,
+          "max": 1000,
+          "min": 0,
+          "weighted": 426.19,
+          "minConfidence": 0.9994131326675415,
+          "raw": [
+            "5.13",
+            "1,000.00",
+            "0.00",
+            "426.19"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.67,
+          "max": 1000,
+          "min": 0,
+          "weighted": 390.15,
+          "minConfidence": 0.9999829530715942,
+          "raw": [
+            "0.67",
+            "1,000.00",
+            "0.00",
+            "390.15"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.28,
+          "max": 1000,
+          "min": 0,
+          "weighted": 464.54,
+          "minConfidence": 0.9999574422836304,
+          "raw": [
+            "0.28",
+            "1,000.00",
+            "0.00",
+            "464.54"
+          ]
+        }
+      },
+      "status": "ok",
+      "ocr_text_count": 80,
+      "overallStatus": "ok"
+    },
+    {
+      "date": "2026-09-09",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508465&idx=1&sn=fc8a2eda66cd7e415ebbf694bb67842c&chksm=f9f9954bce8e1c5d97d4909f186e81a1788702e5bb9b884e95449c5b569c3e6815fb04ad4b61#rd",
+      "image_index": 0,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.71,
+          "max": 373,
+          "min": 0,
+          "weighted": 348.43,
+          "minConfidence": 0.9999830722808838,
+          "raw": [
+            "4.71",
+            "373.00",
+            "0.00",
+            "348.43"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.29,
+          "max": 373,
+          "min": 0,
+          "weighted": 346.14,
+          "minConfidence": 0.9999966025352478,
+          "raw": [
+            "0.29",
+            "373.00",
+            "0.00",
+            "346.14"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.33,
+          "max": 373,
+          "min": 0,
+          "weighted": 341.2,
+          "minConfidence": 0.9999964833259583,
+          "raw": [
+            "0.33",
+            "373.00",
+            "0.00",
+            "341.20"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 5.09,
+          "max": 433,
+          "min": 0,
+          "weighted": 364.89,
+          "minConfidence": 0.9999952912330627,
+          "raw": [
+            "5.09",
+            "433.00",
+            "0.00",
+            "364.89"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.25,
+          "max": 433,
+          "min": 0,
+          "weighted": 364.27,
+          "minConfidence": 0.9999926090240479,
+          "raw": [
+            "0.25",
+            "433.00",
+            "0.00",
+            "364.27"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.33,
+          "max": 433,
+          "min": 0,
+          "weighted": 345.71,
+          "minConfidence": 0.9999950528144836,
+          "raw": [
+            "0.33",
+            "433.00",
+            "0.00",
+            "345.71"
+          ]
+        }
+      },
+      "status": "ok",
+      "ocr_text_count": 80,
+      "overallStatus": "ok"
+    },
+    {
+      "date": "2026-09-10",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508469&idx=1&sn=ecde18f380337957231fc52ab3ab7c38&chksm=f9f9954fce8e1c5958536bd353d889408fdbf36543987230ecabd2fb9672b883e8cffd8d6700#rd",
+      "image_index": 0,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.34,
+          "max": 397,
+          "min": 0,
+          "weighted": 307.15,
+          "minConfidence": 0.999622106552124,
+          "raw": [
+            "4.34",
+            "397.00",
+            "0.00",
+            "307.15"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.13,
+          "max": 397,
+          "min": 0,
+          "weighted": 329.38,
+          "minConfidence": 0.999997615814209,
+          "raw": [
+            "0.13",
+            "397.00",
+            "0.00",
+            "329.38"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.73,
+          "max": 397,
+          "min": 0,
+          "weighted": 186.41,
+          "minConfidence": 0.9999973177909851,
+          "raw": [
+            "0.73",
+            "397.00",
+            "0.00",
+            "186.41"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.19,
+          "max": 474.26,
+          "min": 0,
+          "weighted": 269.43,
+          "minConfidence": 0.9999706745147705,
+          "raw": [
+            "4.19",
+            "474.26",
+            "0.00",
+            "269.43"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.14,
+          "max": 474.26,
+          "min": 0,
+          "weighted": 282.72,
+          "minConfidence": 0.9999948740005493,
+          "raw": [
+            "0.14",
+            "474.26",
+            "0.00",
+            "282.72"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.76,
+          "max": 474.26,
+          "min": 0,
+          "weighted": 96.21,
+          "minConfidence": 0.999997615814209,
+          "raw": [
+            "0.76",
+            "474.26",
+            "0.00",
+            "96.21"
+          ]
+        }
+      },
+      "status": "ok",
+      "ocr_text_count": 80,
+      "overallStatus": "ok"
+    },
+    {
+      "date": "2026-09-11",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508491&idx=1&sn=42d8d622000824f517c174e062b9d8f4&chksm=f9f996b1ce8e1fa724590ee7407a2ee60933dfa691c4ce7edcda7542ec92868221a178b144cf#rd",
+      "image_index": 0,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.1,
+          "max": 374,
+          "min": 0,
+          "weighted": 248.45,
+          "minConfidence": 0.999982476234436,
+          "raw": [
+            "4.10",
+            "374.00",
+            "0.00",
+            "248.45"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.32,
+          "max": 374,
+          "min": 0,
+          "weighted": 278.47,
+          "minConfidence": 0.9999961256980896,
+          "raw": [
+            "0.32",
+            "374.00",
+            "0.00",
+            "278.47"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.78,
+          "max": 374,
+          "min": 0,
+          "weighted": 81.09,
+          "minConfidence": 0.9999975562095642,
+          "raw": [
+            "0.78",
+            "374.00",
+            "0.00",
+            "81.09"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.27,
+          "max": 496.05,
+          "min": 0,
+          "weighted": 263.74,
+          "minConfidence": 0.9999916553497314,
+          "raw": [
+            "4.27",
+            "496.05",
+            "0.00",
+            "263.74"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.36,
+          "max": 496.05,
+          "min": 0,
+          "weighted": 276.12,
+          "minConfidence": 0.9999974370002747,
+          "raw": [
+            "0.36",
+            "496.05",
+            "0.00",
+            "276.12"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.81,
+          "max": 496.05,
+          "min": 0,
+          "weighted": 117.59,
+          "minConfidence": 0.9999967813491821,
+          "raw": [
+            "0.81",
+            "496.05",
+            "0.00",
+            "117.59"
+          ]
+        }
+      },
+      "status": "ok",
+      "ocr_text_count": 80,
+      "overallStatus": "ok"
+    },
+    {
+      "date": "2026-09-12",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508494&idx=1&sn=9821bb97bc7cf5d01b31c20d5301e412&chksm=f9f996b4ce8e1fa2c556602b35f4b0ed3350ed7b9390950244a979ec96e48b581d64ec155b99#rd",
+      "image_index": 0,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.07,
+          "max": 496.76,
+          "min": 0,
+          "weighted": 261.44,
+          "minConfidence": 0.9999958276748657,
+          "raw": [
+            "4.07",
+            "496.76",
+            "0.00",
+            "261.44"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.26,
+          "max": 496.76,
+          "min": 0,
+          "weighted": 313.98,
+          "minConfidence": 0.9999977350234985,
+          "raw": [
+            "0.26",
+            "496.76",
+            "0.00",
+            "313.98"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.75,
+          "max": 496.76,
+          "min": 0,
+          "weighted": 76.48,
+          "minConfidence": 0.9999976754188538,
+          "raw": [
+            "0.75",
+            "496.76",
+            "0.00",
+            "76.48"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.08,
+          "max": 1000,
+          "min": 0,
+          "weighted": 274.28,
+          "minConfidence": 0.9999816417694092,
+          "raw": [
+            "4.08",
+            "1,000.00",
+            "0.00",
+            "274.28"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.3,
+          "max": 1000,
+          "min": 0,
+          "weighted": 316.87,
+          "minConfidence": 0.9999575614929199,
+          "raw": [
+            "0.30",
+            "1,000.00",
+            "0.00",
+            "316.87"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.79,
+          "max": 1000,
+          "min": 0,
+          "weighted": 75.48,
+          "minConfidence": 0.9999802112579346,
+          "raw": [
+            "0.79",
+            "1,000.00",
+            "0.00",
+            "75.48"
+          ]
+        }
+      },
+      "status": "ok",
+      "ocr_text_count": 80,
+      "overallStatus": "ok"
+    },
+    {
+      "date": "2026-09-13",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508498&idx=1&sn=91bae6c83fa8488d606a510c784415d0&chksm=f9f996a8ce8e1fbef8caf421bd2bf68f42da1fca5afdd39714f8f11b1ab24ffc1e196148d625#rd",
+      "image_index": 0,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.05,
+          "max": 1000,
+          "min": 0,
+          "weighted": 275.59,
+          "minConfidence": 0.9999850988388062,
+          "raw": [
+            "4.05",
+            "1,000.00",
+            "0.00",
+            "275.59"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.2,
+          "max": 1000,
+          "min": 0,
+          "weighted": 331.84,
+          "minConfidence": 0.9999871253967285,
+          "raw": [
+            "0.20",
+            "1,000.00",
+            "0.00",
+            "331.84"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.77,
+          "max": 1000,
+          "min": 0,
+          "weighted": 49.52,
+          "minConfidence": 0.9999865889549255,
+          "raw": [
+            "0.77",
+            "1,000.00",
+            "0.00",
+            "49.52"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.21,
+          "max": 1000,
+          "min": 0,
+          "weighted": 359.74,
+          "minConfidence": 0.9999771118164062,
+          "raw": [
+            "4.21",
+            "1,000.00",
+            "0.00",
+            "359.74"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.17,
+          "max": 1000,
+          "min": 0,
+          "weighted": 427.53,
+          "minConfidence": 0.9995966553688049,
+          "raw": [
+            "0.17",
+            "1,000.00",
+            "0.00",
+            "427.53"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.83,
+          "max": 1000,
+          "min": 0,
+          "weighted": 64.31,
+          "minConfidence": 0.9999617338180542,
+          "raw": [
+            "0.83",
+            "1,000.00",
+            "0.00",
+            "64.31"
+          ]
+        }
+      },
+      "status": "ok",
+      "ocr_text_count": 80,
+      "overallStatus": "ok"
+    },
+    {
+      "date": "2026-09-14",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508502&idx=1&sn=5aaf0b66b589196ff11c74f956aac51e&chksm=f9f996acce8e1fba55b05c786454ae3149bef1b971965a63214de2782302c24f0091f9ba9f6d#rd",
+      "image_index": 0,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 3.97,
+          "max": 379.21,
+          "min": 0,
+          "weighted": 238.25,
+          "minConfidence": 0.9999949932098389,
+          "raw": [
+            "3.97",
+            "379.21",
+            "0.00",
+            "238.25"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.42,
+          "max": 379.21,
+          "min": 0,
+          "weighted": 291.15,
+          "minConfidence": 0.9999971389770508,
+          "raw": [
+            "0.42",
+            "379.21",
+            "0.00",
+            "291.15"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.79,
+          "max": 379.21,
+          "min": 0,
+          "weighted": 51.53,
+          "minConfidence": 0.9999977946281433,
+          "raw": [
+            "0.79",
+            "379.21",
+            "0.00",
+            "51.53"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.2,
+          "max": 1000,
+          "min": 0,
+          "weighted": 266.83,
+          "minConfidence": 0.9999759793281555,
+          "raw": [
+            "4.20",
+            "1,000.00",
+            "0.00",
+            "266.83"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.5,
+          "max": 1000,
+          "min": 0,
+          "weighted": 324.87,
+          "minConfidence": 0.9999836683273315,
+          "raw": [
+            "0.50",
+            "1,000.00",
+            "0.00",
+            "324.87"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.92,
+          "max": 1000,
+          "min": 0,
+          "weighted": 62.95,
+          "minConfidence": 0.9999752044677734,
+          "raw": [
+            "0.92",
+            "1,000.00",
+            "0.00",
+            "62.95"
+          ]
+        }
+      },
+      "status": "ok",
+      "ocr_text_count": 80,
+      "overallStatus": "ok"
+    },
+    {
+      "date": "2026-09-15",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508506&idx=1&sn=7dda894f3f9da8d91971f23e82380324&chksm=f9f996a0ce8e1fb6bf861f3065f332b1789a7a80b17c6fd891c09e428fa19acde7d6f554b950#rd",
+      "image_index": 0,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 3.99,
+          "max": 421,
+          "min": 0,
+          "weighted": 231.59,
+          "minConfidence": 0.9999825954437256,
+          "raw": [
+            "3.99",
+            "421.00",
+            "0.00",
+            "231.59"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.63,
+          "max": 421,
+          "min": 0,
+          "weighted": 273.49,
+          "minConfidence": 0.9999956488609314,
+          "raw": [
+            "0.63",
+            "421.00",
+            "0.00",
+            "273.49"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.75,
+          "max": 421,
+          "min": 0,
+          "weighted": 48.76,
+          "minConfidence": 0.999997615814209,
+          "raw": [
+            "0.75",
+            "421.00",
+            "0.00",
+            "48.76"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.14,
+          "max": 700,
+          "min": 0,
+          "weighted": 237.57,
+          "minConfidence": 0.9999726414680481,
+          "raw": [
+            "4.14",
+            "700.00",
+            "0.00",
+            "237.57"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.68,
+          "max": 700,
+          "min": 0,
+          "weighted": 281.18,
+          "minConfidence": 0.9999972581863403,
+          "raw": [
+            "0.68",
+            "700.00",
+            "0.00",
+            "281.18"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.88,
+          "max": 700,
+          "min": 0,
+          "weighted": 74.44,
+          "minConfidence": 0.9999964237213135,
+          "raw": [
+            "0.88",
+            "700.00",
+            "0.00",
+            "74.44"
+          ]
+        }
+      },
+      "status": "ok",
+      "ocr_text_count": 80,
+      "overallStatus": "ok"
+    },
+    {
+      "date": "2026-09-16",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508513&idx=1&sn=dd3a4d17a389e93b8fd4d7fedf140242&chksm=f9f9969bce8e1f8d3226bb764fe9ddb9a3ba895328306f97ce330cd47bbc503ba5317bf1c719#rd",
+      "image_index": 0,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.18,
+          "max": 584,
+          "min": 0,
+          "weighted": 315.96,
+          "minConfidence": 0.9999889135360718,
+          "raw": [
+            "4.18",
+            "584.00",
+            "0.00",
+            "315.96"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.49,
+          "max": 584,
+          "min": 0,
+          "weighted": 330.8,
+          "minConfidence": 0.9446524977684021,
+          "raw": [
+            "0.49",
+            "584.00",
+            "0.00",
+            "330.80"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.56,
+          "max": 584,
+          "min": 0,
+          "weighted": 155.73,
+          "minConfidence": 0.9999905228614807,
+          "raw": [
+            "0.56",
+            "584.00",
+            "0.00",
+            "155.73"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.34,
+          "max": 573.38,
+          "min": 0,
+          "weighted": 307.03,
+          "minConfidence": 0.9999869465827942,
+          "raw": [
+            "4.34",
+            "573.38",
+            "0.00",
+            "307.03"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.64,
+          "max": 573.38,
+          "min": 0,
+          "weighted": 324.24,
+          "minConfidence": 0.9954385757446289,
+          "raw": [
+            "0.64",
+            "573.38",
+            "0.00",
+            "324.24"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.66,
+          "max": 573.38,
+          "min": 0,
+          "weighted": 183.59,
+          "minConfidence": 0.999988853931427,
+          "raw": [
+            "0.66",
+            "573.38",
+            "0.00",
+            "183.59"
+          ]
+        }
+      },
+      "status": "ok",
+      "ocr_text_count": 80,
+      "overallStatus": "ok"
+    },
+    {
+      "date": "2026-09-17",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508517&idx=1&sn=a26d3b13f8f6e975f2066f2c85b97189&chksm=f9f9969fce8e1f89dcf965c7a47f731e82a91e1349360fb55c9df9ea95bcd785afb8e1e4deeb#rd",
+      "image_index": 0,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.02,
+          "max": 374.0,
+          "min": 0.0,
+          "weighted": 240.7,
+          "minConfidence": 0.9998127818107605,
+          "raw": [
+            "4.02",
+            "374.00",
+            "0.00",
+            "240.70"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.63,
+          "max": 374.0,
+          "min": 0.0,
+          "weighted": 291.96,
+          "minConfidence": 0.99956876039505,
+          "raw": [
+            "0.63",
+            "374.00",
+            "0.00",
+            "291.96"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.82,
+          "max": 374.0,
+          "min": 0.0,
+          "weighted": 69.77,
+          "minConfidence": 0.9996252655982971,
+          "raw": [
+            "0.82",
+            "374.00",
+            "0.00",
+            "69.77"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.05,
+          "max": 450.0,
+          "min": 0.0,
+          "weighted": 251.84,
+          "minConfidence": 0.999152660369873,
+          "raw": [
+            "4.05",
+            "450.00",
+            "0.00",
+            "251.84"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.67,
+          "max": 450.0,
+          "min": 0.0,
+          "weighted": 290.92,
+          "minConfidence": 0.9995577335357666,
+          "raw": [
+            "0.67",
+            "450.00",
+            "0.00",
+            "290.92"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.84,
+          "max": 450.0,
+          "min": 0.0,
+          "weighted": 120.84,
+          "minConfidence": 0.9996252655982971,
+          "raw": [
+            "0.84",
+            "450.00",
+            "0.00",
+            "120.84"
+          ]
+        }
+      },
+      "ocr_text_count": 97,
+      "status": "ok",
+      "overallStatus": "ok"
+    },
+    {
+      "date": "2026-09-18",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508529&idx=1&sn=10f6acc30d7b6f8ef12328fa1970b672&chksm=f9f9968bce8e1f9da0e503178c6fe2af0072c2f2f3dca95c1731663aec88a0f3c00dc1a58286#rd",
+      "image_index": 0,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.22,
+          "max": 347.0,
+          "min": 0.0,
+          "weighted": 264.08,
+          "minConfidence": 0.9996326565742493,
+          "raw": [
+            "4.22",
+            "347.00",
+            "0.00",
+            "264.08"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.94,
+          "max": 347.0,
+          "min": 0.0,
+          "weighted": 280.85,
+          "minConfidence": 0.999703586101532,
+          "raw": [
+            "0.94",
+            "347.00",
+            "0.00",
+            "280.85"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.66,
+          "max": 347.0,
+          "min": 0.0,
+          "weighted": 170.21,
+          "minConfidence": 0.9995906949043274,
+          "raw": [
+            "0.66",
+            "347.00",
+            "0.00",
+            "170.21"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.32,
+          "max": 345.0,
+          "min": 0.0,
+          "weighted": 279.34,
+          "minConfidence": 0.9994916319847107,
+          "raw": [
+            "4.32",
+            "345.00",
+            "0.00",
+            "279.34"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.96,
+          "max": 345.0,
+          "min": 0.0,
+          "weighted": 290.57,
+          "minConfidence": 0.9996564388275146,
+          "raw": [
+            "0.96",
+            "345.00",
+            "0.00",
+            "290.57"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.64,
+          "max": 345.0,
+          "min": 0.0,
+          "weighted": 206.21,
+          "minConfidence": 0.9995341300964355,
+          "raw": [
+            "0.64",
+            "345.00",
+            "0.00",
+            "206.21"
+          ]
+        }
+      },
+      "ocr_text_count": 103,
+      "status": "ok",
+      "overallStatus": "ok"
+    },
+    {
+      "date": "2026-09-19",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508530&idx=1&sn=3ddf38f023d6d282a487e3b1c5d3dd19&chksm=f9f99688ce8e1f9e370856ce622526c424b249ff70867579c1a413aee624e1174e1c0942fd41#rd",
+      "image_index": 0,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 3.97,
+          "max": 370.0,
+          "min": 0.0,
+          "weighted": 261.76,
+          "minConfidence": 0.9997226595878601,
+          "raw": [
+            "3.97",
+            "370.00",
+            "0.00",
+            "261.76"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.47,
+          "max": 370.0,
+          "min": 0.0,
+          "weighted": 256.17,
+          "minConfidence": 0.9995049834251404,
+          "raw": [
+            "0.47",
+            "370.00",
+            "0.00",
+            "256.17"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.57,
+          "max": 370.0,
+          "min": 0.0,
+          "weighted": 93.34,
+          "minConfidence": 0.9997164011001587,
+          "raw": [
+            "0.57",
+            "370.00",
+            "0.00",
+            "93.34"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.23,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 348.45,
+          "minConfidence": 0.9992073774337769,
+          "raw": [
+            "4.23",
+            "1,000.00",
+            "0.00",
+            "348.45"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.49,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 281.73,
+          "minConfidence": 0.9973399043083191,
+          "raw": [
+            "0.49",
+            "1,000.00",
+            "0.00",
+            "281.73"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.63,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 208.0,
+          "minConfidence": 0.9990017414093018,
+          "raw": [
+            "0.63",
+            "1,000.00",
+            "0.00",
+            "208.00"
+          ]
+        }
+      },
+      "ocr_text_count": 100,
+      "status": "ok",
+      "overallStatus": "ok"
+    },
+    {
+      "date": "2026-09-20",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508537&idx=1&sn=0e94b2d4c9b3e69ca0db081912c9897e&chksm=f9f99683ce8e1f9545bfb3aefa44e9d6bbad34d92c43a4fa409faf7f2dc6a1cd2aca55f94526#rd",
+      "image_index": 0,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.9,
+          "max": 600.0,
+          "min": 0.0,
+          "weighted": 384.54,
+          "minConfidence": 0.9996092319488525,
+          "raw": [
+            "4.90",
+            "600.00",
+            "0.00",
+            "384.54"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.16,
+          "max": 600.0,
+          "min": 0.0,
+          "weighted": 385.15,
+          "minConfidence": 0.9397881031036377,
+          "raw": [
+            "0.16",
+            "600.00",
+            "0.00",
+            "385.15"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.4,
+          "max": 600.0,
+          "min": 0.0,
+          "weighted": 367.59,
+          "minConfidence": 0.9995608329772949,
+          "raw": [
+            "0.40",
+            "600.00",
+            "0.00",
+            "367.59"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.72,
+          "max": 593.01,
+          "min": 0.0,
+          "weighted": 376.5,
+          "minConfidence": 0.9997553825378418,
+          "raw": [
+            "4.72",
+            "593.01",
+            "0.00",
+            "376.50"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.23,
+          "max": 593.01,
+          "min": 0.0,
+          "weighted": 375.28,
+          "minConfidence": 0.999718964099884,
+          "raw": [
+            "0.23",
+            "593.01",
+            "0.00",
+            "375.28"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.44,
+          "max": 593.01,
+          "min": 0.0,
+          "weighted": 357.22,
+          "minConfidence": 0.9997187256813049,
+          "raw": [
+            "0.44",
+            "593.01",
+            "0.00",
+            "357.22"
+          ]
+        }
+      },
+      "ocr_text_count": 108,
+      "status": "ok",
+      "overallStatus": "ok"
+    },
+    {
+      "date": "2026-09-21",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508541&idx=1&sn=48dfc452faccaa0fc16abfd7662919ad&chksm=f9f99687ce8e1f9122b4323f93c753cd018d7b4719639f2208ced330de2156e3ec2ea0e071d8#rd",
+      "image_index": 0,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.54,
+          "max": 525.0,
+          "min": 0.0,
+          "weighted": 352.17,
+          "minConfidence": 0.9997450709342957,
+          "raw": [
+            "4.54",
+            "525.00",
+            "0.00",
+            "352.17"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.13,
+          "max": 525.0,
+          "min": 0.0,
+          "weighted": 422.15,
+          "minConfidence": 0.9997498393058777,
+          "raw": [
+            "0.13",
+            "525.00",
+            "0.00",
+            "422.15"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.77,
+          "max": 525.0,
+          "min": 0.0,
+          "weighted": 107.64,
+          "minConfidence": 0.9997334480285645,
+          "raw": [
+            "0.77",
+            "525.00",
+            "0.00",
+            "107.64"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.51,
+          "max": 547.39,
+          "min": 0.0,
+          "weighted": 357.1,
+          "minConfidence": 0.9996239542961121,
+          "raw": [
+            "4.51",
+            "547.39",
+            "0.00",
+            "357.10"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.14,
+          "max": 547.39,
+          "min": 0.0,
+          "weighted": 400.01,
+          "minConfidence": 0.9995810985565186,
+          "raw": [
+            "0.14",
+            "547.39",
+            "0.00",
+            "400.01"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.79,
+          "max": 547.39,
+          "min": 0.0,
+          "weighted": 173.51,
+          "minConfidence": 0.9995920658111572,
+          "raw": [
+            "0.79",
+            "547.39",
+            "0.00",
+            "173.51"
+          ]
+        }
+      },
+      "ocr_text_count": 108,
+      "status": "ok",
+      "overallStatus": "ok"
+    },
+    {
+      "date": "2026-09-22",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508550&idx=1&sn=556e90e414c6942bb93c64e67e1da2c1&chksm=f9f996fcce8e1fea078d0e78ba27c09b876caad77a41daeb8eb189c0d6e30c1aefb9b3a1399b#rd",
+      "image_index": 0,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.29,
+          "max": 570.0,
+          "min": 0.0,
+          "weighted": 290.31,
+          "minConfidence": 0.9998183846473694,
+          "raw": [
+            "4.29",
+            "570.00",
+            "0.00",
+            "290.31"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.35,
+          "max": 570.0,
+          "min": 0.0,
+          "weighted": 320.77,
+          "minConfidence": 0.9998332858085632,
+          "raw": [
+            "0.35",
+            "570.00",
+            "0.00",
+            "320.77"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.74,
+          "max": 570.0,
+          "min": 0.0,
+          "weighted": 61.9,
+          "minConfidence": 0.9997222423553467,
+          "raw": [
+            "0.74",
+            "570.00",
+            "0.00",
+            "61.90"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.29,
+          "max": 590.0,
+          "min": 0.0,
+          "weighted": 280.81,
+          "minConfidence": 0.9997273087501526,
+          "raw": [
+            "4.29",
+            "590.00",
+            "0.00",
+            "280.81"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.35,
+          "max": 590.0,
+          "min": 0.0,
+          "weighted": 308.76,
+          "minConfidence": 0.9996320605278015,
+          "raw": [
+            "0.35",
+            "590.00",
+            "0.00",
+            "308.76"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.83,
+          "max": 590.0,
+          "min": 0.0,
+          "weighted": 76.89,
+          "minConfidence": 0.9998299479484558,
+          "raw": [
+            "0.83",
+            "590.00",
+            "0.00",
+            "76.89"
+          ]
+        }
+      },
+      "ocr_text_count": 110,
+      "status": "ok",
+      "overallStatus": "ok"
+    },
+    {
+      "date": "2026-09-23",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508554&idx=1&sn=68c4c71ff855a6e5404ed3a13ddf0c01&chksm=f9f996f0ce8e1fe69d28b0c59d0fe979784ebbb62c0d036affa113d3e4267c8c18e955a42210#rd",
+      "image_index": 0,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.03,
+          "max": 609.0,
+          "min": 0.0,
+          "weighted": 345.36,
+          "minConfidence": 0.9986242651939392,
+          "raw": [
+            "4.03",
+            "609.00",
+            "0.00",
+            "345.36"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.21,
+          "max": 609.0,
+          "min": 0.0,
+          "weighted": 358.47,
+          "minConfidence": 0.9995177388191223,
+          "raw": [
+            "0.21",
+            "609.00",
+            "0.00",
+            "358.47"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.64,
+          "max": 609.0,
+          "min": 0.0,
+          "weighted": 199.52,
+          "minConfidence": 0.9993939399719238,
+          "raw": [
+            "0.64",
+            "609.00",
+            "0.00",
+            "199.52"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.05,
+          "max": 609.0,
+          "min": 0.0,
+          "weighted": 314.87,
+          "minConfidence": 0.9992878437042236,
+          "raw": [
+            "4.05",
+            "609.00",
+            "0.00",
+            "314.87"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.27,
+          "max": 609.0,
+          "min": 0.0,
+          "weighted": 334.43,
+          "minConfidence": 0.9995336532592773,
+          "raw": [
+            "0.27",
+            "609.00",
+            "0.00",
+            "334.43"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.7,
+          "max": 609.0,
+          "min": 0.0,
+          "weighted": 152.66,
+          "minConfidence": 0.999431312084198,
+          "raw": [
+            "0.70",
+            "609.00",
+            "0.00",
+            "152.66"
+          ]
+        }
+      },
+      "ocr_text_count": 110,
+      "status": "ok",
+      "overallStatus": "ok"
+    },
+    {
+      "date": "2026-09-24",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508564&idx=1&sn=a548db97985ab197d06d8d824a8bbec6&chksm=f9f996eece8e1ff8c96ad51699202a4c93e4a05a081afa950ca677c4309e20b3e8f566118421#rd",
+      "image_index": 0,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.46,
+          "max": 715.72,
+          "min": 85.05,
+          "weighted": 382.51,
+          "minConfidence": 0.9991817474365234,
+          "raw": [
+            "4.46",
+            "715.72",
+            "85.05",
+            "382.51"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.22,
+          "max": 715.72,
+          "min": 0.0,
+          "weighted": 380.48,
+          "minConfidence": 0.9993574619293213,
+          "raw": [
+            "0.22",
+            "715.72",
+            "0.00",
+            "380.48"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.46,
+          "max": 715.72,
+          "min": 0.0,
+          "weighted": 293.62,
+          "minConfidence": 0.9994300007820129,
+          "raw": [
+            "0.46",
+            "715.72",
+            "0.00",
+            "293.62"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.42,
+          "max": 546.01,
+          "min": 0.0,
+          "weighted": 380.77,
+          "minConfidence": 0.9990358948707581,
+          "raw": [
+            "4.42",
+            "546.01",
+            "0.00",
+            "380.77"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.22,
+          "max": 546.01,
+          "min": 0.0,
+          "weighted": 380.87,
+          "minConfidence": 0.9995771050453186,
+          "raw": [
+            "0.22",
+            "546.01",
+            "0.00",
+            "380.87"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.5,
+          "max": 546.01,
+          "min": 0.0,
+          "weighted": 321.83,
+          "minConfidence": 0.9996444582939148,
+          "raw": [
+            "0.50",
+            "546.01",
+            "0.00",
+            "321.83"
+          ]
+        }
+      },
+      "ocr_text_count": 110,
+      "status": "ok",
+      "overallStatus": "ok"
+    },
+    {
+      "date": "2026-09-25",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508566&idx=1&sn=7e063adcb368edb5181b478d811698cf&chksm=f9f996ecce8e1ffa7c3d57537e347dece966fd825a5db3efa295ffa4989d51ac5af67c989776#rd",
+      "image_index": 0,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 3.94,
+          "max": 696.17,
+          "min": 0.0,
+          "weighted": 339.24,
+          "minConfidence": 0.9993226528167725,
+          "raw": [
+            "3.94",
+            "696.17",
+            "0.00",
+            "339.24"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.26,
+          "max": 696.17,
+          "min": 0.0,
+          "weighted": 345.62,
+          "minConfidence": 0.9994689226150513,
+          "raw": [
+            "0.26",
+            "696.17",
+            "0.00",
+            "345.62"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.58,
+          "max": 696.17,
+          "min": 0.0,
+          "weighted": 205.05,
+          "minConfidence": 0.9994718432426453,
+          "raw": [
+            "0.58",
+            "696.17",
+            "0.00",
+            "205.05"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 3.61,
+          "max": 593.86,
+          "min": 0.0,
+          "weighted": 294.75,
+          "minConfidence": 0.9992431998252869,
+          "raw": [
+            "3.61",
+            "593.86",
+            "0.00",
+            "294.75"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.35,
+          "max": 593.86,
+          "min": 0.0,
+          "weighted": 276.19,
+          "minConfidence": 0.9994140267372131,
+          "raw": [
+            "0.35",
+            "593.86",
+            "0.00",
+            "276.19"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.61,
+          "max": 593.86,
+          "min": 0.0,
+          "weighted": 179.73,
+          "minConfidence": 0.9993166327476501,
+          "raw": [
+            "0.61",
+            "593.86",
+            "0.00",
+            "179.73"
+          ]
+        }
+      },
+      "ocr_text_count": 107,
+      "status": "ok",
+      "overallStatus": "ok"
+    },
+    {
+      "date": "2026-09-26",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508569&idx=1&sn=2794c931a4264aa1dc6230a724fd5f72&chksm=f9f996e3ce8e1ff5fafa8c5132ea715d2cda0b8e0fe438d6ec0e3df2602ec3b1e7456fbe9fe8#rd",
+      "image_index": 0,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 3.56,
+          "max": 381.0,
+          "min": 0.0,
+          "weighted": 248.11,
+          "minConfidence": 0.9995349049568176,
+          "raw": [
+            "3.56",
+            "381.00",
+            "0.00",
+            "248.11"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.29,
+          "max": 381.0,
+          "min": 0.0,
+          "weighted": 267.59,
+          "minConfidence": 0.9992919564247131,
+          "raw": [
+            "0.29",
+            "381.00",
+            "0.00",
+            "267.59"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.68,
+          "max": 381.0,
+          "min": 0.0,
+          "weighted": 56.84,
+          "minConfidence": 0.9990860819816589,
+          "raw": [
+            "0.68",
+            "381.00",
+            "0.00",
+            "56.84"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 3.54,
+          "max": 462.92,
+          "min": 0.0,
+          "weighted": 252.84,
+          "minConfidence": 0.99922776222229,
+          "raw": [
+            "3.54",
+            "462.92",
+            "0.00",
+            "252.84"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.34,
+          "max": 462.92,
+          "min": 0.0,
+          "weighted": 272.8,
+          "minConfidence": 0.9991464614868164,
+          "raw": [
+            "0.34",
+            "462.92",
+            "0.00",
+            "272.80"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.7,
+          "max": 462.92,
+          "min": 0.0,
+          "weighted": 94.67,
+          "minConfidence": 0.9994510412216187,
+          "raw": [
+            "0.70",
+            "462.92",
+            "0.00",
+            "94.67"
+          ]
+        }
+      },
+      "ocr_text_count": 106,
+      "status": "ok",
+      "overallStatus": "ok"
+    },
+    {
+      "date": "2026-09-27",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508576&idx=1&sn=048c3ef9426e2d3a2a06c80d4abb57fc&chksm=f9f996dace8e1fcc7762d93d0af85cfea86cc5892af545160898c00fa2f9452cf4560146f800#rd",
+      "image_index": 0,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 3.81,
+          "max": 709.99,
+          "min": 0.0,
+          "weighted": 343.2,
+          "minConfidence": 0.9991502165794373,
+          "raw": [
+            "3.81",
+            "709.99",
+            "0.00",
+            "343.20"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.19,
+          "max": 709.99,
+          "min": 0.0,
+          "weighted": 331.07,
+          "minConfidence": 0.9995087385177612,
+          "raw": [
+            "0.19",
+            "709.99",
+            "0.00",
+            "331.07"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.46,
+          "max": 709.99,
+          "min": 0.0,
+          "weighted": 252.28,
+          "minConfidence": 0.999091625213623,
+          "raw": [
+            "0.46",
+            "709.99",
+            "0.00",
+            "252.28"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 3.93,
+          "max": 607.92,
+          "min": 0.0,
+          "weighted": 357.4,
+          "minConfidence": 0.9992263913154602,
+          "raw": [
+            "3.93",
+            "607.92",
+            "0.00",
+            "357.40"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.2,
+          "max": 607.92,
+          "min": 0.0,
+          "weighted": 352.92,
+          "minConfidence": 0.9995400905609131,
+          "raw": [
+            "0.20",
+            "607.92",
+            "0.00",
+            "352.92"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.47,
+          "max": 607.92,
+          "min": 0.0,
+          "weighted": 326.86,
+          "minConfidence": 0.9992055892944336,
+          "raw": [
+            "0.47",
+            "607.92",
+            "0.00",
+            "326.86"
+          ]
+        }
+      },
+      "ocr_text_count": 108,
+      "status": "ok",
+      "overallStatus": "ok"
+    },
+    {
+      "date": "2026-09-28",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508599&idx=1&sn=5fd9e09076220f514bfc7bba1eac1d7f&chksm=f9f996cdce8e1fdbaa1ea3873b83d70b0d116813b20810c007de8a735ef596d71f237797bb3a#rd",
+      "image_index": 0,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.12,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 355.57,
+          "minConfidence": 0.9949167966842651,
+          "raw": [
+            "4.12",
+            "1,000.00",
+            "0.00",
+            "355.57"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.35,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 264.81,
+          "minConfidence": 0.9955806732177734,
+          "raw": [
+            "0.35",
+            "1,000.00",
+            "0.00",
+            "264.81"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.37,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 301.75,
+          "minConfidence": 0.9923677444458008,
+          "raw": [
+            "0.37",
+            "1,000.00",
+            "0.00",
+            "301.75"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 3.9,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 337.42,
+          "minConfidence": 0.9948491454124451,
+          "raw": [
+            "3.90",
+            "1,000.00",
+            "0.00",
+            "337.42"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.35,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 279.54,
+          "minConfidence": 0.993304967880249,
+          "raw": [
+            "0.35",
+            "1,000.00",
+            "0.00",
+            "279.54"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.48,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 247.78,
+          "minConfidence": 0.9945483803749084,
+          "raw": [
+            "0.48",
+            "1,000.00",
+            "0.00",
+            "247.78"
+          ]
+        }
+      },
+      "ocr_text_count": 110,
+      "status": "ok",
+      "overallStatus": "ok"
+    },
+    {
+      "date": "2026-09-29",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508603&idx=1&sn=75f6cd72edb46cc3b3e8923bb2ba56a7&chksm=f9f996c1ce8e1fd705f8c8bb22ead6fb0cc605c3bd34e55205cf70509a57082e8710ec8481c3#rd",
+      "image_index": 0,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.2,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 423.85,
+          "minConfidence": 0.992254376411438,
+          "raw": [
+            "4.20",
+            "1,000.00",
+            "0.00",
+            "423.85"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.39,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 475.07,
+          "minConfidence": 0.9920151233673096,
+          "raw": [
+            "0.39",
+            "1,000.00",
+            "0.00",
+            "475.07"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.77,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 87.74,
+          "minConfidence": 0.993660569190979,
+          "raw": [
+            "0.77",
+            "1,000.00",
+            "0.00",
+            "87.74"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.23,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 413.19,
+          "minConfidence": 0.9964765310287476,
+          "raw": [
+            "4.23",
+            "1,000.00",
+            "0.00",
+            "413.19"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.38,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 390.68,
+          "minConfidence": 0.9908274412155151,
+          "raw": [
+            "0.38",
+            "1,000.00",
+            "0.00",
+            "390.68"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.75,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 128.54,
+          "minConfidence": 0.9928262233734131,
+          "raw": [
+            "0.75",
+            "1,000.00",
+            "0.00",
+            "128.54"
+          ]
+        }
+      },
+      "ocr_text_count": 112,
+      "status": "ok",
+      "overallStatus": "ok"
+    },
+    {
+      "date": "2026-09-30",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508613&idx=1&sn=4e0af98dd8e12817a99c5deca5ccd1f6&chksm=f9f9963fce8e1f29c5c13fa7546b517fa8c0595885263a52f2fa9bb763ab3d5f545df75a24cd#rd",
+      "image_index": 0,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 3.6,
+          "max": 670.41,
+          "min": 0.0,
+          "weighted": 234.0,
+          "minConfidence": 0.999365508556366,
+          "raw": [
+            "3.60",
+            "670.41",
+            "0.00",
+            "234.00"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.61,
+          "max": 670.41,
+          "min": 0.0,
+          "weighted": 156.62,
+          "minConfidence": 0.9995400905609131,
+          "raw": [
+            "0.61",
+            "670.41",
+            "0.00",
+            "156.62"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.51,
+          "max": 670.41,
+          "min": 0.0,
+          "weighted": 170.43,
+          "minConfidence": 0.9994396567344666,
+          "raw": [
+            "0.51",
+            "670.41",
+            "0.00",
+            "170.43"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 3.72,
+          "max": 452.96,
+          "min": 0.0,
+          "weighted": 287.99,
+          "minConfidence": 0.998863935470581,
+          "raw": [
+            "3.72",
+            "452.96",
+            "0.00",
+            "287.99"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.63,
+          "max": 452.96,
+          "min": 0.0,
+          "weighted": 197.49,
+          "minConfidence": 0.9632353186607361,
+          "raw": [
+            "0.63",
+            "452.96",
+            "0.00",
+            "197.49"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.4,
+          "max": 452.96,
+          "min": 0.0,
+          "weighted": 305.43,
+          "minConfidence": 0.9986947178840637,
+          "raw": [
+            "0.40",
+            "452.96",
+            "0.00",
+            "305.43"
+          ]
+        }
+      },
+      "ocr_text_count": 108,
+      "status": "ok",
+      "overallStatus": "ok"
+    },
+    {
+      "date": "2026-10-01",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508615&idx=1&sn=df48ec792dd57c9cc82b8673b5ee4c23&chksm=f9f9963dce8e1f2bb6a6d438c8bf3cb4b86f004c068cb697e55de995a7402a860d002e5fee3c#rd",
+      "image_index": 0,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 3.63,
+          "max": 950.0,
+          "min": 0.0,
+          "weighted": 321.07,
+          "minConfidence": 0.9991264939308167,
+          "raw": [
+            "3.63",
+            "950.00",
+            "0.00",
+            "321.07"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.35,
+          "max": 950.0,
+          "min": 0.0,
+          "weighted": 344.41,
+          "minConfidence": 0.9992628693580627,
+          "raw": [
+            "0.35",
+            "950.00",
+            "0.00",
+            "344.41"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.66,
+          "max": 950.0,
+          "min": 0.0,
+          "weighted": 52.22,
+          "minConfidence": 0.9992696046829224,
+          "raw": [
+            "0.66",
+            "950.00",
+            "0.00",
+            "52.22"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 3.68,
+          "max": 601.0,
+          "min": 0.0,
+          "weighted": 305.73,
+          "minConfidence": 0.9994361400604248,
+          "raw": [
+            "3.68",
+            "601.00",
+            "0.00",
+            "305.73"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.35,
+          "max": 601.0,
+          "min": 0.0,
+          "weighted": 308.87,
+          "minConfidence": 0.9992335438728333,
+          "raw": [
+            "0.35",
+            "601.00",
+            "0.00",
+            "308.87"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.75,
+          "max": 601.0,
+          "min": 0.0,
+          "weighted": 40.2,
+          "minConfidence": 0.999317467212677,
+          "raw": [
+            "0.75",
+            "601.00",
+            "0.00",
+            "40.20"
+          ]
+        }
+      },
+      "ocr_text_count": 108,
+      "status": "ok",
+      "overallStatus": "ok"
+    },
+    {
+      "date": "2026-10-02",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508617&idx=1&sn=e42b8893432963c4bf5778da2aed08ff&chksm=f9f99633ce8e1f25351b8b008ef03d743744b29d50e0766298da774bb0ed7461f9ae950d246b#rd",
+      "image_index": 0,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 3.46,
+          "max": 522.0,
+          "min": 0.0,
+          "weighted": 219.02,
+          "minConfidence": 0.9992421269416809,
+          "raw": [
+            "3.46",
+            "522.00",
+            "0.00",
+            "219.02"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 1.08,
+          "max": 522.0,
+          "min": 0.0,
+          "weighted": 239.28,
+          "minConfidence": 0.9990089535713196,
+          "raw": [
+            "1.08",
+            "522.00",
+            "0.00",
+            "239.28"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.5,
+          "max": 522.0,
+          "min": 0.0,
+          "weighted": 10.96,
+          "minConfidence": 0.9994127750396729,
+          "raw": [
+            "0.50",
+            "522.00",
+            "0.00",
+            "10.96"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 3.42,
+          "max": 528.0,
+          "min": 0.0,
+          "weighted": 227.48,
+          "minConfidence": 0.9983491897583008,
+          "raw": [
+            "3.42",
+            "528.00",
+            "0.00",
+            "227.48"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 1.04,
+          "max": 528.0,
+          "min": 0.0,
+          "weighted": 250.75,
+          "minConfidence": 0.9990071654319763,
+          "raw": [
+            "1.04",
+            "528.00",
+            "0.00",
+            "250.75"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.48,
+          "max": 528.0,
+          "min": 0.0,
+          "weighted": 37.86,
+          "minConfidence": 0.9987339973449707,
+          "raw": [
+            "0.48",
+            "528.00",
+            "0.00",
+            "37.86"
+          ]
+        }
+      },
+      "ocr_text_count": 107,
+      "status": "ok",
+      "overallStatus": "ok"
+    },
+    {
+      "date": "2026-10-03",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508619&idx=1&sn=7e9957ee3fb76ea34704386cfd2d611d&chksm=f9f99631ce8e1f273a863a33c357c08d707aa25b97490b7419c862a083786f74fe5571f897c0#rd",
+      "image_index": 0,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 3.59,
+          "max": 525.0,
+          "min": 0.0,
+          "weighted": 264.94,
+          "minConfidence": 0.9991380572319031,
+          "raw": [
+            "3.59",
+            "525.00",
+            "0.00",
+            "264.94"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 1.03,
+          "max": 525.0,
+          "min": 0.0,
+          "weighted": 287.81,
+          "minConfidence": 0.9993178844451904,
+          "raw": [
+            "1.03",
+            "525.00",
+            "0.00",
+            "287.81"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.58,
+          "max": 525.0,
+          "min": 0.0,
+          "weighted": 13.56,
+          "minConfidence": 0.9993097186088562,
+          "raw": [
+            "0.58",
+            "525.00",
+            "0.00",
+            "13.56"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 3.62,
+          "max": 650.46,
+          "min": 0.0,
+          "weighted": 288.85,
+          "minConfidence": 0.9985541701316833,
+          "raw": [
+            "3.62",
+            "650.46",
+            "0.00",
+            "288.85"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.99,
+          "max": 650.46,
+          "min": 0.0,
+          "weighted": 310.32,
+          "minConfidence": 0.9988612532615662,
+          "raw": [
+            "0.99",
+            "650.46",
+            "0.00",
+            "310.32"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.58,
+          "max": 650.46,
+          "min": 0.0,
+          "weighted": 49.74,
+          "minConfidence": 0.999315083026886,
+          "raw": [
+            "0.58",
+            "650.46",
+            "0.00",
+            "49.74"
+          ]
+        }
+      },
+      "ocr_text_count": 107,
+      "status": "ok",
+      "overallStatus": "ok"
+    },
+    {
+      "date": "2026-10-04",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508622&idx=1&sn=852c4a2b0f5158ea949dc1dec7c59c33&chksm=f9f99634ce8e1f22751acc7c784a535750b02e6ce45d47791a385ed14025f13a1cb2b9a83582#rd",
+      "image_index": 0,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 3.59,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 343.6,
+          "minConfidence": 0.9985052943229675,
+          "raw": [
+            "3.59",
+            "1,000.00",
+            "0.00",
+            "343.60"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.4,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 323.21,
+          "minConfidence": 0.9924550652503967,
+          "raw": [
+            "0.40",
+            "1,000.00",
+            "0.00",
+            "323.21"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.61,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 44.44,
+          "minConfidence": 0.9964678883552551,
+          "raw": [
+            "0.61",
+            "1,000.00",
+            "0.00",
+            "44.44"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 3.72,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 327.15,
+          "minConfidence": 0.9972699880599976,
+          "raw": [
+            "3.72",
+            "1,000.00",
+            "0.00",
+            "327.15"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.38,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 318.93,
+          "minConfidence": 0.9895707964897156,
+          "raw": [
+            "0.38",
+            "1,000.00",
+            "0.00",
+            "318.93"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.72,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 40.98,
+          "minConfidence": 0.991868793964386,
+          "raw": [
+            "0.72",
+            "1,000.00",
+            "0.00",
+            "40.98"
+          ]
+        }
+      },
+      "ocr_text_count": 109,
+      "status": "ok",
+      "overallStatus": "ok"
+    },
+    {
+      "date": "2026-10-05",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508624&idx=1&sn=b811b75017b66095c31bd1a899af9db0&chksm=f9f9962ace8e1f3c151c82d8c78f227218b9c700bb27bb53a69166786234fd4ca8fee30884e6#rd",
+      "image_index": 0,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 3.73,
+          "max": 503.0,
+          "min": 0.0,
+          "weighted": 323.57,
+          "minConfidence": 0.9991235733032227,
+          "raw": [
+            "3.73",
+            "503.00",
+            "0.00",
+            "323.57"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.2,
+          "max": 503.0,
+          "min": 0.0,
+          "weighted": 251.32,
+          "minConfidence": 0.9992894530296326,
+          "raw": [
+            "0.20",
+            "503.00",
+            "0.00",
+            "251.32"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.51,
+          "max": 503.0,
+          "min": 0.0,
+          "weighted": 37.89,
+          "minConfidence": 0.9981757402420044,
+          "raw": [
+            "0.51",
+            "503.00",
+            "0.00",
+            "37.89"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 3.81,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 366.9,
+          "minConfidence": 0.9957412481307983,
+          "raw": [
+            "3.81",
+            "1,000.00",
+            "0.00",
+            "366.90"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.26,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 280.7,
+          "minConfidence": 0.9911884069442749,
+          "raw": [
+            "0.26",
+            "1,000.00",
+            "0.00",
+            "280.70"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.58,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 31.64,
+          "minConfidence": 0.9927375316619873,
+          "raw": [
+            "0.58",
+            "1,000.00",
+            "0.00",
+            "31.64"
+          ]
+        }
+      },
+      "ocr_text_count": 110,
+      "status": "ok",
+      "overallStatus": "ok"
+    },
+    {
+      "date": "2026-10-06",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508627&idx=1&sn=3095ebbe84ae9eec91dc4742511341e8&chksm=f9f99629ce8e1f3fb517e638ebf2ccd7913b9cb01fff6279bdd9bd0dba3a25490cd9b81d2359#rd",
+      "image_index": 0,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 3.8,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 334.43,
+          "minConfidence": 0.9967029690742493,
+          "raw": [
+            "3.80",
+            "1,000.00",
+            "0.00",
+            "334.43"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.34,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 368.93,
+          "minConfidence": 0.9952584505081177,
+          "raw": [
+            "0.34",
+            "1,000.00",
+            "0.00",
+            "368.93"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.52,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 49.68,
+          "minConfidence": 0.994135856628418,
+          "raw": [
+            "0.52",
+            "1,000.00",
+            "0.00",
+            "49.68"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 3.9,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 344.9,
+          "minConfidence": 0.99638831615448,
+          "raw": [
+            "3.90",
+            "1,000.00",
+            "0.00",
+            "344.90"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.3,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 375.03,
+          "minConfidence": 0.9897791743278503,
+          "raw": [
+            "0.30",
+            "1,000.00",
+            "0.00",
+            "375.03"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.64,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 70.35,
+          "minConfidence": 0.9936818480491638,
+          "raw": [
+            "0.64",
+            "1,000.00",
+            "0.00",
+            "70.35"
+          ]
+        }
+      },
+      "ocr_text_count": 109,
+      "status": "ok",
+      "overallStatus": "ok"
+    },
+    {
+      "date": "2026-10-07",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508631&idx=1&sn=032fba014f7dfad58eca6e2074826950&chksm=f9f9962dce8e1f3b0d8643af17ce96e8361fc13e3d20efe45b64801c992ac73128c794b125cc#rd",
+      "image_index": 0,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 3.69,
+          "max": 394.0,
+          "min": 0.0,
+          "weighted": 103.89,
+          "minConfidence": 0.9993588328361511,
+          "raw": [
+            "3.69",
+            "394.00",
+            "0.00",
+            "103.89"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 1.07,
+          "max": 394.0,
+          "min": 0.0,
+          "weighted": 112.91,
+          "minConfidence": 0.9993950724601746,
+          "raw": [
+            "1.07",
+            "394.00",
+            "0.00",
+            "112.91"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.47,
+          "max": 394.0,
+          "min": 0.0,
+          "weighted": 3.88,
+          "minConfidence": 0.9993105530738831,
+          "raw": [
+            "0.47",
+            "394.00",
+            "0.00",
+            "3.88"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 3.65,
+          "max": 414.0,
+          "min": 0.0,
+          "weighted": 101.25,
+          "minConfidence": 0.9993225932121277,
+          "raw": [
+            "3.65",
+            "414.00",
+            "0.00",
+            "101.25"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.99,
+          "max": 414.0,
+          "min": 0.0,
+          "weighted": 107.9,
+          "minConfidence": 0.9990274310112,
+          "raw": [
+            "0.99",
+            "414.00",
+            "0.00",
+            "107.90"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.51,
+          "max": 414.0,
+          "min": 0.0,
+          "weighted": 13.44,
+          "minConfidence": 0.9992956519126892,
+          "raw": [
+            "0.51",
+            "414.00",
+            "0.00",
+            "13.44"
+          ]
+        }
+      },
+      "ocr_text_count": 106,
+      "status": "ok",
+      "overallStatus": "ok"
+    },
+    {
+      "date": "2026-10-08",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508636&idx=1&sn=9c85d4132b04d6fb7e8be60ab35b7b4e&chksm=f9f99626ce8e1f30bd7c81c364d3667e2a01025dd62e18b0670396857e67081c4504156b800c#rd",
+      "image_index": 0,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 3.89,
+          "max": 660.92,
+          "min": 0.0,
+          "weighted": 297.38,
+          "minConfidence": 0.9981082081794739,
+          "raw": [
+            "3.89",
+            "660.92",
+            "0.00",
+            "297.38"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.75,
+          "max": 660.92,
+          "min": 0.0,
+          "weighted": 334.55,
+          "minConfidence": 0.9980950355529785,
+          "raw": [
+            "0.75",
+            "660.92",
+            "0.00",
+            "334.55"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.68,
+          "max": 660.92,
+          "min": 0.0,
+          "weighted": 46.14,
+          "minConfidence": 0.999640941619873,
+          "raw": [
+            "0.68",
+            "660.92",
+            "0.00",
+            "46.14"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.0,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 344.64,
+          "minConfidence": 0.9972859621047974,
+          "raw": [
+            "4.00",
+            "1,000.00",
+            "0.00",
+            "344.64"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.67,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 345.96,
+          "minConfidence": 0.9412325620651245,
+          "raw": [
+            "0.67",
+            "1,000.00",
+            "0.00",
+            "345.96"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.77,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 94.06,
+          "minConfidence": 0.9888352155685425,
+          "raw": [
+            "0.77",
+            "1,000.00",
+            "0.00",
+            "94.06"
+          ]
+        }
+      },
+      "ocr_text_count": 111,
+      "status": "ok",
+      "overallStatus": "ok"
+    },
+    {
+      "date": "2026-10-09",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508640&idx=1&sn=f81b3779c9306262d4da780fcd642bb0&chksm=f9f9961ace8e1f0c35aefebc6a85274d8451d3d6e13b31c6ee4f93cfd3f05efce99af64c3453#rd",
+      "image_index": 0,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.03,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 264.25,
+          "minConfidence": 0.9983391761779785,
+          "raw": [
+            "4.03",
+            "1,000.00",
+            "0.00",
+            "264.25"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.62,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 257.61,
+          "minConfidence": 0.9932030439376831,
+          "raw": [
+            "0.62",
+            "1,000.00",
+            "0.00",
+            "257.61"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.62,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 36.14,
+          "minConfidence": 0.9946520328521729,
+          "raw": [
+            "0.62",
+            "1,000.00",
+            "0.00",
+            "36.14"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.12,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 278.37,
+          "minConfidence": 0.9969848394393921,
+          "raw": [
+            "4.12",
+            "1,000.00",
+            "0.00",
+            "278.37"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.64,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 295.96,
+          "minConfidence": 0.992954432964325,
+          "raw": [
+            "0.64",
+            "1,000.00",
+            "0.00",
+            "295.96"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.7,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 53.87,
+          "minConfidence": 0.994259238243103,
+          "raw": [
+            "0.70",
+            "1,000.00",
+            "0.00",
+            "53.87"
+          ]
+        }
+      },
+      "ocr_text_count": 110,
+      "status": "ok",
+      "overallStatus": "ok"
+    },
+    {
+      "date": "2026-10-10",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508642&idx=1&sn=aca07c9f1d08c1ea525a7fc79967e537&chksm=f9f99618ce8e1f0e3fcfc5a26a05349445526347b52952961eaa3af6cdd271a6bae28a9de71f#rd",
+      "image_index": 0,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.1,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 378.83,
+          "minConfidence": 0.9988150596618652,
+          "raw": [
+            "4.10",
+            "1,000.00",
+            "0.00",
+            "378.83"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.22,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 429.61,
+          "minConfidence": 0.9954033493995667,
+          "raw": [
+            "0.22",
+            "1,000.00",
+            "0.00",
+            "429.61"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.69,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 73.0,
+          "minConfidence": 0.9956554770469666,
+          "raw": [
+            "0.69",
+            "1,000.00",
+            "0.00",
+            "73.00"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.42,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 387.17,
+          "minConfidence": 0.9973018169403076,
+          "raw": [
+            "4.42",
+            "1,000.00",
+            "0.00",
+            "387.17"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.21,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 427.29,
+          "minConfidence": 0.9959782361984253,
+          "raw": [
+            "0.21",
+            "1,000.00",
+            "0.00",
+            "427.29"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.84,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 109.03,
+          "minConfidence": 0.9920364618301392,
+          "raw": [
+            "0.84",
+            "1,000.00",
+            "0.00",
+            "109.03"
+          ]
+        }
+      },
+      "ocr_text_count": 110,
+      "status": "ok",
+      "overallStatus": "ok"
+    },
+    {
+      "date": "2026-10-11",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508646&idx=1&sn=800d8c300852350b0b8586ebf97890c2&chksm=f9f9961cce8e1f0a7fd0b2d507b67b485bb91357a38309337fa80cacd8d741d1d82a38e6d3a2#rd",
+      "image_index": 0,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.19,
+          "max": 368.0,
+          "min": 0.0,
+          "weighted": 294.24,
+          "minConfidence": 0.9981294274330139,
+          "raw": [
+            "4.19",
+            "368.00",
+            "0.00",
+            "294.24"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.35,
+          "max": 368.0,
+          "min": 0.0,
+          "weighted": 316.24,
+          "minConfidence": 0.9995867013931274,
+          "raw": [
+            "0.35",
+            "368.00",
+            "0.00",
+            "316.24"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.51,
+          "max": 368.0,
+          "min": 0.0,
+          "weighted": 157.83,
+          "minConfidence": 0.9989261031150818,
+          "raw": [
+            "0.51",
+            "368.00",
+            "0.00",
+            "157.83"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.32,
+          "max": 400.0,
+          "min": 0.0,
+          "weighted": 313.15,
+          "minConfidence": 0.9989290833473206,
+          "raw": [
+            "4.32",
+            "400.00",
+            "0.00",
+            "313.15"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.4,
+          "max": 400.0,
+          "min": 0.0,
+          "weighted": 328.73,
+          "minConfidence": 0.9994356036186218,
+          "raw": [
+            "0.40",
+            "400.00",
+            "0.00",
+            "328.73"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.54,
+          "max": 400.0,
+          "min": 0.0,
+          "weighted": 199.84,
+          "minConfidence": 0.9990997314453125,
+          "raw": [
+            "0.54",
+            "400.00",
+            "0.00",
+            "199.84"
+          ]
+        }
+      },
+      "ocr_text_count": 107,
+      "status": "ok",
+      "overallStatus": "ok"
+    },
+    {
+      "date": "2026-10-12",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508650&idx=1&sn=55d0d257aeb49e61ff1b64390e6a825d&chksm=f9f99610ce8e1f06d879e304b10fb6f34d150920e0cd23a7e8c4979a7683e83f8a2834b53db1#rd",
+      "image_index": 0,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.42,
+          "max": 589.37,
+          "min": 0.0,
+          "weighted": 320.5,
+          "minConfidence": 0.998690128326416,
+          "raw": [
+            "4.42",
+            "589.37",
+            "0.00",
+            "320.50"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.37,
+          "max": 589.37,
+          "min": 0.0,
+          "weighted": 306.19,
+          "minConfidence": 0.9993360042572021,
+          "raw": [
+            "0.37",
+            "589.37",
+            "0.00",
+            "306.19"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.51,
+          "max": 589.37,
+          "min": 0.0,
+          "weighted": 119.12,
+          "minConfidence": 0.9992384314537048,
+          "raw": [
+            "0.51",
+            "589.37",
+            "0.00",
+            "119.12"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.49,
+          "max": 800.0,
+          "min": 0.0,
+          "weighted": 348.2,
+          "minConfidence": 0.9989811778068542,
+          "raw": [
+            "4.49",
+            "800.00",
+            "0.00",
+            "348.20"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.44,
+          "max": 800.0,
+          "min": 0.0,
+          "weighted": 330.96,
+          "minConfidence": 0.999548614025116,
+          "raw": [
+            "0.44",
+            "800.00",
+            "0.00",
+            "330.96"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.51,
+          "max": 800.0,
+          "min": 0.0,
+          "weighted": 167.34,
+          "minConfidence": 0.9991746544837952,
+          "raw": [
+            "0.51",
+            "800.00",
+            "0.00",
+            "167.34"
+          ]
+        }
+      },
+      "ocr_text_count": 109,
+      "status": "ok",
+      "overallStatus": "ok"
+    },
+    {
+      "date": "2026-10-13",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508676&idx=1&sn=490840b976f759ed4f8535e5a4f1a56b&chksm=f9f9967ece8e1f680269fad289a8c3d43e5faded07e2f3628b5cab82d7e137ad7fbf37f74a71#rd",
+      "image_index": 0,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.19,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 300.46,
+          "minConfidence": 0.9989108443260193,
+          "raw": [
+            "4.19",
+            "1,000.00",
+            "0.00",
+            "300.46"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.21,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 337.91,
+          "minConfidence": 0.9959455728530884,
+          "raw": [
+            "0.21",
+            "1,000.00",
+            "0.00",
+            "337.91"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.62,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 54.67,
+          "minConfidence": 0.9949208498001099,
+          "raw": [
+            "0.62",
+            "1,000.00",
+            "0.00",
+            "54.67"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.27,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 314.29,
+          "minConfidence": 0.997627854347229,
+          "raw": [
+            "4.27",
+            "1,000.00",
+            "0.00",
+            "314.29"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.23,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 309.68,
+          "minConfidence": 0.9944726824760437,
+          "raw": [
+            "0.23",
+            "1,000.00",
+            "0.00",
+            "309.68"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.7,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 46.57,
+          "minConfidence": 0.9954127073287964,
+          "raw": [
+            "0.70",
+            "1,000.00",
+            "0.00",
+            "46.57"
+          ]
+        }
+      },
+      "ocr_text_count": 110,
+      "status": "ok",
+      "overallStatus": "ok"
+    },
+    {
+      "date": "2026-10-14",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508703&idx=1&sn=af16c9d8dfcfc88878e7bd865d219ae7&chksm=f9f99665ce8e1f738762a1965bd1e34e2bc1f580ec4739c306554db1ab07e24416631e12fef7#rd",
+      "image_index": 0,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.18,
+          "max": 548.0,
+          "min": 0.0,
+          "weighted": 248.48,
+          "minConfidence": 0.9991929531097412,
+          "raw": [
+            "4.18",
+            "548.00",
+            "0.00",
+            "248.48"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.67,
+          "max": 548.0,
+          "min": 0.0,
+          "weighted": 242.92,
+          "minConfidence": 0.9994307160377502,
+          "raw": [
+            "0.67",
+            "548.00",
+            "0.00",
+            "242.92"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.68,
+          "max": 548.0,
+          "min": 0.0,
+          "weighted": 56.19,
+          "minConfidence": 0.9993060231208801,
+          "raw": [
+            "0.68",
+            "548.00",
+            "0.00",
+            "56.19"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.12,
+          "max": 558.0,
+          "min": 0.0,
+          "weighted": 218.14,
+          "minConfidence": 0.9993087649345398,
+          "raw": [
+            "4.12",
+            "558.00",
+            "0.00",
+            "218.14"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.65,
+          "max": 558.0,
+          "min": 0.0,
+          "weighted": 200.01,
+          "minConfidence": 0.9989965558052063,
+          "raw": [
+            "0.65",
+            "558.00",
+            "0.00",
+            "200.01"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.7,
+          "max": 558.0,
+          "min": 0.0,
+          "weighted": 33.33,
+          "minConfidence": 0.999121367931366,
+          "raw": [
+            "0.70",
+            "558.00",
+            "0.00",
+            "33.33"
+          ]
+        }
+      },
+      "ocr_text_count": 108,
+      "status": "ok",
+      "overallStatus": "ok"
+    },
+    {
+      "date": "2026-10-15",
+      "image_index": 0,
+      "ocr_text_count": 111,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.57,
+          "max": 628.64,
+          "min": 0.0,
+          "weighted": 350.88,
+          "minConfidence": 0.9988080859184265,
+          "raw": [
+            "4.57",
+            "628.64",
+            "0.00",
+            "350.88"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.22,
+          "max": 628.64,
+          "min": 0.0,
+          "weighted": 391.52,
+          "minConfidence": 0.9993606209754944,
+          "raw": [
+            "0.22",
+            "628.64",
+            "0.00",
+            "391.52"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.73,
+          "max": 628.64,
+          "min": 0.0,
+          "weighted": 135.17,
+          "minConfidence": 0.9994689226150513,
+          "raw": [
+            "0.73",
+            "628.64",
+            "0.00",
+            "135.17"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 4.61,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 388.98,
+          "minConfidence": 0.9948059320449829,
+          "raw": [
+            "4.61",
+            "1,000.00",
+            "0.00",
+            "388.98"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.21,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 419.75,
+          "minConfidence": 0.9949426054954529,
+          "raw": [
+            "0.21",
+            "1,000.00",
+            "0.00",
+            "419.75"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.78,
+          "max": 1000.0,
+          "min": 0.0,
+          "weighted": 135.73,
+          "minConfidence": 0.9941396117210388,
+          "raw": [
+            "0.78",
+            "1,000.00",
+            "0.00",
+            "135.73"
+          ]
+        }
+      },
+      "status": "ok",
+      "overallStatus": "ok",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508709&idx=1&sn=829a2d9bfdc7017e7f73a9b6c0a57c87&chksm=f9f9965fce8e1f49ba723845b29100fd7a041dcc7b1af10ae186f733f66239b080e36dd95295#rd#rd"
     }
   ]
 }
