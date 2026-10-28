@@ -1,5 +1,5 @@
 {
-  "extractedAt": "2026-10-16T13:44:06.789038Z",
+  "extractedAt": "2026-10-28T14:16:22.777699Z",
   "sourcePage": "https://snpx.com.cn/#/home/marketData/transactionData/spotmarketsection",
   "endpoint": "/sso-portal/large/screen/statistic/v2/greenSpotTradingOverview",
   "mapping": {
@@ -629,6 +629,16 @@
     },
     {
       "bizDay": "2026-10-15",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2026-10-16",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2026-10-27",
       "code": 200,
       "count": 15
     }
@@ -5857,6 +5867,102 @@
       "secondPower": "1845066.39",
       "firstPrice": "350.88",
       "secondPrice": "388.99"
+    },
+    {
+      "time": "2026-10-16",
+      "areaCode": null,
+      "firstPower": "1864831.0",
+      "secondPower": "1857013.1",
+      "firstPrice": "332.85",
+      "secondPrice": "317.9"
+    },
+    {
+      "time": "2026-10-17",
+      "areaCode": null,
+      "firstPower": "1747700.96",
+      "secondPower": "1637990.27",
+      "firstPrice": "297.59",
+      "secondPrice": "237.28"
+    },
+    {
+      "time": "2026-10-18",
+      "areaCode": null,
+      "firstPower": "1872090.74",
+      "secondPower": "1719409.13",
+      "firstPrice": "350.69",
+      "secondPrice": "272.54"
+    },
+    {
+      "time": "2026-10-19",
+      "areaCode": null,
+      "firstPower": "1700596.96",
+      "secondPower": "1655580.79",
+      "firstPrice": "288.08",
+      "secondPrice": "250.71"
+    },
+    {
+      "time": "2026-10-20",
+      "areaCode": null,
+      "firstPower": "1745559.7",
+      "secondPower": "1744672.62",
+      "firstPrice": "291.15",
+      "secondPrice": "292.21"
+    },
+    {
+      "time": "2026-10-21",
+      "areaCode": null,
+      "firstPower": "1701562.5",
+      "secondPower": "1760276.46",
+      "firstPrice": "325.6",
+      "secondPrice": "308.63"
+    },
+    {
+      "time": "2026-10-22",
+      "areaCode": null,
+      "firstPower": "1774079.68",
+      "secondPower": "1790940.52",
+      "firstPrice": "342.24",
+      "secondPrice": "335.29"
+    },
+    {
+      "time": "2026-10-23",
+      "areaCode": null,
+      "firstPower": "1704227.55",
+      "secondPower": "1769410.84",
+      "firstPrice": "289.16",
+      "secondPrice": "314.4"
+    },
+    {
+      "time": "2026-10-24",
+      "areaCode": null,
+      "firstPower": "1814560.01",
+      "secondPower": "1898695.12",
+      "firstPrice": "358.59",
+      "secondPrice": "394.01"
+    },
+    {
+      "time": "2026-10-25",
+      "areaCode": null,
+      "firstPower": "1898990.38",
+      "secondPower": "1862415.87",
+      "firstPrice": "359.51",
+      "secondPrice": "358.79"
+    },
+    {
+      "time": "2026-10-26",
+      "areaCode": null,
+      "firstPower": "1915703.34",
+      "secondPower": "1877687.22",
+      "firstPrice": "346.07",
+      "secondPrice": "340.76"
+    },
+    {
+      "time": "2026-10-27",
+      "areaCode": null,
+      "firstPower": "1890939.78",
+      "secondPower": "1839814.91",
+      "firstPrice": "329.33",
+      "secondPrice": "304.06"
     }
   ]
 }
