@@ -55362,6 +55362,102 @@
       },
       "status": "ok",
       "overallStatus": "ok"
+    },
+    {
+      "date": "2026-11-13",
+      "source_url": "https://mp.weixin.qq.com/s?__biz=MzUxOTMxNjk0OQ==&mid=2247508995&idx=1&sn=1e320f604dde5cb9de633f16be19c6c5&chksm=f9f990b9ce8e19af57182c6982e7321c7fec134e7d06241c5a4e14045358aae972f33fca00b9#rd",
+      "image_index": 0,
+      "ocr_text_count": 109,
+      "dayAhead": {
+        "overall": {
+          "status": "ok",
+          "volume": 5.33,
+          "max": 724.21,
+          "min": 0.0,
+          "weighted": 319.66,
+          "minConfidence": 0.9989668726921082,
+          "raw": [
+            "5.33",
+            "724.21",
+            "0.00",
+            "319.66"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.23,
+          "max": 724.21,
+          "min": 0.0,
+          "weighted": 350.73,
+          "minConfidence": 0.9992964863777161,
+          "raw": [
+            "0.23",
+            "724.21",
+            "0.00",
+            "350.73"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.61,
+          "max": 724.21,
+          "min": 0.0,
+          "weighted": 52.4,
+          "minConfidence": 0.998741626739502,
+          "raw": [
+            "0.61",
+            "724.21",
+            "0.00",
+            "52.40"
+          ]
+        }
+      },
+      "realTime": {
+        "overall": {
+          "status": "ok",
+          "volume": 5.39,
+          "max": 762.59,
+          "min": 0.0,
+          "weighted": 321.62,
+          "minConfidence": 0.9978888034820557,
+          "raw": [
+            "5.39",
+            "762.59",
+            "0.00",
+            "321.62"
+          ]
+        },
+        "wind": {
+          "status": "ok",
+          "volume": 0.17,
+          "max": 762.59,
+          "min": 0.0,
+          "weighted": 330.4,
+          "minConfidence": 0.9645395278930664,
+          "raw": [
+            "0.17",
+            "762.59",
+            "0.00",
+            "330.40"
+          ]
+        },
+        "solar": {
+          "status": "ok",
+          "volume": 0.69,
+          "max": 762.59,
+          "min": 0.0,
+          "weighted": 53.83,
+          "minConfidence": 0.9982967972755432,
+          "raw": [
+            "0.69",
+            "762.59",
+            "0.00",
+            "53.83"
+          ]
+        }
+      },
+      "status": "ok",
+      "overallStatus": "ok"
     }
   ]
 }

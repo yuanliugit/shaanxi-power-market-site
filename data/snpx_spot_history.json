@@ -1,5 +1,5 @@
 {
-  "extractedAt": "2026-11-13T15:54:35.079719Z",
+  "extractedAt": "2026-11-14T16:21:58.868128Z",
   "sourcePage": "https://snpx.com.cn/#/home/marketData/transactionData/spotmarketsection",
   "endpoint": "/sso-portal/large/screen/statistic/v2/greenSpotTradingOverview",
   "mapping": {
@@ -649,6 +649,16 @@
     },
     {
       "bizDay": "2026-11-12",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2026-11-13",
+      "code": 200,
+      "count": 15
+    },
+    {
+      "bizDay": "2026-11-14",
       "code": 200,
       "count": 15
     }
@@ -6101,6 +6111,14 @@
       "secondPower": "2163684.8",
       "firstPrice": "376.52",
       "secondPrice": "348.26"
+    },
+    {
+      "time": "2026-11-13",
+      "areaCode": null,
+      "firstPower": "2131910.16",
+      "secondPower": "2156194.44",
+      "firstPrice": "319.66",
+      "secondPrice": "321.63"
     }
   ]
 }
